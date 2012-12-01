@@ -1,0 +1,36 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414632.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - John Bercow";
+   dc:modified "2012-12-01T15:55:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414632#id> .
+
+<http://dbpedialite.org/things/414632#id> a owl:Thing;
+   rdfs:label "John Bercow";
+   rdfs:comment """John Simon Bercow is a British politician who has been the Speaker of the House of Commons since June 2009. Prior to his election to Speaker he was a member of the Conservative Party.
+Bercow was born in Middlesex into a Jewish family and graduated from the University of Essex in 1985. In his youth, Bercow was active in the Conservative Party and was a member of several right-wing groups within the party. He served as a Councillor from 1986–1990 and unsuccessfully contested parliamentary seats in the 1987 and 1992 general elections. In the 1997 general election, Bercow was elected the MP for Buckingham and promoted to the shadow cabinet in 2001. He held posts in the Shadow Cabinets of...""";
+   owl:sameAs <http://dbpedia.org/resource/John_Bercow>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c64e>,
+     <http://rdf.freebase.com/ns/m.025klg>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Bercow>;
+   foaf:page <http://www.debretts.com/people/biographies/browse/b/17119/John%20Simon+BERCOW.aspx>,
+     <http://www.johnbercow.co.uk/>,
+     <http://www.parliament.uk/about/mps-and-lords/principal/speaker/>,
+     <http://www.parliament.uk/biographies/commons/john-bercow/25808>,
+     <http://hansard.millbanksystems.com/people/mr-john-bercow>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3965_home.html>,
+     <http://www.guardian.co.uk/politics/person/381/john-bercow>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=John_Bercow>,
+     <http://www.theyworkforyou.com/mp/john_bercow>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/John-Bercow/Buckingham/42>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25808.stm>,
+     <http://journalisted.com/john-bercow>,
+     <http://www.appg-tribalpeoples.org.uk/>,
+     <http://www.guardian.co.uk/politics/2009/jun/22/john-bercow-profile>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/8114399.stm>,
+     <http://www.prospectmagazine.co.uk/2011/07/john-bercow-speaker-of-the-house-profile/> .

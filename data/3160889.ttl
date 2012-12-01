@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/3160889.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Louise Mensch";
+   dc:modified "2012-12-01T14:12:56Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/3160889#id> .
+
+<http://dbpedialite.org/things/3160889#id> a owl:Thing;
+   rdfs:label "Louise Mensch";
+   rdfs:comment "Louise Daphne Mensch (née Bagshawe; born 28 June 1971) is an English author, who writes under her maiden name of Bagshawe. She was the Conservative Member of Parliament for Corby from 2010 to 2012.";
+   owl:sameAs <http://dbpedia.org/resource/Louise_Mensch>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000008da5d0>,
+     <http://rdf.freebase.com/ns/m.08w9gj>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Louise_Mensch>;
+   foaf:page <https://menshn.com/>,
+     <http://www.parliament.uk/biographies/commons/louise-bagshawe/62809>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5514_home.html>,
+     <http://www.guardian.co.uk/politics/person/12118/louise-bagshawe>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Louise_Bagshawe>,
+     <http://www.theyworkforyou.com/mp/louise_bagshawe>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Louise-Bagshawe/Corby/774>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/62809.stm>,
+     <http://journalisted.com/louise-mensch>,
+     <http://journalisted.com/louise-bagshawe>,
+     <https://twitter.com/louisemensch>,
+     <http://www.imdb.com/name/nm2900184/>,
+     <http://www.louisebagshawebooks.com/>,
+     <http://worldcat.org/identities/lccn-n96-99350> .

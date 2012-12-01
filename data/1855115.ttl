@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1855115.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Robert Goodwill";
+   dc:modified "2012-12-01T15:18:22Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1855115#id> .
+
+<http://dbpedialite.org/things/1855115#id> a owl:Thing;
+   rdfs:label "Robert Goodwill";
+   rdfs:comment "Robert Goodwill (born 31 December 1956) is a British farmer and Conservative Party politician. He is the Member of Parliament (MP) for Scarborough and Whitby and a former Member of the European Parliament (MEP).";
+   owl:sameAs <http://dbpedia.org/resource/Robert_Goodwill>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000060a566>,
+     <http://rdf.freebase.com/ns/m.0619c6>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Robert_Goodwill>;
+   foaf:page <http://www.robertgoodwill.co.uk>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Goodwill_Robert.aspx>,
+     <http://politics.guardian.co.uk/person/0,9290,-9348,00.html>,
+     <http://www.theyworkforyou.com/mp/robert_goodwill/scarborough_and_whitby>,
+     <http://publicwhip.org.uk/mp.php?mpn=Robert_Goodwill&mpc=Scarborough+%26amp%3B+Whitby>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/504.stm>,
+     <http://news.bbc.co.uk/1/hi/world/europe/5053682.stm> .

@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414474.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Alun Michael";
+   dc:modified "2012-12-01T14:24:28Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414474#id> .
+
+<http://dbpedialite.org/things/414474#id> a owl:Thing;
+   rdfs:label "Alun Michael";
+   rdfs:comment "Alun Edward Michael (born 22 August 1943) is a British Labour and Co-operative politician and the inaugural Police and Crime Commissioner for South Wales. He was Member of Parliament (MP) for Cardiff South and Penarth from 1987 to 2012, while also serving as the First Secretary for Wales and leader of Welsh Labour from 1999 to 2000. On 18 June 2012 Michael was chosen as the Labour Party candidate for the Police and Crime Commissioner for South Wales and on 22 October 2012 was appointed Steward and Bailiff of the Three Hundreds of Chiltern as a means to relinquish his membership of the House of Commons in order to stand in the 2012 Police and Crime Commissioner elections.";
+   owl:sameAs <http://dbpedia.org/resource/Alun_Michael>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c349>,
+     <http://rdf.freebase.com/ns/m.025jv9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alun_Michael>;
+   foaf:page <http://wikidata.org/wiki/Q19397>,
+     <http://www.alunmichael.com/>,
+     <http://www.welshlabour.org.uk/candidates/alun-michael-cardiff-south-and-penarth>,
+     <http://www.parliament.uk/biographies/commons/alun-michael/25508>,
+     <http://hansard.millbanksystems.com/people/mr-alun-michael>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1894_home.html>,
+     <http://www.guardian.co.uk/politics/person/3610/alun-michael>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Alun_Michael>,
+     <http://www.theyworkforyou.com/mp/alun_michael>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Alun-Michael/Cardiff-South-and-Penarth/412>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25508.stm> .
+
+<http://wikidata.org/wiki/Q19397> a foaf:Document;
+   rdfs:label "Alun Michael" .

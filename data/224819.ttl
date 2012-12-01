@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/224819.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Margaret Beckett";
+   dc:modified "2012-12-01T15:16:20Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/224819#id> .
+
+<http://dbpedialite.org/things/224819#id> a owl:Thing;
+   rdfs:label "Margaret Beckett";
+   rdfs:comment """Margaret Mary Beckett (née Jackson; born 15 January 1943) is a British Labour Party politician who has been the Member of Parliament (MP) for Derby South since 1983, rising to become the Deputy Leader of the Labour Party under John Smith, from 18 July 1992 to 12 May 1994, and briefly serving as Leader of the Party following Smith's death. She later served in the Cabinet under Tony Blair, most notably being appointed Foreign Secretary in 2006.
+Beckett was first elected to Parliament in 1974 and held junior positions in the governments of Harold Wilson and James Callaghan. She lost her seat in 1979 but returned to the House of Commons in 1983 and became a senior member of the Labour Party...""";
+   owl:sameAs <http://dbpedia.org/resource/Margaret_Beckett>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000175e87>,
+     <http://rdf.freebase.com/ns/m.01grn7>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Margaret_Beckett>;
+   foaf:page <http://wikidata.org/wiki/Q232639>,
+     <http://www.parliament.uk/biographies/commons/margaret-beckett/25805>,
+     <http://hansard.millbanksystems.com/people/miss-margaret-jackson>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3931_home.html>,
+     <http://www.guardian.co.uk/politics/person/319/margaret-beckett>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Margaret_Beckett>,
+     <http://www.theyworkforyou.com/mp/margaret_beckett>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Margaret-Beckett/Derby-South/34>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25805.stm>,
+     <http://journalisted.com/margaret-beckett>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/6347299.stm> .
+
+<http://wikidata.org/wiki/Q232639> a foaf:Document;
+   rdfs:label "Margaret Beckett" .

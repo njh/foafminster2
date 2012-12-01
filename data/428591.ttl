@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428591.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andrew Lansley";
+   dc:modified "2012-12-01T13:05:57Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428591#id> .
+
+<http://dbpedialite.org/things/428591#id> a owl:Thing;
+   rdfs:label "Andrew Lansley";
+   rdfs:comment "Andrew David Lansley, CBE, MP (born 11 December 1956) is a British politician who has been the Member of Parliament (MP) for South Cambridgeshire since 1997, and has been the Leader of the House of Commons since 4 September 2012. He was previously the Secretary of State for Health from 2010 until 2012, and was the Shadow Secretary of State for Health from 2004 until 2010. Lansley's Health and Social Care Act 2012 is one of the most controversial plans of the Conservative-Liberal Democrat coalition government, resulting in strong opposition from both the Royal College of Nursing and British Medical Association.";
+   owl:sameAs <http://dbpedia.org/resource/Andrew_Lansley>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023acaa>,
+     <http://rdf.freebase.com/ns/m.027c5b>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andrew_Lansley>;
+   foaf:page <http://www.andrewlansley.co.uk/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Lansley_Andrew.aspx>,
+     <http://www.parliament.uk/biographies/commons/andrew-lansley/25555>,
+     <http://hansard.millbanksystems.com/people/mr-andrew-lansley>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1419_home.html>,
+     <http://www.guardian.co.uk/politics/person/3010/andrew-lansley>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Andrew_Lansley>,
+     <http://www.theyworkforyou.com/mp/andrew_lansley>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Andrew-Lansley/South-Cambridgeshire/286>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25555.stm>,
+     <http://journalisted.com/andrew-lansley>,
+     <http://www.guardian.co.uk/politics/andrewlansley>,
+     <http://www.thefutureofthenhs.com> .

@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428603.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Edward Leigh";
+   dc:modified "2012-12-01T13:47:36Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428603#id> .
+
+<http://dbpedialite.org/things/428603#id> a owl:Thing;
+   rdfs:label "Edward Leigh";
+   rdfs:comment """Edward Julian Egerton Leigh (born 20 July 1950) is a British Conservative politician. He has sat in the House of Commons as the Member of Parliament for Gainsborough in Lincolnshire since 1997, and for its predecessor constituency of Gainsborough and Horncastle between 1983 and 1997. He served as Chairman of the Public Accounts Committee since 2001, but stepped down at the end of the parliamentary session in 2010 as it is customary for a member of the opposition party to hold this post.
+Apart from being dubbed "the Viscount" upon his arrival in the Commons, in allusion to his landed gentry background, he also gained a reputation owing to his staunch opposition to abortion, contraception...""";
+   owl:sameAs <http://dbpedia.org/resource/Edward_Leigh>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023acd6>,
+     <http://rdf.freebase.com/ns/m.027c6q>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Edward_Leigh>;
+   foaf:page <http://www.edwardleigh.org.uk/>,
+     <http://www.debretts.com/people/biographies/browse/l/1207/Edward+Julian.aspx>,
+     <http://www.parliament.uk/parliamentary_committees/committee_of_public_accounts.cfm>,
+     <http://publicwhip.org.uk/mp.php?mpn=Edward_Leigh&mpc=Gainsborough> .

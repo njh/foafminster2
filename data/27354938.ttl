@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27354938.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jonathan Reynolds";
+   dc:modified "2012-12-01T15:39:18Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27354938#id> .
+
+<http://dbpedialite.org/things/27354938#id> a owl:Thing;
+   rdfs:label "Jonathan Reynolds";
+   rdfs:comment """Jonathan Neil Reynolds (28 August 1980) is a British Labour Co-operative politician, who has been the Member of Parliament (MP) for Stalybridge and Hyde since 2010.
+Jonathan also served on Labour's National Executive Committee from 2003 to 2005 and until 2011 remained a councillor for Longdendale ward on Tameside Metropolitan Borough Council, having been elected in 2007.
+Jonathan worked for four years as an aide for the previous Stalybridge and Hyde MP James Purnell and was selected to replace Purnell after a controversial selection process. Aged 29 when first elected, Reynolds was one of the youngest MPs elected at the 2010 election.""";
+   owl:sameAs <http://dbpedia.org/resource/Jonathan_Reynolds>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cfe38c>,
+     <http://rdf.freebase.com/ns/m.0bx_sxd>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jonathan_Reynolds>;
+   foaf:page <http://www.jonathanreynolds.org.uk/>,
+     <http://hansard.millbanksystems.com/people/mr-jonathan-reynolds>,
+     <http://www.guardian.co.uk/politics/person/14315/jonathan-reynolds>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jonathan_Reynolds>,
+     <http://www.theyworkforyou.com/mp/jonathan_reynolds>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jonathan-Reynolds/Stalybridge-and-Hyde/1362>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/84903.stm> .

@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/9341317.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Neil Carmichael (Conservative politician)";
+   dc:modified "2012-12-01T13:20:42Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/9341317#id> .
+
+<http://dbpedialite.org/things/9341317#id> a owl:Thing;
+   rdfs:label "Neil Carmichael (Conservative politician)";
+   rdfs:comment "William Neil Carmichael (born 15 April 1961 in Hexham) is an English businessman, academic, and Conservative Party politician. He has been the Member of Parliament (MP) for the Stroud constituency in Gloucestershire since the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Neil_Carmichael_%28Conservative_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000009494d4>,
+     <http://rdf.freebase.com/ns/m.09956n>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Neil_Carmichael_(Conservative_politician)>;
+   foaf:page <http://neilcarmichael.co.uk>,
+     <http://www.parliament.uk/biographies/neil-carmichael/35481> .

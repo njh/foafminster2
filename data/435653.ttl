@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/435653.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Peter Tapsell (British politician)";
+   dc:modified "2012-12-01T13:47:35Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/435653#id> .
+
+<http://dbpedialite.org/things/435653#id> a owl:Thing;
+   rdfs:label "Peter Tapsell (British politician)";
+   rdfs:comment "Sir Peter Hannay Bailey Tapsell (born 1 February 1930) is a British Conservative Party politician and the Member of Parliament (MP) for Louth and Horncastle. He has served in the House of Commons continuously since 1966 and was also previously an MP from 1959 to 1964. He has been the Father of the House since the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Peter_Tapsell_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000241d5f>,
+     <http://rdf.freebase.com/ns/m.0287b_>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Peter_Tapsell_(British_politician)>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Tapsell_Sir_Peter.aspx>,
+     <http://www.parliament.uk/biographies/commons/peter-tapsell/25264>,
+     <http://hansard.millbanksystems.com/people/sir-peter-tapsell>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4203_home.html>,
+     <http://www.guardian.co.uk/politics/person/5094/peter-tapsell>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Peter_Tapsell>,
+     <http://www.theyworkforyou.com/mp/peter_tapsell>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Peter-Tapsell/Louth-and-Horncastle/535>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25264.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/6159957.stm> .

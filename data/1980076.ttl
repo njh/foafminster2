@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1980076.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Steve McCabe (politician)";
+   dc:modified "2012-12-01T14:31:52Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1980076#id> .
+
+<http://dbpedialite.org/things/1980076#id> a owl:Thing;
+   rdfs:label "Steve McCabe (politician)";
+   rdfs:comment "Stephen James McCabe (born 4 August 1955) is a British Labour Party politician who was the Member of Parliament (MP) for Birmingham Hall Green from 1997 to 2010, when he was elected for Birmingham Selly Oak.";
+   owl:sameAs <http://dbpedia.org/resource/Steve_McCabe_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000654f1a>,
+     <http://rdf.freebase.com/ns/m.06bmsv>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Steve_McCabe_(politician)>;
+   foaf:page <http://www.stevemccabe-mp.org.uk>,
+     <http://politics.guardian.co.uk/person/0,9290,-3819,00.html>,
+     <http://www.theyworkforyou.com/mp/stephen_mccabe/birmingham%2C_hall_green>,
+     <http://hansard.millbanksystems.com/people/mr-steve-mccabe>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/3977773.stm>,
+     <http://news.bbc.co.uk/1/hi/england/west_midlands/3560749.stm>,
+     <http://news.bbc.co.uk/1/hi/england/2440365.stm> .

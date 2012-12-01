@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27266387.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Matthew Offord";
+   dc:modified "2012-12-01T15:30:56Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27266387#id> .
+
+<http://dbpedialite.org/things/27266387#id> a owl:Thing;
+   rdfs:label "Matthew Offord";
+   rdfs:comment """Dr Matthew James Offord FRGS (born 3 September 1969) is a British Conservative Party politician and the Member of Parliament for Hendon in North London. He is also a member of the AWEPA Governing Council.
+Offord was state-educated at Amery Hill School, Alton, Hampshire, and went to Nottingham Trent University where he first became involved in the Conservative Party. He went on to study at both Lancaster University where he received his masters degree, and King's College London where he was awarded a PhD in 2010. Offord is a keen sailor on the Welsh Harp Reservoir and competed in the 2009 Fastnet Race. He is a Fellow of the Royal Geographical Society and undertook a 2,000 km exploration...""";
+   owl:sameAs <http://dbpedia.org/resource/Matthew_Offord>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7ec37>,
+     <http://rdf.freebase.com/ns/m.0bwhw1r>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Matthew_Offord> .

@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/417506.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Sylvia Hermon";
+   dc:modified "2012-12-01T14:36:59Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/417506#id> .
+
+<http://dbpedialite.org/things/417506#id> a owl:Thing;
+   rdfs:label "Sylvia Hermon";
+   rdfs:comment """Sylvia Eileen Hermon, Lady Hermon (née Paisley; born 11 August 1955) is a Northern Irish politician. Since 2001, she has been the Member of Parliament for the constituency of North Down, first elected for the Ulster Unionist Party (UUP), but now an independent. She is the widow of Sir Jack Hermon, former Chief Constable of the Royal Ulster Constabulary.
+On 25 March 2010, Lady Hermon announced that she was quitting the Ulster Unionist Party, and would fight the next general election as an Independent candidate. Her decision was triggered by the UUP's alliance with the Conservative Party. She successfully retained her seat at the May 2010 election with a large gain in her share of the...""";
+   owl:sameAs <http://dbpedia.org/resource/Sylvia_Hermon>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022f4e1>,
+     <http://rdf.freebase.com/ns/m.025y71>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sylvia_Hermon>;
+   foaf:page <http://www.sylviahermon.org/>,
+     <http://politics.guardian.co.uk/person/0,9290,-7396,00.html>,
+     <http://www.theyworkforyou.com/mp/lady_hermon/north_down>,
+     <http://www.publications.parliament.uk/pa/cm200102/cmhansrd/vo010626/debtext/10626-18.htm> .

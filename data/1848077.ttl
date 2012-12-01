@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1848077.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Greg Mulholland";
+   dc:modified "2012-12-01T15:32:32Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1848077#id> .
+
+<http://dbpedialite.org/things/1848077#id> a owl:Thing;
+   rdfs:label "Greg Mulholland";
+   rdfs:comment "Gregory Thomas Mulholland (born 31 August 1970) is a Liberal Democrat politician in the United Kingdom, and is the Member of Parliament for Leeds North West. He was first elected at the 2005 general election, winning the seat from Labour and was re-elected with an increased majority at the 2010 general election. Before his parliamentary career, he served as a councillor for Headingley. He has served as a Liberal Democrat spokesman for Health, Schools and International Development.";
+   owl:sameAs <http://dbpedia.org/resource/Greg_Mulholland>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000605c05>,
+     <http://rdf.freebase.com/ns/m.060r05>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Greg_Mulholland>;
+   foaf:page <http://www.gregmulholland.org/>,
+     <http://www.libdems.org.uk/people/greg-mulholland>,
+     <http://www.parliament.uk/biographies/commons/greg-mulholland/35617>,
+     <http://hansard.millbanksystems.com/people/mr-greg-mulholland>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4826_home.html>,
+     <http://www.guardian.co.uk/politics/person/9010/greg-mulholland>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Greg_Mulholland>,
+     <http://www.theyworkforyou.com/mp/greg_mulholland>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Greg-Mulholland/Leeds-North-West/1112>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35617.stm>,
+     <http://journalisted.com/greg-mulholland> .

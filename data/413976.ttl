@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/413976.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Frank Field (politician)";
+   dc:modified "2012-12-01T15:39:42Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/413976#id> .
+
+<http://dbpedialite.org/things/413976#id> a owl:Thing;
+   rdfs:label "Frank Field (politician)";
+   rdfs:comment "Frank Ernest Field DL (born 16 July 1942) is a British Labour Party politician who has been the Member of Parliament for Birkenhead since 1979. From 1997 to 1998, he served as the Minister of Welfare Reform, before leaving the Government, following differences with Prime Minister Tony Blair. He went on to become one of the Labour Government's most vocal critics from within the party on the backbenches. After Labour's defeat in the 2010 election, he was given the role of \"poverty czar\" in David Cameron's coalition government.";
+   owl:sameAs <http://dbpedia.org/resource/Frank_Field_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022ba04>,
+     <http://rdf.freebase.com/ns/m.025gj4>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Frank_Field_(politician)>;
+   foaf:page <http://www.frankfield.co.uk/>,
+     <http://www.epolitix.com/EN/MPWebsites/Frank+Field/>,
+     <http://politics.guardian.co.uk/person/0,9290,-1704,00.html>,
+     <http://www.theyworkforyou.com/mp/frank_field/birkenhead>,
+     <http://hansard.millbanksystems.com/people/mr-frank-field>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Frank_Field&mpc=Birkenhead>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/52.stm>,
+     <http://www.coolearth.org> .

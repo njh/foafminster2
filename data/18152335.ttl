@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/18152335.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - John Howell (politician)";
+   dc:modified "2012-12-01T15:31:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/18152335#id> .
+
+<http://dbpedialite.org/things/18152335#id> a owl:Thing;
+   rdfs:label "John Howell (politician)";
+   rdfs:comment """John Michael Howell OBE FRGS (born 27 July 1955) is a British Conservative Party politician and the Member of Parliament (MP) for Henley, having won the seat with an increased share of the vote in the Henley by-election, 2008.
+John Howell studied at the University of Edinburgh and holds a doctorate in archaeology from St John's College, Oxford. He worked as a tax inspector (1982–1985) for the Inland Revenue (now known as HM Revenue & Customs) before moving into the world of accountancy and consultancy as a tax adviser at Arthur Andersen and Ernst & Young. He became a partner in Ernst & Young in 1990 and was responsible for opening Eastern Europe after the fall of communism.""";
+   owl:sameAs <http://dbpedia.org/resource/John_Howell_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000008bcd464>,
+     <http://rdf.freebase.com/ns/m.04ctp34>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Howell_(politician)>;
+   foaf:page <http://www.theyworkforyou.com/mp/john_howell/henley>,
+     <http://www.henleyconservatives.com/> .

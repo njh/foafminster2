@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/449431.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Frank Roy";
+   dc:modified "2012-12-01T12:55:39Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/449431#id> .
+
+<http://dbpedialite.org/things/449431#id> a owl:Thing;
+   rdfs:label "Frank Roy";
+   rdfs:comment """Frank Roy (born 29 August 1958) is a British Labour Party politician, who has been the Member of Parliament (MP) for Motherwell and Wishaw since 1997. He was a Government Whip and Lord Commissioner of HM Treasury from 2006 to 2010, after having served as an Assistant Whip from 2005.
+Roy was, like many others in the area, a steelworker until he was made redundant in 1991 when Ravenscraig Steelworks closed.[citation needed] He worked as a parliamentary assistant to Helen Liddell MP before becoming MP for Motherwell and Wishaw.[citation needed] He is the first MP born locally to represent Motherwell and Wishaw.[citation needed]""";
+   owl:sameAs <http://dbpedia.org/resource/Frank_Roy>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024e683>,
+     <http://rdf.freebase.com/ns/m.029tn3>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Frank_Roy>;
+   foaf:page <http://www.frankroy.labour.co.uk/>,
+     <http://politics.guardian.co.uk/person/0,9290,-4552,00.html>,
+     <http://www.theyworkforyou.com/mp/frank_roy/motherwell_and_wishaw> .

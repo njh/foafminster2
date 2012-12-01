@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872829.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nia Griffith";
+   dc:modified "2012-12-01T15:39:01Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872829#id> .
+
+<http://dbpedialite.org/things/1872829#id> a owl:Thing;
+   rdfs:label "Nia Griffith";
+   rdfs:comment """Nia Rhiannon Griffith (born 4 December 1956) is a British Labour Party politician, who has been the Member of Parliament (MP) for Llanelli since 2005.
+She is currently Shadow Minister for Wales, deputy to Shadow Secretary of State for Wales, Owen Smith.""";
+   owl:sameAs <http://dbpedia.org/resource/Nia_Griffith>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615d6c>,
+     <http://rdf.freebase.com/ns/m.062rcd>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nia_Griffith>;
+   foaf:page <http://www.niagriffith.com/>,
+     <http://www.welshlabour.org.uk/candidates/nia-griffith-llanelli/>,
+     <http://www.parliament.uk/biographies/commons/nia-griffith/37590>,
+     <http://hansard.millbanksystems.com/people/ms-nia-griffith>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4784_home.html>,
+     <http://www.guardian.co.uk/politics/person/8766/nia-griffith>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nia_Griffith>,
+     <http://www.theyworkforyou.com/mp/nia_griffith>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nia-Griffith/Llanelli/1038>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/84900.stm> .

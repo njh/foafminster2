@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27306797.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Heidi Alexander";
+   dc:modified "2012-12-01T14:08:55Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27306797#id> .
+
+<http://dbpedialite.org/things/27306797#id> a owl:Thing;
+   rdfs:label "Heidi Alexander";
+   rdfs:comment "Heidi Alexander (born 17 April 1975) is a British Labour Party politician who has been the Member of Parliament (MP) for Lewisham East since the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Heidi_Alexander>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cfe8c7>,
+     <http://rdf.freebase.com/ns/m.0bx_v67>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Heidi_Alexander>;
+   foaf:page <http://www.heidialexander.org.uk>,
+     <http://www2.labour.org.uk/mp/heidi_alexander/832/>,
+     <http://www.parliament.uk/biographies/commons/heidi-alexander/83154>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5563_home.html>,
+     <http://www.guardian.co.uk/politics/person/11810/heidi-alexander>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Heidi_Alexander>,
+     <http://www.theyworkforyou.com/mp/heidi_alexander/lewisham_east>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Heidi-Alexander/Lewisham-East/1156>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/83154.stm>,
+     <http://yourdemocracy.newstatesman.com/profile/heidi-alexander> .

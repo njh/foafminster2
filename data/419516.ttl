@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/419516.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Crausby";
+   dc:modified "2012-12-01T15:34:48Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/419516#id> .
+
+<http://dbpedialite.org/things/419516#id> a owl:Thing;
+   rdfs:label "David Crausby";
+   rdfs:comment "David Anthony Crausby (born 17 June 1946) is a British Labour Party politician who has been the Member of Parliament (MP) for Bolton North East since 1997.";
+   owl:sameAs <http://dbpedia.org/resource/David_Crausby>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000231e2a>,
+     <http://rdf.freebase.com/ns/m.0267kb>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Crausby>;
+   foaf:page <http://www.davidcrausby.co.uk>,
+     <http://politics.guardian.co.uk/person/0,9290,-1171,00.html>,
+     <http://www.theyworkforyou.com/mp/david_crausby/bolton_north_east>,
+     <http://www.publicwhip.org.uk/mp.php?mpc=Bolton+North+East>,
+     <http://www.youtube.com/user/CrausbyD>,
+     <http://www.youtube.com/watch?v=ne7IthMcYO0> .

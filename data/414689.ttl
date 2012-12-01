@@ -1,0 +1,37 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414689.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Julian Brazier";
+   dc:modified "2012-12-01T15:13:06Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414689#id> .
+
+<http://dbpedialite.org/things/414689#id> a owl:Thing;
+   rdfs:label "Julian Brazier";
+   rdfs:comment "Julian William Hendy Brazier TD (born 24 July 1953) is a British Conservative Party politician. He is the Member of Parliament (MP) for Canterbury. He was a shadow transport minister (until May 2010), (with responsibility for Aviation and Shipping) and is a prominent member of the Conservative Christian Fellowship.";
+   owl:sameAs <http://dbpedia.org/resource/Julian_Brazier>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c73c>,
+     <http://rdf.freebase.com/ns/m.025ktx>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Julian_Brazier>;
+   foaf:page <http://www.julianbrazier.co.uk>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Brazier_Julian.aspx>,
+     <http://www.canterburyconservatives.com/>,
+     <http://www.parliament.uk/biographies/commons/julian-brazier/25742>,
+     <http://hansard.millbanksystems.com/people/mr-julian-brazier>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2279_home.html>,
+     <http://www.guardian.co.uk/politics/person/578/julian-brazier>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Julian_Brazier>,
+     <http://www.theyworkforyou.com/mp/julian_brazier>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Julian-Brazier/Canterbury/81>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25742.stm>,
+     <http://www.reserveforcesparliament.com/>,
+     <http://www.thisislondon.co.uk/news/article-23434395-details/Shocking+films+on+sale+on+the+high+street+after+20-year+ban+is+reversed/article.do>,
+     <http://www.telegraph.co.uk/news/uknews/1557110/Bomb-risk-to-airport-queues.html>,
+     <http://news.bbc.co.uk/1/hi/england/kent/6749963.stm>,
+     <http://www.timesonline.co.uk/tol/news/politics/article695940.ece>,
+     <http://news.bbc.co.uk/1/hi/education/4784138.stm>,
+     <http://www.guardian.co.uk/politics/2005/feb/03/houseofcommons.politicalcolumnists> .

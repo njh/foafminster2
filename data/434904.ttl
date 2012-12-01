@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434904.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Pete Wishart";
+   dc:modified "2012-12-01T14:02:08Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434904#id> .
+
+<http://dbpedialite.org/things/434904#id> a owl:Thing;
+   rdfs:label "Pete Wishart";
+   rdfs:comment """Peter "Pete" Wishart (born 9 March 1962) is the Scottish National Party (SNP) Member of Parliament (MP) for Perth and North Perthshire. He was the SNP Chief Whip at Westminster from 2001–2007 and is currently the party's Westminster Spokesperson for the Constitution, Home Affairs, Culture, Media and Sport and International Development.
+Wishart is also a former member of Celtic rock band Runrig.""";
+   owl:sameAs <http://dbpedia.org/resource/Pete_Wishart>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240f7c>,
+     <http://rdf.freebase.com/ns/m.0283wx>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pete_Wishart>;
+   foaf:page <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25254.stm>,
+     <http://www.petewishartmp.com>,
+     <http://twitter.com/Petewishart>,
+     <http://www.parliament.uk/biographies/pete-wishart/25254>,
+     <http://www.snp.org/people/petewishart-mp>,
+     <http://westminster.snp.org/index.php?option=com_content&task=view&id=12&Itemid=36>,
+     <http://news.stv.tv/scotland/175730-perth-and-north-perthshire-your-mp-peter-wishart/>,
+     <http://www.guardian.co.uk/politics/person/7054/peter-wishart>,
+     <http://ukpolitics.telegraph.co.uk/Perth+%26+Perthshire+North/Peter+Wishart>,
+     <http://www.theyworkforyou.com/mp/pete_wishart/perth_and_perthshire_north>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Pete_Wishart&mpc=Perth+%26amp%3B+Perthshire+North> .

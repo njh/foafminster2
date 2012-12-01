@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1849086.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Angela C. Smith";
+   dc:modified "2012-12-01T13:40:10Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1849086#id> .
+
+<http://dbpedialite.org/things/1849086#id> a owl:Thing;
+   rdfs:label "Angela C. Smith";
+   rdfs:comment "Angela Christine Smith (born 16 August 1961) is a British Labour Party politician who was the Member of Parliament (MP) for Sheffield Hillsborough from 2005 to 2010, when she was elected to serve the new constituency of Penistone and Stocksbridge";
+   owl:sameAs <http://dbpedia.org/resource/Angela_C._Smith>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000060669a>,
+     <http://rdf.freebase.com/ns/m.060tnv>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Angela_C._Smith>;
+   foaf:page <http://www.angelasmith-mp.org.uk>,
+     <http://www.theyworkforyou.com/mp/angela_smith/sheffield%2C_hillsborough>,
+     <http://politics.guardian.co.uk/person/0,,-11088,00.html>,
+     <http://www.publicwhip.org.uk/mp.php?id=uk.org.publicwhip/member/1814>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/514.stm> .

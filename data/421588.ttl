@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/421588.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Paul Farrelly";
+   dc:modified "2012-12-01T13:50:03Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/421588#id> .
+
+<http://dbpedialite.org/things/421588#id> a owl:Thing;
+   rdfs:label "Paul Farrelly";
+   rdfs:comment "Christopher Paul Farrelly (born 2 March 1962) is a British Labour Party politician and journalist, who has been the Member of Parliament (MP) for Newcastle-under-Lyme since 2001.";
+   owl:sameAs <http://dbpedia.org/resource/Paul_Farrelly>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023412a>,
+     <http://rdf.freebase.com/ns/m.026j9b>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Paul_Farrelly>;
+   foaf:page <http://www.paulfarrelly.com>,
+     <http://www.parliament.uk/biographies/commons/paul-farrelly/25533>,
+     <http://hansard.millbanksystems.com/people/mr-paul-farrelly>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3191_home.html>,
+     <http://www.guardian.co.uk/politics/person/6417/paul-farelly>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Paul_Farrelly>,
+     <http://www.theyworkforyou.com/mp/paul_farrelly/newcastle-under-lyme>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Paul-Farrelly/Newcastle-under-Lyme/1014>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25533.stm>,
+     <http://journalisted.com/paul-farrelly>,
+     <http://www.guardian.co.uk/profile/paulfarrelly> .

@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/413358.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Stephen Twigg";
+   dc:modified "2012-12-01T15:17:46Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/413358#id> .
+
+<http://dbpedialite.org/things/413358#id> a owl:Thing;
+   rdfs:label "Stephen Twigg";
+   rdfs:comment "Stephen Twigg (born 25 December 1966) is a British Labour Party politician who has been the Labour Co-operative Member of Parliament (MP) for Liverpool West Derby since 2010. He previously served as the Member of Parliament for Enfield Southgate from 1997 to 2005, when he lost his seat. He came to national prominence in 1997 by winning the seat of then-Defence Secretary Michael Portillo. Twigg was made the Minister of State for School Standards in 2004, a job he held until he lost his seat in 2005. He returned to parliament in 2010, after he was elected Member of Parliament for Liverpool West Derby. Following Ed Miliband's election to the Labour leadership, he made Twigg a Shadow Foreign...";
+   owl:sameAs <http://dbpedia.org/resource/Stephen_Twigg>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022b0ea>,
+     <http://rdf.freebase.com/ns/m.025d7b>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Stephen_Twigg>;
+   foaf:page <http://www.stephentwiggmp.co.uk/>,
+     <http://www.parliament.uk/biographies/commons/stephen-twigg/25294>,
+     <http://hansard.millbanksystems.com/people/mr-stephen-twigg>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4367_home.html>,
+     <http://www.guardian.co.uk/politics/person/5279/stephen-twigg>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Stephen_Twigg>,
+     <http://www.theyworkforyou.com/mp/stephen_twigg>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Stephen-Twigg/Liverpool-West-Derby/1146>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25294.stm>,
+     <http://www.guardian.co.uk/profile/stephen-twigg>,
+     <http://fpc.org.uk/>,
+     <http://www.knittingcircle.org.uk/stephentwigg.html>,
+     <http://www.youtube.com/watch?v=mdKexAVIUY4> .

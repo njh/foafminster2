@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27274466.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Michael Dugher";
+   dc:modified "2012-12-01T13:42:02Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27274466#id> .
+
+<http://dbpedialite.org/things/27274466#id> a owl:Thing;
+   rdfs:label "Michael Dugher";
+   rdfs:comment """Michael Vincent Dugher (26 April 1975) is a British Labour Party politician, who has been the Member of Parliament (MP) for Barnsley East since 2010.
+He is currently Vice-Chair of the labour Party, deputy to Tom Watson (politician).
+Born and raised in Edlington, South Yorkshire, he went to school in the village and in Doncaster and graduated from the University of Nottingham. Prior to his election, he worked at 10 Downing Street as the Chief Political Spokesman for Prime Minister Gordon Brown. A party insider, he also worked as an advisor to the Department of Transport, Local Government and Regional Affairs and Ministry of Defence; as well as to the Leader of the House of Commons and the...""";
+   owl:sameAs <http://dbpedia.org/resource/Michael_Dugher>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b72d50>,
+     <http://rdf.freebase.com/ns/m.0bwgcbj>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_Dugher>;
+   foaf:page <http://www.michaeldugher.co.uk/> .

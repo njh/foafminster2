@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/16823723.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Tessa Jowell";
+   dc:modified "2012-12-01T15:28:02Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/16823723#id> .
+
+<http://dbpedialite.org/things/16823723#id> a owl:Thing;
+   rdfs:label "Tessa Jowell";
+   rdfs:comment "Dame Tessa Jane Jowell DBE (born 17 September 1947) is a British Labour Party politician, who has been the Member of Parliament (MP) for Dulwich and West Norwood since 1992. Formerly a member of both the Blair and Brown Cabinets, she was Shadow Minister for the Olympics and Shadow Minister for London until 11 September 2012, resigning two days after the end of London 2012.";
+   owl:sameAs <http://dbpedia.org/resource/Tessa_Jowell>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001c27b3>,
+     <http://rdf.freebase.com/ns/m.01s9ym>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tessa_Jowell>;
+   foaf:page <http://www.tessajowell.net>,
+     <http://www.lambethlabour.com/>,
+     <http://www.parliament.uk/biographies/commons/tessa-jowell/25526>,
+     <http://hansard.millbanksystems.com/people/ms-tessa-jowell>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1228_home.html>,
+     <http://www.guardian.co.uk/politics/person/2808/tessa-jowell>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Tessa_Jowell>,
+     <http://www.theyworkforyou.com/mp/tessa_jowell>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Tessa-Jowell/Dulwich-and-West-Norwood/254>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25526.stm>,
+     <http://journalisted.com/tessa-jowell>,
+     <http://news.bbc.co.uk/2/hi/programmes/the_daily_politics/8617668.stm>,
+     <http://maps.google.co.uk/maps/place?cid=14603655220842230363&q=Tessa+Jowell,+City+of+London&hl=en&cd=1&cad=src:pplink&ei=rZlKTJT6H6SqjAedp4zxCA,>,
+     <http://www.bbc.co.uk/news/uk-england-london-10637726> .

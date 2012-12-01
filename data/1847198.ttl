@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1847198.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Sadiq Khan";
+   dc:modified "2012-12-01T13:39:24Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1847198#id> .
+
+<http://dbpedialite.org/things/1847198#id> a owl:Thing;
+   rdfs:label "Sadiq Khan";
+   rdfs:comment "Sadiq Aman Khan (born 8 October 1970) is a British Labour Party politician, who has been the Member of Parliament (MP) for Tooting since 2005, succeeding Tom Cox as the Labour MP for the seat. On 3rd October 2008 he was appointed by Prime Minister Gordon Brown as a Minister for Communities and Local government, making him only the second ever Muslim to become a Minister in the UK. He is currently the Shadow Lord Chancellor and Justice Secretary (with responsibility for political and constitutional reform) since 8 October 2010.";
+   owl:sameAs <http://dbpedia.org/resource/Sadiq_Khan>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000006053d9>,
+     <http://rdf.freebase.com/ns/m.060nzt>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sadiq_Khan>;
+   foaf:page <http://www.sadiqkhan.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/sadiq-khan/35774>,
+     <http://hansard.millbanksystems.com/people/mr-sadiq-khan>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4801_home.html>,
+     <http://www.guardian.co.uk/politics/person/8847/sadiq-khan>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Sadiq_Khan>,
+     <http://www.theyworkforyou.com/mp/sadiq_khan>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Sadiq-Khan/Tooting/272>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35774.stm>,
+     <http://journalisted.com/sadiq-khan> .

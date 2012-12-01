@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27264864.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Eilidh Whiteford";
+   dc:modified "2012-12-01T15:14:47Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27264864#id> .
+
+<http://dbpedialite.org/things/27264864#id> a owl:Thing;
+   rdfs:label "Eilidh Whiteford";
+   rdfs:comment """Eilidh (Scots Gaelic: pronounced -Ay-lee-) Whiteford (born 24 April 1969 Aberdeen) is the Scottish National Party (SNP) Member of Parliament (MP) for Banff and Buchan.
+She sits on the Scottish Affairs Select Committee and is the SNP's Westminster Spokesperson for Fishing, Food and Rural Affairs, and International Development.""";
+   owl:sameAs <http://dbpedia.org/resource/Eilidh_Whiteford>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b998cc>,
+     <http://rdf.freebase.com/ns/m.0bwm66d>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Eilidh_Whiteford>;
+   foaf:page <http://www.parliament.uk/biographies/eilidh-whiteford/74736>,
+     <http://www.snp.org/people/dr-eilidh-whiteford>,
+     <http://www.eilidhwhiteford.info/>,
+     <http://www.theyworkforyou.com/mp/eilidh_whiteford/banff_and_buchan>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/74736.stm>,
+     <http://news.stv.tv/scotland/175488-your-mp-for-banff-and-buchan-eilidh-whiteford/>,
+     <http://www.alba.org.uk/nextwest/banffbuchan.html>,
+     <http://www.guardian.co.uk/politics/person/12649/eilidh-whiteford>,
+     <http://ukpolitics.telegraph.co.uk/Banff+%26+Buchan/Eilidh+Whiteford> .

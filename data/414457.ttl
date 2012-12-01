@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414457.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Peter Bottomley";
+   dc:modified "2012-12-01T16:09:16Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414457#id> .
+
+<http://dbpedialite.org/things/414457#id> a owl:Thing;
+   rdfs:label "Peter Bottomley";
+   rdfs:comment "Sir Peter James Bottomley (born 30 July 1944) is a British Conservative Party politician. He is the Member of Parliament (MP) for Worthing West. A globalist, Bottomley has been Chairman of the All-Party United Nations Group.";
+   owl:sameAs <http://dbpedia.org/resource/Peter_Bottomley>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c2d7>,
+     <http://rdf.freebase.com/ns/m.025jqr>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Peter_Bottomley>;
+   foaf:page <http://www.leighrayment.com/commons.htm>,
+     <http://www.peterbottomley.org.uk/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Bottomley_Peter.aspx>,
+     <http://www.worthingconservatives.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/peter-bottomley/25739>,
+     <http://hansard.millbanksystems.com/people/mr-peter-bottomley>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4087_home.html>,
+     <http://www.guardian.co.uk/politics/person/518/peter-bottomley>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Peter_Bottomley>,
+     <http://www.theyworkforyou.com/mp/peter_bottomley>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Peter-Bottomley/Worthing-West/1055>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25739.stm> .

@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/427376.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Kevan Jones";
+   dc:modified "2012-12-01T14:02:20Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/427376#id> .
+
+<http://dbpedialite.org/things/427376#id> a owl:Thing;
+   rdfs:label "Kevan Jones";
+   rdfs:comment "Kevan David Jones (born 25 April 1964) is a British Labour Party politician, who has been the Member of Parliament (MP) for North Durham since 2001.";
+   owl:sameAs <http://dbpedia.org/resource/Kevan_Jones>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000239ad5>,
+     <http://rdf.freebase.com/ns/m.0276qp>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Kevan_Jones>;
+   foaf:page <http://politics.guardian.co.uk/person/0,9290,-7373,00.html>,
+     <http://www.theyworkforyou.com/mp/kevan_jones/north_durham>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Kevan_Jones&mpc=North+Durham>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/212.stm>,
+     <http://news.bbc.co.uk/nol/shared/bsp/hi/live_events/forums/html/thewindow_v0t1.stm?04/1080071832>,
+     <http://news.bbc.co.uk/2/hi/uk_news/england/wear/3746178.stm> .

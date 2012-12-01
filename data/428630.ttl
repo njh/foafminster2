@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428630.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Julian Lewis";
+   dc:modified "2012-12-01T13:04:56Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428630#id> .
+
+<http://dbpedialite.org/things/428630#id> a owl:Thing;
+   rdfs:label "Julian Lewis";
+   rdfs:comment "Julian Murray Lewis (born 26 September 1951) is a British Conservative Party politician, who has been the Member of Parliament (MP) for New Forest East in Hampshire since the 1997 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Julian_Lewis>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023ad64>,
+     <http://rdf.freebase.com/ns/m.027cc4>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Julian_Lewis>;
+   foaf:page <http://www.julianlewis.net>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Lewis_Julian.aspx>,
+     <http://www.epolitix.com/EN/MPWebsites/Julian+Lewis/>,
+     <http://politics.guardian.co.uk/person/0,9290,-3110,00.html>,
+     <http://www.theyworkforyou.com/mp/julian_lewis/new_forest_east>,
+     <http://publicwhip.org.uk/mp.php?mpn=Julian_Lewis&mpc=New+Forest+East> .

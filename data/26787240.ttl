@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/26787240.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Amber Rudd";
+   dc:modified "2012-12-01T14:08:03Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/26787240#id> .
+
+<http://dbpedialite.org/things/26787240#id> a owl:Thing;
+   rdfs:label "Amber Rudd";
+   rdfs:comment """Amber Rudd (born London, 16 August 1963) is a British Conservative Party politician who was elected as Member of Parliament (MP) for the East Sussex constituency of Hastings and Rye at the May 2010 general election, defeating the incumbent Labour MP Michael Foster.
+Rudd is an alumna of Edinburgh University. Before entering Parliament she worked in finance, as a venture capitalist and financial journalist, as well as a recruitment consultant.
+At the 2005 general election, Rudd was the Conservative candidate for the Labour-held seat of Liverpool, Garston: this election saw the constituency's lowest-ever Conservative vote. She was added to the A-List in 2006, and her contest for Hastings...""";
+   owl:sameAs <http://dbpedia.org/resource/Amber_Rudd>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d0defc>,
+     <http://rdf.freebase.com/ns/m.0by1rrx>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Amber_Rudd> .

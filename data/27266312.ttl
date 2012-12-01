@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27266312.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Pamela Nash";
+   dc:modified "2012-12-01T16:06:13Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27266312#id> .
+
+<http://dbpedialite.org/things/27266312#id> a owl:Thing;
+   rdfs:label "Pamela Nash";
+   rdfs:comment "Pamela Nash (born 24 June 1984) is a British Labour Party politician, who has been the Member of Parliament (MP) for Airdrie and Shotts since the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Pamela_Nash>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b6db8c>,
+     <http://rdf.freebase.com/ns/m.0bwfqxd>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pamela_Nash>;
+   foaf:page <http://pamelanash.com>,
+     <http://twitter.com/pamela_nash>,
+     <http://www.guardian.co.uk/politics/person/11312/pamela-nash>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Pamela_Nash>,
+     <http://www.theyworkforyou.com/mp/pamela_nash>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Pamela-Nash/Airdrie-and-Shotts/1357>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/84901.stm>,
+     <http://journalisted.com/pamela-nash>,
+     <http://www.wishawpress.co.uk/wishaw-news/local-wishaw-news/wishaw-news/2010/05/05/pamela-nash-labour-candidate-for-airdrie-shotts-76495-26375604/> .

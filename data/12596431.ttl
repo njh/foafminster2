@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/12596431.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Toby Perkins";
+   dc:modified "2012-12-01T15:19:59Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/12596431#id> .
+
+<http://dbpedialite.org/things/12596431#id> a owl:Thing;
+   rdfs:label "Toby Perkins";
+   rdfs:comment """Matthew Toby Perkins (born 12 August 1970) is a British Labour Party politician, who has been the Member of Parliament (MP) for Chesterfield since 2010, winning the seat from Liberal Democrat Paul Holmes. Before taking the seat, he was a councillor in the town.
+Perkins has one sister, Polly and is son of V.F. and Teresa Perkins. He is the great-grandson of A. P. Herbert, Independent Member of Parliament for Oxford University (1935–1950). He left Silverdale Comprehensive School in Sheffield in 1987 without completing his A Levels, and worked as a Sales Representative, Recruitment Manager & Care Manager before setting up the Rugby product business, Club Rugby.""";
+   owl:sameAs <http://dbpedia.org/resource/Toby_Perkins>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000005be1797>,
+     <http://rdf.freebase.com/ns/m.02wx5xr>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Toby_Perkins>;
+   foaf:page <http://www.tobyperkins.org.uk>,
+     <http://www.labour.org.uk/ppc/toby_perkins/9/>,
+     <http://www.chesterfield.gov.uk/communities/councillors/councillordetails.aspx?id=40>,
+     <http://www.facebook.com/group.php?gid=7358206786&ref=ts>,
+     <http://twitter.com/tobyperkinsmp>,
+     <http://www.guardian.co.uk/politics/person/11463/toby-perkins>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/64625.stm>,
+     <http://www.theyworkforyou.com/mp/toby_perkins/chesterfield> .

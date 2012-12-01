@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/34070960.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Seema Malhotra";
+   dc:modified "2012-12-01T15:27:53Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/34070960#id> .
+
+<http://dbpedialite.org/things/34070960#id> a owl:Thing;
+   rdfs:label "Seema Malhotra";
+   rdfs:comment """Seema Malhotra (born 7 August 1972) is a British Labour Party Co-operative politician who has been the Member of Parliament (MP) for Feltham and Heston since 2011.
+She is a former management consultant who worked for Accenture and PriceWaterhouseCoopers. She founded the Fabian Women's Network and was a previous National Chair of the Young Fabians.
+While Labour was in government before 2010 she worked as an adviser for Liam Byrne and Ian Austin when they were regional ministers for the West Midlands. Following Gordon Brown's resignation as Prime Minister in the wake of the 2010 general election she was the special adviser to Harriet Harman during her tenure as Leader of the Labour Party.""";
+   owl:sameAs <http://dbpedia.org/resource/Seema_Malhotra>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000001f7771d7>,
+     <http://rdf.freebase.com/ns/m.0hrgxgr>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Seema_Malhotra>;
+   foaf:page <http://seema-malhotra.blogspot.com> .

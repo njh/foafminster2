@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428653.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Tony Lloyd";
+   dc:modified "2012-12-01T13:57:43Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428653#id> .
+
+<http://dbpedialite.org/things/428653#id> a owl:Thing;
+   rdfs:label "Tony Lloyd";
+   rdfs:comment "Anthony Joseph Lloyd (born 25 February 1950) is a British Labour Party politician and the inaugural Police and Crime Commissioner for Greater Manchester. Born in Stretford, and serving as a Trafford councillor from 1979 to 1984, in 1983 Lloyd was elected Member of Parliament (MP) for Stretford, before being selected for the Manchester Central seat when it was created in 1997. As an MP, Lloyd was an opposition spokesman between 1987 and 1997, a Minister of State in the Foreign and Commonwealth Office between 1997 and 1999, and Chair of the Parliamentary Labour Party from 2006 to 2012. Lloyd continued as a constituency MP until October 2012, when he stepped down to contest the 2012 Police...";
+   owl:sameAs <http://dbpedia.org/resource/Tony_Lloyd>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023adf8>,
+     <http://rdf.freebase.com/ns/m.027chs>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tony_Lloyd>;
+   foaf:page <http://tony4gtrmcr.co.uk/>,
+     <http://www.gmpcc.org.uk/>,
+     <http://hansard.millbanksystems.com/people/mr-tony-lloyd>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1537_home.html>,
+     <http://www.guardian.co.uk/politics/person/3165/tony-lloyd>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Tony_Lloyd>,
+     <http://www.theyworkforyou.com/mp/tony_lloyd/manchester_central>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Tony-Lloyd/Manchester-Central/995> .

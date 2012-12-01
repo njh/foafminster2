@@ -1,0 +1,39 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/10448055.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Virendra Sharma";
+   dc:modified "2012-12-01T15:26:02Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/10448055#id> .
+
+<http://dbpedialite.org/things/10448055#id> a owl:Thing;
+   rdfs:label "Virendra Sharma";
+   rdfs:comment "Virendra Kumar Sharma (born 5 April 1947) is a British Labour Party politician and the Member of Parliament (MP) for Ealing Southall since 2007.";
+   owl:sameAs <http://dbpedia.org/resource/Virendra_Sharma>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000005663709>,
+     <http://rdf.freebase.com/ns/m.02qdfs9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Virendra_Sharma>;
+   foaf:page <http://www.telegraph.co.uk/news/politics/8763208/Labour-MP-Virendra-Sharmas-party-is-checked-out-by-the-Electoral-Commission.html>,
+     <http://www.telegraph.co.uk/news/politics/8727340/Mystery-over-Labour-MPs-costly-ghost-party.html>,
+     <http://www.thisislondon.co.uk/standard/article-23914793-the-homeless-who-slide-down-rubbish-chute-to-their-beds.do>,
+     <http://www.docklands24.co.uk/news/travel/mps_back_tube_union_workers_striking_to_protest_at_london_underground_job_cuts_1_715520>,
+     <http://www.asiantribune.com/news/2010/05/06/labour%E2%80%99s-impending-downfall-and-role-misplayed-ethnic-cards>,
+     <http://www.dailymail.co.uk/debate/columnists/article-1203710/BLACK-DOG--1-500-MPs.html>,
+     <http://www.guardian.co.uk/politics/2008/sep/21/keithvaz>,
+     <http://blogs.telegraph.co.uk/news/jonathanisaby/3668771/Labour_MP_clings_to_council_seat/>,
+     <http://www.hinduismtoday.com/archives/1995/4/1995-4-03.shtml>,
+     <http://www.virendrasharma.com/>,
+     <http://www.guardian.co.uk/politics/person/11162/virendra-sharma>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Virendra_Sharma>,
+     <http://www.theyworkforyou.com/mp/virendra_sharma>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Virendra-Sharma/Ealing-Southall/542>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/61606.stm>,
+     <http://mpsallowances.parliament.uk/mpslordsandoffices/hocallowances/allowances%2Dby%2Dmp/virendra%2Dsharma/>,
+     <http://elections.ealinggazette.co.uk/labour/>,
+     <http://www.ealinggazette.co.uk/ealing-news/ealing-columnists/constituency_matters/>,
+     <http://www.ealingtimes.co.uk/news/yourmps/>,
+     <http://ukpollingreport.co.uk/guide/seat-profiles/ealingsouthall> .

@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/13939912.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Chuka Umunna";
+   dc:modified "2012-12-01T15:18:22Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/13939912#id> .
+
+<http://dbpedialite.org/things/13939912#id> a owl:Thing;
+   rdfs:label "Chuka Umunna";
+   rdfs:comment "Chuka Umunna (born 17 October 1978) is a British Labour Party politician and employment lawyer who has been the Member of Parliament (MP) for Streatham since 2010. On 7 October 2011, after fewer than eighteen months in Parliament, he was promoted to the Shadow Cabinet as Shadow Business Secretary by the Labour Leader Ed Miliband. Umunna has described himself as being \"One Nation Labour\" and has written articles promoting the Blue Labour trend.";
+   owl:sameAs <http://dbpedia.org/resource/Chuka_Umunna>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000006ba67a6>,
+     <http://rdf.freebase.com/ns/m.03cnty6>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chuka_Umunna>;
+   foaf:page <http://www.chuka.org.uk/>,
+     <http://www.streathamlabour.org.uk/>,
+     <http://www.tmponline.org>,
+     <http://www.parliament.uk/biographies/commons/chuka-umunna/72314>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5653_home.html>,
+     <http://www.guardian.co.uk/politics/person/12053/chuka-umunna>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Chuka_Umunna>,
+     <http://www.theyworkforyou.com/mp/chuka_umunna>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Chuka-Umunna/Streatham/1162>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/72314.stm>,
+     <http://journalisted.com/chuka-umunna>,
+     <http://www.guardian.co.uk/profile/chukaumunna>,
+     <http://www.obv.org.uk/our-communities/black-politicians/chuka-ummuna-mp> .

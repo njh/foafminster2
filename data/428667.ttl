@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428667.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Peter Luff";
+   dc:modified "2012-12-01T13:35:33Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428667#id> .
+
+<http://dbpedialite.org/things/428667#id> a owl:Thing;
+   rdfs:label "Peter Luff";
+   rdfs:comment "Peter James Luff (born 18 February 1955) is a British Conservative Party politician. He has been the Member of Parliament (MP) for Mid Worcestershire since the 1997 general election, and was MP Worcester from 1992 until 1997. He was a Defence minister from 2010-2012.";
+   owl:sameAs <http://dbpedia.org/resource/Peter_Luff>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023ae6e>,
+     <http://rdf.freebase.com/ns/m.027cmg>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Peter_Luff>;
+   foaf:page <http://www.leighrayment.com/commons.htm>,
+     <http://www.peterluff.org.uk>,
+     <http://www.parliament.uk/biographies/commons/peter-luff/25497>,
+     <http://hansard.millbanksystems.com/people/mr-peter-luff>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1576_home.html>,
+     <http://www.guardian.co.uk/politics/person/3228/peter-luff>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Peter_Luff>,
+     <http://www.theyworkforyou.com/mp/peter_luff>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Peter-Luff/Mid-Worcestershire/358>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25497.stm> .

@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/331975.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Oliver Letwin";
+   dc:modified "2012-12-01T16:01:41Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/331975#id> .
+
+<http://dbpedialite.org/things/331975#id> a owl:Thing;
+   rdfs:label "Oliver Letwin";
+   rdfs:comment "Oliver Letwin MP FRSA (born 19 May 1956, in Hampstead) is a British politician. A member of the Conservative Party, he is currently the Minister of State at the Cabinet Office, and a Member of Parliament (MP) representing the constituency of West Dorset. He is also the Chairman of the Conservative Research Department and Chairman of the Conservative Party's Policy Review.";
+   owl:sameAs <http://dbpedia.org/resource/Oliver_Letwin>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001e00e5>,
+     <http://rdf.freebase.com/ns/m.01x075>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Oliver_Letwin>;
+   foaf:page <http://www.oliverletwinmp.com/>,
+     <http://www.cabinetoffice.gov.uk/content/oliver-letwin-minister-state-cabinet-office>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Letwin_Oliver.aspx>,
+     <http://www.parliament.uk/biographies/commons/oliver-letwin/25415>,
+     <http://hansard.millbanksystems.com/people/mr-oliver-letwin>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1477_home.html>,
+     <http://www.guardian.co.uk/politics/person/3095/oliver-letwin>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Oliver_Letwin>,
+     <http://www.theyworkforyou.com/mp/oliver_letwin>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Oliver-Letwin/West-Dorset/680>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25415.stm>,
+     <http://journalisted.com/oliver-letwin>,
+     <http://worldcat.org/identities/lccn-nr88-7872>,
+     <http://www.guardian.co.uk/politics/oliverletwin>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/199.stm> .

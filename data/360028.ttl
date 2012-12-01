@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/360028.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Bill Cash";
+   dc:modified "2012-12-01T13:58:04Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/360028#id> .
+
+<http://dbpedialite.org/things/360028#id> a owl:Thing;
+   rdfs:label "Bill Cash";
+   rdfs:comment "William Nigel Paul \"Bill\" Cash (born 10 May 1940) is a British Conservative politician and Member of Parliament for Stone.";
+   owl:sameAs <http://dbpedia.org/resource/Bill_Cash>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001fa948>,
+     <http://rdf.freebase.com/ns/m.01_bb8>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Bill_Cash>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Cash_Bill.aspx>,
+     <http://www.epolitix.com/EN/MPWebsites/Bill+Cash/>,
+     <http://politics.guardian.co.uk/person/0,9290,-10417,00.html>,
+     <http://www.theyworkforyou.com/mp/william_cash/stone>,
+     <http://publicwhip.org.uk/mp.php?mpn=William_Cash&mpc=Stone>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/545.stm>,
+     <http://billcashmp.co.uk/>,
+     <http://hansard.millbanksystems.com/people/mr-bill-cash> .

@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27291991.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jack Lopresti";
+   dc:modified "2012-12-01T15:16:10Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27291991#id> .
+
+<http://dbpedialite.org/things/27291991#id> a owl:Thing;
+   rdfs:label "Jack Lopresti";
+   rdfs:comment """Giacomo (Jack) Lopresti (23 August 1969) is a British Conservative Party politician. In the 2010 general election he was elected Member of Parliament (MP) for Filton and Bradley Stoke, a constituency newly created by changes made by the Boundary Commission for England.
+Lopresti previously represented the Stockwood Ward on Bristol City Council from 1999 to 2007. He also stood unsuccessfully for the Bristol East constituency in 2001, and for the South West at the European Parliament elections in 2004.""";
+   owl:sameAs <http://dbpedia.org/resource/Jack_Lopresti>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cfbc85>,
+     <http://rdf.freebase.com/ns/m.0bx_h45>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jack_Lopresti>;
+   foaf:page <http://www.theyworkforyou.com/mp/jack_lopresti/filton_and_bradley_stoke> .

@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/420144.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nigel Evans";
+   dc:modified "2012-12-01T14:39:55Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/420144#id> .
+
+<http://dbpedialite.org/things/420144#id> a owl:Thing;
+   rdfs:label "Nigel Evans";
+   rdfs:comment "Nigel Martin Evans (born 10 November 1957) is a British politician. Since 1992 he has been Conservative Party Member of Parliament for the Ribble Valley constituency. Since 2010 he has been First Deputy Chairman of Ways and Means, a deputy speaker.";
+   owl:sameAs <http://dbpedia.org/resource/Nigel_Evans>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023298c>,
+     <http://rdf.freebase.com/ns/m.026bdd>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nigel_Evans>;
+   foaf:page <http://www.nigelmp.com/>,
+     <http://www.epolitix.com/EN/MPWebsites/Nigel+Evans/>,
+     <http://politics.guardian.co.uk/person/0,9290,-1621,00.html>,
+     <http://www.theyworkforyou.com/mp/nigel_evans/ribble_valley>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nigel_Evans&mpc=Ribble+Valley>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/479.stm> .

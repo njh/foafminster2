@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/3321208.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Esther McVey";
+   dc:modified "2012-12-01T14:30:42Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/3321208#id> .
+
+<http://dbpedialite.org/things/3321208#id> a owl:Thing;
+   rdfs:label "Esther McVey";
+   rdfs:comment "Esther Louise McVey (born 24 October 1967) is a British Conservative Party politician who has been the Member of Parliament (MP) for Wirral West since May 2010. She has also been a television presenter and business woman.";
+   owl:sameAs <http://dbpedia.org/resource/Esther_McVey>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000092d541>,
+     <http://rdf.freebase.com/ns/m.095pb1>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Esther_McVey>;
+   foaf:page <http://www.esthermcvey.com/>,
+     <http://www.wirralwestconservatives.co.uk/>,
+     <http://www.parliament.uk/biographies/commons/esther-mcvey/35517>,
+     <http://hansard.millbanksystems.com/people/ms-esther-mcvey>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5705_home.html>,
+     <http://www.guardian.co.uk/politics/person/9412/esther-mcvey>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Esther_McVey>,
+     <http://www.theyworkforyou.com/mp/esther_mcvey>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Esther-McVey/Wirral-West/1064>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35517.stm>,
+     <http://www.makingit.co.uk>,
+     <http://www.winningwomen.co.uk>,
+     <http://www.forwardladies.com/>,
+     <http://www.friendsofmeolspark.co.uk>,
+     <http://www.debretts.com/people/biographies/browse/m/27045/Esther+McVEY.aspx> .

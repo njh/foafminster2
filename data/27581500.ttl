@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27581500.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - James Morris (British politician)";
+   dc:modified "2012-12-01T15:59:39Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27581500#id> .
+
+<http://dbpedialite.org/things/27581500#id> a owl:Thing;
+   rdfs:label "James Morris (British politician)";
+   rdfs:comment "James George Morris (4 February 1967) is a Conservative Party politician in England. He is the Member of Parliament (MP) for Halesowen and Rowley Regis, having won the Labour-held seat at the 2010 general election with a majority of 2,023 over the Labour Party candidate. As part of his campaign, he visited several schools including Brickhouse primary school and also set up a new jobs club. He was also voted onto the Communities and Local Government Select Committee by his fellow MPs shortly after the election.";
+   owl:sameAs <http://dbpedia.org/resource/James_Morris_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000163daae1>,
+     <http://rdf.freebase.com/ns/m.0c3wbr1>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/James_Morris_(British_politician)>;
+   foaf:page <http://www.jamesmorrismp.com/>,
+     <http://www.cricketarchive.co.uk/Archive/Players/11/11371/11371.html> .

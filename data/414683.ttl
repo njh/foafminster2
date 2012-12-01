@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414683.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Graham Brady";
+   dc:modified "2012-12-01T14:09:21Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414683#id> .
+
+<http://dbpedialite.org/things/414683#id> a owl:Thing;
+   rdfs:label "Graham Brady";
+   rdfs:comment "Graham Stuart Brady (born 20 May 1967) is a British Conservative Party politician and the Member of Parliament (MP) for Altrincham and Sale West. He served as a shadow minister for Europe under four Conservative leaders before resigning in 2007 in protest at David Cameron's opposition to grammar schools. He succeeded Sir Michael Spicer as chairman of the 1922 Committee on 26 May 2010. On the 1 December 2010 Mr Brady was voted \"Backbencher of the Year\" by The Spectator at their annual parliamentary awards.";
+   owl:sameAs <http://dbpedia.org/resource/Graham_Brady>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c726>,
+     <http://rdf.freebase.com/ns/m.025kt6>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Graham_Brady>;
+   foaf:page <http://www.grahambradymp.co.uk>,
+     <http://www.epolitix.com/EN/MPWebsites/Graham+Brady/>,
+     <http://politics.guardian.co.uk/person/0,9290,-556,00.html>,
+     <http://www.theyworkforyou.com/mp/graham_brady/altrincham_and_sale_west>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Graham_Brady&mpc=Altrincham+%26amp%3B+Sale+West>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/9.stm> .

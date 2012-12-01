@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/357375.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Liam Fox";
+   dc:modified "2012-12-01T14:06:52Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/357375#id> .
+
+<http://dbpedialite.org/things/357375#id> a owl:Thing;
+   rdfs:label "Liam Fox";
+   rdfs:comment """Liam Fox (born 22 September 1961) is a British Conservative politician, Member of Parliament for North Somerset, and former Secretary of State for Defence.
+Fox studied medicine at the University of Glasgow and worked as a GP and Civilian Army Medical Officer before being elected as an MP in 1992. After holding several ministerial roles in John Major's Conservative government, Fox served as Constitutional Affairs Spokesman (1998–1999), Shadow Health Secretary (1999–2003), Conservative Party chairman (2003–05), Shadow Foreign Secretary (2005) and Shadow Defence Secretary (2005–10).""";
+   owl:sameAs <http://dbpedia.org/resource/Liam_Fox>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001f846d>,
+     <http://rdf.freebase.com/ns/m.01_13f>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Liam_Fox>;
+   foaf:page <http://www.liamfoxmp.co.uk/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Fox_Liam.aspx>,
+     <http://www.parliament.uk/biographies/commons/liam-fox/25617>,
+     <http://hansard.millbanksystems.com/people/dr-liam-fox>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3308_home.html>,
+     <http://www.guardian.co.uk/politics/person/1798/liam-fox>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Liam_Fox>,
+     <http://www.theyworkforyou.com/mp/liam_fox>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Liam-Fox/Woodspring/191>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25617.stm>,
+     <http://journalisted.com/liam-fox>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2177238.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/3256191.stm>,
+     <http://www.craigmurray.org.uk/archives/2011/11/matthew-gould-and-the-plot-to-attack-iran> .

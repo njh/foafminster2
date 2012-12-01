@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414777.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Karen Buck";
+   dc:modified "2012-12-01T15:58:15Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414777#id> .
+
+<http://dbpedialite.org/things/414777#id> a owl:Thing;
+   rdfs:label "Karen Buck";
+   rdfs:comment "Karen Patricia Buck (born 30 August 1958) is a British Labour Party politician, who has been the Member of Parliament (MP) for Regent's Park and Kensington North since 1997, and is a former Parliamentary Under Secretary of State at the Department for Transport.";
+   owl:sameAs <http://dbpedia.org/resource/Karen_Buck>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c89f>,
+     <http://rdf.freebase.com/ns/m.025l4_>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Karen_Buck>;
+   foaf:page <http://www.karenbuck.org.uk>,
+     <http://politics.guardian.co.uk/person/0,9290,-697,00.html>,
+     <http://www.theyworkforyou.com/mp/karen_buck/regent's_park_and_kensington_north>,
+     <http://www.cnn.com/2010/WORLD/europe/04/06/uk.election.analysis.oakley/index.html> .

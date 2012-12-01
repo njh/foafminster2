@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1854850.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - James Brokenshire";
+   dc:modified "2012-12-01T15:58:07Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1854850#id> .
+
+<http://dbpedialite.org/things/1854850#id> a owl:Thing;
+   rdfs:label "James Brokenshire";
+   rdfs:comment "James Peter Brokenshire (born 7 January 1968) is a British Conservative Party politician. He is the Member of Parliament (MP) for Old Bexley and Sidcup and Minister for Security at the Home Office that grants him a seat on the National Security Council.";
+   owl:sameAs <http://dbpedia.org/resource/James_Brokenshire>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000060a1fe>,
+     <http://rdf.freebase.com/ns/m.0618hz>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/James_Brokenshire>;
+   foaf:page <http://politics.guardian.co.uk/person/0,9290,-9255,00.html>,
+     <http://www.theyworkforyou.com/mp/james_brokenshire/hornchurch> .

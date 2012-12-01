@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27351148.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Karen Lumley";
+   dc:modified "2012-12-01T16:05:19Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27351148#id> .
+
+<http://dbpedialite.org/things/27351148#id> a owl:Thing;
+   rdfs:label "Karen Lumley";
+   rdfs:comment """Karen Elizabeth Lumley (born 28 March 1964) is a Conservative Party politician in England. She has been the Member of Parliament for Redditch in Worcestershire since the 2010 general election, when she defeated former Home Secretary Jacqui Smith.
+Lumley was born in Barnsley, but grew up in the county of Warwickshire, in the town of Rugby. She now lives in the Brockhill area of Redditch. She is married to Richard and has two children, one girl and one boy; both were educated at St. Augustine's Catholic High School in Redditch's Hunt End area. Lumley enjoys cooking, knitting and travelling, and is a big fan of Katherine Jenkins.""";
+   owl:sameAs <http://dbpedia.org/resource/Karen_Lumley>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cf508b>,
+     <http://rdf.freebase.com/ns/m.0bxzn4c>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Karen_Lumley> .

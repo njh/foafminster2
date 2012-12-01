@@ -1,0 +1,38 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/163012.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Glenda Jackson";
+   dc:modified "2012-12-01T14:46:42Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/163012#id> .
+
+<http://dbpedialite.org/things/163012#id> a owl:Thing;
+   rdfs:label "Glenda Jackson";
+   rdfs:comment """Glenda May Jackson, CBE (born 9 May 1936) is a British Labour Party politician and former actress. She has been a Member of Parliament (MP) since 1992, and currently represents Hampstead and Kilburn. She previously served as MP for Hampstead and Highgate. After constituency changes for the 2010 general election, her majority of 42 votes was one of the closest results of the entire election.
+As an actress, she won two Academy Awards for Best Actress: for Women in Love (1969) and A Touch of Class (1973).""";
+   owl:sameAs <http://dbpedia.org/resource/Glenda_Jackson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000012d1f4>,
+     <http://rdf.freebase.com/ns/m.015nhn>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Glenda_Jackson>;
+   foaf:page <http://wikidata.org/wiki/Q182408>,
+     <http://www.glenda-jackson.co.uk>,
+     <http://www.camdenlabour.org.uk>,
+     <http://www.parliament.uk/biographies/commons/glenda-jackson/25521>,
+     <http://hansard.millbanksystems.com/people/ms-glenda-jackson>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1140_home.html>,
+     <http://www.guardian.co.uk/politics/person/2669/glenda-jackson>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Glenda_Jackson>,
+     <http://www.theyworkforyou.com/mp/glenda_jackson>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Glenda-Jackson/Hampstead-and-Kilburn/227>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25521.stm>,
+     <http://journalisted.com/glenda-jackson>,
+     <http://www.imdb.com/name/nm0413559/>,
+     <http://www.ibdb.com/person.asp?ID=46712>,
+     <http://www.screenonline.org.uk/people/id/453072> .
+
+<http://wikidata.org/wiki/Q182408> a foaf:Document;
+   rdfs:label "Glenda Jackson" .

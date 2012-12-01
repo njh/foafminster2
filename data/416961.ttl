@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/416961.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Huw Irranca-Davies";
+   dc:modified "2012-12-01T15:28:17Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/416961#id> .
+
+<http://dbpedialite.org/things/416961#id> a owl:Thing;
+   rdfs:label "Huw Irranca-Davies";
+   rdfs:comment """Ifor Huw Irranca-Davies (born 22 January 1963), born Ifor Huw Davies, is a British Labour Party politician, who has been the Member of Parliament (MP) for Ogmore since 2002. (He adopted his wife's maiden name as part of his own surname when they married.)
+Having served as Parliamentary Private Secretary in the Northern Ireland Office, the Department for Work and Pensions, and the Department of Culture, Media and Sport, he became an Assistant Whip in May 2006. On 29 June 2007, he was appointed Parliamentary Under-Secretary of State for Wales, before being promoted to the role of Parliamentary Under-Secretary of State in the Department for the Environment, Food and Rural Affairs.""";
+   owl:sameAs <http://dbpedia.org/resource/Huw_Irranca-Davies>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022eb63>,
+     <http://rdf.freebase.com/ns/m.025vw3>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Huw_Irranca-Davies>;
+   foaf:page <http://huwirranca-davies.org.uk/>,
+     <http://www.welshlabour.org.uk/candidates/huw-irranca-davies-ogmore>,
+     <http://www.youtube.com/user/huwsviews>,
+     <http://www.parliament.uk/biographies/commons/huw-irranca-davies/25197>,
+     <http://hansard.millbanksystems.com/people/mr-huw-irranca-davies>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1124_home.html>,
+     <http://www.guardian.co.uk/politics/person/6324/huw-irranca-davies>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Huw_Irranca-Davies>,
+     <http://www.theyworkforyou.com/mp/huw_irranca-davies>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Huw-Irranca-Davies/Ogmore/701>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25197.stm>,
+     <http://journalisted.com/huw-irrancadavies> .

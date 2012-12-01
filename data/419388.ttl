@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/419388.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Christopher Chope";
+   dc:modified "2012-12-01T15:23:59Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/419388#id> .
+
+<http://dbpedialite.org/things/419388#id> a owl:Thing;
+   rdfs:label "Christopher Chope";
+   rdfs:comment "Christopher Robert Chope OBE (born 19 May 1947) is a British barrister and Conservative politician. He is the Member of Parliament for Christchurch.";
+   owl:sameAs <http://dbpedia.org/resource/Christopher_Chope>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000231b58>,
+     <http://rdf.freebase.com/ns/m.0266vs>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Christopher_Chope>;
+   foaf:page <http://www.gregpalast.com/vulture-vomit-kills-bill/#more-3455>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=5014>,
+     <http://politics.guardian.co.uk/person/0,,-941,00.html>,
+     <http://www.theyworkforyou.com/mp/christopher_chope/christchurch>,
+     <http://publicwhip.org.uk/mp.php?mpn=Christopher_Chope&mpc=Christchurch>,
+     <http://www.christchurchconservatives.com>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/146.stm>,
+     <http://hansard.millbanksystems.com/people/mr-christopher-chope> .

@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/419603.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Dawn Primarolo";
+   dc:modified "2012-12-01T15:14:39Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/419603#id> .
+
+<http://dbpedialite.org/things/419603#id> a owl:Thing;
+   rdfs:label "Dawn Primarolo";
+   rdfs:comment "Dawn Primarolo (born 2 May 1954) is a British Labour Party politician who has been the Member of Parliament (MP) for Bristol South since 1987. She was Minister of State for Children, Young People and Families at the Department for Children, Schools and Families from June 2009 to May 2010 and has been a Deputy Speaker of the House of Commons since 2010. In November 2011 she announced her intention to stand down from Parliament at the next general election.";
+   owl:sameAs <http://dbpedia.org/resource/Dawn_Primarolo>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000232048>,
+     <http://rdf.freebase.com/ns/m.026828>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Dawn_Primarolo>;
+   foaf:page <http://www.bristolsouthlabourparty.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/dawn-primarolo/25333>,
+     <http://hansard.millbanksystems.com/people/ms-dawn-primarolo>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_243_home.html>,
+     <http://www.guardian.co.uk/politics/person/4266/dawn-primarolo>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Dawn_Primarolo>,
+     <http://www.theyworkforyou.com/mp/dawn_primarolo>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Dawn-Primarolo/Bristol-South/428>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25333.stm>,
+     <http://www.dh.gov.uk/en/Aboutus/MinistersandDepartmentLeaders/Ministers/Ministersbiography/DH_076673> .

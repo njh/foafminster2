@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27290705.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nick de Bois";
+   dc:modified "2012-12-01T15:19:32Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27290705#id> .
+
+<http://dbpedialite.org/things/27290705#id> a owl:Thing;
+   rdfs:label "Nick de Bois";
+   rdfs:comment """Geoffrey Nicholas "Nick" de Bois (born 23 February 1959) is a British Conservative Party politician, who was elected at the 2010 general election as the Member of Parliament for Enfield North, defeating the Labour incumbent MP Joan Ryan.
+De Bois had previously contested the Enfield constituency in both the 2001 and the 2005 general elections, taking second place to Joan Ryan on both occasions. Prior to this he also stood unsuccessfully for Stalybridge and Hyde in 1997.
+He was also Managing Director of Rapiergroup, a marketing communications company, where he first began working in the mid 1980s, following a brief spell in PR with the Advertising Standards Authority.""";
+   owl:sameAs <http://dbpedia.org/resource/Nick_de_Bois>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cf37b0>,
+     <http://rdf.freebase.com/ns/m.0bxzfyj>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nick_de_Bois>;
+   foaf:page <http://ukpolitics.telegraph.co.uk/Enfield+North/Nick+de+Bois>,
+     <http://www.theyworkforyou.com/mp/nick_de_bois/enfield_north>,
+     <http://www.catch21.co.uk/2010/08/new-mpinions-nick-de-bois-mp> .

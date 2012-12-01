@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/311079.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Hilary Benn";
+   dc:modified "2012-12-01T14:28:33Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/311079#id> .
+
+<http://dbpedialite.org/things/311079#id> a owl:Thing;
+   rdfs:label "Hilary Benn";
+   rdfs:comment "Hilary James Wedgwood Benn (born 26 November 1953) is a British Labour Party politician who has been the Member of Parliament (MP) for Leeds Central since 1999. He served in the Cabinet as Secretary of State for International Development from 2003 to 2007 and as the Secretary of State for Environment, Food and Rural Affairs from 2007 to 11 May 2010. Since October 2011, Benn was the Shadow Secretary of State for Communities and Local Government. In June 2007, Benn ran for the deputy leadership of the Labour Party, coming fourth out of six candidates.";
+   owl:sameAs <http://dbpedia.org/resource/Hilary_Benn>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001c9767>,
+     <http://rdf.freebase.com/ns/m.01t5w7>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Hilary_Benn>;
+   foaf:page <http://www.hilarybenn.org>,
+     <http://www.defra.gov.uk/corporate/about/who/ministers/benn.htm>,
+     <http://www.parliament.uk/biographies/commons/hilary-benn/25735>,
+     <http://hansard.millbanksystems.com/people/mr-hilary-benn>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3953_home.html>,
+     <http://www.guardian.co.uk/politics/person/360/hilary-benn>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Hilary_Benn>,
+     <http://www.theyworkforyou.com/mp/hilary_benn>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Hilary-Benn/Leeds-Central/39>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25735.stm>,
+     <http://journalisted.com/hilary-benn>,
+     <http://www.guardian.co.uk/uk/2007/jun/03/labourdeputy.labour>,
+     <http://www.gleeds.tv/index.cfm?video=589>,
+     <http://www.lovefoodhatewaste.com/> .

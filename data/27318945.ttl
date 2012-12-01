@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27318945.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Ian Mearns";
+   dc:modified "2012-12-01T13:46:31Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27318945#id> .
+
+<http://dbpedialite.org/things/27318945#id> a owl:Thing;
+   rdfs:label "Ian Mearns";
+   rdfs:comment """Ian Mearns (born 21 April 1957) is a British Labour Party politician who is the Member of Parliament (MP) for Gateshead. He was first elected at the 2010 general election.
+Born in Newcastle upon Tyne to a World War II veteran, Mearns was educated at St Mary's RC Primary School, Forest Hall and St Mary's RC Technical College in Newcastle. He worked for British Gas plc from 1974. He has been a member of Gateshead Borough Council since 1983. In Parliament he has served on the Education Select Committee since 2010.""";
+   owl:sameAs <http://dbpedia.org/resource/Ian_Mearns>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d02ed0>,
+     <http://rdf.freebase.com/ns/m.0by0cqj>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ian_Mearns>;
+   foaf:page <http://gatesheadlabour.wordpress.com/labours-ppc/>,
+     <http://online.gateshead.gov.uk/Councillors/Councillor_Info.aspx?CllrID=52&WardID=17> .

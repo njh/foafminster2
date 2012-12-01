@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27281000.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nic Dakin";
+   dc:modified "2012-12-01T15:18:45Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27281000#id> .
+
+<http://dbpedialite.org/things/27281000#id> a owl:Thing;
+   rdfs:label "Nic Dakin";
+   rdfs:comment "Nicholas Dakin (born 10 July 1955) is a British Labour Party politician, who has been the Member of Parliament (MP) for Scunthorpe since 2010.";
+   owl:sameAs <http://dbpedia.org/resource/Nic_Dakin>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b95739>,
+     <http://rdf.freebase.com/ns/m.0bwlptt>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nic_Dakin>;
+   foaf:page <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/83408.stm>,
+     <http://news.bbc.co.uk/1/hi/england/humber/8336587.stm> .

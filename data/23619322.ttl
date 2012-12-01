@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/23619322.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Chloe Smith";
+   dc:modified "2012-12-01T13:42:13Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/23619322#id> .
+
+<http://dbpedialite.org/things/23619322#id> a owl:Thing;
+   rdfs:label "Chloe Smith";
+   rdfs:comment "Chloe Rebecca Smith (born 17 May 1982) is a British Conservative Party politician and the Member of Parliament for Norwich North. She was elected to the seat in a by-election on 23 July 2009 following the resignation of Labour MP Ian Gibson after the MPs' expenses scandal.";
+   owl:sameAs <http://dbpedia.org/resource/Chloe_Smith>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000deb13a9>,
+     <http://rdf.freebase.com/ns/m.06zq4y9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chloe_Smith>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Smith_Chloe.aspx>,
+     <http://www.theyworkforyou.com/mp/chloe_smith/norwich_north>,
+     <http://www.flickr.com/photos/chloesmith/> .

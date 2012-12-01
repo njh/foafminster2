@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414498.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - John Stanley (Conservative politician)";
+   dc:modified "2012-12-01T14:35:25Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414498#id> .
+
+<http://dbpedialite.org/things/414498#id> a owl:Thing;
+   rdfs:label "John Stanley (Conservative politician)";
+   rdfs:comment "Sir John Paul Stanley PC (born 12 January 1942) is a British Conservative Party politician, and the Member of Parliament (MP) for Tonbridge and Malling.";
+   owl:sameAs <http://dbpedia.org/resource/John_Stanley_%28Conservative_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c3ce>,
+     <http://rdf.freebase.com/ns/m.025jzg>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Stanley_(Conservative_politician)>;
+   foaf:page <http://politics.guardian.co.uk/person/0,9290,-4956,00.html>,
+     <http://www.theyworkforyou.com/mp/john_stanley/tonbridge_and_malling>,
+     <http://www.tcconservatives.com>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=John_Stanley&mpc=Tonbridge+%26amp%3B+Malling>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/580.stm> .

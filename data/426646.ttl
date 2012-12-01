@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/426646.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mike Gapes";
+   dc:modified "2012-12-01T13:04:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/426646#id> .
+
+<http://dbpedialite.org/things/426646#id> a owl:Thing;
+   rdfs:label "Mike Gapes";
+   rdfs:comment """Michael John "Mike" Gapes (born 4 September 1952) is a British Labour Co-operative politician who has been the Member of Parliament (MP) for Ilford South since 1992.
+Mike Gapes was born in Wanstead Hospital in what became the London Borough of Redbridge, the son of a postman, and educated locally at the Staples Road Infants' School in Loughton and the Manford County Primary School in Chigwell, before attending the Buckhurst Hill County High School. He continued his studies at Fitzwilliam College, Cambridge where he was awarded a master's degree in economics in 1975; he also served as the secretary of the university's students' union in 1973. He completed his education at the Middlesex...""";
+   owl:sameAs <http://dbpedia.org/resource/Mike_Gapes>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000238f6c>,
+     <http://rdf.freebase.com/ns/m.0273wd>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mike_Gapes>;
+   foaf:page <http://www.mikegapes.org.uk/>,
+     <http://politics.guardian.co.uk/person/0,9290,-1867,00.html>,
+     <http://www.theyworkforyou.com/mp/mike_gapes/ilford_south> .

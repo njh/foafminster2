@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1575867.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Cathy Jamieson";
+   dc:modified "2012-12-01T14:16:23Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1575867#id> .
+
+<http://dbpedialite.org/things/1575867#id> a owl:Thing;
+   rdfs:label "Cathy Jamieson";
+   rdfs:comment """Catherine Mary "Cathy" Jamieson (born 3 November 1956) is a Scottish Labour party politician and the Member of Parliament (MP) for Kilmarnock & Loudoun.
+Jamieson was the former Minister for Justice in the Scottish Executive, and Labour Co-operative Member of the Scottish Parliament for Carrick, Cumnock and Doon Valley. She became a Labour Co-operative MSP for Carrick, Cumnock and Doon MSP in the first elections to the Scottish Parliament in 1999, later holding the positions of Minister for Education and Young People in 2001 and then Minister for Justice after the 2003 election until 2007.""";
+   owl:sameAs <http://dbpedia.org/resource/Cathy_Jamieson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000055db0d>,
+     <http://rdf.freebase.com/ns/m.05cqsf>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Cathy_Jamieson>;
+   foaf:page <http://www.cathyjamieson.com/>,
+     <http://www.parliament.uk/biographies/commons/cathy-jamieson/32645>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1152_home.html>,
+     <http://www.guardian.co.uk/politics/person/13615/cathy-jamieson>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Cathy_Jamieson>,
+     <http://www.theyworkforyou.com/mp/cathy_jamieson>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Cathy-Jamieson/Kilmarnock-and-Loudoun/1274>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/32645.stm> .

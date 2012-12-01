@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1873684.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Pat McFadden (British politician)";
+   dc:modified "2012-12-01T13:41:04Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1873684#id> .
+
+<http://dbpedialite.org/things/1873684#id> a owl:Thing;
+   rdfs:label "Pat McFadden (British politician)";
+   rdfs:comment "Patrick Bosco McFadden (born 26 March 1965, Paisley) is a British Labour Party politician, who has been the Member of Parliament (MP) for Wolverhampton South East since 2005. He was briefly Shadow Secretary of State for Business, Innovation and Skills, but failed to be elected to the Shadow Cabinet shortly after Ed Miliband became Labour Leader.";
+   owl:sameAs <http://dbpedia.org/resource/Pat_McFadden_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000061659c>,
+     <http://rdf.freebase.com/ns/m.062tdx>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pat_McFadden_(British_politician)>;
+   foaf:page <http://www.patmcfadden.com>,
+     <http://www.berr.gov.uk/about/ministerial-team/page40239.html>,
+     <http://www.guardian.co.uk/politics/person/8868/pat-mcfadden>,
+     <http://www.theyworkforyou.com/mp/patrick_mcfadden/wolverhampton_south_east>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/641.stm>,
+     <http://www.guardian.co.uk/politics/2009/may/19/politics-diary-hugh-muir>,
+     <http://www.expressandstar.com/2009/05/16/baby-boy-for-city-mp-pat/>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/7963075.stm>,
+     <http://news.bbc.co.uk/1/hi/programmes/politics_show/7423039.stm>,
+     <http://news.bbc.co.uk/1/hi/business/7180746.stm> .

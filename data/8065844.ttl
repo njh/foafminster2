@@ -1,0 +1,45 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/8065844.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Blunkett";
+   dc:modified "2012-12-01T13:15:52Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/8065844#id> .
+
+<http://dbpedialite.org/things/8065844#id> a owl:Thing;
+   rdfs:label "David Blunkett";
+   rdfs:comment """David Blunkett (born 6 June 1947) is a British Labour Party politician and the Member of Parliament (MP) for Sheffield Brightside and Hillsborough, having represented Sheffield Brightside from 1987 to 2010. Blind since birth, and coming from a poor family in one of Sheffield's most deprived districts, he rose to become Education and Employment Secretary, Home Secretary and Work and Pensions Secretary in Tony Blair's Cabinet following Labour's victory in the 1997 general election.
+He was promoted to become Home Secretary following the 2001 general election, a position he held until 2004, when he resigned following highly publicised matters related to his personal life. Following the 2005...""";
+   owl:sameAs <http://dbpedia.org/resource/David_Blunkett>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000014c2a1>,
+     <http://rdf.freebase.com/ns/m.019jp1>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Blunkett>;
+   foaf:page <http://davidblunkett.typepad.com/rt_hon_david_blunkett_mp/>,
+     <http://www.parliament.uk/biographies/commons/david-blunkett/25810>,
+     <http://hansard.millbanksystems.com/people/mr-david-blunkett>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4044_home.html>,
+     <http://www.guardian.co.uk/politics/person/477/david-blunkett>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=David_Blunkett>,
+     <http://www.theyworkforyou.com/mp/david_blunkett>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/David-Blunkett/Sheffield-Brightside-and-Hillsborough/56>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/19497.stm>,
+     <http://journalisted.com/david-blunkett>,
+     <http://worldcat.org/identities/lccn-n96-107098>,
+     <http://www.guardian.co.uk/politics/davidblunkett>,
+     <http://news.scotsman.com/topics.cfm?tid=1224>,
+     <http://www.lrb.co.uk/v27/n07/lanc01_.html>,
+     <http://news.bbc.co.uk/1/hi/in_depth/uk_politics/2004/blunkett_resigns/>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4099761.stm>,
+     <http://news.bbc.co.uk/1/shared/bsp/hi/pdfs/21_12_04_budd.pdf>,
+     <http://news.bbc.co.uk/1/shared/bsp/hi/pdfs/21_12_04_blunkett_rail.pdf>,
+     <http://www.cbc.ca/world/story/2004/12/15/britain-blunkett-041215.html>,
+     <http://www.acoba.gov.uk/>,
+     <http://www.cabinetoffice.gov.uk/propriety_and_ethics/ministers/ministerial_code/>,
+     <http://www.timesonline.co.uk/article/0,,17129-1867436,00.html>,
+     <http://news.independent.co.uk/environment/article294369.ece>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4320827.stm>,
+     <http://www.thisislondon.co.uk/news/articles/14868913> .

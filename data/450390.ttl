@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/450390.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Keith Simpson (politician)";
+   dc:modified "2012-12-01T13:56:16Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/450390#id> .
+
+<http://dbpedialite.org/things/450390#id> a owl:Thing;
+   rdfs:label "Keith Simpson (politician)";
+   rdfs:comment "Keith Robert Simpson (born 29 March 1949, in Norwich, England) is a British politician and military historian. A member of the Conservative Party, he has been the Member of Parliament (MP) for Broadland since the 2010 general election, having previously served as the MP for Mid Norfolk from 1997 to 2010. He is currently Parliamentary Private Secretary to the Foreign Secretary, William Hague.";
+   owl:sameAs <http://dbpedia.org/resource/Keith_Simpson_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024f657>,
+     <http://rdf.freebase.com/ns/m.029ylr>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Keith_Simpson_(politician)>;
+   foaf:page <http://www.keithsimpson.com>,
+     <http://politics.guardian.co.uk/person/0,9290,-4783,00.html>,
+     <http://www.theyworkforyou.com/mp/keith_simpson/mid_norfolk>,
+     <http://www.firstworldwar.bham.ac.uk/members/simpsonkeith.htm>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/427.stm> .

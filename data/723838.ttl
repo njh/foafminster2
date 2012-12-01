@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/723838.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Chris Heaton-Harris";
+   dc:modified "2012-12-01T12:43:14Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/723838#id> .
+
+<http://dbpedialite.org/things/723838#id> a owl:Thing;
+   rdfs:label "Chris Heaton-Harris";
+   rdfs:comment "Christopher \"Chris\" Heaton-Harris, (born 28 November 1967), is a British Conservative Party politician. He has been the Member of Parliament (MP) for Daventry since May 2010, and was previously a Member of the European Parliament (MEP) for the East Midlands from 1999 to 2009.";
+   owl:sameAs <http://dbpedia.org/resource/Chris_Heaton-Harris>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000032e7ef>,
+     <http://rdf.freebase.com/ns/m.035t_h>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chris_Heaton-Harris>;
+   foaf:page <http://www.heatonharris.org.uk/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Heaton-Harris_Chris.aspx>,
+     <http://www.daventryconservatives.com/>,
+     <http://hansard.millbanksystems.com/people/mr-chris-heaton-harris>,
+     <http://www.guardian.co.uk/politics/person/12129/chris-heaton-harris>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Chris_Heaton-Harris>,
+     <http://www.theyworkforyou.com/mp/chris_heaton-harris>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Christopher-Heaton-Harris/Daventry/1060>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/28244.stm>,
+     <http://www.europarl.europa.eu/members/public/geoSearch/view.do?country=GB&partNumber=1&zone=East+Midlands&language=EN&id=4517> .

@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414612.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Anne Begg";
+   dc:modified "2012-12-01T14:38:48Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414612#id> .
+
+<http://dbpedialite.org/things/414612#id> a owl:Thing;
+   rdfs:label "Anne Begg";
+   rdfs:comment "Dame (Margaret) Anne Begg,DBE (born 6 December 1955) is a British Labour Party politician, who has been the Member of Parliament (MP) for Aberdeen South since 1997. Begg is the first permanent wheelchair user in the House of Commons.";
+   owl:sameAs <http://dbpedia.org/resource/Anne_Begg>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c5e7>,
+     <http://rdf.freebase.com/ns/m.025kh7>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Anne_Begg>;
+   foaf:page <http://www.labouronline.org/wibs/168348/>,
+     <http://hansard.millbanksystems.com/people/miss-anne-begg>,
+     <http://www.guardian.co.uk/politics/person/329/anne-begg>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Anne_Begg>,
+     <http://www.theyworkforyou.com/mp/anne_begg>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Anne-Begg/Aberdeen-South/1030>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25157.stm>,
+     <http://yourdemocracy.newstatesman.com/profile/anne-begg> .

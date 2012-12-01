@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/435652.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mark Tami";
+   dc:modified "2012-12-01T14:19:23Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/435652#id> .
+
+<http://dbpedialite.org/things/435652#id> a owl:Thing;
+   rdfs:label "Mark Tami";
+   rdfs:comment "Mark Richard Tami (born 3 October 1962) is a British Labour Party politician, who has been the Member of Parliament (MP) for Alyn and Deeside since 2001.";
+   owl:sameAs <http://dbpedia.org/resource/Mark_Tami>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000241d54>,
+     <http://rdf.freebase.com/ns/m.0287bn>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mark_Tami>;
+   foaf:page <http://www.marktami.co.uk>,
+     <http://www.welshlabour.org.uk/candidates/mark-tami-alyn-and-deeside>,
+     <http://www.parliament.uk/biographies/commons/mark-tami/25263>,
+     <http://hansard.millbanksystems.com/people/mr-mark-tami>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4198_home.html>,
+     <http://www.guardian.co.uk/politics/person/7383/mark-tami>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Mark_Tami>,
+     <http://www.theyworkforyou.com/mp/mark_tami>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Mark-Tami/Alyn-and-Deeside/533>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25263.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/7470824.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/north_east/6232041.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/1964505.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/1845157.stm> .

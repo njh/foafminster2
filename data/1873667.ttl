@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1873667.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Adam Afriyie";
+   dc:modified "2012-12-01T15:22:10Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1873667#id> .
+
+<http://dbpedialite.org/things/1873667#id> a owl:Thing;
+   rdfs:label "Adam Afriyie";
+   rdfs:comment "Adam Afriyie (born 4 August 1965) is a British Conservative Party politician, and the Member of Parliament (MP) for Windsor. He was first elected at the 2005 general election and re-elected at the 2010 election.";
+   owl:sameAs <http://dbpedia.org/resource/Adam_Afriyie>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000616586>,
+     <http://rdf.freebase.com/ns/m.062td6>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Adam_Afriyie>;
+   foaf:page <http://www.adamafriyie.org/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Afriyie_Adam.aspx>,
+     <http://www.windsorconservatives.com/>,
+     <http://www.parliament.uk/biographies/commons/adam-afriyie/35516>,
+     <http://hansard.millbanksystems.com/people/mr-adam-afriyie>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4734_home.html>,
+     <http://www.guardian.co.uk/politics/person/9411/adam-afriyie>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Adam_Afriyie>,
+     <http://www.theyworkforyou.com/mp/adam_afriyie>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Adam-Afriyie/Windsor/2>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35516.stm> .

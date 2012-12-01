@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872632.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Madeleine Moon";
+   dc:modified "2012-12-01T14:25:54Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872632#id> .
+
+<http://dbpedialite.org/things/1872632#id> a owl:Thing;
+   rdfs:label "Madeleine Moon";
+   rdfs:comment "Madeleine Moon (born 27 March 1950) is a British Labour Party politician, who has been the Member of Parliament (MP) for Bridgend since 2005, succeeding Win Griffiths, who retired from politics.";
+   owl:sameAs <http://dbpedia.org/resource/Madeleine_Moon>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615ba1>,
+     <http://rdf.freebase.com/ns/m.062qy1>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Madeleine_Moon>;
+   foaf:page <http://www.madeleinemoonmp.com>,
+     <http://www.welshlabour.org.uk/candidates/madeline-moon-bridgend>,
+     <http://www.parliament.uk/biographies/commons/madeleine-moon/35871>,
+     <http://hansard.millbanksystems.com/people/ms-madeleine-moon>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4822_home.html>,
+     <http://www.guardian.co.uk/politics/person/8669/madeleine-moon>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Madeleine_Moon>,
+     <http://www.theyworkforyou.com/mp/madeleine_moon>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Madeleine-Moon/Bridgend/434>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35871.stm>,
+     <http://www.telegraph.co.uk/news/newstopics/mps-expenses/5340058/Madeleine-Moon-shopped-in-Wales-for-London-flat-MPs-expenses.html>,
+     <http://news.bbc.co.uk/1/hi/wales/wales_politics/8055319.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4652193.stm>,
+     <http://news.bbc.co.uk/player/nol/newsid_7230000/newsid_7232500/7232515.stm>,
+     <http://www.youtube.com/watch?v=2EbynaO4oE8> .

@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/435638.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andrew Mitchell";
+   dc:modified "2012-12-01T13:15:16Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/435638#id> .
+
+<http://dbpedialite.org/things/435638#id> a owl:Thing;
+   rdfs:label "Andrew Mitchell";
+   rdfs:comment """Andrew John Bower Mitchell (born 23 March 1956) is a British Conservative Party politician who has been the Member of Parliament (MP) for Sutton Coldfield since 2001. He was previously the MP for Gedling from 1987 to 1997. He served in the Cabinet as Secretary of State for International Development from 2010 to 2012, and then briefly as Government Chief Whip in the House of Commons until he resigned after an altercation with police.
+Mitchell was President of the Cambridge Union in 1978. A former UN peacekeeper, he has extensive pre-government experience of the developing world, and is the founder of Project Umubano, a Conservative Party social action project in Rwanda and Sierra Leone in...""";
+   owl:sameAs <http://dbpedia.org/resource/Andrew_Mitchell>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000241d3b>,
+     <http://rdf.freebase.com/ns/m.02879w>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andrew_Mitchell>;
+   foaf:page <http://www.andrew-mitchell-mp.co.uk/>,
+     <http://www.parliament.uk/biographies/commons/andrew-mitchell/25190>,
+     <http://hansard.millbanksystems.com/people/mr-andrew-mitchell>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1926_home.html>,
+     <http://www.guardian.co.uk/politics/person/6134/andrew-mitchell>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Andrew_Mitchell>,
+     <http://www.theyworkforyou.com/mp/andrew_mitchell>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Andrew-Mitchell/Sutton-Coldfield/426>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25190.stm>,
+     <http://journalisted.com/andrew-mitchell>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/452.stm>,
+     <http://www.cato.org/event.php?eventid=3256> .

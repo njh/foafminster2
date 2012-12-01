@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27265577.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Ward (politician)";
+   dc:modified "2012-12-01T13:55:02Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27265577#id> .
+
+<http://dbpedialite.org/things/27265577#id> a owl:Thing;
+   rdfs:label "David Ward (politician)";
+   rdfs:comment "David Ward (born 24 June 1953) is a British Liberal Democrat politician, who was elected at the 2010 general election as the Member of Parliament (MP) for Bradford East. He became the MP for Bradford East after being a Ward Councillor for Idle and Thackley in Bradford for 26 years. He represents the Liberal Democrat party who are now in Coalition with the Conservatives.";
+   owl:sameAs <http://dbpedia.org/resource/David_Ward_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b76e1f>,
+     <http://rdf.freebase.com/ns/m.0bwgwj_>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Ward_(politician)>;
+   foaf:page <http://davidward.org.uk/>,
+     <http://www.libdems.org.uk/people_detail.aspx?name=David_Ward&pPK=17eeef9e-e7a3-42d5-bd13-5bbb2151ec57>,
+     <http://bradfordlibdems.org.uk>,
+     <http://www.parliament.uk/biographies/commons/david-ward/37625>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5541_home.html>,
+     <http://www.guardian.co.uk/politics/person/6571/david-ward>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=David_Ward>,
+     <http://www.theyworkforyou.com/mp/david_ward>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/David-Ward/Bradford-East/1366>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/37625.stm>,
+     <http://journalisted.com/david-ward-2>,
+     <http://www.bradford.gov.uk/asp/councillors/details.asp?id=274>,
+     <http://www.libdemvoice.org/david-ward-mps-maiden-speech-19822.html> .

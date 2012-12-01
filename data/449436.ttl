@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/449436.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Chris Ruane";
+   dc:modified "2012-12-01T13:35:25Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/449436#id> .
+
+<http://dbpedialite.org/things/449436#id> a owl:Thing;
+   rdfs:label "Chris Ruane";
+   rdfs:comment "Christopher Shaun Ruane (born 18 July 1958) is a Welsh Labour Party politician who has been the Member of Parliament (MP) for the Vale of Clwyd since 1997.";
+   owl:sameAs <http://dbpedia.org/resource/Chris_Ruane>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024e68e>,
+     <http://rdf.freebase.com/ns/m.029tng>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chris_Ruane>;
+   foaf:page <http://www.chrisruane.org/>,
+     <http://www.welshlabour10.org.uk/candidates/chris-ruane-vale-of-clwyd>,
+     <http://www.parliament.uk/biographies/commons/chris-ruane/25363>,
+     <http://hansard.millbanksystems.com/people/mr-chris-ruane>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_488_home.html>,
+     <http://www.guardian.co.uk/politics/person/4556/chris-ruane>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Chris_Ruane>,
+     <http://www.theyworkforyou.com/mp/chris_ruane>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Christopher-Ruane/Vale-of-Clwyd/511>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25363.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/1866691.stm> .

@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/449439.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Ruffley";
+   dc:modified "2012-12-01T12:35:32Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/449439#id> .
+
+<http://dbpedialite.org/things/449439#id> a owl:Thing;
+   rdfs:label "David Ruffley";
+   rdfs:comment """David Laurie Ruffley (born 18 April 1962, Bolton) is a Conservative Party politician in the United Kingdom. He is the Member of Parliament (MP) for the constituency of Bury St Edmunds in Suffolk, which encompasses Bury St Edmunds and Stowmarket, having been first elected in 1997.
+A solicitor by profession, Ruffley served as special adviser to Ken Clarke (1991–96). He sat on the Treasury Select Committee from 1999 to 2004, on which he was an arch-critic of Gordon Brown, before becoming a whip in 2004. Ruffley served as Shadow Minister for Welfare Reform from 2005 to 2007 and Shadow Minister for Police Reform from 2007 to 2010. In 2010, he was unanimously re-elected to the Treasury...""";
+   owl:sameAs <http://dbpedia.org/resource/David_Ruffley>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024e699>,
+     <http://rdf.freebase.com/ns/m.029tnt>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Ruffley>;
+   foaf:page <http://www.davidruffleymp.com>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Ruffley_David.aspx>,
+     <http://www.burystedmundsconservatives.com>,
+     <http://www.parliament.uk/biographies/commons/david-ruffley/25360>,
+     <http://hansard.millbanksystems.com/people/mr-david-ruffley>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_492_home.html>,
+     <http://www.guardian.co.uk/politics/person/4561/david-ruffley>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=David_Ruffley>,
+     <http://www.theyworkforyou.com/mp/david_ruffley>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/David-Ruffley/Bury-St-Edmunds/519>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25360.stm> .

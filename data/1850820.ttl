@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1850820.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Geoffrey Cox";
+   dc:modified "2012-12-01T16:08:11Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1850820#id> .
+
+<http://dbpedialite.org/things/1850820#id> a owl:Thing;
+   rdfs:label "Geoffrey Cox";
+   rdfs:comment "Charles Geoffrey Cox,QC, MP (born 30 April 1960 in Wroughton), is a British politician and barrister. A member of the Conservative Party, he is currently a Member of Parliament (MP) representing the constituency of Torridge and West Devon.";
+   owl:sameAs <http://dbpedia.org/resource/Geoffrey_Cox>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000607898>,
+     <http://rdf.freebase.com/ns/m.060z4s>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Geoffrey_Cox>;
+   foaf:page <http://www.geoffreycox.co.uk>,
+     <http://www.geoffreycox.net/>,
+     <http://www.thomasmore.co.uk/>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&PersonID=34014>,
+     <http://www.westdevonconservatives.com/>,
+     <http://politics.guardian.co.uk/person/0,9290,-6147,00.html>,
+     <http://www.theyworkforyou.com/mp/geoffrey_cox/torridge_and_west_devon>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Geoffrey_Cox&mpc=Torridge+%26amp%3B+West+Devon>,
+     <http://www.geoffreycox.co.uk/news/>,
+     <http://news.bbc.co.uk/1/hi/england/devon/7099754.stm>,
+     <http://news.bbc.co.uk/1/hi/england/devon/6179862.stm> .

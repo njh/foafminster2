@@ -1,0 +1,35 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/159548.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Iain Duncan Smith";
+   dc:modified "2012-12-01T15:10:24Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/159548#id> .
+
+<http://dbpedialite.org/things/159548#id> a owl:Thing;
+   rdfs:label "Iain Duncan Smith";
+   rdfs:comment """George Iain Duncan Smith (born 9 April 1954; often referred to by his initials "IDS") is a British Conservative politician. He is currently the Secretary of State for Work and Pensions and was previously leader of the Conservative Party from September 2001 to October 2003. He was first elected to parliament at the 1992 general election as the MP for Chingford and has represented its successor constituency of Chingford and Woodford Green since the 1997 general election.
+Duncan Smith was born in Edinburgh, in Scotland, and served in the Scots Guards from 1975 to 1981, with service in Northern Ireland and Rhodesia. He joined the Conservative Party in 1981, and was elected as a Member of...""";
+   owl:sameAs <http://dbpedia.org/resource/Iain_Duncan_Smith>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001286a8>,
+     <http://rdf.freebase.com/ns/m.0151p8>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Iain_Duncan_Smith>;
+   foaf:page <http://www.iainduncansmith.org/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Duncan_Smith_Iain.aspx>,
+     <http://www.parliament.uk/biographies/commons/iain-duncan-smith/25640>,
+     <http://hansard.millbanksystems.com/people/mr-iain-duncan-smith>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3039_home.html>,
+     <http://www.guardian.co.uk/politics/person/1495/iain-duncan-smith>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Iain_Duncan_Smith>,
+     <http://www.theyworkforyou.com/mp/iain_duncan_smith>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Iain-Duncan-Smith/Chingford-and-Woodford-Green/147>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25640.stm>,
+     <http://journalisted.com/iain-duncan-smith>,
+     <http://www.guardian.co.uk/profile/iain-duncan-smith>,
+     <http://www.guardian.co.uk/politics/iain-duncan-smith>,
+     <http://topics.nytimes.com/top/reference/timestopics/people/d/iain_duncan_smith/index.html>,
+     <http://www.youtube.com/user/workandpensions> .

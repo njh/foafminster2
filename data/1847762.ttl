@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1847762.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Stephen Williams (politician)";
+   dc:modified "2012-12-01T15:23:34Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1847762#id> .
+
+<http://dbpedialite.org/things/1847762#id> a owl:Thing;
+   rdfs:label "Stephen Williams (politician)";
+   rdfs:comment "Stephen Roy Williams (born 11 October 1966) is a British Liberal Democrat politician who was first elected as the Member of Parliament (MP) for Bristol West in the 2005 general election, being re-elected with an increased majority in May 2010. He is the first Liberal or Liberal Democrat elected for a Bristol seat since 1935, and the first ever in Bristol West.";
+   owl:sameAs <http://dbpedia.org/resource/Stephen_Williams_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000605902>,
+     <http://rdf.freebase.com/ns/m.060q82>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Stephen_Williams_(politician)>;
+   foaf:page <http://www.stephenwilliams.org.uk/>,
+     <http://stephenwilliamsmp.wordpress.com/>,
+     <http://www.libdems.org.uk/people/stephen-williams>,
+     <http://www.bristolwest-libdems.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/stephen-williams/31736>,
+     <http://hansard.millbanksystems.com/people/mr-stephen-williams>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4842_home.html>,
+     <http://www.guardian.co.uk/politics/person/6585/stephen-williams>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Stephen_Williams>,
+     <http://www.theyworkforyou.com/mp/stephen_williams>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Stephen-Williams/Bristol-West/1133>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31736.stm>,
+     <http://www.politicsjunkie.co.uk/stephen_williams_inv.htm> .

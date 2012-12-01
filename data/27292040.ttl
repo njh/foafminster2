@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27292040.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andrew Griffiths (politician)";
+   dc:modified "2012-12-01T14:22:00Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27292040#id> .
+
+<http://dbpedialite.org/things/27292040#id> a owl:Thing;
+   rdfs:label "Andrew Griffiths (politician)";
+   rdfs:comment "Andrew James Griffiths (born 19 October 1970) is an English politician. He is the Conservative Member of Parliament for Burton.";
+   owl:sameAs <http://dbpedia.org/resource/Andrew_Griffiths_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cf3433>,
+     <http://rdf.freebase.com/ns/m.0bxzf1m>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andrew_Griffiths_(politician)>;
+   foaf:page <http://www.voteandrew.co.uk>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Griffiths_Andrew.aspx>,
+     <http://www.guardian.co.uk/politics/person/5871/andrew-griffiths>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Andrew_Griffiths>,
+     <http://www.theyworkforyou.com/mp/andrew_griffiths>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Andrew-Griffiths/Burton/839>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/42358.stm> .

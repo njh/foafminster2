@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1873069.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Shailesh Vara";
+   dc:modified "2012-12-01T15:22:56Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1873069#id> .
+
+<http://dbpedialite.org/things/1873069#id> a owl:Thing;
+   rdfs:label "Shailesh Vara";
+   rdfs:comment "Shailesh Lakhman Vara (born 4 September 1960) is a British Conservative Party politician. He was elected Member of Parliament (MP) for North West Cambridgeshire in the 2005 general election, succeeding Brian Mawhinney as the Conservative MP for the seat. Shailesh Vara has previously been a Vice Chairman of the Conservative Party. In 2006, he was appointed to the shadow ministerial post of Shadow Deputy Leader of the House of Commons. Following the 2010 general election, he was appointed to the position of Assistant Whip in the coalition government.";
+   owl:sameAs <http://dbpedia.org/resource/Shailesh_Vara>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615f70>,
+     <http://rdf.freebase.com/ns/m.062rwj>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Shailesh_Vara>;
+   foaf:page <http://www.shaileshvara.com/>,
+     <http://www.shaileshvara.com/press/>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=34377>,
+     <http://politics.guardian.co.uk/person/0,9290,-6040,00.html>,
+     <http://www.timesonline.co.uk/election/constituency/0,,200-674,00.html>,
+     <http://www.theyworkforyou.com/mp/shailesh_vara/north_west_cambridgeshire>,
+     <http://www.guardian.co.uk/g2/story/0,3604,1588476,00.html>,
+     <http://www.telegraph.co.uk/news/main.jhtml?xml=/news/2005/05/03/nelec803.xml>,
+     <http://www.hearfromyourmp.com/view/13275> .

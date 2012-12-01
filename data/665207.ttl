@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/665207.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Davies (Welsh politician)";
+   dc:modified "2012-12-01T13:59:52Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/665207#id> .
+
+<http://dbpedialite.org/things/665207#id> a owl:Thing;
+   rdfs:label "David Davies (Welsh politician)";
+   rdfs:comment "David Thomas Charles Davies, MP (born 27 July 1970) is a British Conservative Party politician. He is the Member of Parliament (MP) for Monmouth in South Wales. Davies is also a special police constable, and volunteers with the British Transport Police.";
+   owl:sameAs <http://dbpedia.org/resource/David_Davies_%28Welsh_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000030823d>,
+     <http://rdf.freebase.com/ns/m.0310ky>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Davies_(Welsh_politician)>;
+   foaf:page <http://www.david-daviesmp.co.uk>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Davies_David.aspx>,
+     <http://www.ceidwadwyr.com/portal-en/our-mps/46-david-davies-mp.html>,
+     <http://www.parliament.uk/biographies/commons/david-davies/33522>,
+     <http://hansard.millbanksystems.com/people/mr-david-davies>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2867_home.html>,
+     <http://www.guardian.co.uk/politics/person/9295/david-davies>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=David_Davies>,
+     <http://www.theyworkforyou.com/mp/david_davies>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/David-Davies/Monmouth/76>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/33522.stm>,
+     <http://www.parliament.uk/parliamentary_committees/welsh_affairs_committee.cfm/> .

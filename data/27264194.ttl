@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27264194.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Gavin Shuker";
+   dc:modified "2012-12-01T15:12:57Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27264194#id> .
+
+<http://dbpedialite.org/things/27264194#id> a owl:Thing;
+   rdfs:label "Gavin Shuker";
+   rdfs:comment "Gavin Shuker (born 10 October 1981) is an English Labour Co-operative politician, who has been the Member of Parliament (MP) for Luton South since 2010. Shuker successfully defended the seat after his predecessor Margaret Moran stood down following controversy over her expenses.";
+   owl:sameAs <http://dbpedia.org/resource/Gavin_Shuker>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7780c>,
+     <http://rdf.freebase.com/ns/m.0bwgz0d>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gavin_Shuker>;
+   foaf:page <http://www.parliament.uk/biographies/commons/Gavin-Shuker/83624>,
+     <http://hansard.millbanksystems.com/people/mr-Gavin-Shuker>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5640_home.html>,
+     <http://www.guardian.co.uk/politics/person/11816/gavin-shuker>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Gavin_Shuker>,
+     <http://www.theyworkforyou.com/mp/Gavin_Shuker>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Gavin-Shuker/Luton-South/1293>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/83624.stm>,
+     <http://journalisted.com/Gavin-Shuker> .

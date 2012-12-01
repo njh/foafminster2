@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27283452.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Ian Murray (British politician)";
+   dc:modified "2012-12-01T15:25:55Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27283452#id> .
+
+<http://dbpedialite.org/things/27283452#id> a owl:Thing;
+   rdfs:label "Ian Murray (British politician)";
+   rdfs:comment """Ian Murray (born 10 August 1976) is a British Labour Party politician, who has been the Member of Parliament (MP) for Edinburgh South since 2010. He was previously an Edinburgh city councillor for the Liberton/Gilmerton ward.
+Murray has an MA in Social Policy and Law from Edinburgh University. He has run an event management business and a bar/bistro. Murray is a fan of Australian singer/songwriter Pete Murray. He has a long-term partner Hannah.""";
+   owl:sameAs <http://dbpedia.org/resource/Ian_Murray_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b9944e>,
+     <http://rdf.freebase.com/ns/m.0bwm52g>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ian_Murray_(British_politician)>;
+   foaf:page <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/85111.stm>,
+     <http://www.theyworkforyou.com/mp/ian_murray/edinburgh_south>,
+     <http://www.murray4south.co.uk/> .

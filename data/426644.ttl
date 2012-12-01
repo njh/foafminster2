@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/426644.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Roger Gale";
+   dc:modified "2012-12-01T13:33:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/426644#id> .
+
+<http://dbpedialite.org/things/426644#id> a owl:Thing;
+   rdfs:label "Roger Gale";
+   rdfs:comment "Sir Roger James Gale (born 20 August 1943) is a British politician. He is the Conservative Member of Parliament (MP) for North Thanet in Kent.";
+   owl:sameAs <http://dbpedia.org/resource/Roger_Gale>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000238f61>,
+     <http://rdf.freebase.com/ns/m.0273w1>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Roger_Gale>;
+   foaf:page <http://www.rogergale.com>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&PersonID=4733>,
+     <http://hansard.millbanksystems.com/people/mr-roger-gale>,
+     <http://politics.guardian.co.uk/person/0,9290,-1857,00.html>,
+     <http://www.theyworkforyou.com/mp/roger_gale/north_thanet>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/576.stm>,
+     <http://www.cawg.org.uk/index.php>,
+     <http://news.bbc.co.uk/1/hi/england/kent/4148717.stm> .

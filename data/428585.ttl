@@ -1,0 +1,36 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428585.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Eleanor Laing";
+   dc:modified "2012-12-01T14:11:42Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428585#id> .
+
+<http://dbpedialite.org/things/428585#id> a owl:Thing;
+   rdfs:label "Eleanor Laing";
+   rdfs:comment "Eleanor Fulton Laing, née Pritchard, (born 1 February 1958) is a British politician. She is Conservative Member of Parliament for Epping Forest, and was first elected in 1997.";
+   owl:sameAs <http://dbpedia.org/resource/Eleanor_Laing>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023ac73>,
+     <http://rdf.freebase.com/ns/m.027c3m>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Eleanor_Laing>;
+   foaf:page <http://www.eleanorlaing.com>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Laing_Eleanor.aspx>,
+     <http://www.parliament.uk/biographies/commons/eleanor-laing/25182>,
+     <http://hansard.millbanksystems.com/people/mrs-eleanor-laing>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1387_home.html>,
+     <http://www.guardian.co.uk/politics/person/2986/eleanor-laing>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Eleanor_Laing>,
+     <http://www.theyworkforyou.com/mp/eleanor_laing>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Eleanor-Laing/Epping-Forest/259>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25182.stm>,
+     <http://news.bbc.co.uk/1/hi/scotland/4563591.stm>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/239.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/3716116.stm>,
+     <http://news.bbc.co.uk/1/hi/scotland/622421.stm>,
+     <http://news.bbc.co.uk/media/audio/41378000/rm/_41378658_eleanor_laing_6_42.ram>,
+     <http://www.bbc.co.uk/radio4/womanshour/ram/2004_40_tue_01.ram>,
+     <http://www.wpradio.co.uk/mp3s/EleanorLaing.mp3> .

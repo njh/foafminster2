@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/416770.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nigel Dodds";
+   dc:modified "2012-12-01T15:31:19Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/416770#id> .
+
+<http://dbpedialite.org/things/416770#id> a owl:Thing;
+   rdfs:label "Nigel Dodds";
+   rdfs:comment "Nigel Alexander Dodds, OBE, PC, MP, (born 20 August 1958) is a barrister and Northern Irish unionist politician. He is Member of Parliament (MP) for Belfast North, and deputy leader of the Democratic Unionist Party. He has been Lord Mayor of Belfast twice, and from 1993 has been General Secretary of the DUP. Since June 2008 he has also been Deputy Leader of the DUP. Dodds became North Belfast's MP in the 2001 UK general elections. He has served in the past as a member of the Northern Ireland Assembly, and as Minister of Finance in the Northern Ireland Executive.";
+   owl:sameAs <http://dbpedia.org/resource/Nigel_Dodds>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022e764>,
+     <http://rdf.freebase.com/ns/m.025tw4>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nigel_Dodds>;
+   foaf:page <http://www.nigeldodds.co.uk/>,
+     <http://www.niassembly.gov.uk/members/biogs/ndodds.htm>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Nigel_Dodds.aspx>,
+     <http://hansard.millbanksystems.com/people/mr-nigel-dodds>,
+     <http://www.guardian.co.uk/politics/person/1419/nigel-dodds>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nigel_Dodds>,
+     <http://www.theyworkforyou.com/mp/nigel_dodds>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nigel-Dodds/Belfast-North/108>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25658.stm>,
+     <http://journalisted.com/nigel-dodds>,
+     <http://www.publications.parliament.uk/pa/cm200102/cmhansrd/vo010627/debtext/10627-21.htm> .

@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/235641.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Chris Bryant";
+   dc:modified "2012-12-01T15:30:47Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/235641#id> .
+
+<http://dbpedialite.org/things/235641#id> a owl:Thing;
+   rdfs:label "Chris Bryant";
+   rdfs:comment "Christopher John Bryant (born 11 January 1962) is a British Labour Party politician, who has been the Member of Parliament (MP) for Rhondda since 2001. Bryant is the former Minister for Europe and Parliamentary Under-Secretary of State for Foreign Affairs at the Foreign and Commonwealth Office.";
+   owl:sameAs <http://dbpedia.org/resource/Chris_Bryant>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000181c4b>,
+     <http://rdf.freebase.com/ns/m.01j72c>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chris_Bryant>;
+   foaf:page <http://www.chrisbryant.co.uk/>,
+     <http://twitter.com/chrisbryantMP>,
+     <http://www.welshlabour.org.uk/candidates/chris-bryant-rhondda-2>,
+     <http://www.parliament.uk/biographies/commons/chris-bryant/25745>,
+     <http://hansard.millbanksystems.com/people/mr-chris-bryant>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2350_home.html>,
+     <http://www.guardian.co.uk/politics/person/6444/chris-bryant>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Chris_Bryant>,
+     <http://www.theyworkforyou.com/mp/chris_bryant>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Chris-Bryant/Rhondda/753>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25745.stm>,
+     <http://www.guardian.co.uk/profile/chris-bryant>,
+     <https://blogs.fco.gov.uk/roller/bryant/>,
+     <http://www.teenagemums.org.uk/>,
+     <http://worldcat.org/identities/lccn-no96-52855> .

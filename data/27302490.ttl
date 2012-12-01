@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27302490.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - James Wharton";
+   dc:modified "2012-12-01T16:09:28Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27302490#id> .
+
+<http://dbpedialite.org/things/27302490#id> a owl:Thing;
+   rdfs:label "James Wharton";
+   rdfs:comment "James Stephen Wharton (born 16 February 1984) is a British Conservative Party politician, who has been the Member of Parliament for Stockton South since the 2010 general election, defeating the sitting Labour MP Dari Taylor.";
+   owl:sameAs <http://dbpedia.org/resource/James_Wharton>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d0501c>,
+     <http://rdf.freebase.com/ns/m.0by0n0x>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/James_Wharton>;
+   foaf:page <http://www.theyworkforyou.com/mp/james_wharton/Stockton_south> .

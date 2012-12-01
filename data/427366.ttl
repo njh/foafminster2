@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/427366.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Bernard Jenkin";
+   dc:modified "2012-12-01T12:29:59Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/427366#id> .
+
+<http://dbpedialite.org/things/427366#id> a owl:Thing;
+   rdfs:label "Bernard Jenkin";
+   rdfs:comment "Bernard Christison Jenkin (born 9 April 1959) is a politician in the United Kingdom, and the current Member of Parliament (MP) for Harwich and North Essex. He was Vice Chairman of the Conservative Party, and had responsibility for candidates until 7 November 2006 when this role was given to John Maples.";
+   owl:sameAs <http://dbpedia.org/resource/Bernard_Jenkin>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000239a9a>,
+     <http://rdf.freebase.com/ns/m.0276nv>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Bernard_Jenkin>;
+   foaf:page <http://www.bernardjenkinmp.com>,
+     <http://www.bernardjenkinmp.com/cv.asp>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=4738>,
+     <http://www.epolitix.com/EN/MPWebsites/Bernard+Jenkin/>,
+     <http://politics.guardian.co.uk/person/0,9290,-2711,00.html>,
+     <http://www.theyworkforyou.com/mp/bernard_jenkin/north_essex>,
+     <http://hansard.millbanksystems.com/people/hon-bernard-jenkin>,
+     <http://publicwhip.org.uk/mp.php?mpn=Bernard_Jenkin&mpc=North+Essex>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/244.stm>,
+     <http://www.youtube.com/watch?v=v9Xf6_jQZ5g>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/6125858.stm>,
+     <http://news.bbc.co.uk/1/hi/magazine/6132672.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2150795.stm> .

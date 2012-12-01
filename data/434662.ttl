@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434662.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Gerald Howarth";
+   dc:modified "2012-12-01T13:52:15Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434662#id> .
+
+<http://dbpedialite.org/things/434662#id> a owl:Thing;
+   rdfs:label "Gerald Howarth";
+   rdfs:comment """Sir James Gerald Douglas Howarth known as Gerald Howarth (born 12 September 1947) is a British Conservative Party politician. He has been the Member of Parliament (MP) for Aldershot since 1997, having been the MP for Cannock and Burntwood from 1983 to 1992.
+He was the Parliamentary Under-Secretary of State at the Ministry of Defence as Minister for International Security Strategy. He was removed from this post in the 2012 Cabinet Reshuffle.""";
+   owl:sameAs <http://dbpedia.org/resource/Gerald_Howarth>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240a1c>,
+     <http://rdf.freebase.com/ns/m.0282jx>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gerald_Howarth>;
+   foaf:page <http://www.geraldhowarth.org/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Howarth_Gerald.aspx>,
+     <http://www.aldershotconservatives.com/>,
+     <http://hansard.millbanksystems.com/people/mr-gerald-howarth>,
+     <http://www.guardian.co.uk/politics/person/2544/gerald-howarth>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Gerald_Howarth>,
+     <http://www.theyworkforyou.com/mp/gerald_howarth>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Gerald-Howarth/Aldershot/1033>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25505.stm> .

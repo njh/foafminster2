@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872551.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nick Herbert";
+   dc:modified "2012-12-01T14:32:32Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872551#id> .
+
+<http://dbpedialite.org/things/1872551#id> a owl:Thing;
+   rdfs:label "Nick Herbert";
+   rdfs:comment "Nicholas Le Quesne \"Nick\" Herbert (born 7 April 1963) is a British Conservative Party politician and the Member of Parliament (MP) for Arundel and South Downs. He was Minister of State for Police and Criminal Justice, with his time split between the Home Office and the Ministry of Justice from 2010-2012.";
+   owl:sameAs <http://dbpedia.org/resource/Nick_Herbert>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615a72>,
+     <http://rdf.freebase.com/ns/m.062qml>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nick_Herbert>;
+   foaf:page <http://www.nickherbert.com/>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=121476>,
+     <http://hansard.millbanksystems.com/people/mr-nick-herbert>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4737_home.html>,
+     <http://www.guardian.co.uk/politics/person/10378/nick-herbert>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nick_Herbert>,
+     <http://www.theyworkforyou.com/mp/nick_herbert>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nick-Herbert/Arundel-and-South-Downs/896>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/40839.stm>,
+     <http://journalisted.com/nick-herbert>,
+     <http://www.reform.co.uk>,
+     <http://www.telegraph.co.uk/news/4107212/David-Camerons-rising-star-Nick-Herbert-marries-his-boyfriend.html>,
+     <http://www.telegraph.co.uk/news/newstopics/mps-expenses/5305347/Nick-Herbert-claimed-stamp-duty-on-joint-home-MPs-expenses.html> .

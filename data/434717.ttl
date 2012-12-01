@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434717.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Anne McGuire";
+   dc:modified "2012-12-01T14:06:35Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434717#id> .
+
+<http://dbpedialite.org/things/434717#id> a owl:Thing;
+   rdfs:label "Anne McGuire";
+   rdfs:comment "Anne Catherine McGuire (born 26 May 1949) is a British Labour Party politician, who has been the Member of Parliament (MP) for Stirling since 1997.";
+   owl:sameAs <http://dbpedia.org/resource/Anne_McGuire>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240b61>,
+     <http://rdf.freebase.com/ns/m.0282w1>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Anne_McGuire>;
+   foaf:page <http://www.annemcguiremp.org.uk>,
+     <http://www.dwp.gov.uk/aboutus/ministers/amcguire.asp>,
+     <http://politics.guardian.co.uk/person/0,9290,-3829,00.html>,
+     <http://www.theyworkforyou.com/mp/anne_mcguire/stirling>,
+     <http://news.bbc.co.uk/1/hi/scotland/1687765.stm/> .

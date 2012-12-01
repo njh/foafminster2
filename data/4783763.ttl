@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/4783763.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Brandon Lewis";
+   dc:modified "2012-12-01T14:20:23Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/4783763#id> .
+
+<http://dbpedialite.org/things/4783763#id> a owl:Thing;
+   rdfs:label "Brandon Lewis";
+   rdfs:comment "Brandon Kenneth Lewis (born 20 June 1971) is the Conservative Party Member of Parliament for Great Yarmouth. He was elected at the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Brandon_Lewis>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000ba10bb>,
+     <http://rdf.freebase.com/ns/m.0cn45w>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Brandon_Lewis>;
+   foaf:page <http://www.brandonlewis.org/>,
+     <http://www.greatyarmouthconservatives.com/> .

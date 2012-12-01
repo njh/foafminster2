@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1627728.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nicholas Boles";
+   dc:modified "2012-12-01T14:52:36Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1627728#id> .
+
+<http://dbpedialite.org/things/1627728#id> a owl:Thing;
+   rdfs:label "Nicholas Boles";
+   rdfs:comment """Nicholas Edward Coleridge "Nick" Boles (born 2 November 1965) is a British Conservative Party politician who is the Member of Parliament (MP) for the Grantham and Stamford constituency in Lincolnshire. Boles currently serves as a junior minister in the Department for Communities and Local Government as a Planning minister.
+Boles is the son of Sir Jack Boles, who was the Head of the National Trust from 1975-1983. He was previously a Westminster City councillor and the Director of Policy Exchange, a think tank based in Westminster.""";
+   owl:sameAs <http://dbpedia.org/resource/Nicholas_Boles>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000057e9a3>,
+     <http://rdf.freebase.com/ns/m.05hvf3>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nicholas_Boles>;
+   foaf:page <http://www.policyexchange.org.uk/> .

@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/172338.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Gerald Kaufman";
+   dc:modified "2012-12-01T14:48:12Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/172338#id> .
+
+<http://dbpedialite.org/things/172338#id> a owl:Thing;
+   rdfs:label "Gerald Kaufman";
+   rdfs:comment "Sir Gerald Bernard Kaufman (born 21 June 1930) is a British Labour Party politician, who has been a Member of Parliament (MP) since 1970, first for Manchester Ardwick, and then subsequently for Manchester Gorton. He was a government minister during the 1970s, and a member of the Shadow Cabinet in the 1980s.";
+   owl:sameAs <http://dbpedia.org/resource/Gerald_Kaufman>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000139763>,
+     <http://rdf.freebase.com/ns/m.0175w3>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gerald_Kaufman>;
+   foaf:page <http://www.parliament.uk/biographies/commons/gerald-kaufman/25528>,
+     <http://hansard.millbanksystems.com/people/mr-gerald-kaufman>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1247_home.html>,
+     <http://www.guardian.co.uk/politics/person/2821/gerald-kaufman>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Gerald_Kaufman>,
+     <http://www.theyworkforyou.com/mp/gerald_kaufman>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Gerald-Kaufman/Manchester-Gorton/247>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25528.stm>,
+     <http://journalisted.com/gerald-kaufman> .

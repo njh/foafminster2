@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27292617.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Lorraine Fullbrook";
+   dc:modified "2012-12-01T14:31:16Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27292617#id> .
+
+<http://dbpedialite.org/things/27292617#id> a owl:Thing;
+   rdfs:label "Lorraine Fullbrook";
+   rdfs:comment """Lorraine Fullbrook (born 28 July 1959) is the Conservative MP for South Ribble, first elected in 2010.
+Mrs Fullbrook was formerly the Conservative Leader of Hart Council in Hampshire, stepping down in 2004 after being selected as parliamentary candidate for the South Ribble constituency in north-west England. She contested the seat at the 2005 General Election, when she came second to the incumbent MP, David Borrow. She contested the seat again in the 2010 General Election when she defeated David Borrow with an 8.1% swing from the Labour Party to the Conservative Party, and regained the seat for the Conservative Party after 13 years.""";
+   owl:sameAs <http://dbpedia.org/resource/Lorraine_Fullbrook>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d0f313>,
+     <http://rdf.freebase.com/ns/m.0by1xsm>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lorraine_Fullbrook> .

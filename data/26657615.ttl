@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/26657615.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Peter Aldous";
+   dc:modified "2012-12-01T15:54:15Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/26657615#id> .
+
+<http://dbpedialite.org/things/26657615#id> a owl:Thing;
+   rdfs:label "Peter Aldous";
+   rdfs:comment "Peter James Guy Aldous (born 26 August 1961) is a Conservative Party politician in England. A former local councillor, he has been the Member of Parliament (MP) for the Waveney constituency in Suffolk since winning the seat at the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Peter_Aldous>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000014691a74>,
+     <http://rdf.freebase.com/ns/m.0b6l6mn>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Peter_Aldous>;
+   foaf:page <http://www.peteraldous.com/>,
+     <http://www.conservatives.com/People/Prospective_Parliamentary_Candidates/Aldous_Peter.aspx>,
+     <http://www.waveneyconservatives.com/>,
+     <http://www.parliament.uk/biographies/commons/peter-aldous/35512>,
+     <http://hansard.millbanksystems.com/people/mr-peter-aldous>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5560_home.html>,
+     <http://www.guardian.co.uk/politics/person/9401/peter-aldous>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Peter_Aldous>,
+     <http://www.theyworkforyou.com/mp/peter-aldous>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Peter-Aldous/Waveney/768>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35512.stm>,
+     <http://yourdemocracy.newstatesman.com/profile/peter-aldous> .

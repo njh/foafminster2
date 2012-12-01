@@ -1,0 +1,35 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/227341.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Graham Allen (politician)";
+   dc:modified "2012-12-01T15:15:14Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/227341#id> .
+
+<http://dbpedialite.org/things/227341#id> a owl:Thing;
+   rdfs:label "Graham Allen (politician)";
+   rdfs:comment "Graham William Allen (born 11 January 1953) is a British Labour Party politician, who has been the Member of Parliament (MP) for Nottingham North since 1987.";
+   owl:sameAs <http://dbpedia.org/resource/Graham_Allen_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001790a5>,
+     <http://rdf.freebase.com/ns/m.01h455>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Graham_Allen_(politician)>;
+   foaf:page <http://www.parliament.uk/biographies/commons/graham-allen/25774>,
+     <http://hansard.millbanksystems.com/people/mr-graham-allen>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3636_home.html>,
+     <http://www.guardian.co.uk/politics/person/61/graham-allen>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Graham_Allen>,
+     <http://www.theyworkforyou.com/mp/graham_allen>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Graham-Allen/Nottingham-North/9>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25774.stm>,
+     <http://journalisted.com/graham-allen>,
+     <http://www.boldoutlaw.com/robint/localpoli.html>,
+     <http://yourdemocracy.newstatesman.com/profile/graham-allen>,
+     <http://www.guardian.co.uk/society/2010/jul/29/society-daily>,
+     <http://www.publications.parliament.uk/pa/cm201011/cmselect/cmpolcon/437/43704.htm>,
+     <https://twitter.com/grahamallenmp>,
+     <https://www.facebook.com/GAllenMP>,
+     <http://www.youtube.com/user/MPGrahamAllen?feature=mhee> .

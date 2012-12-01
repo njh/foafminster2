@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1371430.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Margaret Curran";
+   dc:modified "2012-12-01T16:10:06Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1371430#id> .
+
+<http://dbpedialite.org/things/1371430#id> a owl:Thing;
+   rdfs:label "Margaret Curran";
+   rdfs:comment "Margaret Patricia Curran (born 24 November 1958) is a Scottish Labour Party politician, who has been the Member of Parliament (MP) for Glasgow East since 2010, and is currently Shadow Secretary of State for Scotland. She was previously Member of the Scottish Parliament for Glasgow Baillieston from 1999 to 2011, and held a number of posts within the Scottish Executive, including Minister for Parliamentary Business, Minister for Social Justice and Minister for Communities.";
+   owl:sameAs <http://dbpedia.org/resource/Margaret_Curran>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000004e3c7b>,
+     <http://rdf.freebase.com/ns/m.04xh3w>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Margaret_Curran>;
+   foaf:page <http://www.margaretcurranmsp.co.uk/>,
+     <http://www.scottishlabour.org.uk/glasgow_baillieston>,
+     <http://www.scottish.parliament.uk/msp/membersPages/margaret_curran/index.htm>,
+     <http://www.guardian.co.uk/politics/person/11227/margaret-curran>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Margaret_Curran>,
+     <http://www.theyworkforyou.com/mp/margaret_curran>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Margaret-Curran/Glasgow-East/1311>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/32611.stm>,
+     <http://journalisted.com/margaret-curran> .

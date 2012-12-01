@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1855077.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Conor Murphy";
+   dc:modified "2012-12-01T16:08:53Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1855077#id> .
+
+<http://dbpedialite.org/things/1855077#id> a owl:Thing;
+   rdfs:label "Conor Murphy";
+   rdfs:comment """Conor Terence Murphy (born 10 July 1963) is an Irish republican Sinn Féin politician. He is the Member of Parliament for Newry and Armagh.
+Murphy was born in Newry, County Armagh. According to An Phoblacht, he first became involved with the Irish Republican Army (IRA) during the 1981 hunger strikes. In 1982 he was sentenced to five years in prison for IRA membership and possession of explosives.
+Between 1989 and 1997, he was a Sinn Féin councillor on Newry and Mourne District Council for The Fews area, in South Armagh and South Down, and served as his party's group leader at that level.""";
+   owl:sameAs <http://dbpedia.org/resource/Conor_Murphy>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000060a49e>,
+     <http://rdf.freebase.com/ns/m.06194z>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Conor_Murphy>;
+   foaf:page <http://www.sinnfein.ie/contents/14975>,
+     <http://www.drdni.gov.uk/index/aboutus/aboutus-whoswho/aboutus-whoswho-minister.htm>,
+     <http://politics.guardian.co.uk/person/0,9290,-6997,00.html>,
+     <http://www.theyworkforyou.com/mp/conor_murphy/newry_and_armagh> .

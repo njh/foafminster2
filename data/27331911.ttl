@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27331911.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Liz Kendall";
+   dc:modified "2012-12-01T14:53:49Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27331911#id> .
+
+<http://dbpedialite.org/things/27331911#id> a owl:Thing;
+   rdfs:label "Liz Kendall";
+   rdfs:comment """Elizabeth Louise Kendall (born 11 June 1971) is a British Labour Party politician who has been the Member of Parliament (MP) for Leicester West since 2010.
+Kendall grew up in Hertfordshire and attended Watford Grammar School for Girls. She then went up to Queens' College, Cambridge graduating with a first in history in 1993. Unsuccessful in an attempt to become the Labour candidate in Chesterfield for the 2001 general election, she has worked as Director of the Maternity Alliance charity, as a researcher for the King's Fund, as an associate director for health, social care and children’s early years at the IPPR and has been a special adviser to two cabinet ministers,Patricia Hewitt and...""";
+   owl:sameAs <http://dbpedia.org/resource/Liz_Kendall>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cf5397>,
+     <http://rdf.freebase.com/ns/m.0bxznxr>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Liz_Kendall>;
+   foaf:page <http://www.lizkendall.org/>,
+     <http://www.theyworkforyou.com/mp/liz_kendall/leicester_west> .

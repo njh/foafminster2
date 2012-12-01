@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/427339.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Dominic Grieve";
+   dc:modified "2012-12-01T13:38:46Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/427339#id> .
+
+<http://dbpedialite.org/things/427339#id> a owl:Thing;
+   rdfs:label "Dominic Grieve";
+   rdfs:comment """Dominic Charles Roberts Grieve, QC, MP (born 24 May 1956) is a British Conservative politician, barrister and Queen's Counsel.
+He is the Member of Parliament (MP) for Beaconsfield and the Attorney General for England and Wales and the Advocate General for Northern Ireland.""";
+   owl:sameAs <http://dbpedia.org/resource/Dominic_Grieve>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000239a15>,
+     <http://rdf.freebase.com/ns/m.0276jp>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Dominic_Grieve>;
+   foaf:page <http://www.dominicgrieve.org.uk>,
+     <http://www.parliament.uk/biographies/commons/dominic-grieve/25630>,
+     <http://hansard.millbanksystems.com/people/mr-dominic-grieve>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3566_home.html>,
+     <http://www.guardian.co.uk/politics/person/2075/dominic-grieve>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Dominic_Grieve>,
+     <http://www.theyworkforyou.com/mp/dominic_grieve>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Dominic-Grieve/Beaconsfield/228>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25630.stm>,
+     <http://journalisted.com/dominic-grieve> .

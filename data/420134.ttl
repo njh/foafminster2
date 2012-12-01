@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/420134.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Maria Eagle";
+   dc:modified "2012-12-01T16:11:06Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/420134#id> .
+
+<http://dbpedialite.org/things/420134#id> a owl:Thing;
+   rdfs:label "Maria Eagle";
+   rdfs:comment """Maria Eagle (born 17 February 1961) is a British Labour Party politician who is the Member of Parliament (MP) for Garston and Halewood.
+She has held the rank of Minister of State at both the Government Equalities Office and the Ministry of Justice. She was previously a Minister at the Department for Work and Pensions, the Department for Education and Skills, and the Northern Ireland Office. After the 2010 general election she became the Shadow Solicitor General. On 8 October 2010, Eagle was announced as the Shadow Secretary of State for Transport in Ed Miliband's new shadow cabinet.""";
+   owl:sameAs <http://dbpedia.org/resource/Maria_Eagle>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000232954>,
+     <http://rdf.freebase.com/ns/m.026bbn>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Maria_Eagle>;
+   foaf:page <http://www.worldcat.org/oclc/39267019>,
+     <http://www.mariaeaglemp.co.uk/>,
+     <http://www.parliament.uk/biographies/commons/maria-eagle/25660>,
+     <http://hansard.millbanksystems.com/people/ms-maria-eagle>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3065_home.html>,
+     <http://www.guardian.co.uk/politics/person/1522/maria-eagle>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Maria_Eagle>,
+     <http://www.theyworkforyou.com/mp/maria_eagle>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Maria-Eagle/Garston-and-Halewood/128>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25660.stm> .

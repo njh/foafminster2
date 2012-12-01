@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1867577.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Dan Rogerson";
+   dc:modified "2012-12-01T13:51:52Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1867577#id> .
+
+<http://dbpedialite.org/things/1867577#id> a owl:Thing;
+   rdfs:label "Dan Rogerson";
+   rdfs:comment "Daniel John Rogerson (born 23 July 1975, St Austell) is a Cornish Liberal Democrat politician. He has been the Member of Parliament (MP) for North Cornwall since the 2005 General election.";
+   owl:sameAs <http://dbpedia.org/resource/Dan_Rogerson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000612c14>,
+     <http://rdf.freebase.com/ns/m.062c0n>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Dan_Rogerson>;
+   foaf:page <http://www.danrogerson.org.uk>,
+     <http://www.libdems.org.uk/people/dan-rogerson>,
+     <http://www.parliament.uk/biographies/commons/dan-rogerson/31629>,
+     <http://hansard.millbanksystems.com/people/mr-dan-rogerson>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4840_home.html>,
+     <http://www.guardian.co.uk/politics/person/6807/dan-rogerson>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Dan_Rogerson>,
+     <http://www.theyworkforyou.com/mp/dan_rogerson>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Dan-Rogerson/North-Cornwall/1118>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31629.stm>,
+     <http://www.cornishassembly.org> .

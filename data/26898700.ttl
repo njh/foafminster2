@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/26898700.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Claire Perry";
+   dc:modified "2012-12-01T15:37:38Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/26898700#id> .
+
+<http://dbpedialite.org/things/26898700#id> a owl:Thing;
+   rdfs:label "Claire Perry";
+   rdfs:comment "Claire Louise Perry (born 3 April 1964) is the Conservative Member of Parliament for Devizes, elected in the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Claire_Perry>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000001535045e>,
+     <http://rdf.freebase.com/ns/m.0bmb12z>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Claire_Perry>;
+   foaf:page <http://claireperry.org.uk/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Perry_Claire.aspx>,
+     <http://www.devizesconservatives.com/>,
+     <http://hansard.millbanksystems.com/people/ms-claire-perry>,
+     <http://www.guardian.co.uk/politics/person/12349/claire-perry>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Claire_Perry>,
+     <http://www.theyworkforyou.com/mp/claire_perry>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Claire-Perry/Devizes/1045>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/83522.stm>,
+     <http://conservativehome.blogs.com/goldlist/2009/11/claire-perry-selected-to-fight-devizes.html> .

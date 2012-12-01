@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27264837.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Stephen Lloyd";
+   dc:modified "2012-12-01T14:15:17Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27264837#id> .
+
+<http://dbpedialite.org/things/27264837#id> a owl:Thing;
+   rdfs:label "Stephen Lloyd";
+   rdfs:comment "Stephen Anthony Christopher Lloyd (born 15 June 1957) is a British Liberal Democrat politician and business development consultant. He is the Member of Parliament (MP) for Eastbourne.";
+   owl:sameAs <http://dbpedia.org/resource/Stephen_Lloyd>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7e6db>,
+     <http://rdf.freebase.com/ns/m.0bwhtqw>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Stephen_Lloyd>;
+   foaf:page <http://stephenlloyd.org.uk/en/>,
+     <http://eastbournelibdems.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/stephen-lloyd/31663>,
+     <http://hansard.millbanksystems.com/people/mr-stephen-lloyd>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5683_home.html>,
+     <http://www.guardian.co.uk/politics/person/6542/stephen-lloyd>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Stephen_Lloyd>,
+     <http://www.theyworkforyou.com/mp/stephen_lloyd>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Stephen-Lloyd/Eastbourne/1342>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31663.stm> .

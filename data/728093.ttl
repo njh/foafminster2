@@ -1,0 +1,47 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/728093.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nick Clegg";
+   dc:modified "2012-12-01T12:54:56Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/728093#id> .
+
+<http://dbpedialite.org/things/728093#id> a owl:Thing;
+   rdfs:label "Nick Clegg";
+   rdfs:comment "Nicholas William Peter \"Nick\" Clegg (born 7 January 1967) has been the British Liberal Democrat Leader since 2007 and is currently the Deputy Prime Minister and Lord President of the Council (with special responsibility for political and constitutional reform) in the coalition government of which David Cameron is the Prime Minister. Clegg has been the Leader of the Liberal Democrats since 2007, and a Member of Parliament (MP) representing Sheffield Hallam since 2005. He was previously a lobbyist, Member of the European Parliament (MEP) and an award winning journalist for the Financial Times.";
+   owl:sameAs <http://dbpedia.org/resource/Nick_Clegg>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000331487>,
+     <http://rdf.freebase.com/ns/m.036547>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nick_Clegg>;
+   foaf:page <http://wikidata.org/wiki/Q189947>,
+     <http://www.dbresearch.de/PROD/DBR_INTERNET_DE-PROD/PROD0000000000041237.pdf>,
+     <http://www.demos.co.uk/files/Liberal_moment_-_EMBARGOED_18.09.09.pdf?1253118265>,
+     <http://www.nickclegg.com/>,
+     <http://www.nickclegg.org.uk/>,
+     <http://www.libdems.org.uk/people/nick-clegg>,
+     <http://www.sheffieldlibdems.org.uk/>,
+     <http://www.nlc.org.uk/nlc.htm>,
+     <http://www.parliament.uk/biographies/commons/nick-clegg/27859>,
+     <http://hansard.millbanksystems.com/people/mr-nick-clegg>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2631_home.html>,
+     <http://www.guardian.co.uk/politics/person/8485/nick-clegg>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nicholas_Clegg>,
+     <http://www.theyworkforyou.com/mp/nicholas_clegg>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nick-Clegg/Sheffield-Hallam/1086>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/27859.stm>,
+     <http://journalisted.com/nick-clegg>,
+     <http://www.guardian.co.uk/politics/nickclegg>,
+     <http://topics.nytimes.com/top/reference/timestopics/people/c/nick_clegg/index.html>,
+     <http://www.telegraph.co.uk/news/newstopics/politics/nick-clegg/>,
+     <http://www.c-spanvideo.org/nickclegg>,
+     <http://www.imdb.com/name/nm2200958/>,
+     <http://worldcat.org/identities/lccn-nb99-171483>,
+     <http://www.nickclegg.com/home.aspx>,
+     <http://www.nickclegg.org.uk/home.aspx> .
+
+<http://wikidata.org/wiki/Q189947> a foaf:Document;
+   rdfs:label "Nick Clegg" .

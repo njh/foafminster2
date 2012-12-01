@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872707.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Sharon Hodgson";
+   dc:modified "2012-12-01T16:05:12Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872707#id> .
+
+<http://dbpedialite.org/things/1872707#id> a owl:Thing;
+   rdfs:label "Sharon Hodgson";
+   rdfs:comment "Sharon Hodgson (born 1 April 1966) is a British Labour Party politician, who has been the Member of Parliament (MP) for Washington and Sunderland West since 2010. She was previously the MP for Gateshead East and Washington West.";
+   owl:sameAs <http://dbpedia.org/resource/Sharon_Hodgson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615c3b>,
+     <http://rdf.freebase.com/ns/m.062r1w>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sharon_Hodgson>;
+   foaf:page <http://www.sharonhodgson.org>,
+     <http://politics.guardian.co.uk/person/0,9290,-8730,00.html>,
+     <http://www.theyworkforyou.com/mp/sharon_hodgson/gateshead_east_and_washington_west>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/262.stm>,
+     <http://archive.darlingtonandstocktontimes.co.uk/2004/7/5/46760.html> .

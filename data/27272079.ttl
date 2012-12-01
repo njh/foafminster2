@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27272079.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Steve Brine";
+   dc:modified "2012-12-01T15:10:26Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27272079#id> .
+
+<http://dbpedialite.org/things/27272079#id> a owl:Thing;
+   rdfs:label "Steve Brine";
+   rdfs:comment """Stephen Charles (Steve) Brine (born 28 January 1974) is a British Conservative Party politician and the Member of Parliament (MP) for Winchester. In the 2010 general election, he had a majority of 3,048 (5.4%) over the Liberal Democrat candidate Martin Tod.
+Brine was educated at Bohunt Comprehensive School, Highbury College in Portsmouth and Liverpool University where he read History and served a sabbatical year as President of the Students' Union. While in Liverpool, he created a new company called Liverpool Student Media.""";
+   owl:sameAs <http://dbpedia.org/resource/Steve_Brine>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000b6257b0>,
+     <http://rdf.freebase.com/ns/m.05q4pyj>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Steve_Brine>;
+   foaf:page <http://www.theyworkforyou.com/mp/steve_brine/winchester> .

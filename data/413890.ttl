@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/413890.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Ann Clwyd";
+   dc:modified "2012-12-01T15:20:29Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/413890#id> .
+
+<http://dbpedialite.org/things/413890#id> a owl:Thing;
+   rdfs:label "Ann Clwyd";
+   rdfs:comment "Ann Clwyd Roberts (born 21 March 1937) is a Welsh Labour Party politician who has been the Member of Parliament (MP) for Cynon Valley since 1984.";
+   owl:sameAs <http://dbpedia.org/resource/Ann_Clwyd>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022b89c>,
+     <http://rdf.freebase.com/ns/m.025g4x>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ann_Clwyd>;
+   foaf:page <http://www.welshlabour10.org.uk/candidates/ann-clwyd-cynon-valley>,
+     <http://www.parliament.uk/biographies/commons/ann-clwyd/25755>,
+     <http://hansard.millbanksystems.com/people/ms-ann-clwyd>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2643_home.html>,
+     <http://www.guardian.co.uk/politics/person/1008/ann-clwyd>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Ann_Clwyd>,
+     <http://www.theyworkforyou.com/mp/ann_clwyd>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Ann-Clwyd/Cynon-Valley/141>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25755.stm>,
+     <http://www.indict.org.uk/>,
+     <http://www.pm.gov.uk/output/page6219.asp>,
+     <http://politics.guardian.co.uk/interviews/comment/0,,982922,00.html>,
+     <http://www.timesonline.co.uk/tol/comment/thunderer/article1120757.ece>,
+     <http://www.wakeupfromyourslumber.com/node/3052>,
+     <http://news.bbc.co.uk/1/hi/uk/2954266.stm> .

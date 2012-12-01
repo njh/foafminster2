@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/450520.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Robert Syms";
+   dc:modified "2012-12-01T13:43:06Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/450520#id> .
+
+<http://dbpedialite.org/things/450520#id> a owl:Thing;
+   rdfs:label "Robert Syms";
+   rdfs:comment "Robert Andrew Raymond Syms (born 15 August 1956, Chippenham) is a Conservative Party politician in the United Kingdom. He has been the Member of Parliament (MP) for Poole in Dorset since 1997.";
+   owl:sameAs <http://dbpedia.org/resource/Robert_Syms>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024f889>,
+     <http://rdf.freebase.com/ns/m.029z49>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Robert_Syms>;
+   foaf:page <http://www.robertsymsmp.com>,
+     <http://politics.guardian.co.uk/person/0,9290,-5087,00.html>,
+     <http://www.theyworkforyou.com/mp/robert_syms/poole>,
+     <http://hansard.millbanksystems.com/people/mr-robert-syms>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Robert_Syms&mpc=Poole>,
+     <http://www.pooleconservatives.org>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/461.stm> .

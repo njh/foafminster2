@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434736.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Khalid Mahmood";
+   dc:modified "2012-12-01T13:40:35Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434736#id> .
+
+<http://dbpedialite.org/things/434736#id> a owl:Thing;
+   rdfs:label "Khalid Mahmood";
+   rdfs:comment "Khalid Mahmood (born 13 July 1961) is a British Labour Party politician who has been the Member of Parliament (MP) for Birmingham Perry Barr since 2001.";
+   owl:sameAs <http://dbpedia.org/resource/Khalid_Mahmood>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240bf0>,
+     <http://rdf.freebase.com/ns/m.0282_j>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Khalid_Mahmood>;
+   foaf:page <http://www.khalidmahmoodmp.co.uk>,
+     <http://www.theyworkforyou.com/mp/khalid_mahmood/birmingham,_perry_barr>,
+     <http://politics.guardian.co.uk/person/0,9290,-7228,00.html>,
+     <http://hansard.millbanksystems.com/people/mr-khalid-mahmood> .

@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/416928.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Elfyn Llwyd";
+   dc:modified "2012-12-01T15:53:16Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/416928#id> .
+
+<http://dbpedialite.org/things/416928#id> a owl:Thing;
+   rdfs:label "Elfyn Llwyd";
+   rdfs:comment "Elfyn Llwyd, PC (born 26 September 1951) is a Welsh barrister and politician. He has been a Member of Parliament since 1992, representing Meirionnydd Nant Conwy in the House of Commons from 1992 to 2010 and Dwyfor Meirionnydd since 2010. Llwyd is Plaid Cymru's Westminster parliamentary group leader.";
+   owl:sameAs <http://dbpedia.org/resource/Elfyn_Llwyd>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022eaae>,
+     <http://rdf.freebase.com/ns/m.025vpg>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Elfyn_Llwyd>;
+   foaf:page <http://www.elfynllwyd.plaidcymru.org>,
+     <http://www.plaidcymru.org/content.php?nID=119;lID=1>,
+     <http://www.parliament.uk/biographies/commons/elfyn-llwyd/25418>,
+     <http://hansard.millbanksystems.com/people/mr-elfyn-llwyd>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1541_home.html>,
+     <http://www.guardian.co.uk/politics/person/3177/elfyn-llwyd>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Elfyn_Llwyd>,
+     <http://www.theyworkforyou.com/mp/elfyn_llwyd>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Elfyn-Llwyd/Dwyfor-Meirionnydd/336>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25418.stm>,
+     <http://www.number10.gov.uk/news/press-notices/2011/01/privy-council-appointments-3-59816> .

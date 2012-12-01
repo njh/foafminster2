@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872014.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Burrowes";
+   dc:modified "2012-12-01T15:19:06Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872014#id> .
+
+<http://dbpedialite.org/things/1872014#id> a owl:Thing;
+   rdfs:label "David Burrowes";
+   rdfs:comment "David John Barrington Burrowes (born 12 June 1969) is a British politician. He is the Conservative Member of Parliament for Enfield Southgate, Parliamentary Chairman of the Conservative Christian Fellowship, and an Officer of the Conservative Friends of Israel group.";
+   owl:sameAs <http://dbpedia.org/resource/David_Burrowes>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615587>,
+     <http://rdf.freebase.com/ns/m.062pd7>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Burrowes>;
+   foaf:page <http://www.davidburrowes.com>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=81420>,
+     <http://politics.guardian.co.uk/person/0,9290,-5897,00.html>,
+     <http://www.theyworkforyou.com/mp/david_burrowes/enfield%2C_southgate>,
+     <http://www.enfield-southgate.com>,
+     <http://publicwhip.org.uk/mp.php?mpn=David_Burrowes&mpc=Enfield%2C+Southgate>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/238.stm>,
+     <http://www.enfieldsouthgatewatch.co.uk> .

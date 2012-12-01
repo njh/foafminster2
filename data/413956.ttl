@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/413956.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Amess";
+   dc:modified "2012-12-01T15:58:22Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/413956#id> .
+
+<http://dbpedialite.org/things/413956#id> a owl:Thing;
+   rdfs:label "David Amess";
+   rdfs:comment "David Anthony Andrew Amess (born 26 March 1952) is a British Conservative Party politician. He has been a Member of Parliament (MP) since 1983, first for Basildon, and since 1997 for Southend West. He is married to Julia Amess and together they have one son and four daughters. His eldest daughter is British actress Katie Amess.";
+   owl:sameAs <http://dbpedia.org/resource/David_Amess>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022b981>,
+     <http://rdf.freebase.com/ns/m.025gd1>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Amess>;
+   foaf:page <http://www.davidamess.co.uk/>,
+     <http://www.conservatives.com/people/members_of_parliament/amess_david.aspx>,
+     <http://www.parliament.uk/biographies/commons/david-amess/25775>,
+     <http://hansard.millbanksystems.com/people/mr-david-amess>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3655_home.html>,
+     <http://www.guardian.co.uk/politics/person/74/david-amess>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=David_Amess>,
+     <http://www.theyworkforyou.com/mp/david_amess>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/David-Amess/Southend-West/10>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25775.stm>,
+     <http://yourdemocracy.newstatesman.com/profile/david-amess> .

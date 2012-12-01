@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27262177.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jane Ellison";
+   dc:modified "2012-12-01T16:11:25Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27262177#id> .
+
+<http://dbpedialite.org/things/27262177#id> a owl:Thing;
+   rdfs:label "Jane Ellison";
+   rdfs:comment """Jane Elizabeth Ellison (born 15 August 1964) is a British Conservative Party politician, who was elected at the 2010 general election as Member of Parliament (MP) for Battersea.
+Ellison was born in Bradford and studied at the University of Oxford. After University, she went straight to working for the John Lewis Partnership, where she held many positions up until her election to the House of Commons, some 23 years later.
+A former Barnet London Borough Councillor, she was selected as Conservative Parliamentary Candidate for Battersea in September 2006 following an Open Primary held at the Battersea Arts Centre, and having unsuccessfully contested Pendle in 2005. She had previously...""";
+   owl:sameAs <http://dbpedia.org/resource/Jane_Ellison>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7c749>,
+     <http://rdf.freebase.com/ns/m.0bwhkv9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jane_Ellison>;
+   foaf:page <http://www.janeellison.net>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Ellison_Jane.aspx>,
+     <http://www.wandsworthconservatives.com/>,
+     <http://www.guardian.co.uk/politics/person/9329/jane-ellison>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jane_Ellison>,
+     <http://www.theyworkforyou.com/mp/jane_ellison>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jane-Ellison/Battersea/801>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35418.stm> .

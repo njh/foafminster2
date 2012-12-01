@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27284572.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nadhim Zahawi";
+   dc:modified "2012-12-01T15:16:43Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27284572#id> .
+
+<http://dbpedialite.org/things/27284572#id> a owl:Thing;
+   rdfs:label "Nadhim Zahawi";
+   rdfs:comment """Nadhim Zahawi (Arabic: ناظم الزهاوي‎, Nāḍim az-Zahāwī; born 2 June 1967) is a British Conservative Party politician who has been the Member of Parliament (MP) for Stratford-on-Avon since 2010, after the retirement of previous MP John Maples.
+He is also the co-founder of the international internet-based market research firm YouGov of which he was Chief Executive until February 2010.""";
+   owl:sameAs <http://dbpedia.org/resource/Nadhim_Zahawi>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b9b378>,
+     <http://rdf.freebase.com/ns/m.0bwmdws>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nadhim_Zahawi>;
+   foaf:page <http://www.zahawi.com>,
+     <http://www.catch21.co.uk/2010/08/new-mpinions-nadhim-zahawi-mp> .

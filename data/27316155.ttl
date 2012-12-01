@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27316155.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Rehman Chishti";
+   dc:modified "2012-12-01T15:54:32Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27316155#id> .
+
+<http://dbpedialite.org/things/27316155#id> a owl:Thing;
+   rdfs:label "Rehman Chishti";
+   rdfs:comment "Rehman Chishti (born 4 October 1978) is a British Conservative politician who was elected MP for Gillingham and Rainham in the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Rehman_Chishti>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cf1fe6>,
+     <http://rdf.freebase.com/ns/m.0bxz7_6>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Rehman_Chishti>;
+   foaf:page <http://www.rehmanchishti.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Chishti_Rehman.aspx> .

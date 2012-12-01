@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434642.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Heyes";
+   dc:modified "2012-12-01T13:43:39Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434642#id> .
+
+<http://dbpedialite.org/things/434642#id> a owl:Thing;
+   rdfs:label "David Heyes";
+   rdfs:comment "David Alan Heyes (born 2 April 1946) is a British Labour Party politician who has been the Member of Parliament (MP) for Ashton under Lyne since 2001.";
+   owl:sameAs <http://dbpedia.org/resource/David_Heyes>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002409a3>,
+     <http://rdf.freebase.com/ns/m.0282f3>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Heyes>;
+   foaf:page <http://www.labour.org.uk/maps/locinfo.phtml?ctid=2313&mnu=3>,
+     <http://politics.guardian.co.uk/person/0,9290,-6306,00.html>,
+     <http://www.theyworkforyou.com/mp/david_heyes/ashton-under-lyne>,
+     <http://www.blakesparliamentaryyearbook.co.uk/mp/HEYES-David-1-3912.shtml>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/20.stm>,
+     <http://stpetes.wordpress.com/2009/10/09/audio-interview-with-david-heyes-mp-for-ashton-under-lyne/> .

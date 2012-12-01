@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27280049.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Sarah Newton";
+   dc:modified "2012-12-01T14:08:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27280049#id> .
+
+<http://dbpedialite.org/things/27280049#id> a owl:Thing;
+   rdfs:label "Sarah Newton";
+   rdfs:comment "Sarah Louise Newton FRSA (born Sarah Louise Hick, 19 July 1961) is a British Conservative Party politician, who was elected at the 2010 general election as the Member of Parliament (MP) for Truro and Falmouth.";
+   owl:sameAs <http://dbpedia.org/resource/Sarah_Newton>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b97ca4>,
+     <http://rdf.freebase.com/ns/m.0bwl_54>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sarah_Newton> .

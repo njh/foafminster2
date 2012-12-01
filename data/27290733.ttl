@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27290733.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Rutley";
+   dc:modified "2012-12-01T15:36:56Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27290733#id> .
+
+<http://dbpedialite.org/things/27290733#id> a owl:Thing;
+   rdfs:label "David Rutley";
+   rdfs:comment "David Henry Rutley (born 7 March 1961) is a British Conservative Party politician. He is the Member of Parliament (MP) for Macclesfield, and was first elected at the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/David_Rutley>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d05c62>,
+     <http://rdf.freebase.com/ns/m.0by0r32>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Rutley>;
+   foaf:page <http://www.davidrutley.org.uk>,
+     <http://www.theyworkforyou.com/mp/David_Rutley/macclesfield>,
+     <http://www.conservatives.com/People/Prospective_Parliamentary_Candidates/Rutley_David.aspx> .

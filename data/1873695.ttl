@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1873695.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Barbara Keeley";
+   dc:modified "2012-12-01T14:28:59Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1873695#id> .
+
+<http://dbpedialite.org/things/1873695#id> a owl:Thing;
+   rdfs:label "Barbara Keeley";
+   rdfs:comment "Barbara Mary Keeley (born 26 March 1952) is a British Labour Party politician who is the Member of Parliament (MP) for Worsley and Eccles South. She represented the predecessor constituency of Worsley from 2005 to 2010, after the retirement of Terry Lewis. She was Deputy Leader of the House of Commons from 2009 to 2010.";
+   owl:sameAs <http://dbpedia.org/resource/Barbara_Keeley>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000006165bf>,
+     <http://rdf.freebase.com/ns/m.062tf_>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Barbara_Keeley>;
+   foaf:page <http://www.barbarakeeley.co.uk>,
+     <http://politics.guardian.co.uk/person/0,9290,-8871,00.html>,
+     <http://www.theyworkforyou.com/mp/barbara_keeley/worsley>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4436728.stm>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/648.stm> .

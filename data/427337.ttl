@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/427337.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Chris Grayling";
+   dc:modified "2012-12-01T12:53:53Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/427337#id> .
+
+<http://dbpedialite.org/things/427337#id> a owl:Thing;
+   rdfs:label "Chris Grayling";
+   rdfs:comment """Christopher Stephen "Chris" Grayling, MP (born 1 April 1962) is a British Conservative Party politician. He served in the Shadow Cabinet from 2005 to 2010 and was the party's Shadow Home Secretary from 2009 to 2010. As of September 2012 he is serving as Lord Chancellor and Secretary of State for Justice, the first non-lawyer as Lord Chancellor since 1558.
+Following the 2010 general election, Grayling was appointed Minister of State for Work and Pensions. Grayling has been a Member of Parliament (MP) representing the constituency of Epsom and Ewell since 2001.""";
+   owl:sameAs <http://dbpedia.org/resource/Chris_Grayling>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002399ff>,
+     <http://rdf.freebase.com/ns/m.0276h_>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chris_Grayling>;
+   foaf:page <http://www.chrisgrayling.net>,
+     <http://www.epsomconservatives.com>,
+     <http://www.parliament.uk/biographies/commons/chris-grayling/25172>,
+     <http://hansard.millbanksystems.com/people/mr-chris-grayling>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3542_home.html>,
+     <http://www.guardian.co.uk/politics/person/5903/chris-grayling>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Chris_Grayling>,
+     <http://www.theyworkforyou.com/mp/chris_grayling>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Chris-Grayling/Epsom-and-Ewell/221>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25172.stm>,
+     <http://journalisted.com/chris-grayling>,
+     <http://www.guardian.co.uk/profile/chrisgrayling>,
+     <http://www.debretts.com/people/biographies/browse/g/21485/Chris+GRAYLING.aspx> .

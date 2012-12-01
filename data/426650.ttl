@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/426650.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Edward Garnier";
+   dc:modified "2012-12-01T14:04:09Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/426650#id> .
+
+<http://dbpedialite.org/things/426650#id> a owl:Thing;
+   rdfs:label "Edward Garnier";
+   rdfs:comment """Sir Edward Henry Garnier, QC, MP (born 26 October 1952) is a barrister and Conservative Party politician in the United Kingdom. A former Guardian Newspaper lawyer he is on the socially liberal wing of his party and has been the Member of Parliament (MP) for Harborough in Leicestershire since 1992.
+Garnier most recently served as Solicitor General for England and Wales from the election of 2010 until the 2012 ministerial reshuffle, following which he was appointed a Knight Bachelor.""";
+   owl:sameAs <http://dbpedia.org/resource/Edward_Garnier>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000238f8d>,
+     <http://rdf.freebase.com/ns/m.0273xf>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Edward_Garnier>;
+   foaf:page <http://www.edwardgarnier.co.uk>,
+     <http://www.harboroughconservatives.com/>,
+     <http://hansard.millbanksystems.com/people/mr-edward-garnier>,
+     <http://www.guardian.co.uk/politics/person/1879/edward-garnier>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Edward_Garnier>,
+     <http://www.theyworkforyou.com/mp/edward_garnier>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Edward-Garnier/Harborough/174>,
+     <http://www.epolitix.com/mpwebsites/mpwebsitepage/mpsite/edward-garnier/>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25652.stm>,
+     <http://www.debretts.com/people/biographies/browse/g/4947/Edward+Henry.aspx>,
+     <http://www.dodonline.co.uk/>,
+     <http://www.london-gazette.co.uk/issues/60274/notices/1673554/recent=10;category=state;subcategory=honours>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4888626.stm>,
+     <http://news.bbc.co.uk/1/hi/england/2479805.stm> .

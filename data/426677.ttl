@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/426677.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nick Gibb";
+   dc:modified "2012-12-01T14:14:35Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/426677#id> .
+
+<http://dbpedialite.org/things/426677#id> a owl:Thing;
+   rdfs:label "Nick Gibb";
+   rdfs:comment "Nicolas John \"Nick\" Gibb (born 3 September 1960) is a British Conservative Party politician. He is the Member of Parliament (MP) for Bognor Regis and Littlehampton. Gibb served as Minister of State for Schools in the Department for Education from 13 May 2010 until 4 September 2012.";
+   owl:sameAs <http://dbpedia.org/resource/Nick_Gibb>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000239009>,
+     <http://rdf.freebase.com/ns/m.027409>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nick_Gibb>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Gibb_Nick.aspx>,
+     <http://hansard.millbanksystems.com/people/mr-nick-gibb>,
+     <http://www.guardian.co.uk/politics/person/1907/nick-gibb>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nick_Gibb>,
+     <http://www.theyworkforyou.com/mp/nick_gibb>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nick-Gibb/Bognor-Regis-and-Littlehampton/712>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25544.stm>,
+     <http://www.youtube.com/watch?v=JRI-Ilk9_lI>,
+     <http://www.youtube.com/user/educationgovuk>,
+     <http://www.ethosjournal.com/home/item/250-an-education> .

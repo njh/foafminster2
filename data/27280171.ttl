@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27280171.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Daniel Poulter";
+   dc:modified "2012-12-01T15:24:54Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27280171#id> .
+
+<http://dbpedialite.org/things/27280171#id> a owl:Thing;
+   rdfs:label "Daniel Poulter";
+   rdfs:comment """Daniel Leonard James Poulter (born 30 October 1978) is a British Conservative Party politician, who was elected at the 2010 general election as the Member of Parliament (MP) for Central Suffolk and North Ipswich. On 4th September 2012, Dr Poulter was invited by the Prime Minister David Cameron to join the Coalition Government. Poulter currently serves as the Health Services Minister (Parliamentary Under Secretary of State) in the Department of Health.
+His portfolio includes:
+Poulter is a physician who was educated at Bristol University (Law) and King's College London (Medicine). He sat as a local councillor in Hastings and Reigate and Banstead, where he became Deputy Leader of the...""";
+   owl:sameAs <http://dbpedia.org/resource/Daniel_Poulter>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7b520>,
+     <http://rdf.freebase.com/ns/m.0bwhf90>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Daniel_Poulter>;
+   foaf:page <http://www.drdanielpoulter.com>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Poulter_Daniel.aspx>,
+     <http://www.centralsuffolk.co.uk/>,
+     <http://www.guardian.co.uk/politics/person/12772/daniel-poulter>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Daniel_Poulter>,
+     <http://www.theyworkforyou.com/mp/daniel_poulter>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Daniel-Poulter/Central-Suffolk-and-North-Ipswich/1234>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/83524.stm> .

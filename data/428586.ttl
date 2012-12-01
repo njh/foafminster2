@@ -1,0 +1,35 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428586.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Norman Lamb";
+   dc:modified "2012-12-01T13:44:16Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428586#id> .
+
+<http://dbpedialite.org/things/428586#id> a owl:Thing;
+   rdfs:label "Norman Lamb";
+   rdfs:comment """Norman Peter Lamb (born 16 September 1957) is a British Liberal Democrat politician, and Minister of State for Care Services. He was formerly Parliamentary Private Secretary to the Deputy Prime Minister, Nick Clegg.
+He is the Member of Parliament for North Norfolk.""";
+   owl:sameAs <http://dbpedia.org/resource/Norman_Lamb>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023ac7e>,
+     <http://rdf.freebase.com/ns/m.027c3z>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Norman_Lamb>;
+   foaf:page <http://www.normanlamb.org.uk>,
+     <http://www.libdems.org.uk/people/norman-lamb>,
+     <http://www.parliament.uk/biographies/commons/norman-lamb/25458>,
+     <http://hansard.millbanksystems.com/people/mr-norman-lamb>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1393_home.html>,
+     <http://www.guardian.co.uk/politics/person/2993/norman-lamb>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Norman_Lamb>,
+     <http://www.theyworkforyou.com/mp/norman_lamb>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Norman-Lamb/North-Norfolk/1108>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25458.stm>,
+     <http://journalisted.com/norman-lamb>,
+     <http://www.guardian.co.uk/profile/norman-lamb>,
+     <http://news.bbc.co.uk/2/hi/uk_news/politics/2122562.stm>,
+     <http://www.youtube.com/watch?v=b3GERLhO3oQ>,
+     <http://www.youtube.com/watch?v=bkGnCFUuXPE> .

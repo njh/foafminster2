@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27284618.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andrew Jones (politician)";
+   dc:modified "2012-12-01T14:34:10Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27284618#id> .
+
+<http://dbpedialite.org/things/27284618#id> a owl:Thing;
+   rdfs:label "Andrew Jones (politician)";
+   rdfs:comment "Andrew Hanson Jones (born 28 November 1963) is a British Conservative Party politician who is the Member of Parliament (MP) for the Harrogate and Knaresborough constituency since 7 May 2010. He has been a member of Harrogate Borough Council for the High Harrogate ward since 2003. In 2007, he gained more than half of the votes in his ward. He is a passionate cricket fan and has been a member of Yorkshire County Cricket Club for over twenty years and enjoys walking in the surrounding countryside. He chaired the influential Conservative think-tank the Bow Group from 1999 to 2000.";
+   owl:sameAs <http://dbpedia.org/resource/Andrew_Jones_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000008ec3dda>,
+     <http://rdf.freebase.com/ns/m.04gshgv>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andrew_Jones_(politician)> .

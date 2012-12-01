@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1867366.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mike Penning";
+   dc:modified "2012-12-01T14:26:34Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1867366#id> .
+
+<http://dbpedialite.org/things/1867366#id> a owl:Thing;
+   rdfs:label "Mike Penning";
+   rdfs:comment """Michael Alan "Mike" Penning MP (born 28 September 1957) is a British Conservative Party politician and the Member of Parliament for Hemel Hempstead.
+He served as a junior minister in the Transport Department (2010-2012) in Prime Minister Cameron's Coalition Government, and since 4 September 2012, he has been the Minister of State for Northern Ireland.""";
+   owl:sameAs <http://dbpedia.org/resource/Mike_Penning>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000612a5b>,
+     <http://rdf.freebase.com/ns/m.062blw>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mike_Penning>;
+   foaf:page <http://www.conservatives.com/tile.do?def=people.person.page&personID=40334>,
+     <http://www.mikepenning.com>,
+     <http://politics.guardian.co.uk/person/0,9290,-6143,00.html>,
+     <http://www.theyworkforyou.com/mp/michael_penning/hemel_hempstead>,
+     <http://www.hemelconservatives.com>,
+     <http://www.dft.gov.uk/press/ministers/mikepenning>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31734.stm>,
+     <http://www.debretts.com/people/biographies/browse/p/24178/Michael+PENNING.aspx> .

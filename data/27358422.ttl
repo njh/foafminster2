@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27358422.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Karen Bradley";
+   dc:modified "2012-12-01T14:01:05Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27358422#id> .
+
+<http://dbpedialite.org/things/27358422#id> a owl:Thing;
+   rdfs:label "Karen Bradley";
+   rdfs:comment """Karen Anne Bradley (born 12 March 1970) is a British Conservative Party politician and the Member of Parliament (MP) for Staffordshire Moorlands, elected at the 2010 general election. In September 2012, she was appointed as an Assistant Government Whip in the Government Whips' Office.
+Born Karen Anne Howarth in Newcastle-under-Lyme, she was educated at Buxton Girls' School and Imperial College London, where she graduated with a BSc in Mathematics.
+In 1991 she joined Deloitte & Touche as a tax manager, and after seven years she became a senior tax manager with KPMG. In 2004 she set up business as a fiscal and economic consultant before rejoining KPMG in 2007, where she remained until her...""";
+   owl:sameAs <http://dbpedia.org/resource/Karen_Bradley>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d09f4e>,
+     <http://rdf.freebase.com/ns/m.0by17vg>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Karen_Bradley>;
+   foaf:page <http://www.karenbradley.co.uk/home>,
+     <http://www.theyworkforyou.com/mp/karen_bradley/staffordshire_moorlands>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Bradley_Karen.aspx>,
+     <http://www.facebook.com/#!/pages/Karen-Bradley/113810888653079> .

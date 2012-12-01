@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/25600906.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Henry Smith (British politician)";
+   dc:modified "2012-12-01T16:11:15Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/25600906#id> .
+
+<http://dbpedialite.org/things/25600906#id> a owl:Thing;
+   rdfs:label "Henry Smith (British politician)";
+   rdfs:comment "Henry Edward Millar Smith (born 14 May 1969) is a British Conservative Party politician who was Leader of West Sussex County Council from 2003 to 2010. He is the Member of Parliament (MP) for Crawley, having been elected in the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Henry_Smith_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000013a4a08d>,
+     <http://rdf.freebase.com/ns/m.09v984f>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Henry_Smith_(British_politician)>;
+   foaf:page <http://www.henrysmith.info/>,
+     <http://www.facebook.com/pages/Henry-Smith/164812112609>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Smith_Henry.aspx>,
+     <http://www.crawleyconservatives.org.uk/>,
+     <http://hansard.millbanksystems.com/people/mr-henry-smith-2>,
+     <http://www.guardian.co.uk/politics/person/5851/henry-smith>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Henry_Smith>,
+     <http://www.theyworkforyou.com/mp/henry_smith>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Henry-Smith/Crawley/950>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35320.stm>,
+     <http://www.c4pph.org/text.aspx?id=1> .

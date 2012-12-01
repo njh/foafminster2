@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1745658.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Naomi Long";
+   dc:modified "2012-12-01T15:29:37Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1745658#id> .
+
+<http://dbpedialite.org/things/1745658#id> a owl:Thing;
+   rdfs:label "Naomi Long";
+   rdfs:comment "Naomi Long MP (born 13 December 1971) is a Northern Irish politician. She is a member of the Alliance Party of Northern Ireland and currently (as of 2012) its deputy leader. She represents Belfast East in the United Kingdom House of Commons, and previously represented the same constituency in the Northern Ireland Assembly. She served as only the second elected woman Lord Mayor of Belfast (2009-10).";
+   owl:sameAs <http://dbpedia.org/resource/Naomi_Long>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000005c5a6a>,
+     <http://rdf.freebase.com/ns/m.05sqmb>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Naomi_Long>;
+   foaf:page <http://allianceparty.org/contact/belfast-east-naomi-long-mp>,
+     <http://www.naomilong.com/> .

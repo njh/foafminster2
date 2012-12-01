@@ -1,0 +1,35 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/415061.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Willetts";
+   dc:modified "2012-12-01T15:16:32Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/415061#id> .
+
+<http://dbpedialite.org/things/415061#id> a owl:Thing;
+   rdfs:label "David Willetts";
+   rdfs:comment "David Linsay Willetts (born 9 March 1956) is a British Conservative Party politician and the Minister of State for Universities and Science. He is the Member of Parliament (MP) representing the constituency of Havant in Hampshire.";
+   owl:sameAs <http://dbpedia.org/resource/David_Willetts>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022cdbe>,
+     <http://rdf.freebase.com/ns/m.025mfz>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Willetts>;
+   foaf:page <http://www.davidwilletts.co.uk/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Willetts_David.aspx>,
+     <http://www.parliament.uk/biographies/commons/david-willetts/25241>,
+     <http://hansard.millbanksystems.com/people/mr-david-willetts>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4611_home.html>,
+     <http://www.guardian.co.uk/politics/person/5542/david-willetts>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=David_Willetts>,
+     <http://www.theyworkforyou.com/mp/david_willetts>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/David-Willetts/Havant/571>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25241.stm>,
+     <http://journalisted.com/david-willetts-1>,
+     <http://www.guardian.co.uk/profile/davidwilletts>,
+     <http://www.timesonline.co.uk/tol/comment/columnists/guest_contributors/article528876.ece>,
+     <http://worldcat.org/identities/lccn-n94-117674>,
+     <http://www.guardian.co.uk/politics/davidwilletts>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2090183.stm> .

@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872663.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Jones (MP for Clwyd West)";
+   dc:modified "2012-12-01T15:57:52Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872663#id> .
+
+<http://dbpedialite.org/things/1872663#id> a owl:Thing;
+   rdfs:label "David Jones (MP for Clwyd West)";
+   rdfs:comment """David Ian Jones MP (born 22 March 1952) is a British Conservative Party politician and the Member of Parliament (MP) for Clwyd West. He was appointed Secretary of State for Wales on 4 September 2012, following David Cameron's first Cabinet reshuffle.
+He is the first Welsh secretary to have served as an Assembly Member, and the first Conservative Welsh Secretary to represent a Welsh constituency since Nicholas Edwards (1979–87).""";
+   owl:sameAs <http://dbpedia.org/resource/David_Jones_%28MP_for_Clwyd_West%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615be3>,
+     <http://rdf.freebase.com/ns/m.062q_3>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Jones_(MP_for_Clwyd_West)>;
+   foaf:page <http://www.davidjones-mp.com>,
+     <http://www.davidjonesblog.com>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Jones_David.aspx>,
+     <http://www.ceidwadwyr.com/portal-en/our-mps/54-david-jones-clwyd-west.html>,
+     <http://www.clwydwest.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/david-jones/31694>,
+     <http://hansard.millbanksystems.com/people/mr-david-jones>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4792_home.html>,
+     <http://www.guardian.co.uk/politics/person/5830/david-jones>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=David_Jones>,
+     <http://www.theyworkforyou.com/mp/david_jones>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/David-Jones/Clwyd-West/243>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31694.stm>,
+     <http://journalisted.com/david-jones> .

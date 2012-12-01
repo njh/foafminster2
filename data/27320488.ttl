@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27320488.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Caroline Dinenage";
+   dc:modified "2012-12-01T14:13:44Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27320488#id> .
+
+<http://dbpedialite.org/things/27320488#id> a owl:Thing;
+   rdfs:label "Caroline Dinenage";
+   rdfs:comment "Caroline Julia Dinenage (born 28 October 1971) is an English Conservative Party politician. She was elected as Member of Parliament (MP) for Gosport in 2010.";
+   owl:sameAs <http://dbpedia.org/resource/Caroline_Dinenage>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d00fa4>,
+     <http://rdf.freebase.com/ns/m.0by03y4>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Caroline_Dinenage>;
+   foaf:page <http://caroline4gosport.co.uk/>,
+     <http://www.theyworkforyou.com/mp/caroline_dinenage/gosport> .

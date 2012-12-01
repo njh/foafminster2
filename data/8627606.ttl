@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/8627606.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Ian Davidson (British politician)";
+   dc:modified "2012-12-01T13:17:46Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/8627606#id> .
+
+<http://dbpedialite.org/things/8627606#id> a owl:Thing;
+   rdfs:label "Ian Davidson (British politician)";
+   rdfs:comment """Ian Graham Davidson (born 8 September 1950) is a Scottish Labour Co-operative politician, who has been a Member of Parliament for Glasgow since 1992. Davidson previously worked as a Community Service Manager and for Janey Buchan when she was a Member of the European Parliament.
+Davidson is currently the Chairman of the Scottish Affairs Select Committee.""";
+   owl:sameAs <http://dbpedia.org/resource/Ian_Davidson_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000004754986>,
+     <http://rdf.freebase.com/ns/m.027bld6>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ian_Davidson_(British_politician)>;
+   foaf:page <http://www.epolitix.com/EN/MPWebsites/Ian+Davidson>,
+     <http://politics.guardian.co.uk/person/0,9290,-1286,00.html>,
+     <http://www.theyworkforyou.com/mp/ian_davidson/glasgow_south_west>,
+     <http://hansard.millbanksystems.com/people/mr-ian-davidson> .

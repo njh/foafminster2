@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/415036.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jeremy Corbyn";
+   dc:modified "2012-12-01T15:12:07Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/415036#id> .
+
+<http://dbpedialite.org/things/415036#id> a owl:Thing;
+   rdfs:label "Jeremy Corbyn";
+   rdfs:comment "Jeremy Bernard Corbyn (born 26 May 1949) is a British Labour Party politician who has been the Member of Parliament (MP) for Islington North since 1983.";
+   owl:sameAs <http://dbpedia.org/resource/Jeremy_Corbyn>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022cd07>,
+     <http://rdf.freebase.com/ns/m.025m87>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jeremy_Corbyn>;
+   foaf:page <http://www.jeremycorbyn.co.uk/>,
+     <http://www.islington-north-clp.org.uk>,
+     <http://www.parliament.uk/biographies/commons/jeremy-corbyn/25692>,
+     <http://hansard.millbanksystems.com/people/mr-jeremy-corbyn>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2717_home.html>,
+     <http://www.guardian.co.uk/politics/person/1116/jeremy-corbyn>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jeremy_Corbyn>,
+     <http://www.theyworkforyou.com/mp/jeremy_corbyn>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jeremy-Corbyn/1002>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25692.stm>,
+     <http://journalisted.com/jeremy-corbyn> .

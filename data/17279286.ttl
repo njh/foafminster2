@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/17279286.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Edward Timpson";
+   dc:modified "2012-12-01T14:29:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/17279286#id> .
+
+<http://dbpedialite.org/things/17279286#id> a owl:Thing;
+   rdfs:label "Edward Timpson";
+   rdfs:comment "Anthony Edward Timpson (born (1973-12-26)26 December 1973) is a British Conservative Party politician. He became a Member of Parliament (MP) in 2008 after winning a by-election in the constituency of Crewe and Nantwich. In September 2012, he was appointed as a Parliamentary Under-Secretary of State at the Department for Education.";
+   owl:sameAs <http://dbpedia.org/resource/Edward_Timpson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000083a14e7>,
+     <http://rdf.freebase.com/ns/m.043n577>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Edward_Timpson>;
+   foaf:page <http://www.edwardtimpsonmp.com/text.aspx?id=1>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=137361>,
+     <http://www.theyworkforyou.com/mp/edward_timpson/crewe_and_nantwich>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/167.stm> .

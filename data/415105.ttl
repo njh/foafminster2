@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/415105.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Austin Mitchell";
+   dc:modified "2012-12-01T15:54:24Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/415105#id> .
+
+<http://dbpedialite.org/things/415105#id> a owl:Thing;
+   rdfs:label "Austin Mitchell";
+   rdfs:comment "Austin Vernon Mitchell (previously Austin Haddock; born 19 September 1934) is a British Labour Party politician who has been the Member of Parliament (MP) for Great Grimsby since a 1977 by-election.";
+   owl:sameAs <http://dbpedia.org/resource/Austin_Mitchell>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022ced4>,
+     <http://rdf.freebase.com/ns/m.025mqn>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Austin_Mitchell>;
+   foaf:page <http://www.austinmitchell.co.uk/>,
+     <http://www.austinmitchell.org/>,
+     <http://hansard.millbanksystems.com/people/mr-austin-mitchell>,
+     <http://www.epolitix.com/EN/MPWebsites/Austin+Mitchell/>,
+     <http://politics.guardian.co.uk/person/0,9290,-3663,00.html>,
+     <http://www.theyworkforyou.com/mp/austin_mitchell/great_grimsby>,
+     <http://publicwhip.org.uk/mp.php?mpn=Andrew_Mitchell&mpc=Sutton+Coldfield>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/281.stm>,
+     <http://www.electionsuk.org/austinmitchell.htm>,
+     <http://news.bbc.co.uk/1/low/england/2290283.stm>,
+     <http://www.brandrepublic.com/News/95579/>,
+     <http://www.youtube.com/watch?v=W5NJdNfDB2A>,
+     <http://www.youtube.com/watch?v=CuQ6bOIhUKg> .

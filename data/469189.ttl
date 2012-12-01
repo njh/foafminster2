@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/469189.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Diana Johnson";
+   dc:modified "2012-12-01T13:48:25Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/469189#id> .
+
+<http://dbpedialite.org/things/469189#id> a owl:Thing;
+   rdfs:label "Diana Johnson";
+   rdfs:comment "Diana Ruth Johnson (born 25 July 1966) is a British Labour Party politician who has been the Member of Parliament (MP) for Hull North since 2005; she was the Parliamentary Under Secretary of State with responsibility for Schools in the Department for Children, Schools and Families until the resignation of Gordon Brown as Prime Minister, as well as being an Assistant Whip for the Government.";
+   owl:sameAs <http://dbpedia.org/resource/Diana_Johnson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000261d41>,
+     <http://rdf.freebase.com/ns/m.02d7b1>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Diana_Johnson>;
+   foaf:page <http://www.dianajohnson.co.uk>,
+     <http://www.labouronline.org/wibs/165543/biography>,
+     <http://politics.guardian.co.uk/person/0,9290,-6326,00.html>,
+     <http://www.theyworkforyou.com/mp/diana_johnson/kingston_upon_hull_north>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/331.stm>,
+     <http://news.bbc.co.uk/1/hi/england/humber/3512501.stm> .

@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27275042.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jessica Lee (politician)";
+   dc:modified "2012-12-01T15:28:10Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27275042#id> .
+
+<http://dbpedialite.org/things/27275042#id> a owl:Thing;
+   rdfs:label "Jessica Lee (politician)";
+   rdfs:comment "Jessica Katherine Lee (b. 7 April 1976, Nottingham) is a British politician. A member of the Conservative Party, she was elected as the Member of Parliament (MP) for the constituency of Erewash in Derbyshire in 2010. She is currently the Parliamentary Private Secretary to the Attorney General, Dominic Grieve.";
+   owl:sameAs <http://dbpedia.org/resource/Jessica_Lee_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b989d2>,
+     <http://rdf.freebase.com/ns/m.0bwm2gl>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jessica_Lee_(politician)>;
+   foaf:page <http://www.jessicaleemp.com/>,
+     <http://hansard.millbanksystems.com/people/ms-jessica-lee>,
+     <http://www.guardian.co.uk/politics/person/9163/jessica-lee>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jessica_Lee>,
+     <http://www.theyworkforyou.com/mp/jessica_lee>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jessica-Lee/Erewash/874>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35262.stm> .

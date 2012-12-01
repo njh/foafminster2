@@ -1,0 +1,36 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/433779.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Owen Paterson";
+   dc:modified "2012-12-01T12:45:29Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/433779#id> .
+
+<http://dbpedialite.org/things/433779#id> a owl:Thing;
+   rdfs:label "Owen Paterson";
+   rdfs:comment """Owen William Paterson (born 24 June 1956) is a British Conservative Party politician and is the Secretary of State for Environment, Food and Rural Affairs. He is the Member of Parliament (MP) for North Shropshire.
+He was from May 2010 to September 2012 the Secretary of State for Northern Ireland.""";
+   owl:sameAs <http://dbpedia.org/resource/Owen_Paterson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023fc9b>,
+     <http://rdf.freebase.com/ns/m.027_4w>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Owen_Paterson>;
+   foaf:page <http://wikidata.org/wiki/Q197894>,
+     <http://www.owenpaterson.org.uk/>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=4734>,
+     <http://www.parliament.uk/biographies/commons/owen-paterson/25405>,
+     <http://hansard.millbanksystems.com/people/mr-owen-paterson>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_118_home.html>,
+     <http://www.guardian.co.uk/politics/person/4082/owen-paterson>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Owen_Paterson>,
+     <http://www.theyworkforyou.com/mp/owen_paterson>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Owen-Paterson/North-Shropshire/404>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25405.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/8675705.stm#paterson>,
+     <http://www.debretts.com/people/biographies/browse/p/17122/Owen%20William+PATERSON.aspx> .
+
+<http://wikidata.org/wiki/Q197894> a foaf:Document;
+   rdfs:label "Owen Paterson" .

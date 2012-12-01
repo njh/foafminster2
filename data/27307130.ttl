@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27307130.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Chris Williamson (politician)";
+   dc:modified "2012-12-01T15:56:21Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27307130#id> .
+
+<http://dbpedialite.org/things/27307130#id> a owl:Thing;
+   rdfs:label "Chris Williamson (politician)";
+   rdfs:comment """Christopher (Chris) Williamson (born 16 September 1956) is a British Labour Party politician, who was elected as the Member of Parliament (MP) for Derby North in 2010. He was also a local councillor, representing the Normanton ward on Derby City Council until his resignation in 2011.
+Born in Derby, he attended the Sir John Fisher Primary School in Alvaston; Castle DoningtonHigh School, and St Thomas More High School, Allenton. He later attended the Leicester Polytechnic where he obtained a CQSW in 1985.""";
+   owl:sameAs <http://dbpedia.org/resource/Chris_Williamson_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d05328>,
+     <http://rdf.freebase.com/ns/m.0by0nt8>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chris_Williamson_(politician)>;
+   foaf:page <http://www.chriswilliamson.org/> .

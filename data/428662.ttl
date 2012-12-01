@@ -1,0 +1,37 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428662.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Ian Lucas";
+   dc:modified "2012-12-01T12:41:02Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428662#id> .
+
+<http://dbpedialite.org/things/428662#id> a owl:Thing;
+   rdfs:label "Ian Lucas";
+   rdfs:comment "Ian Colin Lucas (born 18 September 1960) is a British Labour Party politician, who has been the Member of Parliament for (MP) Wrexham since 2001. He was Parliamentary Under Secretary of State for Business and Regulatory Reform in the Department for Business, Innovation and Skills from 2009 until Labour's defeat at the 2010 General Election.";
+   owl:sameAs <http://dbpedia.org/resource/Ian_Lucas>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023ae4a>,
+     <http://rdf.freebase.com/ns/m.027clb>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ian_Lucas>;
+   foaf:page <http://www.ianlucas.co.uk>,
+     <http://www.welshlabour.org.uk/candidates/ian-lucas-wrexham/>,
+     <http://www.parliament.uk/biographies/commons/ian-lucas/25496>,
+     <http://hansard.millbanksystems.com/people/mr-ian-lucas>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1569_home.html>,
+     <http://www.guardian.co.uk/politics/person/6518/ian-lucas>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Ian_Lucas>,
+     <http://www.theyworkforyou.com/mp/ian_lucas>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Ian-Lucas/Wrexham/356>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25496.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/north_east/7542690.stm>,
+     <http://news.bbc.co.uk/1/hi/uk/7114248.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/north_east/6105536.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/5320654.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/5076720.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/north_east/4161143.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/1962532.stm>,
+     <http://news.bbc.co.uk/1/hi/wales/1811178.stm> .

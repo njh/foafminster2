@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27219595.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Phillip Lee (politician)";
+   dc:modified "2012-12-01T16:08:44Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27219595#id> .
+
+<http://dbpedialite.org/things/27219595#id> a owl:Thing;
+   rdfs:label "Phillip Lee (politician)";
+   rdfs:comment "Dr Phillip James Lee (born 28 September 1970) is a British Conservative Party politician. He has been the Member of Parliament (MP) for Bracknell since winning the seat at the 2010 United Kingdom general election.";
+   owl:sameAs <http://dbpedia.org/resource/Phillip_Lee_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015829f94>,
+     <http://rdf.freebase.com/ns/m.0bs57xn>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Phillip_Lee_(politician)>;
+   foaf:page <http://www.phillip-lee.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Lee_Phillip.aspx>,
+     <http://www.bracknellconservatives.com/>,
+     <http://www.guardian.co.uk/politics/person/9142/phillip-lee>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Phillip_Lee>,
+     <http://www.theyworkforyou.com/mp/phillip_lee>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Phillip-Lee/Bracknell/756>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/40500.stm> .

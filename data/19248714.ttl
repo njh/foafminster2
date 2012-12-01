@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/19248714.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Gavin Barwell";
+   dc:modified "2012-12-01T14:27:21Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/19248714#id> .
+
+<http://dbpedialite.org/things/19248714#id> a owl:Thing;
+   rdfs:label "Gavin Barwell";
+   rdfs:comment "Gavin Laurence Barwell (born 23 January 1972) is a British Conservative Party politician who has been the Member of Parliament (MP) for Croydon Central since the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Gavin_Barwell>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000004ae7c0>,
+     <http://rdf.freebase.com/ns/m.04ptz0>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gavin_Barwell>;
+   foaf:page <http://www.gavinbarwell.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Barwell_Gavin.aspx>,
+     <http://www.croydonconservatives.com/>,
+     <http://hansard.millbanksystems.com/people/mr-gavin-barwell>,
+     <http://www.guardian.co.uk/politics/person/12124/gavin-barwell>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Gavin_Barwell>,
+     <http://www.theyworkforyou.com/mp/gavin_barwell>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Gavin-Barwell/Croydon-Central/1050>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/72243.stm>,
+     <http://insidecroydon.com/2012/09/10/boris-johnson-gavin-barwell-and-a-casual-abuse-of-position/>,
+     <http://www.thisiscroydontoday.co.uk/Croydon-MP-leads-commission-improving-boys/story-16493162-detail/story.html>,
+     <http://insidecroydon.com/2012/08/30/tory-mp-escapes-10000-fines-after-breaking-law-for-two-years/>,
+     <http://conservativehome.blogs.com/parliament/2012/05/after-attacking-graverobber-as-scumbag-gavinbarwellmp-is-sun_politics-hero-of-the-week.html>,
+     <http://insidecroydon.com/2012/09/12/schools-job-raises-questions-about-barwells-foundation-links/>,
+     <http://www.huffingtonpost.co.uk/2012/06/14/gavin-barwell-mp-private-members-bill-mental-health_n_1596642.html> .

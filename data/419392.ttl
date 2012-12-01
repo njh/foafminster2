@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/419392.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - James Clappison";
+   dc:modified "2012-12-01T16:01:26Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/419392#id> .
+
+<http://dbpedialite.org/things/419392#id> a owl:Thing;
+   rdfs:label "James Clappison";
+   rdfs:comment "William James Clappison, commonly known as James Clappison, (born 14 September 1956) British barrister and Conservative Party politician. He is the Member of Parliament (MP) for Hertsmere, and serves as Vice Chairman of the Conservative Friends of Israel group.";
+   owl:sameAs <http://dbpedia.org/resource/James_Clappison>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000231b6e>,
+     <http://rdf.freebase.com/ns/m.0266wg>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/James_Clappison>;
+   foaf:page <http://politics.guardian.co.uk/person/0,9290,-955,00.html>,
+     <http://www.theyworkforyou.com/mp/james_clappison/hertsmere>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=James_Clappison&mpc=Hertsmere>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/318.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/7046616.stm> .

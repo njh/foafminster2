@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/7134310.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Matthew Hancock";
+   dc:modified "2012-12-01T13:50:40Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/7134310#id> .
+
+<http://dbpedialite.org/things/7134310#id> a owl:Thing;
+   rdfs:label "Matthew Hancock";
+   rdfs:comment """Matthew John David Hancock (born 2 October 1978) is a British Conservative Party politician who was elected as the Member of Parliament (MP) for West Suffolk at the general election in May 2010.
+Since September 2012, he has been the Parliamentary Under-Secretary of State for further education, skills and lifelong learning (a joint post between the Department for Business, Innovation and Skills and the Department for Education).""";
+   owl:sameAs <http://dbpedia.org/resource/Matthew_Hancock>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000016f2e9e8>,
+     <http://rdf.freebase.com/ns/m.0ch5vh8>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Matthew_Hancock>;
+   foaf:page <http://www.matthewhancock.co.uk/about-me> .

@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434663.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Lindsay Hoyle";
+   dc:modified "2012-12-01T13:15:54Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434663#id> .
+
+<http://dbpedialite.org/things/434663#id> a owl:Thing;
+   rdfs:label "Lindsay Hoyle";
+   rdfs:comment """Lindsay Harvey Hoyle (born 10 June 1957) is a British Labour Party politician who has been the Member of Parliament (MP) for Chorley since 1997. He is the son of Doug Hoyle, a former Labour MP for Warrington North.
+He was elected as Chairman of Ways and Means and Deputy Speaker of the House of Commons in a secret ballot on 8 June 2010. He is Chairman of the All-Party British Gibraltar Group in Parliament, and a member of the All-Party Parliamentary Flag Group.""";
+   owl:sameAs <http://dbpedia.org/resource/Lindsay_Hoyle>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240a27>,
+     <http://rdf.freebase.com/ns/m.0282k7>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lindsay_Hoyle>;
+   foaf:page <http://hansard.millbanksystems.com/people/mr-lindsay-hoyle>,
+     <http://www.lindsayhoyle.com>,
+     <http://www.labouronline.org/wibs/166665/home>,
+     <http://politics.guardian.co.uk/person/0,9290,-2563,00.html>,
+     <http://www.theyworkforyou.com/mp/lindsay_hoyle/chorley>,
+     <http://www.chorleycitizen.co.uk/blogs/lindsayhoyle>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/145.stm>,
+     <http://www.debretts.com/people/biographies/browse/h/19469/Lindsay+HOYLE.aspx>,
+     <http://news.bbc.co.uk/1/hi/england/lancashire/6082948.stm>,
+     <http://news.bbc.co.uk/1/hi/england/lancashire/4479444.stm>,
+     <http://news.bbc.co.uk/1/hi/england/lancashire/4355860.stm>,
+     <http://news.bbc.co.uk/1/hi/england/lancashire/4133802.stm>,
+     <http://news.bbc.co.uk/1/hi/england/lancashire/3360051.stm>,
+     <http://www.youtube.com/watch?v=9f9Nx_v0beo> .

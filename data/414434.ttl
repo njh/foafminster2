@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414434.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Tony Baldry";
+   dc:modified "2012-12-01T15:10:56Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414434#id> .
+
+<http://dbpedialite.org/things/414434#id> a owl:Thing;
+   rdfs:label "Tony Baldry";
+   rdfs:comment "Sir Antony Brian Baldry (born 10 July 1950) is a British Conservative Party politician and a Member of Parliament (MP) for Banbury.";
+   owl:sameAs <http://dbpedia.org/resource/Tony_Baldry>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c24c>,
+     <http://rdf.freebase.com/ns/m.025jld>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tony_Baldry>;
+   foaf:page <http://www.tonybaldry.co.uk/>,
+     <http://www.epolitix.com/EN/MPWebsites/Tony+Baldry>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Baldry_Tony.aspx>,
+     <http://hansard.millbanksystems.com/people/mr-tony-baldry>,
+     <http://www.guardian.co.uk/politics/person/202/tony-baldry>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Tony_Baldry>,
+     <http://www.theyworkforyou.com/mp/tony_baldry/banbury>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Tony-Baldry/Banbury/476>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25155.stm> .

@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27279085.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andrew Stephenson";
+   dc:modified "2012-12-01T15:18:23Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27279085#id> .
+
+<http://dbpedialite.org/things/27279085#id> a owl:Thing;
+   rdfs:label "Andrew Stephenson";
+   rdfs:comment "Andrew Stephenson (born 17 February 1981) is a British Conservative Party politician who has been the Member of Parliament (MP) for Pendle in Lancashire since the 2010 general election. Formerly a borough councillor in Macclesfield, he worked as an insurance broker before becoming an MP.";
+   owl:sameAs <http://dbpedia.org/resource/Andrew_Stephenson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b915c2>,
+     <http://rdf.freebase.com/ns/m.0bwl5g2>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andrew_Stephenson>;
+   foaf:page <http://www.pendleconservatives.com> .

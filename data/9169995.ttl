@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/9169995.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Margaret Ritchie (politician)";
+   dc:modified "2012-12-01T13:38:12Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/9169995#id> .
+
+<http://dbpedialite.org/things/9169995#id> a owl:Thing;
+   rdfs:label "Margaret Ritchie (politician)";
+   rdfs:comment "Margaret Mary Ritchie (born 25 March 1958) is an Irish politician from Northern Ireland. She was the leader of the Social Democratic and Labour Party from 7 February 2010 to 5 November 2011 - being replaced in this role by Alasdair McDonnell - and served as the Minister for Social Development from 8 May 2007 until her election to the UK Parliament in May 2010. She was elected Member of Parliament (MP) for the constituency of South Down on 6 May 2010. On 24 May, she resigned from the Stormont Executive. She was succeeded as Minister for Social Development by her party colleague, Alex Attwood.";
+   owl:sameAs <http://dbpedia.org/resource/Margaret_Ritchie_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000047f8307>,
+     <http://rdf.freebase.com/ns/m.027_0s7>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Margaret_Ritchie_(politician)>;
+   foaf:page <http://www.margaretritchie.com/>,
+     <http://www.niassembly.gov.uk/members/biogs_03/ritchie_m.htm>,
+     <http://www.stratagem-ni.com/resources_politician.aspx?dataid=358818> .

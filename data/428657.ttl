@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428657.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Tim Loughton";
+   dc:modified "2012-12-01T13:56:37Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428657#id> .
+
+<http://dbpedialite.org/things/428657#id> a owl:Thing;
+   rdfs:label "Tim Loughton";
+   rdfs:comment "Timothy Paul Loughton (born 30 May 1962) is a British Conservative Party politician, and has been Member of Parliament (MP) for East Worthing and Shoreham since the 1997 general election. Loughton was the Parliamentary Under-Secretary of State for Children and Families from 2010-2012.";
+   owl:sameAs <http://dbpedia.org/resource/Tim_Loughton>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023ae1c>,
+     <http://rdf.freebase.com/ns/m.027cjx>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tim_Loughton>;
+   foaf:page <http://www.timloughton.com>,
+     <http://www.theyworkforyou.com/mp/tim_loughton/east_worthing_and_shoreham>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Tim_Loughton&mpc=East+Worthing+%26amp%3B+Shoreham>,
+     <http://politics.guardian.co.uk/person/0,9290,-3203,00.html>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/649.stm>,
+     <http://www.adur.gov.uk/mp/index.htm> .

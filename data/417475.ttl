@@ -1,0 +1,35 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/417475.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Denis MacShane";
+   dc:modified "2012-12-01T15:10:23Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/417475#id> .
+
+<http://dbpedialite.org/things/417475#id> a owl:Thing;
+   rdfs:label "Denis MacShane";
+   rdfs:comment "Denis MacShane (born Denis Matyjaszek; 21 May 1948) is a British Labour Partypolitician who was the Member of Parliament (MP) for Rotherham from 1994 until his resignation in 2012. He served in the Labour Government as Minister for Europe from 2002 until 2005, and is currently on the Policy Council of Labour Friends of Israel. On 2 November 2012, he was suspended from the Labour Party after the House of Commons Standards and Privileges Committee found that he had submitted 19 false invoices \"plainly intended to deceive\" the parliamentary expenses authority. Later that day he announced his intention to resign as MP for Rotherham.";
+   owl:sameAs <http://dbpedia.org/resource/Denis_MacShane>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022f443>,
+     <http://rdf.freebase.com/ns/m.025y23>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Denis_MacShane>;
+   foaf:page <http://www.denismacshane.org.uk>,
+     <http://denismacshane-international.blogspot.com/>,
+     <https://twitter.com/#!/DenisMacShane>,
+     <http://cle.ens-lyon.fr/03214209/0/fiche___pagelibre/&RH=CDL_ANG000000>,
+     <http://www.parliament.uk/biographies/commons/denis-macshane/25429>,
+     <http://hansard.millbanksystems.com/people/mr-denis-macshane>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1633_home.html>,
+     <http://www.guardian.co.uk/politics/person/3816/denis-macshane>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Denis_MacShane>,
+     <http://www.theyworkforyou.com/mp/denis_macshane>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Denis-MacShane/300>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25429.stm>,
+     <http://journalisted.com/denis-macshane>,
+     <http://www.guardian.co.uk/profile/denismacshane>,
+     <http://news.bbc.co.uk/hi/english/static/vote2001/candidates/candidates/4/48903.stm>,
+     <http://www.washingtonpost.com/wp-dyn/content/article/2007/09/03/AR2007090300719.html> .

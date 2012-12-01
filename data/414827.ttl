@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414827.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Paul Burstow";
+   dc:modified "2012-12-01T14:32:50Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414827#id> .
+
+<http://dbpedialite.org/things/414827#id> a owl:Thing;
+   rdfs:label "Paul Burstow";
+   rdfs:comment "Paul Kenneth Burstow (born 13 May 1962), British politician, is the Liberal Democrat Member of Parliament for Sutton and Cheam. In May 2010 he was appointed Minister of State for the Department of Health and served in that position until 2012.";
+   owl:sameAs <http://dbpedia.org/resource/Paul_Burstow>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c94c>,
+     <http://rdf.freebase.com/ns/m.025lbd>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Paul_Burstow>;
+   foaf:page <http://www.paulburstow.org.uk/>,
+     <http://www.libdems.org.uk/people_detail.aspx?name=Paul_Burstow&pPK=675c2aa8-29de-4600-8cfd-523d41838c30>,
+     <http://www.parliament.uk/biographies/commons/paul-burstow/25753>,
+     <http://hansard.millbanksystems.com/people/mr-paul-burstow>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2384_home.html>,
+     <http://www.guardian.co.uk/politics/person/754/paul-burstow>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Paul_Burstow>,
+     <http://www.theyworkforyou.com/mp/paul_burstow>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Paul-Burstow/Sutton-and-Cheam/1081>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25753.stm>,
+     <http://journalisted.com/paul-burstow> .

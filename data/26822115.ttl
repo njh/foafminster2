@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/26822115.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Harriett Baldwin";
+   dc:modified "2012-12-01T13:51:40Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/26822115#id> .
+
+<http://dbpedialite.org/things/26822115#id> a owl:Thing;
+   rdfs:label "Harriett Baldwin";
+   rdfs:comment """Harriett Mary Morison Baldwin (born 2 May 1960) is a British Conservative Party politician. She has been the Member of Parliament (MP) for West Worcestershire since the 2010 general election.
+Born as Harriett Mary Morison Eggleston in Watford, Hertfordshire, the daughter of a teacher. Her early childhood was spent in Cyprus and grew up in the village of Felsted in Essex. She was educated at the Friends School Saffron Walden, Marlborough College in Wiltshire, read Modern Languages at Lady Margaret Hall, Oxford and possesses an MBA from McGill University in Montreal.""";
+   owl:sameAs <http://dbpedia.org/resource/Harriett_Baldwin>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000001534428f>,
+     <http://rdf.freebase.com/ns/m.0bm8jnh>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Harriett_Baldwin>;
+   foaf:page <http://www.harriettbaldwin.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Baldwin_Harriett.aspx>,
+     <http://www.wwca.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/harriett-baldwin/40489>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5572_home.html>,
+     <http://www.guardian.co.uk/politics/person/9370/harriett-baldwin>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Harriett_Baldwin>,
+     <http://www.theyworkforyou.com/mp/harriett_baldwin/west_worcestershire>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Harriett-Baldwin/West-Worcestershire/775>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/40489.stm>,
+     <http://ukpollingreport.co.uk/guide/seat-profiles/worcestershirewest>,
+     <http://business.timesonline.co.uk/tol/business/management/article6984102.ece> .

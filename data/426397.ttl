@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/426397.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Dai Havard";
+   dc:modified "2012-12-01T13:37:33Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/426397#id> .
+
+<http://dbpedialite.org/things/426397#id> a owl:Thing;
+   rdfs:label "Dai Havard";
+   rdfs:comment "David Stuart Havard (born 7 February 1950) is a British Labour Party politician, who has been the Member of Parliament (MP) for Merthyr Tydfil and Rhymney since 2001. Before then, he had been a secretary of the MSF union.";
+   owl:sameAs <http://dbpedia.org/resource/Dai_Havard>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000238b87>,
+     <http://rdf.freebase.com/ns/m.0272x7>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Dai_Havard>;
+   foaf:page <http://www.daihavardmp.co.uk/>,
+     <http://www.parliament.uk/biographies/commons/dai-havard/25489>,
+     <http://hansard.millbanksystems.com/people/mr-dai-havard>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_886_home.html>,
+     <http://www.guardian.co.uk/politics/person/6408/dai-havard>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Dai_Havard>,
+     <http://www.theyworkforyou.com/mp/dai_havard>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Dai-Havard/Merthyr-Tydfil-and-Rhymney/718>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25489.stm> .

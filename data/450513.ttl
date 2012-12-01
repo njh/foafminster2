@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/450513.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Gerry Sutcliffe";
+   dc:modified "2012-12-01T13:06:09Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/450513#id> .
+
+<http://dbpedialite.org/things/450513#id> a owl:Thing;
+   rdfs:label "Gerry Sutcliffe";
+   rdfs:comment """Gerard "Gerry" Sutcliffe (born 13 May 1953) is a British Labour Party politician who has been the Member of Parliament (MP) for Bradford South since 1994, and was the Minister for Sport and Tourism in the Brown Government.
+Born in Salford, Sutcliffe was educated in Bradford at Cardinal Hinsley Grammar School, but left aged sixteen, and then worked as a salesman and for a printers company, becoming a deputy branch secretary of the print workers trade union SOGAT. He was a member of Bradford City Council from 1982 to 1994, serving as the council's leader from 1992 to 1994.""";
+   owl:sameAs <http://dbpedia.org/resource/Gerry_Sutcliffe>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024f852>,
+     <http://rdf.freebase.com/ns/m.029z2l>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gerry_Sutcliffe>;
+   foaf:page <http://www.gerrysutcliffe.org.uk/>,
+     <http://politics.guardian.co.uk/person/0,9290,-5068,00.html>,
+     <http://www.theyworkforyou.com/mp/gerry_sutcliffe/bradford_south>,
+     <http://www.youtube.com/user/gerrysutcliffe>,
+     <http://search.independent.co.uk/topic/gerry-sutcliffe> .

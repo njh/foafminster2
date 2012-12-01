@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/449388.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Laurence Robertson";
+   dc:modified "2012-12-01T13:16:25Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/449388#id> .
+
+<http://dbpedialite.org/things/449388#id> a owl:Thing;
+   rdfs:label "Laurence Robertson";
+   rdfs:comment "Laurence Anthony Robertson (born 29 March 1958, Bolton, Lancashire) is a British Conservative Party politician. He has been the Member of Parliament (MP) for Tewkesbury in Gloucestershire since 1997. In May 2005, he was appointed Shadow Minister for Northern Ireland, a controversial choice given his opposition to the Good Friday Agreement.";
+   owl:sameAs <http://dbpedia.org/resource/Laurence_Robertson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024e5a8>,
+     <http://rdf.freebase.com/ns/m.029tf8>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Laurence_Robertson>;
+   foaf:page <http://www.laurencerobertsonmp.com>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=4583>,
+     <http://politics.guardian.co.uk/person/0,9290,-4463,00.html>,
+     <http://www.theyworkforyou.com/mp/laurence_robertson/tewkesbury>,
+     <http://www.tewkesburyconservatives.com>,
+     <http://www.publicwhip.org.uk/mp.php?mpc=Tewkesbury>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/575.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4379191.stm>,
+     <http://news.bbc.co.uk/1/hi/northern_ireland/3958877.stm> .

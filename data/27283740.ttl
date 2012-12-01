@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27283740.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Yvonne Fovargue";
+   dc:modified "2012-12-01T15:10:49Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27283740#id> .
+
+<http://dbpedialite.org/things/27283740#id> a owl:Thing;
+   rdfs:label "Yvonne Fovargue";
+   rdfs:comment """Yvonne Helen Fovargue (born 29 November 1956) is a British Labour Party politician, who has been the Member of Parliament (MP) for the Makerfield constituency, in the Metropolitan Borough of Wigan, Greater Manchester since 2010, replacing the previous Labour MP Ian McCartney, who stepped down due to ill health.
+Fovargue attended Sale Grammar School and has a BA in English from Leeds University. She was an elected member of Warrington council from 2004 until 2010 and worked as a housing officer on the Moss Side estate in 1980s. She was later Chief Executive of St Helens Citizens Advice Bureau, a role she held for over 20 years.""";
+   owl:sameAs <http://dbpedia.org/resource/Yvonne_Fovargue>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7ffc9>,
+     <http://rdf.freebase.com/ns/m.0bwh_z9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Yvonne_Fovargue>;
+   foaf:page <http://www.yvonnefovargue.com/>,
+     <http://www.guardian.co.uk/politics/person/11820/yvonne-fovargue>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Yvonne_Fovargue>,
+     <http://www.theyworkforyou.com/mp/yvonne_fovargue>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Yvonne-Fovargue/Makerfield/1356>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/84359.stm> .

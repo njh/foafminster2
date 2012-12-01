@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27269553.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Dominic Raab";
+   dc:modified "2012-12-01T15:15:23Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27269553#id> .
+
+<http://dbpedialite.org/things/27269553#id> a owl:Thing;
+   rdfs:label "Dominic Raab";
+   rdfs:comment "Dominic Rennie Raab (born 25 February 1974) is a British Conservative politician. He is the Member of Parliament for Esher and Walton in Surrey and is a former international business lawyer.";
+   owl:sameAs <http://dbpedia.org/resource/Dominic_Raab>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b9733a>,
+     <http://rdf.freebase.com/ns/m.0bwlxtv>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Dominic_Raab>;
+   foaf:page <http://www.dominicraab.com/>,
+     <http://domraab.blogspot.com/>,
+     <http://www.youtube.com/user/DomRaab> .

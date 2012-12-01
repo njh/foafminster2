@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1857648.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Kerry McCarthy";
+   dc:modified "2012-12-01T15:29:30Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1857648#id> .
+
+<http://dbpedialite.org/things/1857648#id> a owl:Thing;
+   rdfs:label "Kerry McCarthy";
+   rdfs:comment "Kerry Gillian McCarthy (born 26 March 1965) is a British Labour Party politician who has been the Member of Parliament (MP) for Bristol East since 2005.";
+   owl:sameAs <http://dbpedia.org/resource/Kerry_McCarthy>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000060c3cf>,
+     <http://rdf.freebase.com/ns/m.061jzh>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Kerry_McCarthy>;
+   foaf:page <http://kerrymccarthy.wordpress.com/>,
+     <http://twitter.com/KerryMP>,
+     <http://hansard.millbanksystems.com/people/ms-kerry-mccarthy>,
+     <http://www.guardian.co.uk/politics/person/8671/kerry-mccarthy>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Kerry_McCarthy>,
+     <http://www.theyworkforyou.com/mp/kerry_mccarthy>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Kerry-McCarthy/Bristol-East/344>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/39440.stm> .

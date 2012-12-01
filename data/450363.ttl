@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/450363.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andrew Selous";
+   dc:modified "2012-12-01T13:00:42Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/450363#id> .
+
+<http://dbpedialite.org/things/450363#id> a owl:Thing;
+   rdfs:label "Andrew Selous";
+   rdfs:comment "Andrew Edmund Armstrong Selous (born 27 April 1962)Conservative Party politician in the United Kingdom who has been the Member of Parliament for South West Bedfordshire since 2001.";
+   owl:sameAs <http://dbpedia.org/resource/Andrew_Selous>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024f5ed>,
+     <http://rdf.freebase.com/ns/m.029yhf>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andrew_Selous>;
+   foaf:page <http://www.andrewselous.org.uk>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=4627>,
+     <http://www.epolitix.com/EN/MPWebsites/Andrew+Selous/>,
+     <http://www.guardian.co.uk/politics/person/6109/andrew-selous>,
+     <http://www.theyworkforyou.com/mp/andrew_selous/south_west_bedfordshire>,
+     <http://publicwhip.org.uk/mp.php?mpn=Andrew_Selous&mpc=South+West+Bedfordshire>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25301.stm>,
+     <http://news.bbc.co.uk/1/hi/england/beds/bucks/herts/3245999.stm>,
+     <http://news.bbc.co.uk/1/hi/uk/2952123.stm>,
+     <http://news.bbc.co.uk/1/hi/england/1782648.stm> .

@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/10850875.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Anna Soubry";
+   dc:modified "2012-12-01T14:19:36Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/10850875#id> .
+
+<http://dbpedialite.org/things/10850875#id> a owl:Thing;
+   rdfs:label "Anna Soubry";
+   rdfs:comment """Anna Mary Soubry (born 7 December 1956, Lincoln, Lincolnshire) is a British Conservative Party politician who has been the Member of Parliament (MP) for Broxtowe since the 2010 general election. She is a single mother of two children.
+The Independent's Simon Carr has stated that “she has a record of unusually free speech”. On 17 November 2010, Soubry was appointed as parliamentary private secretary (PPS) to Simon Burns at the Department of Health and on 4 September 2012 she was promoted to become Parliamentary Under-Secretary of State for Health.""";
+   owl:sameAs <http://dbpedia.org/resource/Anna_Soubry>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000056bfa28>,
+     <http://rdf.freebase.com/ns/m.02qrzk8>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Anna_Soubry>;
+   foaf:page <http://www.annasoubry.org.uk>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Soubry_Anna.aspx>,
+     <http://www.broxtoweconservatives.org.uk/>,
+     <http://hansard.millbanksystems.com/people/ms-anna-soubry>,
+     <http://www.guardian.co.uk/politics/person/9228/anna-soubry>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Anna_Soubry>,
+     <http://www.theyworkforyou.com/mp/anna_soubry>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Anna-Soubry/Broxtowe/954>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35353.stm> .

@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/407867.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jeffrey Donaldson";
+   dc:modified "2012-12-01T15:18:30Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/407867#id> .
+
+<http://dbpedialite.org/things/407867#id> a owl:Thing;
+   rdfs:label "Jeffrey Donaldson";
+   rdfs:comment "Jeffrey Mark Donaldson, MP (born 7 December 1962) is a Northern Irish politician and Member of Parliament for Lagan Valley belonging to the Democratic Unionist Party. He is best known for his opposition to Ulster Unionist Party (UUP) leader David Trimble during the Northern Ireland peace process, especially from 1998 to 2003.";
+   owl:sameAs <http://dbpedia.org/resource/Jeffrey_Donaldson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002253a0>,
+     <http://rdf.freebase.com/ns/m.024ny0>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jeffrey_Donaldson>;
+   foaf:page <http://politics.guardian.co.uk/person/0,9290,-1427,00.html>,
+     <http://www.theyworkforyou.com/mp/jeffrey_m_donaldson/lagan_valley>,
+     <http://www.publications.parliament.uk/pa/cm199798/cmhansrd/vo970520/debtext/70520-23.htm>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/353.stm> .

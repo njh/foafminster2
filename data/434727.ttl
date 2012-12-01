@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434727.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Patrick McLoughlin";
+   dc:modified "2012-12-01T14:16:30Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434727#id> .
+
+<http://dbpedialite.org/things/434727#id> a owl:Thing;
+   rdfs:label "Patrick McLoughlin";
+   rdfs:comment "Patrick Allen McLoughlin (born 30 November 1957) is a British Conservative Party politician. He has been a Member of Parliament (MP) since 1986, initially for West Derbyshire and since 2010 for its successor, the Derbyshire Dales constituency. On 4 September 2012 he was appointed Secretary of State for Transport. A former miner, he is one of the few MPs to have been a manual worker before entering Parliament.";
+   owl:sameAs <http://dbpedia.org/resource/Patrick_McLoughlin>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240bae>,
+     <http://rdf.freebase.com/ns/m.0282yg>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Patrick_McLoughlin>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/McLoughlin_Patrick.aspx>,
+     <http://www.parliament.uk/biographies/commons/patrick-mcloughlin/25481>,
+     <http://hansard.millbanksystems.com/people/mr-patrick-mcloughlin>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1832_home.html>,
+     <http://www.guardian.co.uk/politics/person/3834/patrick-mcloughlin>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Patrick_McLoughlin>,
+     <http://www.theyworkforyou.com/mp/patrick_mcloughlin>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Patrick-McLoughlin/Derbyshire-Dales/391>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25481.stm> .

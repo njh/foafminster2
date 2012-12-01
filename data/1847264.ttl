@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1847264.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Lee Scott (politician)";
+   dc:modified "2012-12-01T15:15:30Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1847264#id> .
+
+<http://dbpedialite.org/things/1847264#id> a owl:Thing;
+   rdfs:label "Lee Scott (politician)";
+   rdfs:comment "Lee Scott (born 6 April 1956) is a British politician. He is the Conservative Member of Parliament for Ilford North, and an officer of the Conservative Friends of Israel group.";
+   owl:sameAs <http://dbpedia.org/resource/Lee_Scott_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000605482>,
+     <http://rdf.freebase.com/ns/m.060p42>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lee_Scott_(politician)>;
+   foaf:page <http://www.conservatives.com/tile.do?def=people.person.page&personID=42675>,
+     <http://www.epolitix.com/EN/MPWebsites/Lee+Scott/>,
+     <http://politics.guardian.co.uk/person/0,9290,-6169,00.html>,
+     <http://www.theyworkforyou.com/mp/lee_scott/ilford_north>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Lee_Scott&mpc=Ilford+North>,
+     <http://www.charitychampionawards.com/shortlist_info.asp?id=12> .

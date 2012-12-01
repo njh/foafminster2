@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414723.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Annette Brooke";
+   dc:modified "2012-12-01T13:45:29Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414723#id> .
+
+<http://dbpedialite.org/things/414723#id> a owl:Thing;
+   rdfs:label "Annette Brooke";
+   rdfs:comment "Annette Lesley Brooke (born 7 June 1947) is a British Liberal Democrat politician. She has been the Member of Parliament (MP) for Mid Dorset and North Poole since 2001.";
+   owl:sameAs <http://dbpedia.org/resource/Annette_Brooke>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c7ca>,
+     <http://rdf.freebase.com/ns/m.025kzb>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Annette_Brooke>;
+   foaf:page <http://www.annettebrooke.org.uk>,
+     <http://www.libdems.org.uk/people/annette-brooke>,
+     <http://www.parliament.uk/biographies/commons/annette-brooke/25778>,
+     <http://hansard.millbanksystems.com/people/ms-annette-brooke>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2316_home.html>,
+     <http://www.guardian.co.uk/politics/person/6789/annette-brooke>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Annette_Brooke>,
+     <http://www.theyworkforyou.com/mp/annettte_brooke>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Annette-Brooke/Mid-Dorset-and-North-Poole/1078>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25778.stm>,
+     <http://news.bbc.co.uk/2/shared/mpdb/html/196.stm>,
+     <http://www.broadstoneminerals.com>,
+     <http://news.bbc.co.uk/1/hi/england/dorset/6164444.stm>,
+     <http://news.bbc.co.uk/1/hi/england/dorset/4059323.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2823095.stm> .

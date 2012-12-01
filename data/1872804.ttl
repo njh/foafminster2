@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872804.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Philip Hollobone";
+   dc:modified "2012-12-01T15:18:05Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872804#id> .
+
+<http://dbpedialite.org/things/1872804#id> a owl:Thing;
+   rdfs:label "Philip Hollobone";
+   rdfs:comment "Philip Thomas Hollobone (born 1964) is a British Conservative Party politician who is both a Member of Parliament for the Kettering constituency (since the 2005 general election) and a member of Kettering Borough Council for the Piper's Hill ward (since 3 May 2007).";
+   owl:sameAs <http://dbpedia.org/resource/Philip_Hollobone>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615d40>,
+     <http://rdf.freebase.com/ns/m.062rb0>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Philip_Hollobone>;
+   foaf:page <http://www.guardian.co.uk/politics/person/5964/philip-hollobone>,
+     <http://www.theyworkforyou.com/mp/philip_hollobone/kettering>,
+     <http://publicwhip.org.uk/mp.php?mpn=Philip_Hollobone&mpc=Kettering>,
+     <http://www.kettering-conservatives.org>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31683.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/7064061.stm>,
+     <http://news.bbc.co.uk/1/hi/england/northamptonshire/6661469.stm>,
+     <http://news.bbc.co.uk/1/hi/england/northamptonshire/5076284.stm> .

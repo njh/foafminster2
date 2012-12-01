@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/5770475.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jesse Norman";
+   dc:modified "2012-12-01T13:44:59Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/5770475#id> .
+
+<http://dbpedialite.org/things/5770475#id> a owl:Thing;
+   rdfs:label "Jesse Norman";
+   rdfs:comment "Alexander Jesse Norman (born 23 June 1962) is a British Conservative politician who is the Member of Parliament for Hereford and South Herefordshire. He was selected at an open primary in December 2006. He was a director at Barclays before leaving the City of London in 1997 to research and teach at University College London. Prior to that he ran an educational charity in Eastern Europe during and after the Communist period.";
+   owl:sameAs <http://dbpedia.org/resource/Jesse_Norman>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000d1d9c5>,
+     <http://rdf.freebase.com/ns/m.0f3qg5>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jesse_Norman>;
+   foaf:page <http://www.jessenorman.com/>,
+     <http://www.jesse4hereford.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Norman_Jesse.aspx>,
+     <http://www.parliament.uk/biographies/commons/jesse-norman/51624>,
+     <http://www.guardian.co.uk/politics/person/12588/jesse-norman>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jesse_Norman>,
+     <http://www.theyworkforyou.com/mp/jesse_norman>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jesse-Norman/Hereford-and-South-Herefordshire/1189>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/51624.stm>,
+     <http://journalisted.com/jesse-norman>,
+     <http://worldcat.org/identities/lccn-n94-44616>,
+     <http://www.telegraph.co.uk/news/newstopics/politics/conservative/3087404/Top-100-right-wingers-75-51.html>,
+     <http://www.compassionateeconomics.com/>,
+     <http://www.debretts.com/people/biographies/browse/n/27755/(Alexander)%20Jesse+NORMAN.aspx> .

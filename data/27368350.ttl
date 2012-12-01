@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27368350.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mark Spencer (politician)";
+   dc:modified "2012-12-01T14:26:24Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27368350#id> .
+
+<http://dbpedialite.org/things/27368350#id> a owl:Thing;
+   rdfs:label "Mark Spencer (politician)";
+   rdfs:comment """Mark Steven Spencer (born 20 January 1970) is an English Conservative Party politician. He was elected at the 2010 general election as the Member of Parliament (MP) for Sherwood.
+Born in 1970, Spencer attended Lambley Primary School and Col Frank Seely School in Calverton. He then qualified at Shuttleworth Agricultural College in Bedfordshire, before joining the family farm business. A former dairy farm, the business has developed and now employs around 50 local people, growing potatoes, vegetables and producing free range eggs, beef and lamb. Spencer has always actively supported the local and wider community and Spencer is a past Chairman of the National Federation of Young Farmersâ€...""";
+   owl:sameAs <http://dbpedia.org/resource/Mark_Spencer_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cf78e8>,
+     <http://rdf.freebase.com/ns/m.0bxzz78>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mark_Spencer_(politician)>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Spencer_Mark.aspx>,
+     <http://www.sherwoodconservatives.com/>,
+     <http://www.markspencermp.co.uk//biography>,
+     <http://www.catch21.co.uk/2010/08/new-mpinions-mark-spencer-mp> .

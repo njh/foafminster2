@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/10078436.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Alun Cairns";
+   dc:modified "2012-12-01T15:57:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/10078436#id> .
+
+<http://dbpedialite.org/things/10078436#id> a owl:Thing;
+   rdfs:label "Alun Cairns";
+   rdfs:comment "Alun Hugh Cairns (born 30 July 1970) is a Welsh Conservative Party politician. A member of the National Assembly for Wales for the in the South Wales West region since 1999, he was elected at the 2010 general election as the Member of Parliament (MP) for the Vale of Glamorgan.";
+   owl:sameAs <http://dbpedia.org/resource/Alun_Cairns>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000005608c90>,
+     <http://rdf.freebase.com/ns/m.02q134j>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alun_Cairns>;
+   foaf:page <http://www.aluncairns.com/>,
+     <http://www.assemblywales.org/memhome/mem-profile/mem-south_wales_west-3.htm>,
+     <http://www.conservatives.com/People/Welsh_Assembly_Members/Cairns_Alun.aspx>,
+     <http://www.ceidwadwyr.com/portal-en/our-mps/200-alun-cairns-mp.html>,
+     <http://www.ceidwadwyr.com/portal-en/our-ams/53-alun-cairns-am.html>,
+     <http://www.parliament.uk/biographies/commons/alun-cairns/33463>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2422_home.html>,
+     <http://www.guardian.co.uk/politics/person/9392/alun-cairns>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Alun_Cairns>,
+     <http://www.theyworkforyou.com/mp/alun_cairns>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Alun-Cairns/Vale-of-Glamorgan/793>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/33463.stm> .

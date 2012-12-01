@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27260678.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Bridget Phillipson";
+   dc:modified "2012-12-01T13:42:26Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27260678#id> .
+
+<http://dbpedialite.org/things/27260678#id> a owl:Thing;
+   rdfs:label "Bridget Phillipson";
+   rdfs:comment """Bridget Maeve Phillipson (born 19 December 1983) is a British Labour Party politician who was elected at the 2010 general election as the Member of Parliament (MP) for Houghton and Sunderland South.
+She was educated at St Robert of Newminster Roman Catholic Secondary School in Washington and from there went on to study Modern History at Hertford College, Oxford, where she was elected Co-Chair of the Oxford University Labour Club. She previously ran a charity refuge for women affected by domestic violence.""";
+   owl:sameAs <http://dbpedia.org/resource/Bridget_Phillipson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7a1ec>,
+     <http://rdf.freebase.com/ns/m.0bwh8hd>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Bridget_Phillipson>;
+   foaf:page <http://www.bridgetphillipson.com/>,
+     <http://hansard.millbanksystems.com/people/ms-bridget-phillipson>,
+     <http://www.guardian.co.uk/politics/person/11797/bridget-phillipson>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Bridget_Phillipson>,
+     <http://www.theyworkforyou.com/mp/bridget_phillipson>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Bridget-Phillipson/Houghton-and-Sunderland-South/1212>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/79095.stm> .

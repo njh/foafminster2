@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/421677.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Stephen Pound";
+   dc:modified "2012-12-01T13:50:15Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/421677#id> .
+
+<http://dbpedialite.org/things/421677#id> a owl:Thing;
+   rdfs:label "Stephen Pound";
+   rdfs:comment "Stephen Pelham Pound (born 3 July 1948) is a British Labour Party politician who has been the Member of Parliament (MP) for Ealing North since 1997.";
+   owl:sameAs <http://dbpedia.org/resource/Stephen_Pound>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002342f2>,
+     <http://rdf.freebase.com/ns/m.026jrl>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Stephen_Pound>;
+   foaf:page <http://www.stevepound.org.uk>,
+     <http://hansard.millbanksystems.com/people/mr-stephen-pound>,
+     <http://www.guardian.co.uk/politics/person/4236/stephen-pound>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Stephen_Pound>,
+     <http://www.theyworkforyou.com/mp/stephen_pound>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Stephen-Pound/Ealing-North/418>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25409.stm>,
+     <http://www.ealinggazette.co.uk/ealing-news/ealing-columnists/constituency_matters/>,
+     <http://www.ealingtimes.co.uk/news/yourmps/>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4202513.stm>,
+     <http://politics.guardian.co.uk/homeaffairs/story/0,,2033579,00.html?gusrc=rss&feed=1>,
+     <http://www.defamer.com.au/2008/02/memo_to_krudd_some_possible_ideas_for_upcoming_publicity_stunts.html>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/7234753.stm>,
+     <http://www.dailymail.co.uk/pages/live/articles/showbiz/showbiznews.html?in_article_id=512920&in_page_id=1773&in_page_id=1773&expand=true#StartComments> .

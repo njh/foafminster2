@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/18247133.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - George Galloway";
+   dc:modified "2012-12-01T15:29:48Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/18247133#id> .
+
+<http://dbpedialite.org/things/18247133#id> a owl:Thing;
+   rdfs:label "George Galloway";
+   rdfs:comment "George Galloway (born 16 August 1954) is a British politician, author, journalist, and broadcaster, and the Respect Member of Parliament (MP) for Bradford West. He was previously an MP for the Labour Party, for Glasgow Hillhead and then its successor constituency Glasgow Kelvin from 1987 until 2005. He was expelled from the Labour Party in October 2003 because of his strident public opposition to the Iraq War. He subsequently became a founding member of the left-wing Respect Party, and was elected as the MP for Bethnal Green and Bow in 2005. In 2010, Galloway unsuccessfully contested the seat of Poplar and Limehouse, and in 2011 he unsuccessfully contested the Glasgow list for the...";
+   owl:sameAs <http://dbpedia.org/resource/George_Galloway>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000016be0d>,
+     <http://rdf.freebase.com/ns/m.01fhjf>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/George_Galloway>;
+   foaf:page <http://www.georgegalloway.com/>,
+     <http://www.debretts.co.uk/debrett's-publications/books/people-of-today---2012.aspx>,
+     <http://hansard.millbanksystems.com/people/mr-george-galloway>,
+     <http://www.imdb.com/name/nm1544210/>,
+     <http://news.scotsman.com/index.cfm?id=565562003> .

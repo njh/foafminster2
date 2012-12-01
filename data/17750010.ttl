@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/17750010.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mike Freer";
+   dc:modified "2012-12-01T16:02:59Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/17750010#id> .
+
+<http://dbpedialite.org/things/17750010#id> a owl:Thing;
+   rdfs:label "Mike Freer";
+   rdfs:comment """Michael Whitney (Mike) FreerMP (born 29 May 1960) is a British politician. A Conservative, he was elected as the Member of Parliament (MP) for the constituency of Finchley and Golders Green at the 2010 general election. Freer is a former leader of Barnet Council and a former councillor from the Church End ward in Finchley.
+Born in Manchester he was educated at the Chadderton Grammar School and St Aidan's College in Carlisle. Mike Freer was first elected to Barnet Council in 1990 for the St. Paul's ward, winning the seat from Labour. However, he lost the seat again in 1994, in which the Conservatives were routed nationally. He was re-elected to the council, from the Church End ward, in...""";
+   owl:sameAs <http://dbpedia.org/resource/Mike_Freer>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000087482d4>,
+     <http://rdf.freebase.com/ns/m.04790qn>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mike_Freer>;
+   foaf:page <http://www.conservatives.com/People/Prospective_Parliamentary_Candidates/Freer_Mike.aspx> .

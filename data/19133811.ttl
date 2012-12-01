@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/19133811.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Paul Blomfield";
+   dc:modified "2012-12-01T15:57:39Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/19133811#id> .
+
+<http://dbpedialite.org/things/19133811#id> a owl:Thing;
+   rdfs:label "Paul Blomfield";
+   rdfs:comment "Paul Blomfield (born 25 August 1953) is a British Labour Party politician who has been the Member of Parliament (MP) for Sheffield Central since 2010. Twice Sabbatical President of the Students' Union at St John's College, York, he was also a member of the National Executive Committees of both the National Union of Students and the Anti-Apartheid Movement, the latter from 1979 to 1994. From 1997 to 2008, he was the Chairman of the Sheffield City Trust, and was also the general manager of the University of Sheffield Union of Students.";
+   owl:sameAs <http://dbpedia.org/resource/Paul_Blomfield>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009064b58>,
+     <http://rdf.freebase.com/ns/m.04jdlvs>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Paul_Blomfield>;
+   foaf:page <http://www.paulblomfield.co.uk/> .

@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434612.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nick Harvey";
+   dc:modified "2012-12-01T14:06:53Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434612#id> .
+
+<http://dbpedialite.org/things/434612#id> a owl:Thing;
+   rdfs:label "Nick Harvey";
+   rdfs:comment "Sir Nicholas Barton \"Nick\" Harvey (born 3 August 1961) is a British Liberal Democrat politician. He is the Member of Parliament (MP) for North Devon and was the Minister of State for the Armed Forces from 2010-2012 until losing that position.";
+   owl:sameAs <http://dbpedia.org/resource/Nick_Harvey>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002408f1>,
+     <http://rdf.freebase.com/ns/m.02827k>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nick_Harvey>;
+   foaf:page <http://www.nickharveymp.com>,
+     <http://www.libdems.org.uk/people/nick-harvey>,
+     <http://www.northdevonlibdems.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/nick-harvey/25569>,
+     <http://hansard.millbanksystems.com/people/mr-nick-harvey>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_870_home.html>,
+     <http://www.guardian.co.uk/politics/person/2281/nick-harvey>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nick_Harvey>,
+     <http://www.theyworkforyou.com/mp/nick_harvey>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nick-Harvey/North-Devon/1096>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25569.stm>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/189.stm> .

@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1850796.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jamie Reed";
+   dc:modified "2012-12-01T15:59:31Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1850796#id> .
+
+<http://dbpedialite.org/things/1850796#id> a owl:Thing;
+   rdfs:label "Jamie Reed";
+   rdfs:comment "Jamieson Ronald \"Jamie\" Reed (born 4 August 1973) is a British Labour politician, who has been the Member of Parliament for Copeland in Cumbria since 2005, replacing Copeland's long-serving former MP Jack Cunningham.";
+   owl:sameAs <http://dbpedia.org/resource/Jamie_Reed>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000060782f>,
+     <http://rdf.freebase.com/ns/m.060z1h>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jamie_Reed>;
+   foaf:page <http://www.jamiereedmp.com/>,
+     <http://www.guardian.co.uk/politics/person/8696/jamie-reed>,
+     <http://www.theyworkforyou.com/mp/jamie_reed/copeland> .

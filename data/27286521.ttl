@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27286521.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Sajid Javid";
+   dc:modified "2012-12-01T16:04:12Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27286521#id> .
+
+<http://dbpedialite.org/things/27286521#id> a owl:Thing;
+   rdfs:label "Sajid Javid";
+   rdfs:comment """Sajid Javid (born 5 December 1969) is an English Conservative Party politician. At the 2010 general election he was elected to the House of Commons as Member of Parliament (MP) for the Bromsgrove constituency.
+He is currently the Economic Secretary to the Treasury, as of 4 September 2012.""";
+   owl:sameAs <http://dbpedia.org/resource/Sajid_Javid>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b87472>,
+     <http://rdf.freebase.com/ns/m.0bwjy3l>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sajid_Javid>;
+   foaf:page <http://www.sajidjavid.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Javid_Sajid.aspx>,
+     <http://www.bromsgrove-conservatives.org.uk/>,
+     <http://www.guardian.co.uk/politics/person/11987/sajid-javid>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Sajid_Javid>,
+     <http://www.theyworkforyou.com/mp/sajid_javid>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Sajid-Javid/Bromsgrove/1277>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/84360.stm>,
+     <http://www.youtube.com/user/sajidjavid> .

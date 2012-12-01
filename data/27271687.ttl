@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27271687.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Julian Smith (politician)";
+   dc:modified "2012-12-01T14:38:40Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27271687#id> .
+
+<http://dbpedialite.org/things/27271687#id> a owl:Thing;
+   rdfs:label "Julian Smith (politician)";
+   rdfs:comment "Julian Richard Smith (born 30 August 1971) is the Conservative Member of Parliament (MP) for the constituency of Skipton and Ripon. He was elected at the general election of 2010 with 27,685 votes (50.6% of the votes cast), giving him a majority of 9,950.";
+   owl:sameAs <http://dbpedia.org/resource/Julian_Smith_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b6d277>,
+     <http://rdf.freebase.com/ns/m.0bwfnmr>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Julian_Smith_(politician)> .

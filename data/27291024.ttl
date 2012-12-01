@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27291024.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Richard Drax";
+   dc:modified "2012-12-01T14:27:41Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27291024#id> .
+
+<http://dbpedialite.org/things/27291024#id> a owl:Thing;
+   rdfs:label "Richard Drax";
+   rdfs:comment """Richard Grosvenor Plunkett-Ernle-Erle-Drax (born 29 January 1958), known as Richard Drax, is a former Army officer and journalist, now Conservative Party politician and Member of Parliament (MP) for South Dorset.
+In the general election in May 2010, he defeated the sitting Labour MP and Government minister Jim, now Lord Knight.""";
+   owl:sameAs <http://dbpedia.org/resource/Richard_Drax>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000ebacee>,
+     <http://rdf.freebase.com/ns/m.0grc7g>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Richard_Drax>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Drax_Richard.aspx>,
+     <http://www.debretts.com/people/essential-guide-to-the-peerage.aspx> .

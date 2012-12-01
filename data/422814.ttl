@@ -1,0 +1,37 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/422814.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - George Osborne";
+   dc:modified "2012-12-01T13:20:40Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/422814#id> .
+
+<http://dbpedialite.org/things/422814#id> a owl:Thing;
+   rdfs:label "George Osborne";
+   rdfs:comment """George Gideon Oliver Osborne,MP (born 23 May 1971) is a British Conservative politician. He is the Chancellor of the Exchequer and Second Lord of the Treasury of the United Kingdom, roles to which he was appointed in May 2010. He has been the Member of Parliament for Tatton since 2001.
+Osborne is one of the old Anglo-Irish aristocracy, described in Ireland as the Ascendancy. He is the heir apparent to the Osborne baronetcy (of Ballentaylor, in County Tipperary, and Ballylemon, in County Waterford). He was educated at St Paul's School, London and Magdalen College, Oxford, before working for the Conservative Party as a researcher, special adviser, speechwriter and strategist. In 2005, he...""";
+   owl:sameAs <http://dbpedia.org/resource/George_Osborne>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000235259>,
+     <http://rdf.freebase.com/ns/m.026nlt>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/George_Osborne>;
+   foaf:page <http://www.conservatives.com/People/Prospective_Parliamentary_Candidates/Osborne_George.aspx>,
+     <http://www.georgeosborne4tatton.>,
+     <http://hansard.millbanksystems.com/people/mr-george-osborne>,
+     <http://www.guardian.co.uk/politics/person/6138/george-osborne>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=George_Osborne>,
+     <http://www.theyworkforyou.com/mp/george_osborne>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/George-Osborne/Tatton/395>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25194.stm>,
+     <http://journalisted.com/george-osborne>,
+     <http://www.guardian.co.uk/politics/georgeosborne>,
+     <http://www.telegraph.co.uk/news/newstopics/politics/conservative/georgeosborne/>,
+     <http://www.c-spanvideo.org/georgeosborne>,
+     <http://www.imdb.com/name/nm2137252/>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/570.stm>,
+     <http://www.thersa.org/events/vision/vision-videos/george-osborne---8-april-2009>,
+     <http://www.therealgeorgeosborne.com>,
+     <http://www.debretts.com/people/biographies/browse/o/21514/George%20Gideon%20Oliver+OSBORNE.aspx> .

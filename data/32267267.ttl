@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/32267267.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Iain McKenzie";
+   dc:modified "2012-11-28T21:46:14Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/32267267#id> .
+
+<http://dbpedialite.org/things/32267267#id> a owl:Thing;
+   rdfs:label "Iain McKenzie";
+   rdfs:comment """Iain McKenzie (born 4 April 1959) is a Scottish Labour politician, who has been the Member of Parliament for Inverclyde since the June 2011 by-election in his constituency.
+McKenzie was born and raised in Greenock, Inverclyde's largest town, in the areas of Broomhill and Fancy Farm. A former employee of IBM, he was elected to Inverclyde Council, becoming Leader of the Council in February 2011.
+McKenzie's election followed the death of David Cairns, who had represented the constituency since 2001. McKenzie made his maiden speech to the House of Commons on 11 July 2011, mainly focusing on employment, opportunity and population growth in his constituency.""";
+   owl:sameAs <http://dbpedia.org/resource/Iain_McKenzie>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000001dd0a29a>,
+     <http://rdf.freebase.com/ns/m.0gy18nv>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Iain_McKenzie> .

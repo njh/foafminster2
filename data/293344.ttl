@@ -1,0 +1,37 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/293344.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Peter Lilley";
+   dc:modified "2012-12-01T15:11:01Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/293344#id> .
+
+<http://dbpedialite.org/things/293344#id> a owl:Thing;
+   rdfs:label "Peter Lilley";
+   rdfs:comment "Peter Bruce Lilley (born 23 August 1943) is a British Conservative Party politician who has been a Member of Parliament (MP) since 1983. He currently represents the constituency of Hitchin and Harpenden and, prior to boundary changes, represented St Albans. He was a Cabinet minister in the governments of Margaret Thatcher and John Major, serving as Trade and Industry Secretary from July 1990 to April 1992, and as Social Security Secretary from April 1992 to May 1997.";
+   owl:sameAs <http://dbpedia.org/resource/Peter_Lilley>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001b6e04>,
+     <http://rdf.freebase.com/ns/m.01qwj4>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Peter_Lilley>;
+   foaf:page <http://wikidata.org/wiki/Q19831>,
+     <http://www.peterlilley.co.uk/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Lilley_Peter.aspx>,
+     <http://www.parliament.uk/biographies/commons/peter-lilley/25184>,
+     <http://hansard.millbanksystems.com/people/mr-peter-lilley>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1501_home.html>,
+     <http://www.guardian.co.uk/politics/person/3130/peter-lilley>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Peter_Lilley>,
+     <http://www.theyworkforyou.com/mp/peter_lilley>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Peter-Lilley/Hitchin-and-Harpenden/329>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25184.stm>,
+     <http://journalisted.com/peter-lilley>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2090940.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/1425153.stm>,
+     <http://www.clarepolitics.co.uk/lilley.htm> .
+
+<http://wikidata.org/wiki/Q19831> a foaf:Document;
+   rdfs:label "Peter Lilley" .

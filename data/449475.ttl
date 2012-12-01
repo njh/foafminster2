@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/449475.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Joan Ruddock";
+   dc:modified "2012-12-01T13:15:00Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/449475#id> .
+
+<http://dbpedialite.org/things/449475#id> a owl:Thing;
+   rdfs:label "Joan Ruddock";
+   rdfs:comment """Dame Joan Ruddock, DBE, MP (née Joan Mary Anthony; born 28 December 1943, Pontypool, Torfaen) is a British Labour Party politician who has been the Member of Parliament (MP) for Lewisham Deptford since 1987. Ruddock was Minister of State for Energy at the Department of Energy and Climate Change until 11 May 2010.
+Ruddock was educated at Pontypool Girls grammar school and at Imperial College London. Prior to her election to Parliament, she was chair of the Campaign for Nuclear Disarmament, a UK pressure group; she resigned in 1985. Originally on the hard left of the Labour Party, she was a member of the Socialist Campaign Group but resigned in 1988 in protest at Tony Benn's decision to...""";
+   owl:sameAs <http://dbpedia.org/resource/Joan_Ruddock>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024e73c>,
+     <http://rdf.freebase.com/ns/m.029ttx>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Joan_Ruddock>;
+   foaf:page <http://hansard.millbanksystems.com/people/ms-joan-ruddock>,
+     <http://www.guardian.co.uk/politics/person/4559/joan-ruddock>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Joan_Ruddock>,
+     <http://www.theyworkforyou.com/mp/joan_ruddock/lewisham,_deptford>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Joan-Ruddock/Lewisham-Deptford/514>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25364.stm>,
+     <http://journalisted.com/joan-ruddock>,
+     <http://www.wpradio.co.uk/mp3s/JoanRuddock.mp3> .

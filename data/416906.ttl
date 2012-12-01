@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/416906.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Barry Gardiner";
+   dc:modified "2012-12-01T14:26:03Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/416906#id> .
+
+<http://dbpedialite.org/things/416906#id> a owl:Thing;
+   rdfs:label "Barry Gardiner";
+   rdfs:comment "Barry Strachan Gardiner (born 10 March 1957) is a British Labour Party politician who has been the Member of Parliament (MP) for Brent North since 1997. He served as a junior minister in the Northern Ireland Office, the Department for Productivity, Energy and Industry, the Department of Trade and Industry and finally in the Department for Environment, Food and Rural Affairs.";
+   owl:sameAs <http://dbpedia.org/resource/Barry_Gardiner>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022ea35>,
+     <http://rdf.freebase.com/ns/m.025vkp>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Barry_Gardiner>;
+   foaf:page <http://www.barrygardiner.com>,
+     <http://politics.guardian.co.uk/person/0,9290,-1868,00.html>,
+     <http://www.theyworkforyou.com/mp/barry_gardiner/brent_north>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Barry_Gardiner&mpc=Brent_North&house=commons&display=alldreams>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25651.stm>,
+     <http://mpsallowances.parliament.uk/mpslordsandoffices/hocallowances/allowances-by-mp/barry-gardiner/barry_gardiner_0405_ACA.pdf> .

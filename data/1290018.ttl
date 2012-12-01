@@ -1,0 +1,37 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1290018.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Ed Miliband";
+   dc:modified "2012-12-01T15:35:31Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1290018#id> .
+
+<http://dbpedialite.org/things/1290018#id> a owl:Thing;
+   rdfs:label "Ed Miliband";
+   rdfs:comment """Edward Samuel Miliband (born 24 December 1969) is a British Labour Party politician, currently the Leader of the Labour Party and Leader of the Opposition. He has been the Member of Parliament (MP) for Doncaster North since 2005 and served in the Cabinet from 2007 to 2010 under Prime Minister Gordon Brown. He and his brother, David Miliband, were the first siblings to sit in the Cabinet simultaneously since Edward, Lord Stanley, and Oliver Stanley in 1938.
+Born in London, Miliband graduated from Corpus Christi College, Oxford and the London School of Economics, becoming first a television journalist and then a Labour Party researcher, before rising to become one of Chancellor Gordon...""";
+   owl:sameAs <http://dbpedia.org/resource/Ed_Miliband>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000004b321a>,
+     <http://rdf.freebase.com/ns/m.04qdjv>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ed_Miliband>;
+   foaf:page <http://wikidata.org/wiki/Q216594>,
+     <http://edmiliband.org/>,
+     <http://www.labour.org.uk/ed_miliband>,
+     <http://www.parliament.uk/biographies/commons/edward-miliband/40791>,
+     <http://hansard.millbanksystems.com/people/mr-ed-miliband>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4818_home.html>,
+     <http://www.guardian.co.uk/politics/person/8711/ed-miliband>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Edward_Miliband>,
+     <http://www.theyworkforyou.com/mp/edward_miliband>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Ed-Miliband/Doncaster-North/729>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/40791.stm>,
+     <http://journalisted.com/ed-miliband>,
+     <http://www.guardian.co.uk/politics/edmiliband>,
+     <http://www.telegraph.co.uk/news/politics/ed-miliband/> .
+
+<http://wikidata.org/wiki/Q216594> a foaf:Document;
+   rdfs:label "Ed Miliband" .

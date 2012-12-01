@@ -1,0 +1,37 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/242476.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jack Straw";
+   dc:modified "2012-12-01T15:30:14Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/242476#id> .
+
+<http://dbpedialite.org/things/242476#id> a owl:Thing;
+   rdfs:label "Jack Straw";
+   rdfs:comment "John Whitaker \"Jack\" Straw (born 3 August 1946) is a British Labour Party politician who has been the Member of Parliament (MP) for Blackburn since 1979. He served as Home Secretary from 1997 to 2001, Foreign Secretary from 2001 to 2006 and Lord Privy Seal and Leader of the House of Commons from 2006 to 2007 under Tony Blair. From 2007 to 2010 he was the Lord High Chancellor of Great Britain and the Secretary of State for Justice, appointed as part of Prime minister Gordon Brown's first Cabinet. Straw is one of only three people to have served in Cabinet continuously from 1997 to 2010 (the others being Gordon Brown and Alistair Darling).";
+   owl:sameAs <http://dbpedia.org/resource/Jack_Straw>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001896fb>,
+     <http://rdf.freebase.com/ns/m.01k5rw>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jack_Straw>;
+   foaf:page <http://wordpress.blackburnlabour.org/>,
+     <http://www.parliament.uk/biographies/commons/jack-straw/25353>,
+     <http://hansard.millbanksystems.com/people/mr-jack-straw>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4165_home.html>,
+     <http://www.guardian.co.uk/politics/person/5038/jack-straw>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jack_Straw>,
+     <http://www.theyworkforyou.com/mp/jack_straw>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jack-Straw/Blackburn/685>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25353.stm>,
+     <http://journalisted.com/jack-straw>,
+     <http://www.guardian.co.uk/politics/jackstraw>,
+     <http://www.guardian.co.uk/profile/jackstraw?INTCMP=SRCH>,
+     <http://topics.nytimes.com/top/reference/timestopics/people/s/jack_straw/index.html>,
+     <http://www.c-spanvideo.org/jackstraw>,
+     <http://www.imdb.com/name/nm1558638/>,
+     <http://www.leeds.ac.uk/reporter/may68>,
+     <http://news.bbc.co.uk/1/hi/programmes/newsnight/archive/2333595.stm>,
+     <http://www.jameslynchehaun.com/> .

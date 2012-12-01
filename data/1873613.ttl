@@ -1,0 +1,40 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1873613.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jeremy Hunt (politician)";
+   dc:modified "2012-12-01T15:17:09Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1873613#id> .
+
+<http://dbpedialite.org/things/1873613#id> a owl:Thing;
+   rdfs:label "Jeremy Hunt (politician)";
+   rdfs:comment "Jeremy Richard Streynsham Hunt,PC, MP (born 1 November 1966) is a British Conservative Party politician, who is the Secretary of State for Health, and the Member of Parliament for South West Surrey.";
+   owl:sameAs <http://dbpedia.org/resource/Jeremy_Hunt_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000006164f5>,
+     <http://rdf.freebase.com/ns/m.062t7p>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jeremy_Hunt_(politician)>;
+   foaf:page <http://www.jeremyhunt.org/>,
+     <http://www.youtube.com/user/mpjeremyHunt>,
+     <http://www.dh.gov.uk/health/category/ministers/jeremyhunt/>,
+     <http://www.parliament.uk/biographies/commons/jeremy-hunt/35446>,
+     <http://hansard.millbanksystems.com/people/mr-jeremy-hunt>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4799_home.html>,
+     <http://www.guardian.co.uk/politics/person/9358/jeremy-hunt>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jeremy_Hunt>,
+     <http://www.theyworkforyou.com/mp/jeremy_hunt>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jeremy-Hunt/South-West-Surrey/648>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35446.stm>,
+     <http://journalisted.com/jeremy-hunt>,
+     <http://www.c-spanvideo.org/jeremyhunt>,
+     <http://www.imdb.com/name/nm3194544/>,
+     <http://www.guardian.co.uk/politics/jeremy-hunt>,
+     <http://www.politicshome.com/uk/newsmaker/98/Jeremy_Hunt.html>,
+     <http://conservativehome.blogs.com/platform/jeremy_hunt_mp/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Hunt_Jeremy.aspx>,
+     <http://www.debretts.com/people/biographies/browse/h/24227/Jeremy+HUNT.aspx>,
+     <http://www.bbc.co.uk/news/uk-politics-17822923>,
+     <http://www.bbc.co.uk/worldservice/ondemand/rams/wup17123__2005.ram> .

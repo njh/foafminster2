@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27342161.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mark Pawsey";
+   dc:modified "2012-12-01T13:51:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27342161#id> .
+
+<http://dbpedialite.org/things/27342161#id> a owl:Thing;
+   rdfs:label "Mark Pawsey";
+   rdfs:comment """Mark Julian Francis Pawsey (born 16 January 1957) is a British Conservative Party politician who has been the Member of Parliament (MP) for Rugby since the 2010 general election.
+His father, Jim Pawsey, was Member of Parliament for Rugby from 1979 to 1983, then for Rugby and Kenilworth from 1983 until he lost the seat in the 1997 General Election to Labour's Andy King.""";
+   owl:sameAs <http://dbpedia.org/resource/Mark_Pawsey>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d00022>,
+     <http://rdf.freebase.com/ns/m.0by0012>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mark_Pawsey>;
+   foaf:page <http://www.markpawsey.org.uk> .

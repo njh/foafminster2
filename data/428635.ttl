@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428635.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Ian Liddell-Grainger";
+   dc:modified "2012-12-01T13:40:05Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428635#id> .
+
+<http://dbpedialite.org/things/428635#id> a owl:Thing;
+   rdfs:label "Ian Liddell-Grainger";
+   rdfs:comment "Ian Richard Peregrine Liddell-Grainger (born 23 February 1959) is a descendant of the British Royal Family, a great-great-great-grandson of Queen Victoria, and a Conservative Party politician in the United Kingdom. He was the Member of Parliament (MP) for Bridgwater between the 2001 general election, when he succeeded Tom King, and 2010, when the constituency underwent boundary changes, and became Bridgwater and West Somerset.";
+   owl:sameAs <http://dbpedia.org/resource/Ian_Liddell-Grainger>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023ad89>,
+     <http://rdf.freebase.com/ns/m.027cd9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ian_Liddell-Grainger>;
+   foaf:page <http://www.liddellgrainger.org.uk>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=5072>,
+     <http://www.parliament.uk/biographies/commons/ian-liddell-grainger/25472>,
+     <http://hansard.millbanksystems.com/people/mr-ian-liddell-grainger>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1495_home.html>,
+     <http://www.guardian.co.uk/politics/person/5797/ian-liddell-grainger>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Ian_Liddell-Grainger>,
+     <http://www.theyworkforyou.com/mp/ian_liddell-grainger>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Ian-Liddell-Grainger/Bridgwater-and-West-Somerset/1013>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25472.stm> .

@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/427381.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Eric Joyce";
+   dc:modified "2012-12-01T13:22:14Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/427381#id> .
+
+<http://dbpedialite.org/things/427381#id> a owl:Thing;
+   rdfs:label "Eric Joyce";
+   rdfs:comment "Eric Stuart Joyce (born 13 October 1960) is a Scottish politician, who has been a Member of Parliament (MP) since 2000, and has been the MP for Falkirk since 2005. Originally elected as a member of the Labour Party, Joyce was suspended from Labour in 2012 after he was arrested on suspicion of assault, and on 12 March 2012 officially resigned from the party. Joyce served as a private in the Black Watch before attending University and subsequently receiving a commission in the Royal Army Educational Corps. He left the army in 1999 at the rank of major and served as the Public Affairs Officer at the Commission for Racial Equality (Scotland).";
+   owl:sameAs <http://dbpedia.org/resource/Eric_Joyce>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000239af6>,
+     <http://rdf.freebase.com/ns/m.0276rq>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Eric_Joyce>;
+   foaf:page <http://twitter.com/ericjoyce>,
+     <http://politics.guardian.co.uk/person/0,9290,-2809,00.html>,
+     <http://fkuk.net/> .

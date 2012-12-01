@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/352652.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Alistair Darling";
+   dc:modified "2012-12-01T15:22:48Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/352652#id> .
+
+<http://dbpedialite.org/things/352652#id> a owl:Thing;
+   rdfs:label "Alistair Darling";
+   rdfs:comment """Alistair Darling (born 28 November 1953) is a British Labour Party politician who has been a Member of Parliament (MP) since 1987, currently for Edinburgh South West. He was Chancellor of the Exchequer from 2007 to 2010. Darling was one of only three people to have served in the Cabinet continuously from Labour's victory in 1997 until its defeat in 2010 (the others being Gordon Brown and Jack Straw).
+Darling was appointed as Chief Secretary to the Treasury in 1997, moving to become Secretary of State for Work and Pensions in 1998. Spending four years at the department, he spent another four years as Secretary of State for Transport, also becoming Secretary of State for Scotland in 2003...""";
+   owl:sameAs <http://dbpedia.org/resource/Alistair_Darling>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001f3b83>,
+     <http://rdf.freebase.com/ns/m.01zgx3>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alistair_Darling>;
+   foaf:page <http://webarchive.nationalarchives.gov.uk/+/http://www.hm-treasury.gov.uk/minprofile_darling.htm>,
+     <http://www.parliament.uk/biographies/commons/alistair-darling/25690>,
+     <http://hansard.millbanksystems.com/people/mr-alistair-darling>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2841_home.html>,
+     <http://www.guardian.co.uk/politics/person/1271/alistair-darling>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Alistair_Darling>,
+     <http://www.theyworkforyou.com/mp/alistair_darling>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Alistair-Darling/53>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25690.stm>,
+     <http://journalisted.com/alistair-darling>,
+     <http://www.theukgovernment.com/alistair-darling---liar>,
+     <http://www.guardian.co.uk/politics/alistairdarling> .

@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414428.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Adrian Bailey";
+   dc:modified "2012-12-01T15:25:42Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414428#id> .
+
+<http://dbpedialite.org/things/414428#id> a owl:Thing;
+   rdfs:label "Adrian Bailey";
+   rdfs:comment "Adrian Edward Bailey (born 11 December 1949) is a British Labour Co-operative politician, who has been the Member of Parliament (MP) for West Bromwich West since winning the seat at a by-election in 2000. He is also the Chairman of the Business, Innovation and Skills Committee.";
+   owl:sameAs <http://dbpedia.org/resource/Adrian_Bailey>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c22b>,
+     <http://rdf.freebase.com/ns/m.025jkc>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Adrian_Bailey>;
+   foaf:page <http://www.adrianbailey.org/>,
+     <http://hansard.millbanksystems.com/people/mr-adrian-bailey>,
+     <http://www.guardian.co.uk/politics/person/185/adrian-bailey>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Adrian_Bailey>,
+     <http://www.theyworkforyou.com/mp/adrian_bailey/west_bromwich_west>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Adrian-Bailey/West-Bromwich-West/21>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25800.stm>,
+     <http://yourdemocracy.newstatesman.com/profile/adrian-bailey> .

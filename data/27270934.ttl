@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27270934.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Elizabeth Truss";
+   dc:modified "2012-12-01T14:30:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27270934#id> .
+
+<http://dbpedialite.org/things/27270934#id> a owl:Thing;
+   rdfs:label "Elizabeth Truss";
+   rdfs:comment """Elizabeth Mary Truss (born 26 July 1975), also known as Liz Truss, is a British Conservative Party politician who has been the Member of Parliament (MP) for South West Norfolk since the 2010 general election. In September 2012, she was appointed as Parliamentary Under-Secretary of State with responsibility for education and childcare in the Department for Education.
+Truss grew up in a left-wing family in Paisley and Leeds, before attending Oxford. She worked in sales and as an economist, before becoming deputy director at the think-tank Reform. She was elected in 2010 for South West Norfolk.""";
+   owl:sameAs <http://dbpedia.org/resource/Elizabeth_Truss>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b9af67>,
+     <http://rdf.freebase.com/ns/m.0bwmcw7>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Elizabeth_Truss>;
+   foaf:page <http://www.elizabethtruss.com/>,
+     <http://www.freeenterprise.org.uk/> .

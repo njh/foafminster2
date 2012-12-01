@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/352741.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andrew Rosindell";
+   dc:modified "2012-12-01T15:12:44Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/352741#id> .
+
+<http://dbpedialite.org/things/352741#id> a owl:Thing;
+   rdfs:label "Andrew Rosindell";
+   rdfs:comment "Andrew Richard Rosindell (born 17 March 1966) is an English Conservative politician. He is the Member of Parliament (MP) for the Romford constituency in Greater London. He is also the international director of the European Foundation, chairman of the All Party Parliamentary Flags & Heraldry Committee, UK’s All-Party Parliamentary Group on the British Overseas Territories and member of the Flag Institute.";
+   owl:sameAs <http://dbpedia.org/resource/Andrew_Rosindell>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001f3d33>,
+     <http://rdf.freebase.com/ns/m.01zh9m>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andrew_Rosindell>;
+   foaf:page <http://www.andrew.rosindell.com/>,
+     <http://hansard.millbanksystems.com/people/mr-andrew-rossindell>,
+     <http://www.conservatives.com/people/person.cfm?PersonID=136758>,
+     <http://politics.guardian.co.uk/person/0,9290,-6081,00.html>,
+     <http://www.theyworkforyou.com/mp/andrew_rosindell/romford>,
+     <http://publicwhip.org.uk/mp.php?mpn=Andrew_Rosindell&mpc=Romford>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/484.stm>,
+     <https://twitter.com/andrewrosindell> .

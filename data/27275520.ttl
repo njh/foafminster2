@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27275520.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Alison McGovern";
+   dc:modified "2012-12-01T14:19:48Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27275520#id> .
+
+<http://dbpedialite.org/things/27275520#id> a owl:Thing;
+   rdfs:label "Alison McGovern";
+   rdfs:comment "Alison McGovern (born 30 December 1980) is a British Labour Party politician who has been the Member of Parliament for Wirral South since 2010.";
+   owl:sameAs <http://dbpedia.org/resource/Alison_McGovern>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b9caaf>,
+     <http://rdf.freebase.com/ns/m.0bwmlph>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alison_McGovern>;
+   foaf:page <http://www.alisonmcgovern.org.uk/>,
+     <http://www.theyworkforyou.com/mp/alison_mcgovern/wirral_south> .

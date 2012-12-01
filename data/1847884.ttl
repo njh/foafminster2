@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1847884.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jeremy Browne";
+   dc:modified "2012-12-01T15:53:05Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1847884#id> .
+
+<http://dbpedialite.org/things/1847884#id> a owl:Thing;
+   rdfs:label "Jeremy Browne";
+   rdfs:comment "Jeremy Richard Browne (born 17 May 1970) is a British Liberal Democrat politician. He has been the Member of Parliament (MP) for Taunton Deane since 2005 and a Minister of State at the Home Office since 2012, having previously been a minister at the Foreign and Commonwealth Office since 2010.";
+   owl:sameAs <http://dbpedia.org/resource/Jeremy_Browne>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000605a19>,
+     <http://rdf.freebase.com/ns/m.060qjt>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jeremy_Browne>;
+   foaf:page <http://www.jeremybrowne.org.uk>,
+     <http://www.libdems.org.uk/people/jeremy-browne>,
+     <http://www.tauntonlibdems.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/jeremy-browne/35697>,
+     <http://hansard.millbanksystems.com/people/mr-jeremy-browne>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4753_home.html>,
+     <http://www.guardian.co.uk/politics/person/9078/jeremy-browne>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jeremy_Brown>,
+     <http://www.theyworkforyou.com/mp/jeremy_browne>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jeremy-Browne/Taunton/1079>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35697.stm>,
+     <http://journalisted.com/jeremy-browne>,
+     <http://mpsallowances.parliament.uk/mpslordsandoffices/hocallowances/allowances-by-mp/jeremy-browne/>,
+     <http://parliament.telegraph.co.uk/mpsexpenses/mp-details/Jeremy-Browne/mp-11869> .

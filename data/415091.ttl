@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/415091.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mike Wood (politician)";
+   dc:modified "2012-12-01T16:10:49Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/415091#id> .
+
+<http://dbpedialite.org/things/415091#id> a owl:Thing;
+   rdfs:label "Mike Wood (politician)";
+   rdfs:comment "Michael Roy Wood (born 3 March 1946) is a British Labour politician, who has been the Member of Parliament for Batley and Spen since 1997. He is a member of the left-wing Socialist Campaign Group, and is considered one of the more independently minded Labour MPs.";
+   owl:sameAs <http://dbpedia.org/resource/Mike_Wood_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022ce79>,
+     <http://rdf.freebase.com/ns/m.025mmt>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mike_Wood_(politician)>;
+   foaf:page <http://www.mikewood.org.uk>,
+     <http://hansard.millbanksystems.com/people/mr-mike-wood>,
+     <http://politics.guardian.co.uk/person/0,9290,-5652,00.html>,
+     <http://www.theyworkforyou.com/mp/mike_wood/batley_and_spen>,
+     <http://publicwhip.org.uk/mp.php?mpn=Robert_Wareing&mpc=Liverpool%2C+West+Derby>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/34.stm> .

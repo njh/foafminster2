@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/6304425.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Robin Walker";
+   dc:modified "2012-12-01T13:15:04Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/6304425#id> .
+
+<http://dbpedialite.org/things/6304425#id> a owl:Thing;
+   rdfs:label "Robin Walker";
+   rdfs:comment """Robin Caspar Walker (born 12 April 1978) is a British Conservative Party politician who is the Member of Parliament (MP) for the Worcester constituency. He was selected for the seat in August 2006.
+His father was Peter Walker, Baron Walker of Worcester, who was MP for Worcester from 1961 to 1992.""";
+   owl:sameAs <http://dbpedia.org/resource/Robin_Walker>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000e01a3e>,
+     <http://rdf.freebase.com/ns/m.0g06kz>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Robin_Walker>;
+   foaf:page <http://www.worcesterconservatives.com> .

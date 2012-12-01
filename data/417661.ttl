@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/417661.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Hywel Williams";
+   dc:modified "2012-12-01T16:03:18Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/417661#id> .
+
+<http://dbpedialite.org/things/417661#id> a owl:Thing;
+   rdfs:label "Hywel Williams";
+   rdfs:comment "Hywel Williams (born 14 May 1953, Pwllheli) is a Welsh politician and Plaid Cymru Member of Parliament for Arfon. He previously represented Caernarfon.";
+   owl:sameAs <http://dbpedia.org/resource/Hywel_Williams>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022f819>,
+     <http://rdf.freebase.com/ns/m.025z0t>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Hywel_Williams>;
+   foaf:page <http://www.hywelwilliams.plaidcymru.org/>,
+     <http://www.plaidcymru.org/content.php?nID=120;lID=1>,
+     <http://www.parliament.uk/biographies/commons/hywel-williams/25221>,
+     <http://hansard.millbanksystems.com/people/mr-hywel-williams>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4619_home.html>,
+     <http://www.guardian.co.uk/politics/person/6958/hywel-williams>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Hywel_Williams>,
+     <http://www.theyworkforyou.com/mp/hywel_williams>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Hywel-Williams/Arfon/574>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25221.stm>,
+     <http://journalisted.com/hywel-williams> .

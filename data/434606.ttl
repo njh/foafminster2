@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434606.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Philip Hammond";
+   dc:modified "2012-12-01T12:54:45Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434606#id> .
+
+<http://dbpedialite.org/things/434606#id> a owl:Thing;
+   rdfs:label "Philip Hammond";
+   rdfs:comment "Philip Hammond MP (born 4 December 1955) is a British Conservative Party politician. He is Secretary of State for Defence in the Coalition government led by David Cameron, having succeeded Liam Fox on 14 October 2011. He was Secretary of State for Transport from 13 May 2010, when he was appointed as a Privy Counsellor. He is the Member of Parliament (MP) for Runnymede and Weybridge.";
+   owl:sameAs <http://dbpedia.org/resource/Philip_Hammond>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002408b9>,
+     <http://rdf.freebase.com/ns/m.02825t>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Philip_Hammond>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Hammond_Philip.asp>,
+     <http://www.parliament.uk/biographies/commons/philip-hammond/25564>,
+     <http://hansard.millbanksystems.com/people/mr-philip-hammond>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3733_home.html>,
+     <http://www.guardian.co.uk/politics/person/2167/philip-hammond>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Philip_Hammond>,
+     <http://www.theyworkforyou.com/mp/philip_hammond>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Philip-Hammond/Runnymede-and-Weybridge/982>,
+     <http://journalisted.com/philip-hammond>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/493.stm>,
+     <http://www.runnymedeweybridgeconservatives.com>,
+     <http://www.debretts.com/people/biographies/browse/h/19549/Philip+HAMMOND.aspx> .

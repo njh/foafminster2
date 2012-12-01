@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/356898.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nick Brown";
+   dc:modified "2012-12-01T14:30:08Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/356898#id> .
+
+<http://dbpedialite.org/things/356898#id> a owl:Thing;
+   rdfs:label "Nick Brown";
+   rdfs:comment "Nicholas Hugh \"Nick\" Brown (born 13 June 1950) is a British Labour Party politician who has been the Member of Parliament (MP) for Newcastle upon Tyne East since 1983. He has served as Minister of Agriculture, Fisheries and Food, Minister of State for Work and Pensions, Deputy Chief Whip, and was the Government's Chief Whip from October 2008 to May 2010.";
+   owl:sameAs <http://dbpedia.org/resource/Nick_Brown>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001f7c75>,
+     <http://rdf.freebase.com/ns/m.01z_3p>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nick_Brown>;
+   foaf:page <http://www.nickbrownmp.com/>,
+     <http://www.labour.org.uk/maps/locinfo.phtml?ctid=2258>,
+     <http://www.parliament.uk/biographies/commons/nicholas-brown/25744>,
+     <http://hansard.millbanksystems.com/people/mr-nick-brown>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2330_home.html>,
+     <http://www.guardian.co.uk/politics/person/658/nick-brown>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nick_Brown>,
+     <http://www.theyworkforyou.com/mp/nick_brown>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nicholas-Brown/Newcastle-upon-Tyne-East/100>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25744.stm>,
+     <http://journalisted.com/nick-brown> .

@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1847104.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Justine Greening";
+   dc:modified "2012-12-01T16:09:44Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1847104#id> .
+
+<http://dbpedialite.org/things/1847104#id> a owl:Thing;
+   rdfs:label "Justine Greening";
+   rdfs:comment "Justine Greening (born 30 April 1969) is a Conservative Party politician in the United Kingdom. She has been the Member of Parliament (MP) for Putney since 2005. She was appointed Secretary of State for International Development in September 2012. Previously, she was appointed Economic Secretary to the Treasury in May 2010, and became Secretary of State for Transport on 14 October 2011. On 4 September 2012, she was replaced by Patrick McLoughlin at the Department of Transport, and became Secretary of State for International Development";
+   owl:sameAs <http://dbpedia.org/resource/Justine_Greening>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000060527a>,
+     <http://rdf.freebase.com/ns/m.060nmv>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Justine_Greening>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Greening_Justine.aspx>,
+     <http://hansard.millbanksystems.com/people/ms-justine-greening>,
+     <http://www.guardian.co.uk/politics/person/5881/justine-greening>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Justine_Greening>,
+     <http://www.theyworkforyou.com/mp/justine_greening>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Justine-Greening/Putney/223>,
+     <http://www.dft.gov.uk/ministers/justine-greening/>,
+     <http://www.debretts.com/people/biographies/browse/g/24209/Justine+GREENING.aspx> .

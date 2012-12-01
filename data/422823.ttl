@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/422823.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Albert Owen";
+   dc:modified "2012-12-01T12:28:11Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/422823#id> .
+
+<http://dbpedialite.org/things/422823#id> a owl:Thing;
+   rdfs:label "Albert Owen";
+   rdfs:comment "Albert Owen (born 10 August 1959) is a Welsh Labour Party politician and Member of Parliament (MP) for Ynys Môn. He took the seat in the 2001 election from Plaid Cymru with a margin of exactly eight hundred votes and retained the seat with an increased majority of approximately twelve hundred votes in the 2005 election. In the 2010 election he further increased his majority to 2,461. He is a member of the Parliamentary Welsh Affairs Select Committee, and vice-chairman of the All Party Parliamentary Flag Group";
+   owl:sameAs <http://dbpedia.org/resource/Albert_Owen>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023529e>,
+     <http://rdf.freebase.com/ns/m.026nnz>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Albert_Owen>;
+   foaf:page <http://www.albertowen.org.uk/>,
+     <http://www.welshlabour.org.uk/candidates/albert-owen-ynys-mon/>,
+     <http://www.parliament.uk/biographies/commons/albert-owen/25395>,
+     <http://hansard.millbanksystems.com/people/mr-albert-owen>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2226_home.html>,
+     <http://www.guardian.co.uk/politics/person/6520/albert-owen>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Albert_Owen>,
+     <http://www.theyworkforyou.com/mp/albert_owen>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Albert-Owen/Ynys-Mon/399>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25395.stm> .

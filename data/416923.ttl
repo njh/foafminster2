@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/416923.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mark Lazarowicz";
+   dc:modified "2012-12-01T14:28:36Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/416923#id> .
+
+<http://dbpedialite.org/things/416923#id> a owl:Thing;
+   rdfs:label "Mark Lazarowicz";
+   rdfs:comment "Mark Lazarowicz, (born 8 August 1953) is a British Labour Co-operative politician who has been the Member of Parliament (MP) for Edinburgh North and Leith since 2001. As of October 2010, he has been appointed as part of the shadow team for the Department for International Development along with Rushanara Ali with Harriet Harman in charge As of October 2011, his position of Shadow DFID Minister was taken over by Tony Cunningham.";
+   owl:sameAs <http://dbpedia.org/resource/Mark_Lazarowicz>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022ea8d>,
+     <http://rdf.freebase.com/ns/m.025vnf>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mark_Lazarowicz>;
+   foaf:page <http://www.mark4northandleith.org.uk/>,
+     <http://www.marklazarowicz.org.uk>,
+     <http://politics.guardian.co.uk/person/0,,-11032,00.html>,
+     <http://www.theyworkforyou.com/mp/mark_lazarowicz/edinburgh_north_and_leith>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25467.stm> .

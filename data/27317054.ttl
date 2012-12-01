@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27317054.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Iain Stewart (politician)";
+   dc:modified "2012-12-01T15:36:25Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27317054#id> .
+
+<http://dbpedialite.org/things/27317054#id> a owl:Thing;
+   rdfs:label "Iain Stewart (politician)";
+   rdfs:comment """Iain Aitken Stewart (born 18 September 1972) is the Conservative Member of Parliament for Milton Keynes South.
+Stewart was born in Scotland and grew up in Hamilton. He went to Hutchesons' Grammar School. He studied politics at the University of Exeter before training as an accountant with Coopers & Lybrand in Milton Keynes.
+He first ran for public office in the Scottish Parliament election, 1999, for the Glasgow Rutherglen constituency, finishing fourth. Returning to Milton Keynes, he was selected to fight Milton Keynes South West at the 2001 general election, losing to incumbent Phyllis Starkey by 6,978 votes. Running again at the 2005 election, he lost to Starkey by 4,010 votes. His...""";
+   owl:sameAs <http://dbpedia.org/resource/Iain_Stewart_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d0e985>,
+     <http://rdf.freebase.com/ns/m.0by1vd5>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Iain_Stewart_(politician)>;
+   foaf:page <http://ias4mks.com/index.php> .

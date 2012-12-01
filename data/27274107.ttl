@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27274107.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Tom Blenkinsop";
+   dc:modified "2012-12-01T15:59:54Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27274107#id> .
+
+<http://dbpedialite.org/things/27274107#id> a owl:Thing;
+   rdfs:label "Tom Blenkinsop";
+   rdfs:comment """Thomas Francis Blenkinsop (born 14 August 1980) is a British Labour Party politician and Member of Parliament (MP) for Middlesbrough South and East Cleveland.
+Born in Middlesbrough, Blenkinsop attended St Augustine's RC Primary School in Coulby Newham and Newlands School FCJ, before attending St Mary's Sixth Form College in Saltersgill. He attended Teesside University where he obtained a BSc in Philosophy, Politics and Economics, and the University of Warwick, where he was awarded an MA in Continental philosophy.""";
+   owl:sameAs <http://dbpedia.org/resource/Tom_Blenkinsop>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7b4e8>,
+     <http://rdf.freebase.com/ns/m.0bwhf78>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tom_Blenkinsop>;
+   foaf:page <http://www.tomblenkinsop.com/>,
+     <http://www.parliament.uk/biographies/commons/tom-blenkinsop/85090>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5585_home.html>,
+     <http://www.guardian.co.uk/politics/person/13527/tom-blenkinsop>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Tom_Blenkinsop>,
+     <http://www.theyworkforyou.com/mp/tom_blenkinsop>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Tom-Blenkinsop/Middlesbrough-South-and-East-Cleveland/1341>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/85090.stm>,
+     <http://www.catch21.co.uk/2010/10/new-mpinions-tom-blenkinsop-mp> .

@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/228777.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Peter Hain";
+   dc:modified "2012-12-01T15:19:45Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/228777#id> .
+
+<http://dbpedialite.org/things/228777#id> a owl:Thing;
+   rdfs:label "Peter Hain";
+   rdfs:comment "Peter Gerald Hain (born 16 February 1950) is a British Labour Party politician, who has been the Member of Parliament (MP) for Neath since 1991, and served in the Cabinets of both Tony Blair and Gordon Brown. He was the Leader of the House of Commons from 2003 to 2005 and Secretary of State for Northern Ireland from 2005 to 2007 under Blair, and as Secretary of State for Work and Pensions and Secretary of State for Wales from 2007 to 2008 under Brown. In 2007, he ran for the Deputy Leadership of the Labour Party, coming fifth out of six candidates, although his failure to declare donations during this contest led to his resignation in 2008. He later returned to the Cabinet from 2009 to...";
+   owl:sameAs <http://dbpedia.org/resource/Peter_Hain>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000017a658>,
+     <http://rdf.freebase.com/ns/m.01h9ls>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Peter_Hain>;
+   foaf:page <http://www.peterhain.org/>,
+     <http://www.welshlabour.org.uk/candidates/peter-hain-neath>,
+     <http://www.parliament.uk/biographies/commons/peter-hain/25173>,
+     <http://hansard.millbanksystems.com/people/mr-peter-hain>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3711_home.html>,
+     <http://www.guardian.co.uk/politics/person/2131/peter-hain>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Peter_Hain>,
+     <http://www.theyworkforyou.com/mp/peter_hain>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Peter-Hain/Neath/180>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25173.stm>,
+     <http://journalisted.com/peter-hain>,
+     <http://www.newstatesman.com/writers/peter_hain>,
+     <http://worldcat.org/identities/lccn-n50-19752>,
+     <http://news.bbc.co.uk/onthisday/hi/dates/stories/april/9/newsid_2523000/2523609.stm> .

@@ -1,0 +1,36 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/359553.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Michael Meacher";
+   dc:modified "2012-12-01T15:38:22Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/359553#id> .
+
+<http://dbpedialite.org/things/359553#id> a owl:Thing;
+   rdfs:label "Michael Meacher";
+   rdfs:comment "Michael Hugh Meacher (born 4 November 1939) is a British Labour politician, who has been the Member of Parliament (MP) for Oldham West and Royton since 1997. Previously he had been the MP for Oldham West, first elected in 1970. On 22 February 2007 he declared that he would be standing for the Labour Leadership, challenging Gordon Brown and John McDonnell. On 14 May, however, after talks with John McDonnell, he announced he would stand aside in order to back McDonnell as the \"candidate of the left\".";
+   owl:sameAs <http://dbpedia.org/resource/Michael_Meacher>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001fa379>,
+     <http://rdf.freebase.com/ns/m.01_8wt>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_Meacher>;
+   foaf:page <http://www.michaelmeacher.info>,
+     <http://www.parliament.uk/biographies/commons/michael-meacher/25453>,
+     <http://hansard.millbanksystems.com/people/mr-michael-meacher>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1857_home.html>,
+     <http://www.guardian.co.uk/politics/person/3566/michael-meacher>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Michael_Meacher>,
+     <http://www.theyworkforyou.com/mp/michael_meacher>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Michael-Meacher/Oldham-West-and-Royton/401>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25453.stm>,
+     <http://journalisted.com/michael-meacher>,
+     <http://www.guardian.co.uk/profile/michaelmeacher>,
+     <http://www.newstatesman.com/writers/michael_meacher>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2988588.stm>,
+     <http://politics.guardian.co.uk/iraq/comment/0,12956,1036687,00.html>,
+     <http://www.thebigask.com>,
+     <http://video.google.com/videoplay?docid=8274552561914055825>,
+     <http://www.informationclearinghouse.info/article11222.htm> .

@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/219787.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Crispin Blunt";
+   dc:modified "2012-12-01T13:40:32Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/219787#id> .
+
+<http://dbpedialite.org/things/219787#id> a owl:Thing;
+   rdfs:label "Crispin Blunt";
+   rdfs:comment """Crispin Jeremy Rupert Blunt (born 15 July 1960) is a British Conservative Party politician. He is the Member of Parliament (MP) for the Reigate constituency in Surrey, and from May 2010 to September 2012 he was the Parliamentary Under-Secretary of State for Prisons and Youth Justice within the Ministry of Justice.
+He first entered the House of Commons at the 1997 general election, when he replaced rebel Eurosceptic MP George Gardiner.""";
+   owl:sameAs <http://dbpedia.org/resource/Crispin_Blunt>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000170f18>,
+     <http://rdf.freebase.com/ns/m.01g3ss>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Crispin_Blunt>;
+   foaf:page <http://www.crispinbluntmp.com>,
+     <http://www.parliament.uk/biographies/commons/crispin-blunt/25811>,
+     <http://hansard.millbanksystems.com/people/mr-crispin-blunt>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4045_home.html>,
+     <http://www.guardian.co.uk/politics/person/478/crispin-blunt>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Crispin_Blunt>,
+     <http://www.theyworkforyou.com/mp/crispin_blunt>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Crispin-Blunt/Reigate/59>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25811.stm>,
+     <http://news.sky.com/skynews/Home/Sky-News-Archive/Article/200806412303527>,
+     <http://news.bbc.co.uk/2/hi/uk_news/politics/2995523.stm>,
+     <http://www.cmec.org.uk/who-we-are/39-former-chairman/6-former-chairman-crispin-blunt-mp.html> .

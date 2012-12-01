@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27305991.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Steve Baker (politician)";
+   dc:modified "2012-12-01T15:21:36Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27305991#id> .
+
+<http://dbpedialite.org/things/27305991#id> a owl:Thing;
+   rdfs:label "Steve Baker (politician)";
+   rdfs:comment """Steven John Baker (born 6 June 1971) is a British Conservative Party politician. He is the Member of Parliament (MP) for Wycombe, having been elected in the 2010 general election. He has been a member of the executive of the 1922 Committee since May 2012.
+Baker served in the Royal Air Force as an aerospace engineer from 1989 to 1999. After leaving the RAF, he studied computation at Oxford, and became a software engineer and consultant. He decided to enter politics after witnessing the financial crisis in 2008, and was elected MP for Wycombe in 2010. Since entering Parliament, he has campaigned against bail-outs for the financial sector, against central banking, and against the...""";
+   owl:sameAs <http://dbpedia.org/resource/Steve_Baker_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cfe269>,
+     <http://rdf.freebase.com/ns/m.0bx_sm9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Steve_Baker_(politician)>;
+   foaf:page <http://www.stevebaker.info/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Baker_Steven.aspx>,
+     <http://www.wycombeconservatives.org/>,
+     <http://hansard.millbanksystems.com/people/mr-steven-baker>,
+     <http://www.guardian.co.uk/politics/person/12553/steven-baker>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Steven_Baker>,
+     <http://www.theyworkforyou.com/mp/steven_baker>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Steve-Baker/Wycombe/1325>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/83404.stm> .

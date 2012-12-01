@@ -1,0 +1,45 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/427597.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Steve Webb";
+   dc:modified "2012-12-01T13:00:56Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/427597#id> .
+
+<http://dbpedialite.org/things/427597#id> a owl:Thing;
+   rdfs:label "Steve Webb";
+   rdfs:comment "Steven John Webb, better known as Steve Webb (born 18 July 1965), is an English Liberal Democrat politician. He is the Member of Parliament for Thornbury & Yate and the Minister of State for Pensions.";
+   owl:sameAs <http://dbpedia.org/resource/Steve_Webb>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000239dc9>,
+     <http://rdf.freebase.com/ns/m.0277g9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Steve_Webb>;
+   foaf:page <http://www.stevewebb.org.uk>,
+     <http://www.webbsteve.blogspot.com>,
+     <http://www.libdems.org.uk/people/steve-webb>,
+     <http://www.parliament.uk/biographies/commons/steve-webb/25230>,
+     <http://hansard.millbanksystems.com/people/professor-steve-webb>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4546_home.html>,
+     <http://www.guardian.co.uk/politics/person/5437/steve-webb>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Steve_Webb>,
+     <http://www.theyworkforyou.com/mp/steve_webb>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Steve-Webb/Northavon/1128>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25230.stm>,
+     <http://journalisted.com/steve-webb>,
+     <http://news.bbc.co.uk/2/hi/uk_news/politics/7048460.stm>,
+     <http://www.facebook.com/profile.php?id=509185764>,
+     <http://www.myspace.com/stevewebb1>,
+     <http://www.manifesto.libdems.org.uk>,
+     <http://www.dwp.gov.uk/>,
+     <http://news.bbc.co.uk/1/hi/business/2314293.stm>,
+     <http://news.bbc.co.uk/1/hi/business/2488447.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/3553273.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/3600686.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4261138.stm>,
+     <http://news.bbc.co.uk/1/hi/england/bristol/4706026.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4941878.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/8675705.stm>,
+     <http://news.bbc.co.uk/media/avdb/news/england/video/126000/bb/126558_16x9_bb.ram> .

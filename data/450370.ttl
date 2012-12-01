@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/450370.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Richard Shepherd";
+   dc:modified "2012-12-01T13:01:00Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/450370#id> .
+
+<http://dbpedialite.org/things/450370#id> a owl:Thing;
+   rdfs:label "Richard Shepherd";
+   rdfs:comment """Richard Charles Scrimgeour Shepherd (born 6 December 1942, in Aberdeen, Scotland) is a Conservative politician in the United Kingdom. He is currently a Member of Parliament, having represented the constituency of Aldridge-Brownhills since 1979.
+A Eurosceptic, Shepherd was one of the Maastricht Rebels that had the whip withdrawn over opposition to John Major's legislation on the European Union. Shepherd is also a libertarian, and had a three line whip imposed against him by Margaret Thatcher when he introduced an amendment loosening the Official Secrets Act 1911.""";
+   owl:sameAs <http://dbpedia.org/resource/Richard_Shepherd>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024f60e>,
+     <http://rdf.freebase.com/ns/m.029yjg>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Richard_Shepherd>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Shepherd_Richard.aspx>,
+     <http://www.aldridgebrownhills.org.uk>,
+     <http://hansard.millbanksystems.com/people/mr-richard-shepherd>,
+     <http://www.guardian.co.uk/politics/person/4730/richard-shepherd>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Richard_Shepherd>,
+     <http://www.theyworkforyou.com/mp/richard_shepherd>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Richard-Shepherd/Aldridge-Brownhills/550>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25205.stm>,
+     <http://conservativehome.blogs.com/parliament/richard-shepherd-mp/> .

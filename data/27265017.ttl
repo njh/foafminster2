@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27265017.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Tessa Munt";
+   dc:modified "2012-12-01T13:48:53Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27265017#id> .
+
+<http://dbpedialite.org/things/27265017#id> a owl:Thing;
+   rdfs:label "Tessa Munt";
+   rdfs:comment "Tessa Jane Munt (born 16 October 1959) is a British Liberal Democrat politician. She is the Member of Parliament (MP) for Wells in Somerset.";
+   owl:sameAs <http://dbpedia.org/resource/Tessa_Munt>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000c4a7506>,
+     <http://rdf.freebase.com/ns/m.064ny86>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tessa_Munt>;
+   foaf:page <http://wellslibdems.org.uk/pages/tessamunt.html>,
+     <http://www.parliament.uk/biographies/commons/tessa-munt/31619>,
+     <http://hansard.millbanksystems.com/people/ms-tessa-munt>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5729_home.html>,
+     <http://www.guardian.co.uk/politics/person/6874/tessa-munt>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Tessa_Munt>,
+     <http://www.theyworkforyou.com/mp/tessa_munt>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Tessa-Munt/Wells/1369>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31619.stm> .

@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27283593.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Paul Maynard";
+   dc:modified "2012-12-01T15:12:26Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27283593#id> .
+
+<http://dbpedialite.org/things/27283593#id> a owl:Thing;
+   rdfs:label "Paul Maynard";
+   rdfs:comment "Paul Christopher Maynard (born 16 December 1975) is a British Conservative Party politician. He was elected at the 2010 general election as the Member of Parliament (MP) for Blackpool North and Cleveleys.";
+   owl:sameAs <http://dbpedia.org/resource/Paul_Maynard>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000005ad673d>,
+     <http://rdf.freebase.com/ns/m.02vvtty>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Paul_Maynard>;
+   foaf:page <http://paulmaynard.co.uk/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Maynard_Paul.aspx>,
+     <http://www.blackpoolconservatives.com/>,
+     <http://www.guardian.co.uk/politics/person/9329/jane-ellison>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Paul_Maynard>,
+     <http://www.theyworkforyou.com/mp/paul_maynard>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Paul-Maynard/Blackpool-North-and-Cleveleys/1184>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35499.stm> .

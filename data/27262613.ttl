@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27262613.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Stephen Metcalfe (politician)";
+   dc:modified "2012-12-01T13:53:46Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27262613#id> .
+
+<http://dbpedialite.org/things/27262613#id> a owl:Thing;
+   rdfs:label "Stephen Metcalfe (politician)";
+   rdfs:comment """Stephen James Metcalfe (born 9 January 1966) is a British Conservative Party politician, who has been the Member of Parliament (MP) for South Basildon and East Thurrock since May 2010. Metcalfe is married to Angela, with whom he has two children, Tom and Katie. Both Stephen and Angela work in their family printing business.
+Metcalfe won the seat at the general election in May 2010, unseating the then Third Sector and Social Exclusion minister Angela Evans Smith who had been elected to the seat in 1997.""";
+   owl:sameAs <http://dbpedia.org/resource/Stephen_Metcalfe_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b8c395>,
+     <http://rdf.freebase.com/ns/m.0bwkjxp>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Stephen_Metcalfe_(politician)> .

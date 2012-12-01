@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434707.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Siobhain McDonagh";
+   dc:modified "2012-12-01T13:46:44Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434707#id> .
+
+<http://dbpedialite.org/things/434707#id> a owl:Thing;
+   rdfs:label "Siobhain McDonagh";
+   rdfs:comment """Siobhain Ann McDonagh (born 20 February 1960) is a British Labour Party politician who has been the Member of Parliament (MP) for Mitcham and Morden since 1997. She previously served as an Assistant Whip in the Labour Government, but was fired following comments regarding a leadership contest to replace PM Gordon Brown.
+She is a vocal critic of Sri Lanka. Issues pertaining to Sri Lankan Tamil diaspora are the most visible in her public image.""";
+   owl:sameAs <http://dbpedia.org/resource/Siobhain_McDonagh>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240b2a>,
+     <http://rdf.freebase.com/ns/m.0282tb>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Siobhain_McDonagh>;
+   foaf:page <http://www.siobhainmcdonagh.org.uk>,
+     <http://hansard.millbanksystems.com/people/ms-siobhain-mcdonagh>,
+     <http://politics.guardian.co.uk/person/0,9290,-3824,00.html>,
+     <http://www.theyworkforyou.com/mp/siobhain_mcdonagh/mitcham_and_morden>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/407.stm> .

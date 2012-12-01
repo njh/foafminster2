@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434656.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - George Howarth";
+   dc:modified "2012-12-01T14:04:49Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434656#id> .
+
+<http://dbpedialite.org/things/434656#id> a owl:Thing;
+   rdfs:label "George Howarth";
+   rdfs:comment """George Edward Howarth (born 29 June 1949) is a British Labour Party politician, who has been the Member of Parliament (MP) for Knowsley North from 1986 until 1997, and since then for its replacement Knowsley North and Sefton East.
+Born in Merseyside, he was educated at the local Huyton Secondary School, the Kirkby College of Further Education, and the Liverpool John Moores University. He went on to study at the University of Salford. He served his apprenticeship for four years from 1966 as an engineer, and then worked as an engineer until 1975 when he moved into teaching. In 1980 he joined Cooperative Development Services, and in 1982 was appointed the Chief Executive at the Walm...""";
+   owl:sameAs <http://dbpedia.org/resource/George_Howarth>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240a06>,
+     <http://rdf.freebase.com/ns/m.0282j6>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/George_Howarth>;
+   foaf:page <http://www.georgehowarth.org.uk>,
+     <http://politics.guardian.co.uk/person/0,9290,-2543,00.html>,
+     <http://www.theyworkforyou.com/mp/george_howarth/knowsley_north_and_sefton_east> .

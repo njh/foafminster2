@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/426679.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Cheryl Gillan";
+   dc:modified "2012-12-01T13:24:03Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/426679#id> .
+
+<http://dbpedialite.org/things/426679#id> a owl:Thing;
+   rdfs:label "Cheryl Gillan";
+   rdfs:comment """Rt Hon Cheryl Elise Kendall Gillan MP (born 21 April 1952 in Cardiff, Wales) is a British Conservative Party politician and the Member of Parliament (MP) for the constituency of Chesham and Amersham in Buckinghamshire. She was the Secretary of State for Wales from 2010 to 2012.
+Prior to her parliamentary career, Gillan worked as a marketing executive for several companies. She was first elected to the House of Commons in 1992 and was a junior minister for Education and Employment from 1995-97 in John Major's government. After 1997 she served as a Conservative whip and as a spokesperson for Trade and Industry, Foreign Affairs, and Home Affairs. She was the Shadow Welsh Secretary from 2005...""";
+   owl:sameAs <http://dbpedia.org/resource/Cheryl_Gillan>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000239014>,
+     <http://rdf.freebase.com/ns/m.02740n>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Cheryl_Gillan>;
+   foaf:page <http://www.cherylgillan.co.uk>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Gillan_Cheryl.aspx>,
+     <http://www.ceidwadwyr.com/portal-en/our-mps/56-cheryl-gillan-mp.html>,
+     <http://www.cheshamandamershamconservatives.com/>,
+     <http://www.parliament.uk/biographies/commons/cheryl-gillan/25627>,
+     <http://hansard.millbanksystems.com/people/ms-cheryl-gillan>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3438_home.html>,
+     <http://www.guardian.co.uk/politics/person/1931/cheryl-gillan>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Cheryl_Gillan>,
+     <http://www.theyworkforyou.com/mp/cheryl_gillan>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Cheryl-Gillan/Chesham-and-Amersham/200>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25627.stm>,
+     <http://www.debretts.com/people/biographies/browse/g/16868/Cheryl+GILLAN.aspx> .

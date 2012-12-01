@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/420566.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Fiona Mactaggart";
+   dc:modified "2012-12-01T14:03:36Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/420566#id> .
+
+<http://dbpedialite.org/things/420566#id> a owl:Thing;
+   rdfs:label "Fiona Mactaggart";
+   rdfs:comment "Fiona Margaret Mactaggart (born 12 September 1953) is a British Labour Party politician, who has been the Member of Parliament (MP) for Slough since 1997.";
+   owl:sameAs <http://dbpedia.org/resource/Fiona_Mactaggart>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000233182>,
+     <http://rdf.freebase.com/ns/m.026dd2>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Fiona_Mactaggart>;
+   foaf:page <http://www.fionamactaggart.org.uk/>,
+     <http://www.homeoffice.gov.uk/inside/org/ministers/mactaggart.html>,
+     <http://www.parliament.uk/biographies/commons/fiona-mactaggart/25187>,
+     <http://hansard.millbanksystems.com/people/ms-fiona-mactaggart>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1635_home.html>,
+     <http://www.guardian.co.uk/politics/person/3291/fiona-mactaggart>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Fiona_Mactaggart>,
+     <http://www.theyworkforyou.com/mp/fiona_mactaggart>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Fiona-Mactaggart/Slough/1061>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25187.stm>,
+     <http://journalisted.com/fiona-mactaggart>,
+     <http://society.guardian.co.uk/publicvoices/story/0,,670333,00.html>,
+     <http://news.bbc.co.uk/1/hi/programmes/newsnight/3473665.stm>,
+     <http://news.bbc.co.uk/1/hi/education/4115301.stm>,
+     <http://www.sloughlabour.co.uk/> .

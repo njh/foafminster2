@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/25667226.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Michael Crockart";
+   dc:modified "2012-12-01T15:29:22Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/25667226#id> .
+
+<http://dbpedialite.org/things/25667226#id> a owl:Thing;
+   rdfs:label "Michael Crockart";
+   rdfs:comment """Michael Bruce Crockart (born 19 March 1966) is a Liberal Democrat politician, and the Member of Parliament for Edinburgh West. He was first elected on 6 May 2010 at the 2010 general election.
+Crockart was the Parliamentary Private Secretary (PPS) to Michael Moore, the Scottish Secretary of State, but he quit in December 2010 to vote against the rise in tuition fees.""";
+   owl:sameAs <http://dbpedia.org/resource/Michael_Crockart>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000013a4089b>,
+     <http://rdf.freebase.com/ns/m.09v824w>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_Crockart>;
+   foaf:page <http://edinburghwestlibdems.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/mike-crockart/35598>,
+     <http://hansard.millbanksystems.com/people/mr-michael-crockart>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5531_home.html>,
+     <http://www.guardian.co.uk/politics/person/11422/michael-crockart>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Michael_Crockart>,
+     <http://www.theyworkforyou.com/mp/michael_crockart>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Michael-Crockart/Edinburgh-West/1348>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35598.stm> .

@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/30960897.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Dan Jarvis";
+   dc:modified "2012-12-01T13:50:26Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/30960897#id> .
+
+<http://dbpedialite.org/things/30960897#id> a owl:Thing;
+   rdfs:label "Dan Jarvis";
+   rdfs:comment "Daniel Owen Woolgar Jarvis, MBE (born 30 November 1972) is a British Labour Party politician and former British Army officer. After a career in the Parachute Regiment including most of the regiment's major deployments, he went into politics and has been the Member of Parliament (MP) for Barnsley Central since a by-election held on 3 March 2011.";
+   owl:sameAs <http://dbpedia.org/resource/Dan_Jarvis>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000001ce47938>,
+     <http://rdf.freebase.com/ns/m.0gg8z9s>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Dan_Jarvis>;
+   foaf:page <http://www.guardian.co.uk/politics/person/14330/dan-jarvis>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Dan_Jarvis>,
+     <http://www.theyworkforyou.com/mp/dan_jarvis/barnsley_central>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Daniel-Jarvis/Barnsley-Central/1647>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/91415.stm>,
+     <http://www.ourcampaigns.com/RaceDetail.html?RaceID=720712> .

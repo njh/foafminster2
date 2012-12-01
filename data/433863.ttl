@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/433863.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mark Prisk";
+   dc:modified "2012-12-01T12:47:47Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/433863#id> .
+
+<http://dbpedialite.org/things/433863#id> a owl:Thing;
+   rdfs:label "Mark Prisk";
+   rdfs:comment "Michael Mark Prisk (born 12 June 1962, in Redruth, Cornwall) is a Conservative Party politician in the United Kingdom. He is the Member of Parliament (MP) for Hertford and Stortford, and the Minister of State for Housing and Local Government as of 2012. He earlier served on the opposition frontbench as Shadow Minister for Business and Enterprise, and Shadow Minister for Cornwall.";
+   owl:sameAs <http://dbpedia.org/resource/Mark_Prisk>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023fdf0>,
+     <http://rdf.freebase.com/ns/m.027_hj>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mark_Prisk>;
+   foaf:page <http://www.markprisk.com>,
+     <http://hansard.millbanksystems.com/people/mr-mark-priske>,
+     <http://www.guardian.co.uk/politics/person/5943/mark-prisk>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Mark_Prisk>,
+     <http://www.theyworkforyou.com/mp/mark_prisk>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Mark-Prisk/Hertford-and-Stortford/433>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/315.stm>,
+     <http://www.thisiscornwall.co.uk/displayNode.jsp?nodeId=144694&command=displayContent&sourceNode=144660&contentPK=17928446&folderPk=83364&pNodeId=144659>,
+     <http://www.youtube.com/user/MarkPriskMP> .

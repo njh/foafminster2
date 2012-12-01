@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/422817.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Sandra Osborne";
+   dc:modified "2012-12-01T14:11:56Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/422817#id> .
+
+<http://dbpedialite.org/things/422817#id> a owl:Thing;
+   rdfs:label "Sandra Osborne";
+   rdfs:comment "Sandra Currie Osborne (née Clark, born 23 February 1956) is a Scottish Labour politician, who has been the Member of Parliament for Ayr, Carrick and Cumnock since 2005. She was first elected in 1997, and resigned from a government job in 2003 over the Iraq War. She was a member of the Foreign Affairs Select Committee from 2005–10. She is currently a member of the Defence Select Committee and the Council of Europe.";
+   owl:sameAs <http://dbpedia.org/resource/Sandra_Osborne>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023526f>,
+     <http://rdf.freebase.com/ns/m.026nmh>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sandra_Osborne>;
+   foaf:page <http://politics.guardian.co.uk/person/0,9290,-4001,00.html>,
+     <http://www.theyworkforyou.com/mp/sandra_osborne/ayr%2C_carrick_and_cumnock>,
+     <http://www.guardian.co.uk/politics/2010/apr/07/simon-hoggart-sketch-general-election> .

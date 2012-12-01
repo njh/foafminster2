@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27319806.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mark Menzies";
+   dc:modified "2012-12-01T15:55:18Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27319806#id> .
+
+<http://dbpedialite.org/things/27319806#id> a owl:Thing;
+   rdfs:label "Mark Menzies";
+   rdfs:comment "Mark Andrew Menzies (18 May 1971) is a British Conservative Party politician who has been the Member of Parliament (MP) for Fylde in Lancashire since 2010. He is currently Parliamentary Private Secretary (PPS) to Mark Prisk MP, Minister of State for Housing and Local Government. He was previously PPS to Charles Hendry MP, Minister of State for Energy and Climate Change before both moved in the 2012 Cabinet Reshuffle. Mr Menzies is also a former member of the Scottish Affairs Select Committee. His main political priorities include UK energy security, changing the planning system to empower local communities and limit inappropriate development and ensuring a vibrant future for the defence...";
+   owl:sameAs <http://dbpedia.org/resource/Mark_Menzies>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d0696a>,
+     <http://rdf.freebase.com/ns/m.0by0vcb>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mark_Menzies>;
+   foaf:page <http://www.markmenzies.org.uk/> .

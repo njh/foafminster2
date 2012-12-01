@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27291443.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Graham Evans";
+   dc:modified "2012-12-01T15:08:49Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27291443#id> .
+
+<http://dbpedialite.org/things/27291443#id> a owl:Thing;
+   rdfs:label "Graham Evans";
+   rdfs:comment "Graham Thomas Evans (born 10 November 1963) is a British Conservative Party politician who has been the Member of Parliament (MP) for Weaver Vale in Cheshire since the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Graham_Evans>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d0ebc5>,
+     <http://rdf.freebase.com/ns/m.0by1vz5>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Graham_Evans>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Evans_Graham.aspx>,
+     <http://www.weavervaleconservatives.com/>,
+     <http://www.guardian.co.uk/politics/person/9416/graham-evans>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Graham_Evans>,
+     <http://www.theyworkforyou.com/mp/graham_evans>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Graham-Evans/Weaver-Vale/808>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/40501.stm> .

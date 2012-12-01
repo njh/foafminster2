@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/3595532.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Eric Ollerenshaw";
+   dc:modified "2012-12-01T15:27:41Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/3595532#id> .
+
+<http://dbpedialite.org/things/3595532#id> a owl:Thing;
+   rdfs:label "Eric Ollerenshaw";
+   rdfs:comment """Eric Ollerenshaw OBE (born 26 March 1950) is a British Conservative politician and the Member of Parliament (MP) for Lancaster and Fleetwood.
+He was born and grew up in Lancashire and was educated at the London School of Economics where he was awarded a Bachelor of Science degree in Economics in 1971. He has previously been an elected member of the London Assembly and head of the Cities and Diversity section of the Conservative Party at Conservative Campaign Headquarters.""";
+   owl:sameAs <http://dbpedia.org/resource/Eric_Ollerenshaw>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000009a61bb>,
+     <http://rdf.freebase.com/ns/m.09nsfw>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Eric_Ollerenshaw>;
+   foaf:page <http://www.hackneyconservatives.com/> .

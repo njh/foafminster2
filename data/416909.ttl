@@ -1,0 +1,46 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/416909.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Damian Green";
+   dc:modified "2012-12-01T15:52:38Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/416909#id> .
+
+<http://dbpedialite.org/things/416909#id> a owl:Thing;
+   rdfs:label "Damian Green";
+   rdfs:comment "Damian Howard Green (born 17 January 1956) is a British politician who has been the Conservative Member of Parliament for Ashford since 1997. He came to national prominence after being arrested and having his parliamentary office raided in November 2008. Before standing for parliament, Damian Green was Channel 4's business editor. He is currently the Minister of State for Police and Criminal Justice.";
+   owl:sameAs <http://dbpedia.org/resource/Damian_Green>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022ea40>,
+     <http://rdf.freebase.com/ns/m.025vl0>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Damian_Green>;
+   foaf:page <http://www.damiangreenmp.org.uk>,
+     <http://www.ashfordconservatives.com>,
+     <http://www.parliament.uk/biographies/commons/damian-green/25546>,
+     <http://hansard.millbanksystems.com/people/mr-damain-green>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3546_home.html>,
+     <http://www.guardian.co.uk/politics/person/2048/damian-green>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Damian_Green>,
+     <http://www.theyworkforyou.com/mp/damian_green>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Damian-Green/Ashford/222>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25546.stm>,
+     <http://journalisted.com/damian-green>,
+     <http://worldcat.org/identities/lccn-no91-18384>,
+     <http://www.openrightsgroup.org/orgwiki/index.php/Damian_Green_MP>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/19.stm>,
+     <http://education.guardian.co.uk/schools/story/0,5500,644643,00.html>,
+     <http://www.telegraph.co.uk/comment/columnists/philipjohnston/5815122/Beware-Labours-quest-for-a-database-state.html>,
+     <http://news.bbc.co.uk/1/hi/england/kent/4071204.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/3474627.stm>,
+     <http://news.bbc.co.uk/1/hi/education/3194666.stm>,
+     <http://news.bbc.co.uk/1/hi/education/2964275.stm>,
+     <http://news.bbc.co.uk/1/hi/programmes/politics_show/2742507.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/interviews/1813618.stm>,
+     <http://news.bbc.co.uk/1/hi/education/1787185.stm>,
+     <http://news.bbc.co.uk/1/hi/education/1588408.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/680258.stm>,
+     <http://news.bbc.co.uk/1/hi/education/259784.stm>,
+     <http://news.bbc.co.uk/1/hi/education/215568.stm> .

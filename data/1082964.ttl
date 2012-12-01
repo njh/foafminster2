@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1082964.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Greg Hands";
+   dc:modified "2012-12-01T15:26:32Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1082964#id> .
+
+<http://dbpedialite.org/things/1082964#id> a owl:Thing;
+   rdfs:label "Greg Hands";
+   rdfs:comment """Gregory William "Greg" Hands, MP (born 14 November 1965) is a Conservative Party politician. He is currently the Member of Parliament (MP) for Chelsea and Fulham having been elected during the 2010 general election for the newly-created constituency formed with the splitting of the former constituencies of Kensington and Chelsea as well as Hammersmith and Fulham.
+Previously, Hands had represented the constituency from 2005–2010, during which time it was the Hammersmith and Fulham constituency.""";
+   owl:sameAs <http://dbpedia.org/resource/Greg_Hands>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000423fde>,
+     <http://rdf.freebase.com/ns/m.044hzz>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Greg_Hands>;
+   foaf:page <http://www.greghands.com>,
+     <http://twitter.com/greghands>,
+     <http://politics.guardian.co.uk/person/0,9290,-9245,00.html>,
+     <http://www.theyworkforyou.com/mp/greg_hands/hammersmith_and_fulham>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35363.stm>,
+     <http://www.youtube.com/user/GregHandsMPvideo>,
+     <http://www.ealinggazette.co.uk/ealing-news/ealing-columnists/constituency_matters/> .

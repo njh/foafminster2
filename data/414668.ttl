@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414668.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Hazel Blears";
+   dc:modified "2012-12-01T14:17:10Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414668#id> .
+
+<http://dbpedialite.org/things/414668#id> a owl:Thing;
+   rdfs:label "Hazel Blears";
+   rdfs:comment "Hazel Anne Blears (born 14 May 1956) is a British Labour Party politician, who has been the Member of Parliament (MP) for Salford and Eccles since 2010 and was previously the MP for Salford since 1997. She served in the Cabinet as Minister without Portfolio and Labour Chair between 2006 and 2007, and Secretary of State for Communities and Local Government from 2007 to 2009, when she resigned. Commenting on the announcement, Prime Minister Gordon Brown, said that Blears had made an \"outstanding contribution\" to public life.";
+   owl:sameAs <http://dbpedia.org/resource/Hazel_Blears>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c6e1>,
+     <http://rdf.freebase.com/ns/m.025kr1>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Hazel_Blears>;
+   foaf:page <http://www.hazelblears.co.uk>,
+     <http://www.parliament.uk/biographies/commons/hazel-blears/25738>,
+     <http://hansard.millbanksystems.com/people/ms-hazel-blears>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4035_home.html>,
+     <http://www.guardian.co.uk/politics/person/468/hazel-blears>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Hazel_Blears>,
+     <http://www.theyworkforyou.com/mp/hazel_blears>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Hazel-Blears/Salford-and-Eccles/49>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25160.stm>,
+     <http://journalisted.com/hazel-blears>,
+     <http://web.archive.org/web/20060213230103/http://www.homeoffice.gov.uk/about-us/organisation/ministers/hazel-blears/?version=1>,
+     <http://web.archive.org/web/20080501104901/http://www.communities.gov.uk/profiles/corporate/hazelblears>,
+     <http://www.wpradio.co.uk/mp3s/HazelBlearsInterview.mp3> .

@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27265799.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Kris Hopkins";
+   dc:modified "2012-12-01T14:32:26Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27265799#id> .
+
+<http://dbpedialite.org/things/27265799#id> a owl:Thing;
+   rdfs:label "Kris Hopkins";
+   rdfs:comment """Kristan Frederick (Kris) Hopkins (born 8 June 1963) is a British Conservative Party politician, who was elected at the 2010 general election as the Member of Parliament for Keighley in West Yorkshire.
+Hopkins had stood twice for Parliament before being elected, when he was second to Linda Riordan in the 2005 election for the seat of Halifax, also in West Yorkshire and for the Leeds West Constituency in 2001.
+Before his election to Parliament, Hopkins had been a member of Bradford Council since 1998, rising to become the council's deputy leader in 2004 and leader in 2006.""";
+   owl:sameAs <http://dbpedia.org/resource/Kris_Hopkins>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7faae>,
+     <http://rdf.freebase.com/ns/m.0bwhzpg>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Kris_Hopkins>;
+   foaf:page <http://www.krishopkins.co.uk> .

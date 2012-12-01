@@ -1,0 +1,36 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/7301126.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Dan Byles";
+   dc:modified "2012-12-01T13:22:03Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/7301126#id> .
+
+<http://dbpedialite.org/things/7301126#id> a owl:Thing;
+   rdfs:label "Dan Byles";
+   rdfs:comment """Daniel (Dan) Alan Byles FRGS MP (born 24 June 1974 in Hastings, East Sussex) is an English mountaineer, sailor, ocean rower, polar adventurer and Conservative Party politician. He is currently the Member of Parliament (MP) for North Warwickshire, having been elected at the 2010 general election.
+In 1997 he took part in the first ever Atlantic Rowing Race, the Port St Charles Barbados Atlantic Rowing Race, successfully crossing the Atlantic Ocean unsupported in a 23-foot (7 m) wooden rowing boat in 101 days with his mother Janice Meek. In 2007 he and his mother were united in adventure once again when, together with team mate Richard Profit, they successfully walked and skied 350 miles ...""";
+   owl:sameAs <http://dbpedia.org/resource/Dan_Byles>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000045ecd95>,
+     <http://rdf.freebase.com/ns/m.025ymdp>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Dan_Byles>;
+   foaf:page <http://www.charity-commission.gov.uk/registeredcharities/showcharity.asp?remchar=&chyno=1115061>,
+     <http://www.challengebusiness.com/events/summary/1997-atlantic-rowing.htm>,
+     <http://www.oceanrowing.com/Jan%20Meek/101.htm>,
+     <http://www.oceanrowing.com/Oceanrowers/race.htm>,
+     <http://www.oceanrowing.com/Guinness_World_Records/list2006.htm>,
+     <http://www.oceanrowing.com/Guinness_World_Records/page94.htm>,
+     <http://www.telegraph.co.uk/global/main.jhtml?view=DETAILS&grid=&targetRule=10&xml=%2Fglobal%2F2004%2F01%2F13%2Fexpatl.xml>,
+     <http://www.regatta.rowing.org.uk/96-family.html>,
+     <http://news.bbc.co.uk/1/hi/england/leicestershire/6164520.stm>,
+     <http://iccoventry.icnetwork.co.uk/0100news/0125nwarksnews/tm_method=full%26objectid=19552657%26siteid=50003-name_page.html>,
+     <http://iccoventry.icnetwork.co.uk/0100news/0125nwarksnews/tm_method=full%26objectid=19634289%26siteid=50003-name_page.html>,
+     <http://www.tamworthherald.co.uk/displayNode.jsp?nodeId=159453&command=displayContent&sourceNode=159436&contentPK=18057509&moduleName=InternalSearch&formname=sidebarsearch>,
+     <http://iaindale.blogspot.com/2007/08/dan-byles-hero-of-sub-postmasters.html>,
+     <http://www.danielbyles.com>,
+     <http://polarrace.com/site/index.php?option=com_content&view=article&id=152:our-first-polar-mp&catid=1:latest-news&Itemid=50>,
+     <http://www.carpediemtrust.com> .

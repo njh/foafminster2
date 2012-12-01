@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/420203.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Frank Doran (British politician)";
+   dc:modified "2012-12-01T13:41:48Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/420203#id> .
+
+<http://dbpedialite.org/things/420203#id> a owl:Thing;
+   rdfs:label "Frank Doran (British politician)";
+   rdfs:comment "Frank Doran (born 13 April 1949) is a British Labour Party politician, who was the Member of Parliament (MP) for Aberdeen South from 1987 to 1992, when he lost his seat. He was re-elected in 1997 to Aberdeen Central, and currently represents Aberdeen North.";
+   owl:sameAs <http://dbpedia.org/resource/Frank_Doran_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000232ac6>,
+     <http://rdf.freebase.com/ns/m.026bq6>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Frank_Doran_(British_politician)>;
+   foaf:page <http://www.frankdoran.org.uk>,
+     <http://www.theyworkforyou.com/mp/frank_doran/aberdeen_north>,
+     <http://hansard.millbanksystems.com/people/mr-frank-doran>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/670.stm> .

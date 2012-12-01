@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1855074.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Sammy Wilson";
+   dc:modified "2012-12-01T14:46:30Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1855074#id> .
+
+<http://dbpedialite.org/things/1855074#id> a owl:Thing;
+   rdfs:label "Sammy Wilson";
+   rdfs:comment "Samuel \"Sammy\" Wilson (born 4 April 1953) is a British politician from Northern Ireland who is a Member of Parliament (MP) and a Member of the Legislative Assembly (MLA) for East Antrim. He served as Lord Mayor of Belfast in 1986 – 1987; and again from June 2000 to June 2001. He was the first person from the Democratic Unionist Party (DUP) to hold the office. He currently serves as Minister of Finance and Personnel in the Northern Ireland Executive.";
+   owl:sameAs <http://dbpedia.org/resource/Sammy_Wilson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000060a488>,
+     <http://rdf.freebase.com/ns/m.061948>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sammy_Wilson>;
+   foaf:page <http://sammywilson.org/>,
+     <http://politics.guardian.co.uk/person/0,9290,-5604,00.html>,
+     <http://www.theyworkforyou.com/mp/sammy_wilson/east_antrim>,
+     <http://www.publications.parliament.uk/pa/cm200506/cmhansrd/cm050518/debtext/50518-18.htm> .

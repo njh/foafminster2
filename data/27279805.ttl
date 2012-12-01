@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27279805.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Simon Reevell";
+   dc:modified "2012-12-01T15:58:01Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27279805#id> .
+
+<http://dbpedialite.org/things/27279805#id> a owl:Thing;
+   rdfs:label "Simon Reevell";
+   rdfs:comment "Simon Justin Reevell (born 2 March 1966) is a British barrister and Conservative Party politician. He has been Member of Parliament (MP) for Dewsbury in West Yorkshire since winning the seat at the 2010 election.";
+   owl:sameAs <http://dbpedia.org/resource/Simon_Reevell>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7fb45>,
+     <http://rdf.freebase.com/ns/m.0bwhzv5>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Simon_Reevell> .

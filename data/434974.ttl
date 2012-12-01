@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434974.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Malcolm Wicks";
+   dc:modified "2012-11-30T09:06:52Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434974#id> .
+
+<http://dbpedialite.org/things/434974#id> a owl:Thing;
+   rdfs:label "Malcolm Wicks";
+   rdfs:comment "Malcolm Hunt Wicks PC (1 July 1947 – 29 September 2012) was a British Labour Party politician and \"academic expert on poverty\" who was a Member of Parliament (MP) from 1992, first for Croydon North West and then for Croydon North, until his death in 2012.";
+   owl:sameAs <http://dbpedia.org/resource/Malcolm_Wicks>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002410f6>,
+     <http://rdf.freebase.com/ns/m.02847q>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Malcolm_Wicks>;
+   foaf:page <http://www.malcolmwicks.org.uk>,
+     <http://politics.guardian.co.uk/person/0,9290,-5515,00.html>,
+     <http://www.theyworkforyou.com/mp/malcolm_wicks/croydon_north>,
+     <http://hansard.millbanksystems.com/people/mr-malcolm-wicks>,
+     <http://www.dti.gov.uk/about/dti-ministerial-team/page8411.html>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/170.stm>,
+     <http://www.worldenergysource.com/articles/text/wicks_WE_v9n2.cfm>,
+     <http://www.worldenergysource.com/newasf/wetv.cfm?vfile=EnergyDiscussion>,
+     <http://www.telegraph.co.uk/news/main.jhtml?xml=/news/2007/01/07/nsci07.xml>,
+     <http://politics.guardian.co.uk/politicsobituaries/story/0,,1964485,00.html?gusrc=rss&feed=19> .

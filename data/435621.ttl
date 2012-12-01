@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/435621.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Patrick Mercer";
+   dc:modified "2012-12-01T13:52:43Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/435621#id> .
+
+<http://dbpedialite.org/things/435621#id> a owl:Thing;
+   rdfs:label "Patrick Mercer";
+   rdfs:comment "Patrick John Mercer OBE (born 26 June 1956) is a Conservative Party politician in the United Kingdom, representing the constituency of Newark in Parliament. He is a frequent commentator on defence and security issues having served as infantry officer in the British Army and held the position of Shadow Minister for Homeland Security. He is a former journalist for the BBC and has to date written four military novels. He is a patron of the Victoria Cross Trust";
+   owl:sameAs <http://dbpedia.org/resource/Patrick_Mercer>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000241ca0>,
+     <http://rdf.freebase.com/ns/m.028750>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Patrick_Mercer>;
+   foaf:page <http://www.epolitix.com/EN/MPWebsites/Patrick+Mercer/>,
+     <http://politics.guardian.co.uk/person/0,9290,-6020,00.html>,
+     <http://www.theyworkforyou.com/mp/patrick_mercer/newark>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Patrick_Mercer&mpc=Newark>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2122178.stm>,
+     <http://www.debretts.com/people/biographies/browse/m/21529/Patrick+MERCER.aspx>,
+     <http://crimeanwar.info/2012/05/16/british-mp-will-shoot-the-movie-about-crimean-war/> .

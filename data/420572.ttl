@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/420572.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Paul Goggins";
+   dc:modified "2012-12-01T14:03:07Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/420572#id> .
+
+<http://dbpedialite.org/things/420572#id> a owl:Thing;
+   rdfs:label "Paul Goggins";
+   rdfs:comment "Paul Gerard Goggins (born 16 June 1953) is a British Labour Party politician, who has been the Member of Parliament (MP) for Wythenshawe and Sale East since 1997, and was a Minister of State at the Northern Ireland Office.";
+   owl:sameAs <http://dbpedia.org/resource/Paul_Goggins>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000233199>,
+     <http://rdf.freebase.com/ns/m.026ddt>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Paul_Goggins>;
+   foaf:page <http://www.paulgoggins.org>,
+     <http://politics.guardian.co.uk/person/0,,-1961,00.html>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/655.stm>,
+     <http://news.bbc.co.uk/1/hi/northern_ireland/7017507.stm>,
+     <http://news.bbc.co.uk/1/hi/northern_ireland/5050622.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4664820.stm>,
+     <http://news.bbc.co.uk/1/hi/england/lancashire/4629156.stm>,
+     <http://news.bbc.co.uk/1/hi/uk/4691899.stm>,
+     <http://www.youtube.com/watch?v=khaqJj55_b0>,
+     <http://www.wpradio.co.uk/mp3s/ArchesNorm.mp3> .

@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872601.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Helen Goodman";
+   dc:modified "2012-12-01T15:28:34Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872601#id> .
+
+<http://dbpedialite.org/things/1872601#id> a owl:Thing;
+   rdfs:label "Helen Goodman";
+   rdfs:comment "Helen Catherine Goodman (born 2 January 1958) is a British Labour Party politician, who has been the Member of Parliament (MP) for Bishop Auckland since 2005, and was the Parliamentary Under Secretary of State for in the Department for Work and Pensions until 2010 with responsibility for Child Poverty and childcare.";
+   owl:sameAs <http://dbpedia.org/resource/Helen_Goodman>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615b22>,
+     <http://rdf.freebase.com/ns/m.062qt2>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Helen_Goodman>;
+   foaf:page <http://www.helengoodman.co.uk>,
+     <http://politics.guardian.co.uk/person/0,9290,-8662,00.html>,
+     <http://www.theyworkforyou.com/mp/helen_goodman/bishop_auckland>,
+     <http://www.publicwhip.org.uk/mp.php?id=uk.org.publicwhip/member/1421>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/63.stm>,
+     <http://www.guardian.co.uk/profile/helen-goodman?INTCMP=SRCH>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/5398554.stm>,
+     <http://www.thenorthernecho.co.uk/yoursay/8211011.MP_says_parents_sometimes_to_blame_for_children_having_no_shoes/>,
+     <http://www.mirror.co.uk/news/top-stories/2009/11/10/we-can-t-get-train-after-10-45pm-we-ll-get-mugged-115875-21810246/> .

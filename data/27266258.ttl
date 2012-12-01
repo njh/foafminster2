@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27266258.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Lisa Nandy";
+   dc:modified "2012-12-01T15:25:36Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27266258#id> .
+
+<http://dbpedialite.org/things/27266258#id> a owl:Thing;
+   rdfs:label "Lisa Nandy";
+   rdfs:comment "Lisa Eva Nandy (born 9 August 1979) is a British Labour Party politician. She has been the Member of Parliament (MP) for the Wigan constituency, in Greater Manchester, since the 2010 general election and is one of six Asian female MPs in the country.";
+   owl:sameAs <http://dbpedia.org/resource/Lisa_Nandy>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b993fa>,
+     <http://rdf.freebase.com/ns/m.0bwm4_v>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lisa_Nandy>;
+   foaf:page <http://www.publicwhip.org.uk/mp.php?mpn=Lisa_Nandy>,
+     <http://www.theyworkforyou.com/mp/lisa_nandy> .

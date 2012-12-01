@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/450461.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - John Spellar";
+   dc:modified "2012-12-01T13:09:53Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/450461#id> .
+
+<http://dbpedialite.org/things/450461#id> a owl:Thing;
+   rdfs:label "John Spellar";
+   rdfs:comment """John Francis Spellar (born 5 August 1947) is a British Labour Party politician, and the Member of Parliament (MP) for Warley. He served as a Minister of State at the Northern Ireland Office, before returning to the backbenches in 2005. Spellar was Comptroller of the Household and the third most senior whip in the Whips' Office between October 2008 and May 2010.
+Spellar was educated at Dulwich College and St Edmund Hall, Oxford and worked as a trade union official. He was a councillor in the London Borough of Bromley between 1970 and 1974. He was first elected to Parliament in 1982 for Birmingham Northfield, but lost at the 1983 General Election, he stood again in the 1987 General...""";
+   owl:sameAs <http://dbpedia.org/resource/John_Spellar>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024f788>,
+     <http://rdf.freebase.com/ns/m.029yx8>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Spellar>;
+   foaf:page <http://www.johnspellar.labour.co.uk/>,
+     <http://politics.guardian.co.uk/person/0,9290,-4912,00.html>,
+     <http://www.theyworkforyou.com/mp/john_spellar/warley>,
+     <http://hansard.millbanksystems.com/people/mr-john-spellar> .

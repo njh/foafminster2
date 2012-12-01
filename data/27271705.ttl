@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27271705.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mark Reckless";
+   dc:modified "2012-12-01T15:30:40Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27271705#id> .
+
+<http://dbpedialite.org/things/27271705#id> a owl:Thing;
+   rdfs:label "Mark Reckless";
+   rdfs:comment """Mark John Reckless (born 6 December 1970) is a British Conservative Party politician who is the Member of Parliament for Rochester and Strood, elected at the 2010 general election.
+He graduated in PPE from Oxford University; he also has an MBA from Columbia Business School. He trained as a barrister at the College of Law, gaining an LLB, and was called to the Bar in 2007. He was also solicitor in 2009 and has worked on legal matters that have had dealings with private investigators.
+Since 2 November 2010, he has been a member of the Home Affairs Select Committee.""";
+   owl:sameAs <http://dbpedia.org/resource/Mark_Reckless>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7e279>,
+     <http://rdf.freebase.com/ns/m.0bwhsmt>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mark_Reckless>;
+   foaf:page <http://www.markreckless.com> .

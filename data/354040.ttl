@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/354040.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Keith Vaz";
+   dc:modified "2012-12-01T15:17:19Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/354040#id> .
+
+<http://dbpedialite.org/things/354040#id> a owl:Thing;
+   rdfs:label "Keith Vaz";
+   rdfs:comment "Nigel Keith Anthony Standish Vaz, known as Keith Vaz (born 26 November 1956 in Aden Colony) is a British Labour Party politician and a Member of Parliament for Leicester East. He is the longest-serving Asian MP and has been the Chairman of the Home Affairs Select Committee since July 2007. He was appointed as a member of the Privy Council in June 2006.He has been named among the most influential Asians in Britain.";
+   owl:sameAs <http://dbpedia.org/resource/Keith_Vaz>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001f5074>,
+     <http://rdf.freebase.com/ns/m.01zn3n>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Keith_Vaz>;
+   foaf:page <http://www.keithvazmp.com/>,
+     <http://www.parliament.uk/biographies/commons/keith-vaz/25232>,
+     <http://hansard.millbanksystems.com/people/mr-keith-vaz>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4426_home.html>,
+     <http://www.guardian.co.uk/politics/person/5310/keith-vaz>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Keith_Vaz>,
+     <http://www.theyworkforyou.com/mp/keith_vaz>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Keith-Vaz/Leicester-East/486>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25232.stm>,
+     <http://journalisted.com/keith-vaz> .

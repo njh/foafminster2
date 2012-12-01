@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/449464.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Bob Russell (British politician)";
+   dc:modified "2012-12-01T13:17:02Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/449464#id> .
+
+<http://dbpedialite.org/things/449464#id> a owl:Thing;
+   rdfs:label "Bob Russell (British politician)";
+   rdfs:comment "Sir Robert Edward Russell (born 31 March 1946 in London) is a British politician. He has been a Liberal Democrat Member of Parliament for Colchester since 1997 (re-elected 2001, 2005 and 2010). He was the Liberal Democrat Spokesman on Culture, Media and Sport from 2002 to 2005, but was succeeded by Don Foster and was a member of the Liberal Democrat Shadow Defence team until the formation of the Conservative – Liberal Democrat Coalition Government on 11 May 2010, at which point he became a backbencher.";
+   owl:sameAs <http://dbpedia.org/resource/Bob_Russell_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024e70d>,
+     <http://rdf.freebase.com/ns/m.029tsf>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Bob_Russell_(British_politician)>;
+   foaf:page <http://www.bobrussell.org.uk/>,
+     <http://www.libdems.org.uk/people/bob-russell>,
+     <http://www.parliament.uk/biographies/commons/bob-russell/25361>,
+     <http://hansard.millbanksystems.com/people/mr-bob-russell>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_502_home.html>,
+     <http://www.guardian.co.uk/politics/person/4570/bob-russell>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Bob_Russell>,
+     <http://www.theyworkforyou.com/mp/bob_russell>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Bob-Russell/Colchester/1120>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25361.stm> .

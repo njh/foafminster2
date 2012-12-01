@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/723901.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Theresa Villiers";
+   dc:modified "2012-12-01T13:46:37Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/723901#id> .
+
+<http://dbpedialite.org/things/723901#id> a owl:Thing;
+   rdfs:label "Theresa Villiers";
+   rdfs:comment "Theresa Anne Villiers (born 5 March 1968) is a British Conservative Party politician, who is the Member of Parliament (MP) for Chipping Barnet and the Secretary of State for Northern Ireland.";
+   owl:sameAs <http://dbpedia.org/resource/Theresa_Villiers>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000032e87f>,
+     <http://rdf.freebase.com/ns/m.035v3_>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Theresa_Villiers>;
+   foaf:page <http://www.parliament.uk/biographies/commons/theresa-villiers/29179>,
+     <http://hansard.millbanksystems.com/people/ms-theresa-villiers>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4452_home.html>,
+     <http://www.guardian.co.uk/politics/person/9175/theresa-villiers>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Theresa_Villiers>,
+     <http://www.theyworkforyou.com/mp/theresa_villiers>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Theresa-Villiers/Chipping-Barnet/489>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/29179.stm>,
+     <http://journalisted.com/theresa-villiers>,
+     <http://www.imdb.com/name/nm2210559/>,
+     <http://www.bbc.co.uk/newsa/n5ctrl/progs/06/question_time/bb/rm/video/23feb_bb.ram> .

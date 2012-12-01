@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434894.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Alistair Carmichael";
+   dc:modified "2012-12-01T12:55:20Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434894#id> .
+
+<http://dbpedialite.org/things/434894#id> a owl:Thing;
+   rdfs:label "Alistair Carmichael";
+   rdfs:comment """Alexander Morrison "Alistair" Carmichael (born 15 July 1965) is a Liberal Democrat politician. He has been the Member of Parliament (MP) for the Scottish seat of Orkney and Shetland since the 2001 general election.
+He is the Deputy Leader of the Scottish Liberal Democrats, chief whip of the Liberal Democrats, and Deputy Chief Whip (Comptroller of HM Household) of the UK Government Coalition.""";
+   owl:sameAs <http://dbpedia.org/resource/Alistair_Carmichael>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240f1d>,
+     <http://rdf.freebase.com/ns/m.0283sy>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alistair_Carmichael>;
+   foaf:page <http://www.alistaircarmichael.org.uk/>,
+     <http://www.libdems.org.uk/people/alistair-carmichael>,
+     <http://www.scotlibdems.org.uk/people/mps/carmichael>,
+     <http://www.parliament.uk/biographies/commons/alistair-carmichael/24991>,
+     <http://hansard.millbanksystems.com/people/mr-alistair-carmichael>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2481_home.html>,
+     <http://www.guardian.co.uk/politics/person/6829/alistair-carmichael>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Alistair_Carmichael>,
+     <http://www.theyworkforyou.com/mp/alistair_carmichael>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Alistair-Carmichael/Orkney-and-Shetland/1085>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/24991.stm>,
+     <http://www.beveridgegroup.org.uk/articles/ac.pdf>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/721.stm>,
+     <http://yourdemocracy.newstatesman.com/profile/alistair-carmichael> .

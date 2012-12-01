@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27265339.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Alok Sharma";
+   dc:modified "2012-12-01T15:34:35Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27265339#id> .
+
+<http://dbpedialite.org/things/27265339#id> a owl:Thing;
+   rdfs:label "Alok Sharma";
+   rdfs:comment """Alok Sharma (born 7 September 1967) is an Indian-born British politician with the Conservative Party in the United Kingdom. He was elected in 2010 as Member of Parliament for Reading West county constituency in and around the town of Reading in the county of Berkshire.
+Sharma grew up in Earley and Whitley Wood and went to Reading Blue Coat School in Sonning and Salford University where he received a BSc in Applied Physics with electronics in 1988.
+Sharma is currently a governor of a local primary school in Reading. He is also a Fellow of the Royal Society for the advancement of the Arts, Manufacturing and Commerce. Previously he served as a chairman of the political think tank Bow Group...""";
+   owl:sameAs <http://dbpedia.org/resource/Alok_Sharma>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b8daf2>,
+     <http://rdf.freebase.com/ns/m.0bwkqrl>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alok_Sharma>;
+   foaf:page <http://www.aloksharma.co.uk/home> .

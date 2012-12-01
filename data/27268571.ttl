@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27268571.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Charlotte Leslie";
+   dc:modified "2012-12-01T16:03:50Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27268571#id> .
+
+<http://dbpedialite.org/things/27268571#id> a owl:Thing;
+   rdfs:label "Charlotte Leslie";
+   rdfs:comment """Charlotte Ann Leslie (born 11 August 1978 in Liverpool) is a British Conservative Party politician. She was elected as the Member of Parliament (MP) for the Bristol North West constituency on 6 May 2010.
+She attended Badminton School and Millfield.
+After studying Classics at Balliol College, Oxford University, she went on to work for the BBC and the Policy Exchange think-tank specialising in education (especially special needs education) before becoming an adviser to the Shadow Secretary of State for Education and Skills, David Willetts. Until her election to Parliament, she was the editor of Crossbow Magazine, the quarterly journal of the Bow Group Conservative Party think tank. She...""";
+   owl:sameAs <http://dbpedia.org/resource/Charlotte_Leslie>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000568c1a3>,
+     <http://rdf.freebase.com/ns/m.02qkjf3>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Charlotte_Leslie>;
+   foaf:page <http://charlotteleslie.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Leslie_Charlotte.aspx>,
+     <http://www.bsgconservatives.com/>,
+     <http://www.guardian.co.uk/politics/person/11984/charlotte-leslie>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Charlotte_Leslie>,
+     <http://www.theyworkforyou.com/mp/charlotte_leslie>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Charlotte-Leslie/Bristol-North-West/881>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/62717.stm>,
+     <http://journalisted.com/charlotte-leslie>,
+     <http://www.guardian.co.uk/profile/charlotteleslie?INTCMP=SRCH> .

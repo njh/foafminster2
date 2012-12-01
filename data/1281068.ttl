@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1281068.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Michael Gove";
+   dc:modified "2012-12-01T16:04:32Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1281068#id> .
+
+<http://dbpedialite.org/things/1281068#id> a owl:Thing;
+   rdfs:label "Michael Gove";
+   rdfs:comment """Michael Andrew Gove (born 26 August 1967) is a British politician, who currently serves as the Secretary of State for Education and as the Conservative Party Member of Parliament (MP) for the Surrey Heath constituency. He is also an author and former journalist for The Times newspaper.
+Born in Edinburgh, Gove was raised in Aberdeen and made an early career as a journalist. He was first elected to parliament in the 2005 general election, as the MP for the safe Conservative seat of Surrey Heath in South East England. He was first promoted to the shadow cabinet in 2007 under David Cameron, as the Shadow Secretary of State for Children, Schools and Families.""";
+   owl:sameAs <http://dbpedia.org/resource/Michael_Gove>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000004ae0cb>,
+     <http://rdf.freebase.com/ns/m.04ps6c>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_Gove>;
+   foaf:page <http://www.michaelgove.com/>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=109538>,
+     <http://www.ethosjournal.com/home/item/334-public-service-innovators>,
+     <http://www.timesonline.co.uk/tol/comment/columnists/michael_gove>,
+     <http://www.economist.com/node/21525379>,
+     <http://www.parliament.uk/biographies/commons/michael-gove/35482>,
+     <http://hansard.millbanksystems.com/people/mr-michael-gove>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4782_home.html>,
+     <http://www.guardian.co.uk/politics/person/9378/michael-gove>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Michael_Gove>,
+     <http://www.theyworkforyou.com/mp/michael_gove>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Michael-Gove/Surrey-Heath/216>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35482.stm>,
+     <http://journalisted.com/michael-gove> .

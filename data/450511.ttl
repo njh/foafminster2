@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/450511.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andrew Stunell";
+   dc:modified "2012-12-01T14:23:20Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/450511#id> .
+
+<http://dbpedialite.org/things/450511#id> a owl:Thing;
+   rdfs:label "Andrew Stunell";
+   rdfs:comment "Robert Andrew Stunell, known as Andrew Stunell, OBE (born 24 November 1942) is a Liberal Democrat politician in the United Kingdom. He is the Member of Parliament (MP) for Hazel Grove, and was first elected at the 1997 general election. From 2010 to 2012 he served as the Parliamentary Under-Secretary of State at the Department of Communities and Local Government.";
+   owl:sameAs <http://dbpedia.org/resource/Andrew_Stunell>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024f847>,
+     <http://rdf.freebase.com/ns/m.029z27>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andrew_Stunell>;
+   foaf:page <http://www.andrewstunell.org.uk>,
+     <http://www.libdems.org.uk/people/andrew-stunell>,
+     <http://www.parliament.uk/biographies/commons/andrew-stunell/25261>,
+     <http://hansard.millbanksystems.com/people/mr-andrew-stunell>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4170_home.html>,
+     <http://www.guardian.co.uk/politics/person/5048/andrew-stunell>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Andrew_Stunell>,
+     <http://www.theyworkforyou.com/mp/andrew_stunell>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Andrew-Stunell/Hazel-Grove/1142>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25261.stm> .

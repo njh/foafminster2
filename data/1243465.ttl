@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1243465.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andy Slaughter";
+   dc:modified "2012-12-01T13:48:25Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1243465#id> .
+
+<http://dbpedialite.org/things/1243465#id> a owl:Thing;
+   rdfs:label "Andy Slaughter";
+   rdfs:comment "Andrew Francis Slaughter (born 29 September 1960) is a British Labour Party politician who was elected as Member of Parliament (MP) for Hammersmith in 2010. He had previously been MP for Ealing, Acton and Shepherd's Bush from 2005 to 2010 and before that, Leader of the London Borough of Hammersmith and Fulham Council. He is currently a Shadow Justice Minister, serving on the Labour Party's frontbench.";
+   owl:sameAs <http://dbpedia.org/resource/Andy_Slaughter>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000494c96>,
+     <http://rdf.freebase.com/ns/m.04lm4q>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andy_Slaughter>;
+   foaf:page <http://www.andyslaughter.com>,
+     <http://www.hflabour.org.uk>,
+     <http://politics.guardian.co.uk/person/0,9290,-11029,00.html>,
+     <http://www.theyworkforyou.com/mp/andrew_slaughter/ealing,_acton_and_shepherd's_bush>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Andrew_Slaughter&mpc=Ealing%2C_Acton_and_Shepherd%26%2339%3Bs_Bush&house=commons>,
+     <http://www.lambchambers.co.uk/membshow.asp?showID=axs>,
+     <http://www.ealinggazette.co.uk/ealing-news/ealing-columnists/constituency_matters/>,
+     <http://www.ealingtimes.co.uk/news/yourmps/>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/215.stm> .

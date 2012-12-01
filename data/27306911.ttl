@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27306911.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Tracey Crouch";
+   dc:modified "2012-12-01T15:54:54Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27306911#id> .
+
+<http://dbpedialite.org/things/27306911#id> a owl:Thing;
+   rdfs:label "Tracey Crouch";
+   rdfs:comment "Tracey Elizabeth Anne Crouch (born 24 July 1975) is a British Conservative Party politician. She is Member of Parliament (MP) for Chatham and Aylesford, having won the seat at the 2010 election.";
+   owl:sameAs <http://dbpedia.org/resource/Tracey_Crouch>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d05fe1>,
+     <http://rdf.freebase.com/ns/m.0by0r_1>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tracey_Crouch>;
+   foaf:page <http://www.traceycrouch.org>,
+     <http://blog.traceycrouch.org/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Crouch_Tracey.aspx>,
+     <http://candaconservatives.org/>,
+     <http://www.guardian.co.uk/politics/person/12008/tracey-crouch>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Tracey_Crouch>,
+     <http://www.theyworkforyou.com/mp/tracey_crouch>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Tracey-Crouch/Chatham-and-Aylesford/1214>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/profiles/54004.stm> .

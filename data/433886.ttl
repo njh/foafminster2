@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/433886.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - John Pugh";
+   dc:modified "2012-12-01T14:13:16Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/433886#id> .
+
+<http://dbpedialite.org/things/433886#id> a owl:Thing;
+   rdfs:label "John Pugh";
+   rdfs:comment "John David Pugh (born 28 June 1948; Liverpool) is a Liberal Democrat politician in the United Kingdom. He is Member of Parliament (MP) for Southport. First elected in 2001 with a majority of 3,007, he was re-elected in 2005 with a slightly increased majority of 3,838, and again in 2010 with a majority of 6,024, or 13.8%.";
+   owl:sameAs <http://dbpedia.org/resource/John_Pugh>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023fe1e>,
+     <http://rdf.freebase.com/ns/m.027_jz>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Pugh>;
+   foaf:page <http://www.johnpughmp.com>,
+     <http://www.southport.gb.com/johnpughdiary>,
+     <http://www.libdems.org.uk/people/john-pugh>,
+     <http://www.southportlibdems.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/john-pugh/25198>,
+     <http://hansard.millbanksystems.com/people/mr-john-pugh>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_260_home.html>,
+     <http://www.guardian.co.uk/politics/person/6882/john-pugh>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=John_Pugh>,
+     <http://www.theyworkforyou.com/mp/john_pugh>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/John-Pugh/Southport/1115>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25198.stm>,
+     <http://journalisted.com/john-pugh>,
+     <http://www.openrightsgroup.org/orgwiki/index.php/John_Pugh_MP> .

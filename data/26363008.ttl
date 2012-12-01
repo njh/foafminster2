@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/26363008.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Helen Grant (politician)";
+   dc:modified "2012-12-01T13:53:36Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/26363008#id> .
+
+<http://dbpedialite.org/things/26363008#id> a owl:Thing;
+   rdfs:label "Helen Grant (politician)";
+   rdfs:comment "Helen Grant (born 28 September 1961) is a British lawyer and Conservative Party politician. She is the current Member of Parliament for Maidstone and The Weald in Kent. She was elected at the 2010 general election, replacing the constituency's previous incumbent, Ann Widdecombe, who had decided to step down as an MP. Grant was the first black female to be selected to defend a Tory seat and her election made her the Conservatives' first female Black British MP. Grant received her first government appointment in September 2012, when she received the dual roles of Under-Secretary of State for Justice and Under-Secretary for Women and Equalities. Grant attracted media attention in November...";
+   owl:sameAs <http://dbpedia.org/resource/Helen_Grant_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b9be4b>,
+     <http://rdf.freebase.com/ns/m.0bwmhlc>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Helen_Grant_(politician)>;
+   foaf:page <http://www.helengrant.org/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Grant_Helen.aspx> .

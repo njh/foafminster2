@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434968.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Watts (politician)";
+   dc:modified "2012-12-01T13:28:17Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434968#id> .
+
+<http://dbpedialite.org/things/434968#id> a owl:Thing;
+   rdfs:label "David Watts (politician)";
+   rdfs:comment "David Leonard Watts (born 26 August 1951) is a British Labour Party politician, who has been the Member of Parliament (MP) for St Helens North since 1997, and the Chair of the Parliamentary Labour Party since 2012.";
+   owl:sameAs <http://dbpedia.org/resource/David_Watts_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002410c9>,
+     <http://rdf.freebase.com/ns/m.028469>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Watts_(politician)>;
+   foaf:page <http://politics.guardian.co.uk/person/0,9290,-5428,00.html>,
+     <http://www.theyworkforyou.com/mp/dave_watts/st_helens_north> .

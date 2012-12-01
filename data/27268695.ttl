@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27268695.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Morris (Conservative politician)";
+   dc:modified "2012-12-01T13:37:18Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27268695#id> .
+
+<http://dbpedialite.org/things/27268695#id> a owl:Thing;
+   rdfs:label "David Morris (Conservative politician)";
+   rdfs:comment "David Morris is an English Conservative Party politician. He is Member of Parliament (MP) for Morecambe and Lunesdale in Lancashire, England.";
+   owl:sameAs <http://dbpedia.org/resource/David_Morris_%28Conservative_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b927ce>,
+     <http://rdf.freebase.com/ns/m.0bwl9zg>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Morris_(Conservative_politician)>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Morris_David.aspx>,
+     <http://www.guardian.co.uk/politics/person/5779/david-morris>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=David_Morris>,
+     <http://www.theyworkforyou.com/mp/david_morris/morecambe_and_lunesdale>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/David-Morris/Morecambe-and-Lunesdale/899> .

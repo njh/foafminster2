@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/23681392.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jonathan Lord";
+   dc:modified "2012-12-01T15:52:02Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/23681392#id> .
+
+<http://dbpedialite.org/things/23681392#id> a owl:Thing;
+   rdfs:label "Jonathan Lord";
+   rdfs:comment """Jonathan George Caladine Lord (born 17 September 1962) is a British Conservative Party politician who was elected as the Member of Parliament (MP) for Woking at the 2010 general election. He succeeded Humfrey Malins, his Conservative predecessor who stood down at that election.
+He had previously stood for Parliament in Oldham West and Royton in 1997 and had been Deputy Leader of Westminster City Council.
+Lord was selected to fight the seat by Open Primary in 2009, and has a marketing background having served as Director for Saatchi & Saatchi. He was educated at Merton College, Oxford and was President of the Oxford University Conservative Association in Michaelmas Term 1983.""";
+   owl:sameAs <http://dbpedia.org/resource/Jonathan_Lord>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000deb6253>,
+     <http://rdf.freebase.com/ns/m.06zqslm>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jonathan_Lord> .

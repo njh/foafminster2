@@ -1,0 +1,41 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/161041.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - William Hague";
+   dc:modified "2012-12-01T15:34:16Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/161041#id> .
+
+<http://dbpedialite.org/things/161041#id> a owl:Thing;
+   rdfs:label "William Hague";
+   rdfs:comment """William Jefferson Hague, FRSL, MP (born 26 March 1961) is a British politician, who is the current Foreign Secretary and First Secretary of State. He served as Leader of the Conservative Party from June 1997 to September 2001. In Parliament, he has represented the constituency of Richmond (Yorks) since 1989.
+Educated at Wath-upon-Dearne Grammar School, a state grammar school, then the University of Oxford (graduating with First Class Honours in Philosophy, Politics and Economics) and INSEAD, Hague was first elected to the House of Commons in a by-election in 1989. Hague rose through the ranks of John Major's government and entered the Cabinet in 1995 as the Secretary of State for Wales...""";
+   owl:sameAs <http://dbpedia.org/resource/William_Hague>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000012a773>,
+     <http://rdf.freebase.com/ns/m.0159wm>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/William_Hague>;
+   foaf:page <http://wikidata.org/wiki/Q58282>,
+     <http://www.fco.gov.uk/en/about-us/our-ministers/william-hague/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Hague_William.aspx>,
+     <https://twitter.com/williamjhague>,
+     <http://www.parliament.uk/biographies/commons/william-hague/25550>,
+     <http://hansard.millbanksystems.com/people/mr-william-hague>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3707_home.html>,
+     <http://www.guardian.co.uk/politics/person/2130/william-hague>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=William_Hague>,
+     <http://www.theyworkforyou.com/mp/william_hague>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/William-Hague/Richmond-Yorks/172>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25550.stm>,
+     <http://journalisted.com/william-hague>,
+     <http://www.charlierose.com/guest/view/7251>,
+     <http://www.imdb.com/name/nm1002712/>,
+     <http://www.guardian.co.uk/politics/williamhague>,
+     <http://topics.nytimes.com/top/reference/timestopics/people/h/william_hague/index.html>,
+     <http://www.telegraph.co.uk/news/politics/william-hague/> .
+
+<http://wikidata.org/wiki/Q58282> a foaf:Document;
+   rdfs:label "William Hague" .

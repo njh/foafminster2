@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27282217.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jackie Doyle-Price";
+   dc:modified "2012-12-01T15:52:08Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27282217#id> .
+
+<http://dbpedialite.org/things/27282217#id> a owl:Thing;
+   rdfs:label "Jackie Doyle-Price";
+   rdfs:comment "Jacqueline \"Jackie\" Doyle-Price (born 5 August 1969) is an English Conservative Party politician who was elected Member of Parliament (MP) for Thurrock in the May 2010 general election. She was born in Sheffield and now lives in Purfleet.";
+   owl:sameAs <http://dbpedia.org/resource/Jackie_Doyle-Price>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b8bb10>,
+     <http://rdf.freebase.com/ns/m.0bwkgsj>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jackie_Doyle-Price>;
+   foaf:page <http://www.jackiedoyleprice.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Doyle-Price_Jackie.aspx>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/41326.stm> .

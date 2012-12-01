@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/214880.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Ian Paisley, Jr.";
+   dc:modified "2012-12-01T13:41:28Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/214880#id> .
+
+<http://dbpedialite.org/things/214880#id> a owl:Thing;
+   rdfs:label "Ian Paisley, Jr.";
+   rdfs:comment """Ian Richard Kyle Paisley, Jr.,MP (born 12 December 1966 in Belfast, Northern Ireland) is the Member of Parliament (MP) for North Antrim and member of the Northern Ireland Assembly for the Democratic Unionist Party (DUP) and an author. He is the son of the DUP's founder and former leader, Ian Paisley.
+In 1990, he married Fiona, and they have four children. He is a member of the Free Presbyterian Church of Ulster.""";
+   owl:sameAs <http://dbpedia.org/resource/Ian_Paisley,_Jr.>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000016b9b8>,
+     <http://rdf.freebase.com/ns/m.01fgfs>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ian_Paisley,_Jr.>;
+   foaf:page <http://www.ipjr.net/>,
+     <http://www.dup.org.uk>,
+     <http://www.guardian.co.uk/politics/person/13154/ian-paisley-junior>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Ian_Paisley_Jnr>,
+     <http://www.theyworkforyou.com/mp/ian_paisley_jnr/north_antrim>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Ian-Paisley-Jr/North-Antrim/1318>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/33629.stm>,
+     <http://news.bbc.co.uk/1/hi/northern_ireland/6989808.stm> .

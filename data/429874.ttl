@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/429874.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Caroline Spelman";
+   dc:modified "2012-12-01T13:32:53Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/429874#id> .
+
+<http://dbpedialite.org/things/429874#id> a owl:Thing;
+   rdfs:label "Caroline Spelman";
+   rdfs:comment "Caroline Alice Spelman (née Cormack; born 4 May 1958) is a Conservative Party politician in the United Kingdom who has served as the Member of Parliament (MP) for Meriden in the West Midlands since 1997. From May 2010 to September 2012 she was the Secretary of State for Environment, Food and Rural Affairs in David Cameron's coalition cabinet, and was sworn as a Privy Counsellor on 13 May 2010.";
+   owl:sameAs <http://dbpedia.org/resource/Caroline_Spelman>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023c44a>,
+     <http://rdf.freebase.com/ns/m.027k2b>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Caroline_Spelman>;
+   foaf:page <http://www.carolinespelman.com>,
+     <http://www.parliament.uk/biographies/commons/caroline-spelman/25318>,
+     <http://hansard.millbanksystems.com/people/ms-caroline-spelman>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_783_home.html>,
+     <http://www.guardian.co.uk/politics/person/4915/caroline-spelman>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Caroline_Spelman>,
+     <http://www.theyworkforyou.com/mp/caroline_spelman>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Eric-Pickles/Brentwood-and-Ongar/413>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25318.stm>,
+     <http://journalisted.com/caroline-spelman>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2120878.stm>,
+     <http://www.wpradio.co.uk/mp3s/CarolineSpelman.mp3>,
+     <http://www.youtube.com/watch?v=njdf_rOFJEk> .

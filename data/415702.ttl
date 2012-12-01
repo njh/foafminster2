@@ -1,0 +1,38 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/415702.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Caroline Lucas";
+   dc:modified "2012-12-01T14:30:00Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/415702#id> .
+
+<http://dbpedialite.org/things/415702#id> a owl:Thing;
+   rdfs:label "Caroline Lucas";
+   rdfs:comment "Caroline Patricia Lucas (born 9 December 1960) is a British Green Party politician who has been the Member of Parliament (MP) for Brighton Pavilion since 2010. She was the first elected Leader of the Green Party of England and Wales from 2008 to 2012, when she stood down to devote more time to her parliamentary duties, and is the UK's first ever Green MP. She was previously a Member of the European Parliament for South East England from 1999 to 2010. She is noted for campaigning and writing on green economics, localisation, alternatives to globalisation, trade justice, animal welfare and food. In her time as a politician and activist, she has worked with numerous NGOs and think-tanks...";
+   owl:sameAs <http://dbpedia.org/resource/Caroline_Lucas>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022d95c>,
+     <http://rdf.freebase.com/ns/m.025qbx>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Caroline_Lucas>;
+   foaf:page <http://wikidata.org/wiki/Q9670>,
+     <http://www.carolinelucas.com>,
+     <http://www.greenparty.org.uk/people/caroline-lucas.html>,
+     <http://www.brightonhovegreens.org/localsites/bh.html>,
+     <http://www.parliament.uk/biographies/commons/caroline-lucas/28490>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1568_home.html>,
+     <http://www.guardian.co.uk/politics/person/11755/caroline-lucas>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Caroline_Lucas>,
+     <http://www.theyworkforyou.com/mp/caroline_lucas>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Caroline-Lucas/Brighton-Pavilion/1268>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/28490.stm>,
+     <http://journalisted.com/caroline-lucas>,
+     <http://www.carolinelucasmep.org.uk/>,
+     <http://www.newstatesman.com/environment/2010/05/interview-climate-european>,
+     <http://www.edms.org.uk/mps/24910/> .
+
+<http://wikidata.org/wiki/Q9670> a foaf:Document;
+   rdfs:label "Caroline Lucas";
+   rdfs:comment "A British Green Party politician" .

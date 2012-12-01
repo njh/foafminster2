@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1871091.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andrew Gwynne";
+   dc:modified "2012-12-01T14:13:03Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1871091#id> .
+
+<http://dbpedialite.org/things/1871091#id> a owl:Thing;
+   rdfs:label "Andrew Gwynne";
+   rdfs:comment """Andrew John Gwynne (born 4 June 1974) is a British Labour Party politician and has been the Member of Parliament (MP) for Denton and Reddish since 2005, replacing the retiring Andrew Bennett.
+He was appointed to the Shadow Health team in 2011 by Labour leader Ed Miliband.""";
+   owl:sameAs <http://dbpedia.org/resource/Andrew_Gwynne>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000614dbe>,
+     <http://rdf.freebase.com/ns/m.062mfz>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andrew_Gwynne>;
+   foaf:page <http://www.andrewgwynne.labour.co.uk>,
+     <http://politics.guardian.co.uk/person/0,9290,-8702,00.html>,
+     <http://www.theyworkforyou.com/mp/andrew_gwynne/denton_and_reddish>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4649915.stm>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/181.stm> .

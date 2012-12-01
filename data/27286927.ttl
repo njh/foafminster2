@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27286927.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Conor Burns";
+   dc:modified "2012-12-01T16:06:48Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27286927#id> .
+
+<http://dbpedialite.org/things/27286927#id> a owl:Thing;
+   rdfs:label "Conor Burns";
+   rdfs:comment "Conor Burns (born 24 September 1972) is a British Conservative Party politician. He was elected as the Member of Parliament (MP) for Bournemouth West at the 2010 general election. He was Parliamentary Private Secretary (PPS) to Secretary of State for Northern Ireland between 2010 and 2012, before resigning from the Government due to his opposition to the Lords Reform Bill.";
+   owl:sameAs <http://dbpedia.org/resource/Conor_Burns>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b744aa>,
+     <http://rdf.freebase.com/ns/m.0bwgk5b>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Conor_Burns>;
+   foaf:page <http://www.localconservatives.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Burns_Conor.aspx>,
+     <http://www.bournemouthwestconservatives.com/>,
+     <http://www.guardian.co.uk/politics/person/5889/conor-burns>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Conor_Burns>,
+     <http://www.theyworkforyou.com/mp/conor_burns>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Conor-Burns/Bournemouth-West/1052>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31713.stm> .

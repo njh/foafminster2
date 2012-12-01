@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/163684.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - John Redwood";
+   dc:modified "2012-12-01T15:51:53Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/163684#id> .
+
+<http://dbpedialite.org/things/163684#id> a owl:Thing;
+   rdfs:label "John Redwood";
+   rdfs:comment "John Alan Redwood (born 15 June 1951) is a British Conservative Party politician and Member of Parliament for Wokingham. He was formerly Secretary of State for Wales in Prime Minister John Major's Cabinet and was an unsuccessful challenger for the leadership of the Conservative Party in 1995. He is currently Co-Chairman of the Conservative Party's Policy Review Group on Economic Competitiveness. He is notably employed by NM Rothschild and Sons.";
+   owl:sameAs <http://dbpedia.org/resource/John_Redwood>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000012df96>,
+     <http://rdf.freebase.com/ns/m.015rxq>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Redwood>;
+   foaf:page <http://www.johnredwood.com/>,
+     <http://www.debretts.com/people/biographies/browse/r/2917/John+Alan.aspx>,
+     <http://www.johnredwoodsdiary.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Redwood_John.aspx>,
+     <http://www.parliament.uk/biographies/commons/john-redwood/25340>,
+     <http://hansard.millbanksystems.com/people/mr-john-redwood>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_329_home.html>,
+     <http://www.guardian.co.uk/politics/person/4356/john-redwood>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=John_Redwood>,
+     <http://www.theyworkforyou.com/mp/john_redwood>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/John-Redwood/Wokingham/456>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25340.stm>,
+     <http://journalisted.com/john-redwood>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2177192.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/3707486.stm> .

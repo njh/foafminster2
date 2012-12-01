@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/9944636.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Paul Maskey";
+   dc:modified "2012-12-01T13:40:43Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/9944636#id> .
+
+<http://dbpedialite.org/things/9944636#id> a owl:Thing;
+   rdfs:label "Paul Maskey";
+   rdfs:comment "Paul John Maskey (born 10 June 1967) is an Irish republican politician in Northern Ireland who is a member of Sinn Féin. He served as a Sinn Féin member (MLA) of the Northern Ireland Assembly for Belfast West from 2007 to 2012, and was elected in June 2011 as Member of Parliament (MP) for the Westminster constituency of Belfast West, but in line with Sinn Féin's policy of abstentionism he has not taken his seat.";
+   owl:sameAs <http://dbpedia.org/resource/Paul_Maskey>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000055e5b00>,
+     <http://rdf.freebase.com/ns/m.02pxqs0>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Paul_Maskey>;
+   foaf:page <http://www.sinnfein.ie/contents/14959/>,
+     <http://www.parliament.uk/biographies/commons/paul-maskey/58939>,
+     <http://www.guardian.co.uk/politics/person/14338/paul-maskey>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Paul_Maskey>,
+     <http://www.theyworkforyou.com/mp/paul_maskey/belfast_west>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Paul-Maskey/Belfast-West/1883>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/58939.stm> .

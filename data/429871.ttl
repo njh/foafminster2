@@ -1,0 +1,37 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/429871.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - John Whittingdale";
+   dc:modified "2012-12-01T13:58:19Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/429871#id> .
+
+<http://dbpedialite.org/things/429871#id> a owl:Thing;
+   rdfs:label "John Whittingdale";
+   rdfs:comment """John Whittingdale OBE (born 16 October 1959) is a Conservative politician in the United Kingdom. He has been a Member of Parliament (MP) since 1992.
+He is currently Vice-Chairman of the 1922 Committee. He was a member of the Executive of Conservative Way Forward (2005–10) and the Conservative Party Board (2006–10).""";
+   owl:sameAs <http://dbpedia.org/resource/John_Whittingdale>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023c432>,
+     <http://rdf.freebase.com/ns/m.027k1l>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Whittingdale>;
+   foaf:page <http://www.johnwhittingdale.org.uk>,
+     <http://www.parliament.uk/parliamentary_committees/culture__media_and_sport/culture__media_and_sport_members.cfm>,
+     <http://www.parliament.uk/biographies/commons/john-whittingdale/25239>,
+     <http://hansard.millbanksystems.com/people/mr-john-whittingdale>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4590_home.html>,
+     <http://www.guardian.co.uk/politics/person/5510/john-whittingdale>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=John_Whittingdale>,
+     <http://www.theyworkforyou.com/mp/john_whittingdale/maldon_and_east_chelmsford>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/John-Whittingdale/Maldon-and-East-Chelmsford/531>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25239.stm>,
+     <http://www.guardian.co.uk/media/johnwhittingdale>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4333653.stm>,
+     <http://news.bbc.co.uk/1/hi/england/essex/3735480.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/3434557.stm>,
+     <http://news.bbc.co.uk/1/hi/uk/3186071.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/3005231.stm>,
+     <http://www.youtube.com/watch?v=K9E9DFl2ANg> .

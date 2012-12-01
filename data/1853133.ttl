@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1853133.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Lyn Brown (politician)";
+   dc:modified "2012-12-01T13:43:02Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1853133#id> .
+
+<http://dbpedialite.org/things/1853133#id> a owl:Thing;
+   rdfs:label "Lyn Brown (politician)";
+   rdfs:comment "Lyn Carol Brown (born 13 April 1960) is a British Labour Party politician who has been the Member of Parliament (MP) for West Ham since 2005.";
+   owl:sameAs <http://dbpedia.org/resource/Lyn_Brown_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000608e1f>,
+     <http://rdf.freebase.com/ns/m.0613j_>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lyn_Brown_(politician)>;
+   foaf:page <http://www.lynbrown.org.uk>,
+     <http://www.newhamlabour.co.uk>,
+     <http://hansard.millbanksystems.com/people/ms-lyn-brown>,
+     <http://www.guardian.co.uk/politics/person/8859/lyn-brown>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Lyn_Brown>,
+     <http://www.theyworkforyou.com/mp/lyn_brown>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Lyn-Brown/West-Ham/1004>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/39376.stm> .

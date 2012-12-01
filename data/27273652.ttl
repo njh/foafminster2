@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27273652.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Catherine McKinnell";
+   dc:modified "2012-12-01T15:35:29Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27273652#id> .
+
+<http://dbpedialite.org/things/27273652#id> a owl:Thing;
+   rdfs:label "Catherine McKinnell";
+   rdfs:comment """Catherine McKinnell (born 8 June 1976) is a British Labour Party politician and the Member of Parliament (MP) for Newcastle upon Tyne North. She stood as a candidate for the 2010 UK general election after the incumbent Labour MP, Doug Henderson, announced in 2009 that he would not stand for re-election. She was elected with 40.8% of the vote, and a majority of 3,414 over her Liberal Democrat rival.
+McKinnell was born in Denton and grew up in Newcastle upon Tyne, where the attended the Sacred Heart Comprehensive School in Fenham. She studied politics and history at the University of Edinburgh, and before her election to Parliament she worked as an employment solicitor in the Newcastle law...""";
+   owl:sameAs <http://dbpedia.org/resource/Catherine_McKinnell>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b9a285>,
+     <http://rdf.freebase.com/ns/m.0bwm8n5>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Catherine_McKinnell> .

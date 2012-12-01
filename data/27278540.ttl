@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27278540.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Stephen Barclay";
+   dc:modified "2012-12-01T15:55:25Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27278540#id> .
+
+<http://dbpedialite.org/things/27278540#id> a owl:Thing;
+   rdfs:label "Stephen Barclay";
+   rdfs:comment "Stephen Paul \"Steve\" Barclay (born 3 May 1972) is a Conservative Party politician in the United Kingdom who has been the Member of Parliament (MP) for North East Cambridgeshire since May 2010.";
+   owl:sameAs <http://dbpedia.org/resource/Stephen_Barclay>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b8db5c>,
+     <http://rdf.freebase.com/ns/m.0bwkqvx>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Stephen_Barclay>;
+   foaf:page <http://stevebarclay.net/>,
+     <http://www.guardian.co.uk/politics/person/11998/stephen-barclayStephen>,
+     <http://ukpolitics.telegraph.co.uk/Cambridgeshire+North+East/Stephen+Barclay-> .

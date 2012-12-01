@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/415133.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - John McDonnell (politician)";
+   dc:modified "2012-12-01T14:30:34Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/415133#id> .
+
+<http://dbpedialite.org/things/415133#id> a owl:Thing;
+   rdfs:label "John McDonnell (politician)";
+   rdfs:comment "John Martin McDonnell (born 8 September 1951) is a British Labour Party politician, who has been the Member of Parliament (MP) for Hayes and Harlington since 1997; he serves as Chair of the Socialist Campaign Group, the Labour Representation Committee, and the \"Public Services Not Private Profit Group\". He is also Parliamentary Convenor of the Trade Union Co-ordinating Group of eight left-wing trade unions representing over half a million workers. McDonnell attempted to stand for the post of Labour Party leader following Tony Blair's resignation in 2007 but was unable to gain sufficient nominations. He was a candidate for Leader again in 2010 following Gordon Brown's resignation but...";
+   owl:sameAs <http://dbpedia.org/resource/John_McDonnell_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022cf69>,
+     <http://rdf.freebase.com/ns/m.025mw9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_McDonnell_(politician)>;
+   foaf:page <http://www.john-mcdonnell.net/>,
+     <http://www.john4leader.org.uk/>,
+     <http://www.john-mcdonnell.co.uk/>,
+     <http://hansard.millbanksystems.com/people/mr-jjohn-mcdonnell>,
+     <http://www.guardian.co.uk/politics/person/3825/john-mcdonnell>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=John_McDonnell>,
+     <http://www.theyworkforyou.com/mp/john_mcdonnell>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/John-McDonnell/Hayes-and-Harlington/365>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25474.stm>,
+     <http://www.epolitix.com/EN/MPWebsites/John+McDonnell/>,
+     <http://www.publicnotprivate.org.uk>,
+     <http://www.youtube.com/watch?v=iiSVKvokCr0>,
+     <http://www.youtube.com/watch?v=t0tsnObvVHg>,
+     <http://www.youtube.com/watch?v=0Asuqx_Gzec> .

@@ -1,0 +1,51 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/354520.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Menzies Campbell";
+   dc:modified "2012-12-01T14:17:33Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/354520#id> .
+
+<http://dbpedialite.org/things/354520#id> a owl:Thing;
+   rdfs:label "Menzies Campbell";
+   rdfs:comment """Sir Walter Menzies "Ming" Campbell, CBE, QC, MP is a British Liberal Democrat politician and advocate, and a retired sprinter. He is the Member of Parliament (MP) for North East Fife, and was the Leader of the Liberal Democrats from 2 March 2006 until 15 October 2007.
+Campbell held the British record for the 100 metres sprint from 1967 to 1974, having run the distance in 10.2 s. He captained the Great Britain athletics team in 1965 and 1966. He is currently the Chancellor of the University of St Andrews.""";
+   owl:sameAs <http://dbpedia.org/resource/Menzies_Campbell>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001f5859>,
+     <http://rdf.freebase.com/ns/m.01zq2t>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Menzies_Campbell>;
+   foaf:page <http://wikidata.org/wiki/Q248021>,
+     <http://www.mingcampbell.org.uk>,
+     <http://www.libdems.org.uk/people/ming-campbell>,
+     <http://www.scotlibdems.org.uk/people/mps/campbell>,
+     <http://www.parliament.uk/biographies/commons/menzies-campbell/25795>,
+     <http://hansard.millbanksystems.com/people/mr-menzies-campbell>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2450_home.html>,
+     <http://www.guardian.co.uk/politics/person/813/menzies-campbell>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Menzies_Campbell>,
+     <http://www.theyworkforyou.com/mp/menzies_campbell>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Menzies-Campbell/North-East-Fife/1084>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25795.stm>,
+     <http://journalisted.com/menzies-campbell>,
+     <http://news.bbc.co.uk/1/hi/special_report/1998/12/98/new_year_honours/244939.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/354193.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/564971.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/830452.stm>,
+     <http://news.bbc.co.uk/1/hi/scotland/2504127.stm>,
+     <http://news.bbc.co.uk/1/hi/scotland/2755473.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/3357585.stm>,
+     <http://www.guardian.co.uk/cartoons/stevebell/0,7371,1668860,00.html>,
+     <http://www.guardian.co.uk/cartoons/stevebell/0,,1722697,00.html>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4593888.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4594508.stm>,
+     <http://news.bbc.co.uk/1/hi/magazine/4595228.stm>,
+     <http://calvin.st-andrews.ac.uk/external_relations/fp_news_article.cfm?reference=882>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4591336.stm> .
+
+<http://wikidata.org/wiki/Q248021> a foaf:Document;
+   rdfs:label "Menzies Campbell";
+   rdfs:comment "British Liberal Democrat politician and advocate" .

@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1854262.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Alasdair McDonnell";
+   dc:modified "2012-12-01T14:34:53Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1854262#id> .
+
+<http://dbpedialite.org/things/1854262#id> a owl:Thing;
+   rdfs:label "Alasdair McDonnell";
+   rdfs:comment "Alasdair McDonnell (born 1 September 1949) is an Irish politician, Leader of the Social Democratic and Labour Party and both a Member of the Parliament of the United Kingdom and a Member of the Legislative Assembly for South Belfast. On 5 November 2011, he was elected as the new leader of the SDLP.";
+   owl:sameAs <http://dbpedia.org/resource/Alasdair_McDonnell>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000609c00>,
+     <http://rdf.freebase.com/ns/m.061700>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alasdair_McDonnell>;
+   foaf:page <http://www.alasdairmcdonnell.com/>,
+     <http://www.stratagem-ni.com/resources_politician.aspx?dataid=357958>,
+     <http://politics.guardian.co.uk/person/0,9290,-9665,00.html>,
+     <http://www.theyworkforyou.com/mp/alasdair_mcdonnell/belfast_south>,
+     <http://www.publications.parliament.uk/pa/cm200506/cmhansrd/cm050615/debtext/50615-17.htm> .

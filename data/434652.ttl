@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434652.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jimmy Hood";
+   dc:modified "2012-12-01T14:05:46Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434652#id> .
+
+<http://dbpedialite.org/things/434652#id> a owl:Thing;
+   rdfs:label "Jimmy Hood";
+   rdfs:comment "James \"Jimmy\" Hood (born 16 May 1948) is a British Labour Party politician, who has been the Member of Parliament (MP) for Lanark and Hamilton East since 2005. He was first elected in 1987, as MP for Clydesdale.";
+   owl:sameAs <http://dbpedia.org/resource/Jimmy_Hood>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002409e5>,
+     <http://rdf.freebase.com/ns/m.0282h5>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jimmy_Hood>;
+   foaf:page <http://jimhoodmp.org.uk/>,
+     <http://politics.guardian.co.uk/person/0,9290,-2498,00.html>,
+     <http://www.theyworkforyou.com/mp/jimmy_hood/lanark_and_hamilton_east>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/713.stm> .

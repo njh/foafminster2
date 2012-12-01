@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/421577.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Michael Fallon";
+   dc:modified "2012-12-01T13:59:58Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/421577#id> .
+
+<http://dbpedialite.org/things/421577#id> a owl:Thing;
+   rdfs:label "Michael Fallon";
+   rdfs:comment """For the American Physician / Candidate for U.S. House of Representatives see Mike Fallon
+Michael Cathel Fallon (born 14 May 1952, Scotland) is a British Conservative Party politician. He is the Member of Parliament for Sevenoaks, and as of September 2010 the deputy Chairman of the Conservative Party and 2012 Minister of State for Business and Enterprise.""";
+   owl:sameAs <http://dbpedia.org/resource/Michael_Fallon>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002340ee>,
+     <http://rdf.freebase.com/ns/m.026j7g>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_Fallon>;
+   foaf:page <http://politics.guardian.co.uk/person/0,9290,-1649,00.html>,
+     <http://www.theyworkforyou.com/mp/michael_fallon/sevenoaks>,
+     <http://www.michaelfallon.org.uk/>,
+     <http://hansard.millbanksystems.com/people/mr-michael-fallon> .

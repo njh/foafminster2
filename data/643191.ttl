@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/643191.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Hamilton (politician)";
+   dc:modified "2012-12-01T14:19:17Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/643191#id> .
+
+<http://dbpedialite.org/things/643191#id> a owl:Thing;
+   rdfs:label "David Hamilton (politician)";
+   rdfs:comment """David Hamilton (born 24 October 1950) is a British Labour Party politician who has been the Member of Parliament (MP) for Midlothian since 2001.
+David Hamilton was born in Dalkeith, Midlothian, and was educated at the local Dalkeith High School. In 1965, on leaving school, he worked as a miner with the National Coal Board for nineteen years, and remained a member of the National Union of Mineworkers until 1988. He was jailed for two months during the 1980s miners' strike. This was for the alleged assault on a Dalkeith man and, although bail was denied many times, he was acquitted at trial. Hamilton later claimed he had been "fitted up" by the police and security services. He worked as an...""";
+   owl:sameAs <http://dbpedia.org/resource/David_Hamilton_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002f719f>,
+     <http://rdf.freebase.com/ns/m.02zxd_>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Hamilton_(politician)>;
+   foaf:page <http://www.davidhamiltonmp.co.uk/>,
+     <http://www.epolitix.com/EN/MPWebsites/David+Hamilton/>,
+     <http://politics.guardian.co.uk/person/0,9290,-6412,00.html>,
+     <http://www.theyworkforyou.com/mp/david_hamilton/midlothian>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=David_Hamilton&mpc=Midlothian>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/716.stm> .

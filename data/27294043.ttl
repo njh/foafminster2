@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27294043.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Stephen Phillips (politician)";
+   dc:modified "2012-12-01T15:31:03Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27294043#id> .
+
+<http://dbpedialite.org/things/27294043#id> a owl:Thing;
+   rdfs:label "Stephen Phillips (politician)";
+   rdfs:comment """Stephen James Phillips (born 9 March 1970) is a British Conservative Party politician, barrister and Recorder of the Crown Court. He is the current Member of Parliament (MP) for Sleaford and North Hykeham.
+Phillips attended a number of secondary schools ending at Canford School in Dorset on an assisted place.[citation needed] He was educated at Oriel College, Oxford from 1988 to 1992, obtaining a BA degree in Jurisprudence (law) in 1991 and a Bachelor of Civil Law degree in 1992. Also, he served for a short time in the Army, serving with both the 14th/20th King's Hussars and The Guards. After studying to become a barrister at the Inns of Court School of Law, he was called to the bar as a...""";
+   owl:sameAs <http://dbpedia.org/resource/Stephen_Phillips_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d055e4>,
+     <http://rdf.freebase.com/ns/m.0by0ph4>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Stephen_Phillips_(politician)>;
+   foaf:page <http://www.stephenphillips.org.uk/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Phillips_Stephen.aspx>,
+     <http://www.7kbw.co.uk/barristers.cfm?barristerID=25> .

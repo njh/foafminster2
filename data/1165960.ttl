@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1165960.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jim Fitzpatrick (politician)";
+   dc:modified "2012-12-01T15:23:09Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1165960#id> .
+
+<http://dbpedialite.org/things/1165960#id> a owl:Thing;
+   rdfs:label "Jim Fitzpatrick (politician)";
+   rdfs:comment "James Fitzpatrick (born 4 April 1952) is a British Labour Party politician, who has been the Member of Parliament (MP) for Poplar and Limehouse since the 2010 General Election. From 1997 to the 2010 election he was the member for Poplar and Canning Town. He was Minister of State for Farming and the Environment at the Department for Environment, Food and Rural Affairs during the Brown Ministry.";
+   owl:sameAs <http://dbpedia.org/resource/Jim_Fitzpatrick_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000045e7c4>,
+     <http://rdf.freebase.com/ns/m.04ctz4>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jim_Fitzpatrick_(politician)>;
+   foaf:page <http://www.jimfitzpatrick.org.uk/>,
+     <http://politics.guardian.co.uk/person/0,9290,-1736,00.html>,
+     <http://www.theyworkforyou.com/mp/jim_fitzpatrick/poplar_and_canning_town>,
+     <http://news.bbc.co.uk/1/hi/uk/7389360.stm>,
+     <http://www.debretts.com/people/biographies/browse/f/19325/James%20(Jim)+FITZPATRICK.aspx> .

@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/24303079.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Rachel Reeves";
+   dc:modified "2012-12-01T15:20:23Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/24303079#id> .
+
+<http://dbpedialite.org/things/24303079#id> a owl:Thing;
+   rdfs:label "Rachel Reeves";
+   rdfs:comment "Rachel Jane Reeves (born 13 February 1979) is a British economist and a Labour Party politician who has been the Member of Parliament for Leeds West since 2010. She served as Shadow Pensions Minister from October 2010 until October 2011, when she was appointed as Shadow Chief Secretary to the Treasury by Ed Miliband.";
+   owl:sameAs <http://dbpedia.org/resource/Rachel_Reeves>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000f83f81a>,
+     <http://rdf.freebase.com/ns/m.07s7z0v>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Rachel_Reeves>;
+   foaf:page <http://www.ethosjournal.com/home/item/305-rachel-reeves> .

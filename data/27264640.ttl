@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27264640.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Stuart Andrew";
+   dc:modified "2012-11-23T22:52:10Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27264640#id> .
+
+<http://dbpedialite.org/things/27264640#id> a owl:Thing;
+   rdfs:label "Stuart Andrew";
+   rdfs:comment """Stuart James Andrew (born 25 November 1971) is the Conservative Member of Parliament (MP) for the Pudsey constituency in West Yorkshire, England. He grew up in the Isle of Anglesey in North Wales, and later attended Ysgol David Hughes in Menai Bridge.
+After leaving school he worked as a fundraiser for the British Heart Foundation. Before being elected to parliament he led the fundraising team for Martin House Hospice.
+Andrew stood as a candidate in the 1997 Parliamentary election in Wrexham. Subsequent to this Andrew joined the Labour Party, leaving the Conservatives citing issues with the "direction of the party". On losing his council seat Andrew rejoined the Conservative Party and...""";
+   owl:sameAs <http://dbpedia.org/resource/Stuart_Andrew>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b90438>,
+     <http://rdf.freebase.com/ns/m.0bwl11s>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Stuart_Andrew>;
+   foaf:page <http://www.stuartandrew.com>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Andrew_Stuart.aspx>,
+     <http://yourdemocracy.newstatesman.com/profile/stuart-andrew>,
+     <https://twitter.com/StuartAndrewMP>,
+     <http://www.parliament.uk/biographies/commons/stuart-andrew/62806>,
+     <http://hansard.millbanksystems.com/people/mr-stewart-andrew>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5565_home.html>,
+     <http://www.guardian.co.uk/politics/person/12753/stuart-andrew>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Stuart_Andrew>,
+     <http://www.theyworkforyou.com/mp/stuart_andrew>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Stuart-Andrew/Pudsey/772>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/62806.stm> .

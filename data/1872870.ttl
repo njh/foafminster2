@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872870.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nadine Dorries";
+   dc:modified "2012-12-01T14:17:25Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872870#id> .
+
+<http://dbpedialite.org/things/1872870#id> a owl:Thing;
+   rdfs:label "Nadine Dorries";
+   rdfs:comment "Nadine Vanessa Dorries (née Bargery; born 21 May 1957) is a British politician who has been the Member of Parliament (MP) for Mid Bedfordshire since 2005, when she was first elected as a Conservative MP. On 6 November 2012, she was suspended from the parliamentary Conservative Party owing to her decision to take part in I'm a Celebrity...Get Me Out of Here! without informing the Chief Whip. She has been involved in unsuccessful parliamentary attempts to reduce the time limit for abortions under the 1967 Abortion Act, from the current level of 24 weeks' gestation.";
+   owl:sameAs <http://dbpedia.org/resource/Nadine_Dorries>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615dd1>,
+     <http://rdf.freebase.com/ns/m.062rgk>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nadine_Dorries>;
+   foaf:page <http://blog.dorries.org/Default.aspx>,
+     <http://conservativehome.blogs.com/thecolumnists/nadine-dorries-mp/>,
+     <http://www.parliament.uk/biographies/commons/nadine-dorries/41312>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4768_home.html>,
+     <http://www.guardian.co.uk/politics/person/10380>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nadine_Dorries>,
+     <http://www.theyworkforyou.com/mp/nadine_dorries/mid_bedfordshire>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nadine-Dorries/142>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/41312.stm>,
+     <http://journalisted.com/nadine-dorries>,
+     <http://www.midbedsconservatives.com>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4657183.stm> .

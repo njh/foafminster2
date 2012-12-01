@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434617.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Tom Harris (British politician)";
+   dc:modified "2012-12-01T14:15:25Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434617#id> .
+
+<http://dbpedialite.org/things/434617#id> a owl:Thing;
+   rdfs:label "Tom Harris (British politician)";
+   rdfs:comment """Thomas "Tom" Harris (born 20 February 1964) is a Scottish Labour Party politician and a former journalist and PR/press officer. He stood as a candidate for the 2011 Scottish Labour Party leadership election, but effectively admitted defeat on 10 December a week before the result is declared.
+Harris has been the Member of Parliament (MP) for the Glasgow South constituency since 2005 and for Glasgow Cathcart from 2001 to 2005. He first entered government when he was made a Parliamentary Under-Secretary of State at the Department for Transport in September 2006 by PM Tony Blair. When Gordon Brown took over as Prime Minister in June 2007 Harris's junior ministerial role was kept, but in an...""";
+   owl:sameAs <http://dbpedia.org/resource/Tom_Harris_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240909>,
+     <http://rdf.freebase.com/ns/m.028289>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tom_Harris_(British_politician)>;
+   foaf:page <http://www.tomharris.org.uk/>,
+     <http://www.parliament.uk/biographies/tom-harris/25568>,
+     <http://www.guardian.co.uk/politics/person/6371/tom-harris>,
+     <http://www.theyworkforyou.com/mp/tom_harris/glasgow_south> .

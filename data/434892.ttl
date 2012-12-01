@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434892.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Alan Reid (politician)";
+   dc:modified "2012-12-01T13:19:48Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434892#id> .
+
+<http://dbpedialite.org/things/434892#id> a owl:Thing;
+   rdfs:label "Alan Reid (politician)";
+   rdfs:comment "Alan Reid (born 7 August 1954, Ayr) is a Scottish politician. He is Liberal Democrat Member of Parliament for Argyll and Bute, and was first elected at the 2001 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Alan_Reid_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240f12>,
+     <http://rdf.freebase.com/ns/m.0283sl>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alan_Reid_(politician)>;
+   foaf:page <http://www.alanreid.org>,
+     <http://www.parliament.uk/biographies/alan-reid/25342>,
+     <http://www.libdems.org.uk/people/alan-reid>,
+     <http://www.scotlibdems.org.uk/people/mps/reid>,
+     <http://www.kirtel.demon.co.uk/argyll_libdems/>,
+     <http://hansard.millbanksystems.com/people/mr-alan-reid>,
+     <http://www.guardian.co.uk/politics/person/6530/alan-reid>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Alan_Reid>,
+     <http://www.theyworkforyou.com/mp/alan_reid>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Alan-Reid/Argyll-and-Bute/1116>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25342.stm> .

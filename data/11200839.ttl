@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/11200839.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Gloria De Piero";
+   dc:modified "2012-12-01T13:48:01Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/11200839#id> .
+
+<http://dbpedialite.org/things/11200839#id> a owl:Thing;
+   rdfs:label "Gloria De Piero";
+   rdfs:comment "Gloria De Piero (born 21 December 1972) is a British Labour Party politician, journalist and TV presenter who became known for her work at GMTV. In 2010, she was returned to Parliament as MP for Ashfield.";
+   owl:sameAs <http://dbpedia.org/resource/Gloria_De_Piero>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000571b8be>,
+     <http://rdf.freebase.com/ns/m.02r3g5z>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gloria_De_Piero>;
+   foaf:page <http://www.gloria-de-piero.co.uk>,
+     <http://www.parliament.uk/biographies/commons/gloria-de-piero/85008>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5552_home.html>,
+     <http://www.guardian.co.uk/politics/person/13074/gloria-de-piero>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Gloria_De_Piero>,
+     <http://www.theyworkforyou.com/mp/gloria_de_piero>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Gloria-De-Piero/Ashfield/1321>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/85008.stm>,
+     <http://journalisted.com/gloria-de-piero>,
+     <http://www.imdb.com/name/nm1969302/>,
+     <http://tvnewsroom.co.uk/people/gloria-de-piero/>,
+     <http://www.175heroes.org.uk/gloria_de_piero.html>,
+     <http://www.bbc.co.uk/otr/interviews.shtml>,
+     <http://www.timeshighereducation.co.uk/story.asp?storyCode=97799&sectioncode=26> .

@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414443.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Gregory Barker";
+   dc:modified "2012-12-01T15:17:31Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414443#id> .
+
+<http://dbpedialite.org/things/414443#id> a owl:Thing;
+   rdfs:label "Gregory Barker";
+   rdfs:comment "Gregory Leonard George \"Greg\" Barker (born 8 March 1966) is a British Conservative Party politician and the Member of Parliament (MP) for Bexhill and Battle. In May 2010 he was appointed Minister of State for Energy and Climate Change.";
+   owl:sameAs <http://dbpedia.org/resource/Gregory_Barker>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c286>,
+     <http://rdf.freebase.com/ns/m.025jn6>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gregory_Barker>;
+   foaf:page <http://www.gregorybarker.com>,
+     <http://hansard.millbanksystems.com/people/mr-gregory-barker>,
+     <http://www.guardian.co.uk/politics/person/5764/greg-barker>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Gregory_Barker>,
+     <http://www.theyworkforyou.com/mp/gregory_barker>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Greg-Barker/Bexhill-and-Battle/748>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25710.stm>,
+     <http://journalisted.com/gregory-barker>,
+     <http://news.bbc.co.uk/2/hi/uk_news/england/sussex/6229348.stm> .

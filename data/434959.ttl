@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434959.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Robert Walter (politician)";
+   dc:modified "2012-12-01T13:53:50Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434959#id> .
+
+<http://dbpedialite.org/things/434959#id> a owl:Thing;
+   rdfs:label "Robert Walter (politician)";
+   rdfs:comment "Robert John Walter MP (born May 30, 1948), is the Conservative Member of Parliament for North Dorset in south west England. He was re-elected for a fourth term in 2010 with a much increased majority.";
+   owl:sameAs <http://dbpedia.org/resource/Robert_Walter_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000241087>,
+     <http://rdf.freebase.com/ns/m.028447>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Robert_Walter_(politician)>;
+   foaf:page <http://www.bobwaltermp.com>,
+     <http://www.epolitix.com/EN/MPWebsites/Robert+Walter/>,
+     <http://politics.guardian.co.uk/person/0,9290,-5384,00.html>,
+     <http://www.theyworkforyou.com/mp/robert_walter/north_dorset>,
+     <http://www.ndca.org.uk>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Robert_Walter&mpc=North+Dorset>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/197.stm> .

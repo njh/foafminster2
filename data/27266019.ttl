@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27266019.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Simon Wright (politician)";
+   dc:modified "2012-12-01T15:33:45Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27266019#id> .
+
+<http://dbpedialite.org/things/27266019#id> a owl:Thing;
+   rdfs:label "Simon Wright (politician)";
+   rdfs:comment """Simon James Wright (born 15 September 1979) is a British Liberal Democrat politician, who was elected at the 2010 general election as the Member of Parliament (MP) for Norwich South, defeating incumbent Charles Clarke winning 29.7% of the votes cast.
+He was educated at Imperial College London (BSc) and King's College London (PGCE).
+Wright had previously worked as a teacher of mathematics at Alderman Peel High School in Wells Next The Sea in North Norfolk before being elected as District Councillor for the Lancaster North Ward (Fakenham) on North Norfolk District Council in 2003. Wright was elected second in the poll behind fellow Liberal Democrat councillor Nich Starling.""";
+   owl:sameAs <http://dbpedia.org/resource/Simon_Wright_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7e6f2>,
+     <http://rdf.freebase.com/ns/m.0bwhtrl>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Simon_Wright_(politician)>;
+   foaf:page <http://simonwrightmp.co.uk/>,
+     <http://www.parliament.uk/biographies/commons/simon-wright/62804>,
+     <http://hansard.millbanksystems.com/people/mr-simon-wright>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5662_home.html>,
+     <http://www.guardian.co.uk/politics/person/11590/simon-wright>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Simon_Wright>,
+     <http://www.theyworkforyou.com/mp/simon_wright>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Simon-Wright/Norwich-South/958>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/62804.stm> .

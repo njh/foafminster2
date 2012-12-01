@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434622.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Oliver Heald";
+   dc:modified "2012-12-01T12:51:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434622#id> .
+
+<http://dbpedialite.org/things/434622#id> a owl:Thing;
+   rdfs:label "Oliver Heald";
+   rdfs:comment "Oliver Heald QC, MP (born 15 December 1954) is a British barrister and Conservative politician, and the Member of Parliament (MP) for North East Hertfordshire.";
+   owl:sameAs <http://dbpedia.org/resource/Oliver_Heald>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240935>,
+     <http://rdf.freebase.com/ns/m.02829p>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Oliver_Heald>;
+   foaf:page <http://www.oliverhealdmp.com/>,
+     <http://oliverheald.wordpress.com/>,
+     <http://politics.guardian.co.uk/person/0,9290,-2332,00.html>,
+     <http://www.theyworkforyou.com/mp/oliver_heald/north_east_hertfordshire>,
+     <http://www.openrightsgroup.org/orgwiki/index.php/Oliver_Heald_MP> .

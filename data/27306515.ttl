@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27306515.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Robert Halfon";
+   dc:modified "2012-12-01T15:34:03Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27306515#id> .
+
+<http://dbpedialite.org/things/27306515#id> a owl:Thing;
+   rdfs:label "Robert Halfon";
+   rdfs:comment "Robert Henry Halfon (born 22 March 1969) is a British Conservative politician. He is the current Member of Parliament (MP) for Harlow, and was first elected at the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Robert_Halfon>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cf3b7e>,
+     <http://rdf.freebase.com/ns/m.0bxzgwz>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Robert_Halfon>;
+   foaf:page <http://www.parliament.uk/biographies/commons/robert-halfon/31730>,
+     <http://www.theyworkforyou.com/mp/robert_halfon/harlow> .

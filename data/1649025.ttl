@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1649025.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Simpson (British politician)";
+   dc:modified "2012-12-01T15:11:04Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1649025#id> .
+
+<http://dbpedialite.org/things/1649025#id> a owl:Thing;
+   rdfs:label "David Simpson (British politician)";
+   rdfs:comment "Thomas David Simpson (born 16 February 1959) is a Democratic Unionist politician and proponent of intelligent design in the United Kingdom.";
+   owl:sameAs <http://dbpedia.org/resource/David_Simpson_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000058c2ed>,
+     <http://rdf.freebase.com/ns/m.05kjrf>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Simpson_(British_politician)>;
+   foaf:page <http://www.dup.org.uk/DavidSimpson.asp>,
+     <http://www.niassembly.gov.uk/members/biogs_07/simpson_d.htm>,
+     <http://www.theyworkforyou.com/mp/david_simpson/upper_bann>,
+     <http://www.publications.parliament.uk/pa/cm200506/cmhansrd/cm050524/debtext/50524-19.htm>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/596.stm> .

@@ -1,0 +1,39 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/79409.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Diane Abbott";
+   dc:modified "2012-12-01T14:03:36Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/79409#id> .
+
+<http://dbpedialite.org/things/79409#id> a owl:Thing;
+   rdfs:label "Diane Abbott";
+   rdfs:comment "Diane Julie Abbott (born 27 September 1953) is a British Labour Party politician who has been the Member of Parliament (MP) for Hackney North and Stoke Newington since 1987, when she became the first black woman to be elected to the House of Commons. In 2010, Abbott became Shadow Public Health Minister after unsuccessfully standing for election as leader of the Labour Party.";
+   owl:sameAs <http://dbpedia.org/resource/Diane_Abbott>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000008cf78>,
+     <http://rdf.freebase.com/ns/m.0kmws>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Diane_Abbott>;
+   foaf:page <http://wikidata.org/wiki/Q153454>,
+     <http://www.dianeabbott.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/diane-abbott/25790>,
+     <http://hansard.millbanksystems.com/people/miss-diane-abbott>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3572_home.html>,
+     <http://www.guardian.co.uk/politics/person/4/diane-abbott>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Diane_Abbott>,
+     <http://www.theyworkforyou.com/mp/diane_abbott>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Diane-Abbott/Hackney-North-and-Stoke-Newington/3>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25790.stm>,
+     <http://journalisted.com/diane-abbott>,
+     <http://www.npg.org.uk/collections/search/person.php?LinkID=mp16616>,
+     <http://www.independent.co.uk/news/people/profiles/diane-abbott-you-ask-the-questions-1892291.html>,
+     <http://yourdemocracy.newstatesman.com/profile/diane-abbott>,
+     <http://www.imdb.com/name/nm1504113/>,
+     <http://thethirdestate.net/2010/09/an-interview-with-diane-abbott/> .
+
+<http://wikidata.org/wiki/Q153454> a foaf:Document;
+   rdfs:label "Diane Abbott";
+   rdfs:comment "British Labour Party politician" .

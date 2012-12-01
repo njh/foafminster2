@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1873658.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Peter Bone";
+   dc:modified "2012-12-01T16:01:18Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1873658#id> .
+
+<http://dbpedialite.org/things/1873658#id> a owl:Thing;
+   rdfs:label "Peter Bone";
+   rdfs:comment "Peter William Bone (born 19 October 1952) is a British Conservative Party politician and Member of Parliament (MP) for Wellingborough constituency.";
+   owl:sameAs <http://dbpedia.org/resource/Peter_Bone>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000061655a>,
+     <http://rdf.freebase.com/ns/m.062tbv>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Peter_Bone>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Bone_Peter.aspx>,
+     <http://politics.guardian.co.uk/person/0,9290,-6172,00.html>,
+     <http://www.theyworkforyou.com/mp/peter_bone/wellingborough>,
+     <http://wellingboroughconservatives.org>,
+     <http://publicwhip.org.uk/mp.php?mpn=Peter_Bone&mpc=Wellingborough>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/619.stm>,
+     <http://news.bbc.co.uk/1/hi/england/northamptonshire/6458595.stm> .

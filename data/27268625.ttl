@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27268625.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nigel Mills (politician)";
+   dc:modified "2012-11-30T20:58:57Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27268625#id> .
+
+<http://dbpedialite.org/things/27268625#id> a owl:Thing;
+   rdfs:label "Nigel Mills (politician)";
+   rdfs:comment """Nigel John Mills (born 1974) is a Conservative Party politician in England. He has been Member of Parliament (MP) for Amber Valley since the 2010 general election, when he won the seat with a majority of 536.
+Mills was born in Jacksdale on the Nottinghamshire/Derbyshire border, and was educated at a Loughborough Grammar School and went on to study Classics at Newcastle University. Mills qualified as a Chartered Accountant in 1999, working for PricewaterhouseCoopers until early 2010, moving on to Deloitte working as a Tax Adviser to businesses.""";
+   owl:sameAs <http://dbpedia.org/resource/Nigel_Mills_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b8211c>,
+     <http://rdf.freebase.com/ns/m.0bwj88x>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nigel_Mills_(politician)>;
+   foaf:page <http://www.conservatives.com/People/Members_of_Parliament/Mills_Nigel.aspx>,
+     <http://www.ambervalleyconservatives.com/about-nigel.php>,
+     <http://www.guardian.co.uk/politics/person/11499/nigel-mills>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nigel_Mills>,
+     <http://www.theyworkforyou.com/mp/nigel_mills>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nigel-Mills/Amber-Valley/894>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/62731.stm> .

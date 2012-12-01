@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414940.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Sir Robert Smith, 3rd Baronet";
+   dc:modified "2012-12-01T14:08:10Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414940#id> .
+
+<http://dbpedialite.org/things/414940#id> a owl:Thing;
+   rdfs:label "Sir Robert Smith, 3rd Baronet";
+   rdfs:comment "Sir Robert Hill Smith, 3rd Baronet (born 15 April 1958) is a Scottish Liberal Democrat politician who has been the Member of Parliament for West Aberdeenshire and Kincardine since 1997.";
+   owl:sameAs <http://dbpedia.org/resource/Sir_Robert_Smith,_3rd_Baronet>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022caef>,
+     <http://rdf.freebase.com/ns/m.025lrh>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sir_Robert_Smith,_3rd_Baronet>;
+   foaf:page <http://www.libdems.org.uk/www.libdems.org.uk/people/robert-smith.html>,
+     <http://www.scotlibdems.org.uk/people/mps/smith>,
+     <http://www.parliament.uk/biographies/commons/robert-smith/25313>,
+     <http://hansard.millbanksystems.com/people/mr-robert-smith>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_746_home.html>,
+     <http://www.guardian.co.uk/politics/person/4875/robert-smith>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Robert_Smith>,
+     <http://www.theyworkforyou.com/mp/robert_smith>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Robert-Smith/West-Aberdeenshire-and-Kincardine/1122>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25313.stm>,
+     <http://www.independent.co.uk/news/uk/politics/blood-money-the-mps-cashing-in-on-zimbabwes-misery-856583.html> .

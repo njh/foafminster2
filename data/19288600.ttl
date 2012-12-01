@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/19288600.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jon Cruddas";
+   dc:modified "2012-12-01T16:02:37Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/19288600#id> .
+
+<http://dbpedialite.org/things/19288600#id> a owl:Thing;
+   rdfs:label "Jon Cruddas";
+   rdfs:comment "Dr Jonathan Cruddas (born 7 April 1962) is a British Labour Party politician, who has been a Member of Parliament (MP) since 2001, first for Dagenham, and then, from 2010 onwards, for Dagenham and Rainham. Cruddas stood for the Deputy Leadership of the Labour Party in 2007, being eliminated in the penultimate round of the contest. Unlike the other candidates, he openly stated that he did not wish to become Deputy Prime Minister. He won the most votes of all candidates in the first round of voting, obtaining 19.39% of the vote from both party members and party-affiliated organisations, and it is thought that the second-choice votes of the Cruddas supporters contributed to Harriet Harman's...";
+   owl:sameAs <http://dbpedia.org/resource/Jon_Cruddas>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022f50e>,
+     <http://rdf.freebase.com/ns/m.025y8g>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jon_Cruddas>;
+   foaf:page <http://www.joncruddas.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/jon-cruddas/25577>,
+     <http://hansard.millbanksystems.com/people/mr-jon-cruddas>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2786_home.html>,
+     <http://www.guardian.co.uk/politics/person/6347/jon-cruddas>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jon_Cruddas>,
+     <http://www.theyworkforyou.com/mp/jon_cruddas>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jon-Cruddas/Dagenham-and-Rainham/372>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25577.stm>,
+     <http://journalisted.com/jon-cruddas>,
+     <http://news.bbc.co.uk/2/hi/uk_news/politics/6383069.stm>,
+     <http://www.tribunemagazine.co.uk/2009/06/18/cruddas-at-compass-points-way-to-left-revival/>,
+     <http://www.huffingtonpost.com/jon-cruddas/brits-to-the-fascist-bnp_b_230992.html>,
+     <http://www.guardian.co.uk/politics/video/2010/sep/27/jon-cruddas-labour-mp> .

@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/413944.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Tom Clarke (politician)";
+   dc:modified "2012-12-01T14:33:53Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/413944#id> .
+
+<http://dbpedialite.org/things/413944#id> a owl:Thing;
+   rdfs:label "Tom Clarke (politician)";
+   rdfs:comment "Thomas \"Tom\" Clarke, CBE, JP (born 10 January 1941) is a British Labour Party politician who has been a Member of Parliament (MP) since 1982 and has represented Coatbridge, Chryston and Bellshill since 2005.";
+   owl:sameAs <http://dbpedia.org/resource/Tom_Clarke_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022b949>,
+     <http://rdf.freebase.com/ns/m.025gb9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tom_Clarke_(politician)>;
+   foaf:page <http://www.tomclarke.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/tom-clarke/25687>,
+     <http://hansard.millbanksystems.com/people/mr-tom-clarke>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2626_home.html>,
+     <http://www.guardian.co.uk/politics/person/982/thomas-clarke>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Tom_Clarke>,
+     <http://www.theyworkforyou.com/mp/tom_clarke>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Tom-Clarke/Coatbridge-Chryston-and-Bellshill/122>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25687.stm>,
+     <http://journalisted.com/tom-clarke>,
+     <http://www.unicef.org.uk/press/news_detail.asp?news_id=775>,
+     <http://news.bbc.co.uk/1/hi/scotland/glasgow_and_west/6247629.stm>,
+     <http://news.bbc.co.uk/1/hi/scotland/1217273.stm>,
+     <http://news.bbc.co.uk/1/hi/scotland/544177.stm> .

@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/416044.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nicholas Soames";
+   dc:modified "2012-12-01T13:55:28Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/416044#id> .
+
+<http://dbpedialite.org/things/416044#id> a owl:Thing;
+   rdfs:label "Nicholas Soames";
+   rdfs:comment "Arthur Nicholas Winston Soames MP (born 12 February 1948), otherwise known as Fatty Soames, is a British Conservative Party Member of Parliament for the constituency of Mid Sussex. Soames is a former Defence minister having served in the government of Sir John Major, 1994–97. His main political interests are defence, international relations, rural affairs and industry. He is also chairman of the private security contractor Aegis.";
+   owl:sameAs <http://dbpedia.org/resource/Nicholas_Soames>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022de02>,
+     <http://rdf.freebase.com/ns/m.025rj2>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nicholas_Soames>;
+   foaf:page <http://www.theargus.co.uk/news/9527740.Sussex_MP_paid___220_000_for_four_extra_jobs/?ref=fbrec>,
+     <http://www.nicholassoames.org.uk>,
+     <http://www.parliament.uk/biographies/commons/nicholas-soames/25208>,
+     <http://hansard.millbanksystems.com/people/hon-nicholas-soames>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_752_home.html>,
+     <http://www.guardian.co.uk/politics/person/4889/nicholas-soames>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nicholas_Soames>,
+     <http://www.theyworkforyou.com/mp/nicholas_soames>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nicholas-Soames/Mid-Sussex/612>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25208.stm>,
+     <http://journalisted.com/nicholas-soames>,
+     <http://www.thepeerage.com/p10627.htm> .

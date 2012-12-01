@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/26463074.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Ed Balls";
+   dc:modified "2012-12-01T15:01:11Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/26463074#id> .
+
+<http://dbpedialite.org/things/26463074#id> a owl:Thing;
+   rdfs:label "Ed Balls";
+   rdfs:comment "Edward Michael Balls (born 25 February 1967) is a British Labour Party politician, who has been the Member of Parliament (MP) for Morley and Outwood since 2010, and is the current Shadow Chancellor of the Exchequer. From 2005 to 2010, he was the MP for Normanton and he served as Secretary of State for Children, Schools and Families under Gordon Brown from 2007 to 2010. Balls is married to current Shadow Home Secretary and fellow Labour MP Yvette Cooper. In 2008 they became the first married couple to serve together in a British Cabinet.";
+   owl:sameAs <http://dbpedia.org/resource/Ed_Balls>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000354902>,
+     <http://rdf.freebase.com/ns/m.03bl82>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ed_Balls>;
+   foaf:page <http://www.edballs.co.uk>,
+     <http://www.parliament.uk/biographies/commons/ed-balls/19497>,
+     <http://hansard.millbanksystems.com/people/mr-ed-balls>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4741_home.html>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Edward_Balls>,
+     <http://www.theyworkforyou.com/mp/edward_balls>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Ed-Balls/Normanton/747>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/19497.stm>,
+     <http://journalisted.com/ed-balls> .

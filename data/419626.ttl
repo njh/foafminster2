@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/419626.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Geoffrey Robinson";
+   dc:modified "2012-12-01T16:00:10Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/419626#id> .
+
+<http://dbpedialite.org/things/419626#id> a owl:Thing;
+   rdfs:label "Geoffrey Robinson";
+   rdfs:comment "Geoffrey Robinson (born 25 May 1938) is a British Labour Party politician who has been the Member of Parliament (MP) for Coventry North West since 1976. He was Paymaster General from May 1997 to January 1999, resigning after it was revealed that he had lent his government colleague Peter Mandelson £373,000 to buy a house. From 1996 to 2008 he was the owner of the New Statesman, a centre-left weekly political magazine.";
+   owl:sameAs <http://dbpedia.org/resource/Geoffrey_Robinson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002320c6>,
+     <http://rdf.freebase.com/ns/m.026866>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Geoffrey_Robinson>;
+   foaf:page <http://www.labourincoventry.org.uk/northwest/>,
+     <http://politics.guardian.co.uk/person/0,9290,-4472,00.html>,
+     <http://www.theyworkforyou.com/mp/geoffrey_robinson/coventry_north_west>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/164.stm>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Geoffrey_Robinson>,
+     <http://news.bbc.co.uk/1/hi/magazine/5094062.stm> .

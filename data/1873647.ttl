@@ -1,0 +1,35 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1873647.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Greg Clark";
+   dc:modified "2012-12-01T16:02:09Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1873647#id> .
+
+<http://dbpedialite.org/things/1873647#id> a owl:Thing;
+   rdfs:label "Greg Clark";
+   rdfs:comment """Rt. Hon. Gregory David "Greg" Clark (born 28 August 1967) is a British Conservative Party politician who has been the Member of Parliament (MP) for Royal Tunbridge Wells since 2005. Clark is currently Financial Secretary to the Treasury and the minister responsible for cities policy. Until 5th September 2012 he was a Minister of State in the Department for Communities and Local Government, with responsibility for overseeing decentralisation, a key policy of the Liberal-Conservative coalition.
+He has also been responsible for cities policy since July 2011 as minister for cities. In this role he has tried to promote the urban economies of the North, West and Midlands.Participating in The...""";
+   owl:sameAs <http://dbpedia.org/resource/Greg_Clark>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000061654f>,
+     <http://rdf.freebase.com/ns/m.062tbh>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Greg_Clark>;
+   foaf:page <http://www.gregclark.org>,
+     <http://www.communities.gov.uk/profiles/corporate/gregclark>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Clark_Greg.aspx>,
+     <http://www.parliament.uk/biographies/commons/greg-clark/40488>,
+     <http://hansard.millbanksystems.com/people/mr-greg-clark>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4758_home.html>,
+     <http://www.guardian.co.uk/politics/person/9122/greg-clark>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Greg_Clark>,
+     <http://www.theyworkforyou.com/mp/greg_clark>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Greg-Clark/Tunbridge-Wells/102>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/40488.stm>,
+     <http://journalisted.com/greg-clark>,
+     <http://news.bbc.co.uk/1/hi/england/kent/6071046.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2312539.stm>,
+     <http://www.youtube.com/watch?v=DlyHflnaDG8> .

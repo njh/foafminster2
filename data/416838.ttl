@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/416838.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Shaun Woodward";
+   dc:modified "2012-12-01T14:25:01Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/416838#id> .
+
+<http://dbpedialite.org/things/416838#id> a owl:Thing;
+   rdfs:label "Shaun Woodward";
+   rdfs:comment """Shaun Anthony Woodward (born 26 October 1958) is a British politician who has been the Labour Member of Parliament (MP) for St Helens South since 2001. He served in the Cabinet from 28 June 2007 to 11 May 2010 as Secretary of State for Northern Ireland. Woodward was the Shadow Secretary of State for Northern Ireland until 7 October 2011, when he was replaced by Vernon Coaker.
+A former television researcher and producer, Woodward began his political career in the Conservative Party. He was elected in 1997 as a Conservative MP for Witney, but joined Labour in 1999.""";
+   owl:sameAs <http://dbpedia.org/resource/Shaun_Woodward>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022e8c6>,
+     <http://rdf.freebase.com/ns/m.025v66>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Shaun_Woodward>;
+   foaf:page <http://www.shaunwoodward.com>,
+     <http://www.parliament.uk/parliamentary_committees/joint_committee_on_human_rights.cfm>,
+     <http://www.parliament.uk/biographies/commons/shaun-woodward/25256>,
+     <http://hansard.millbanksystems.com/people/mr-shaun-woodward>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4670_home.html>,
+     <http://www.guardian.co.uk/politics/person/5668/shaun-woodward>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Shaun_Woodward>,
+     <http://www.theyworkforyou.com/mp/shaun_woodward>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Shaun-Woodward/St-Helens-South/302>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25256.stm>,
+     <http://journalisted.com/shaun-woodward> .

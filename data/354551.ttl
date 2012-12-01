@@ -1,0 +1,37 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/354551.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Malcolm Rifkind";
+   dc:modified "2012-12-01T15:39:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/354551#id> .
+
+<http://dbpedialite.org/things/354551#id> a owl:Thing;
+   rdfs:label "Malcolm Rifkind";
+   rdfs:comment """Sir Malcolm Leslie Rifkind KCMG, PC, QC, MP (born 21 June 1946) is a British Conservative Party politician and Member of Parliament for Kensington. He served in various roles as a cabinet minister under Prime Ministers Margaret Thatcher and John Major, including Secretary of State for Scotland (1986–1990), Defence Secretary (1992–1995) and Foreign Secretary (1995–1997).
+Rifkind was the Member of Parliament (MP) for Edinburgh Pentlands from 1974 to 1997, when his party lost power and he lost his seat to the Labour Party. He attempted - unsuccessfully - to be re-elected in Pentlands in 2001; the constituency was abolished before the 2005 general election and he was adopted, and...""";
+   owl:sameAs <http://dbpedia.org/resource/Malcolm_Rifkind>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001f58ca>,
+     <http://rdf.freebase.com/ns/m.01zq6b>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Malcolm_Rifkind>;
+   foaf:page <http://www.malcolmrifkind.com/text/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Rifkind_Sir_Malcolm.aspx>,
+     <http://www.kcca.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/malcolm-rifkind/31729>,
+     <http://hansard.millbanksystems.com/people/mr-malcolm-rifkind>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_374_home.html>,
+     <http://www.guardian.co.uk/politics/person/4419/malcolm-rifkind>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Malcolm_Rifkind>,
+     <http://www.theyworkforyou.com/mp/malcolm_rifkind>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Malcolm-Rifkind/Kensington/681>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31729.stm>,
+     <http://journalisted.com/malcolm-rifkind>,
+     <http://www.guardian.co.uk/profile/malcolmrifkind>,
+     <http://www.epolitix.com/EN/Interviews/200506/aec8657a-fcbb-43b1-abc4-6e4eb4b3198e.htm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4617379.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4534085.stm>,
+     <http://www.guardian.co.uk/politics/2005/may/08/conservatives.uk> .

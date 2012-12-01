@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27334232.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Paul Uppal";
+   dc:modified "2012-12-01T13:55:18Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27334232#id> .
+
+<http://dbpedialite.org/things/27334232#id> a owl:Thing;
+   rdfs:label "Paul Uppal";
+   rdfs:comment "Paul Singh Uppal (born 14 June 1967) is a Conservative Party politician from the United Kingdom. He was elected as the Member of Parliament for Wolverhampton South West in the 2010 general election, winning the seat from the Labour Party sitting MP Rob Marris, with 16,344 votes and a majority of 691.";
+   owl:sameAs <http://dbpedia.org/resource/Paul_Uppal>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d02f8a>,
+     <http://rdf.freebase.com/ns/m.0by0cxb>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Paul_Uppal>;
+   foaf:page <http://pauluppal.wordpress.com/about/>,
+     <http://www.theyworkforyou.com/mp/paul_uppal/wolverhampton_south_west> .

@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1873034.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mark Lancaster";
+   dc:modified "2012-12-01T16:06:04Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1873034#id> .
+
+<http://dbpedialite.org/things/1873034#id> a owl:Thing;
+   rdfs:label "Mark Lancaster";
+   rdfs:comment "John Mark Lancaster TD (born 12 May 1970) is a British Conservative Party politician. He was elected as Member of Parliament for the North East Milton Keynes constituency at the 2005 general election and held its successor seat, Milton Keynes North, at the 2010 general election. Initially appointed as the PPS to the Secretary of State for International Development. He is currently a Lord Commissioner of Her Majesty's Treasury following his promotion to Government Minister in September 2012.";
+   owl:sameAs <http://dbpedia.org/resource/Mark_Lancaster>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615f07>,
+     <http://rdf.freebase.com/ns/m.062rs7>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mark_Lancaster>;
+   foaf:page <http://www.lancaster4mk.com>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Lancaster_Mark.aspx>,
+     <http://www.mkconservatives.com/>,
+     <http://www.theyworkforyou.com/mp/mark_lancaster/north_east_milton_keynes> .

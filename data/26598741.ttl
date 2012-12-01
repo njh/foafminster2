@@ -1,0 +1,39 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/26598741.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Charles Kennedy";
+   dc:modified "2012-12-01T14:50:39Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/26598741#id> .
+
+<http://dbpedialite.org/things/26598741#id> a owl:Thing;
+   rdfs:label "Charles Kennedy";
+   rdfs:comment """Charles Peter Kennedy (born 25 November 1959) is a British Liberal Democrat politician, who led the Liberal Democrats from 9 August 1999 until 7 January 2006 and is currently a Member of Parliament (MP) for the Ross, Skye and Lochaber constituency.
+In the 1983 General Election he stood for the Ross, Cromarty & Skye constituency, then held by the Conservative MP and Minister, Hamish Gray. In a shock result, Kennedy was elected for the Social Democratic Party (SDP): at 23, he became the youngest MP in the House of Commons. Ambitious and popular, he quickly emerged as a potential party leader. In 1994, by which time the SDP and the Liberal Party had merged, he became President of the...""";
+   owl:sameAs <http://dbpedia.org/resource/Charles_Kennedy>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000000a16e9>,
+     <http://rdf.freebase.com/ns/m.0n5r9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Charles_Kennedy>;
+   foaf:page <http://www.charleskennedy.org.uk/>,
+     <http://www.libdems.org.uk/people/charles-kennedy>,
+     <http://www.scotlibdems.org.uk/people/mps/kennedy>,
+     <http://www.parliament.uk/biographies/commons/charles-kennedy/25680>,
+     <http://hansard.millbanksystems.com/people/mr-charles-kennedy>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1268_home.html>,
+     <http://www.guardian.co.uk/politics/person/2864/charles-kennedy>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Charles_Kennedy>,
+     <http://www.theyworkforyou.com/mp/charles_kennedy>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Ian-Swales/Redcar/1354>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25680.stm>,
+     <http://journalisted.com/charles-kennedy>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4527622.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4588062.stm>,
+     <http://www.slate.com/id/2134150/?nav=tap3>,
+     <http://scotlandonsunday.scotsman.com/politics.cfm?id=1105172006>,
+     <http://www.universitystory.gla.ac.uk/officer/?id=6>,
+     <http://www.radiowaves.co.uk/story.aspx?lngStoryID=16693>,
+     <http://www.scottishrectors.org.uk/> .

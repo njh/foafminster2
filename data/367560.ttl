@@ -1,0 +1,36 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/367560.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Dennis Skinner";
+   dc:modified "2012-12-01T15:28:26Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/367560#id> .
+
+<http://dbpedialite.org/things/367560#id> a owl:Thing;
+   rdfs:label "Dennis Skinner";
+   rdfs:comment """Dennis Edward Skinner (born 11 February 1932) is a British Labour Party politician who has been the Member of Parliament (MP) for Bolsover since 1970, the Chairman of the Labour Party from 1988 to 1989, and has sat on the National Executive Committee numerous times since 1978.
+Born in Clay Cross, Derbyshire, Skinner is the third of nine children of coal miner Edward Skinner, who was sacked after the 1926 general strike. Skinner himself worked as a miner for over 20 years, during which he became an NUM leader and Clay Cross Labour Party councillor. He is known for his left-wing views, acid tongue and for never missing a Commons session.""";
+   owl:sameAs <http://dbpedia.org/resource/Dennis_Skinner>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002010cd>,
+     <http://rdf.freebase.com/ns/m.02046f>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Dennis_Skinner>;
+   foaf:page <http://www.parliament.uk/biographies/commons/dennis-skinner/25309>,
+     <http://hansard.millbanksystems.com/people/mr-dennis-skinner>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_721_home.html>,
+     <http://www.guardian.co.uk/politics/person/4801/dennis-skinner>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Dennis_Skinner>,
+     <http://www.theyworkforyou.com/mp/dennis_skinner/bolsover>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Dennis-Skinner/Bolsover/582>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25309.stm>,
+     <http://www.stuartthomson.co.uk/books/biography/skinner>,
+     <http://www.thisisderbyshire.co.uk/displayNode.jsp?nodeId=126287&command=newPage>,
+     <http://www.youtube.com/watch?v=bYtAU5qD2JA>,
+     <http://www.youtube.com/user/IOSHchannel>,
+     <http://www.guardian.co.uk/lifeandstyle/2009/jun/21/dennis-skinner-politician-labour-interview>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4509994.stm>,
+     <http://news.bbc.co.uk/1/hi/england/derbyshire/4117829.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2859277.stm> .

@@ -1,0 +1,42 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/468943.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Lynne Featherstone";
+   dc:modified "2012-12-01T14:02:37Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/468943#id> .
+
+<http://dbpedialite.org/things/468943#id> a owl:Thing;
+   rdfs:label "Lynne Featherstone";
+   rdfs:comment """Lynne Choona Featherstone (born Lynne Choona Ryness, 20 December 1951), is a British Liberal Democrat politician, and the Member of Parliament (MP) for Hornsey and Wood Green.
+Under the Conservative – Liberal Democrat coalition in 2010 she was appointed as a junior Home Office minister with responsibility for equality. Previously she was Liberal Democrat spokesman for Youth and Equality issues, and chair of the Liberal Democrats technology board. Mrs Featherstone launched the consultation by the UK government on introducing same-sex marriage and was the first politician to take part in the Out4Marriage campaign.""";
+   owl:sameAs <http://dbpedia.org/resource/Lynne_Featherstone>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000261a2b>,
+     <http://rdf.freebase.com/ns/m.02d6kc>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lynne_Featherstone>;
+   foaf:page <http://www.lynnefeatherstone.org>,
+     <http://www.libdems.org.uk/people/lynne-featherstone>,
+     <http://www.parliament.uk/biographies/commons/lynne-featherstone/31718>,
+     <http://hansard.millbanksystems.com/people/ms-lynne-featherstone>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4775_home.html>,
+     <http://www.guardian.co.uk/politics/person/8996/lynne-featherstone>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Lynne_Featherstone>,
+     <http://www.theyworkforyou.com/mp/lynne_featherstone>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Lynne-Featherstone/Hornsey-and-Wood-Green/1089>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31718.stm>,
+     <http://journalisted.com/lynne-featherstone>,
+     <http://yoosk.com/celebrity/801/Lynne_Featherstone.aspx>,
+     <http://www.openrightsgroup.org/orgwiki/index.php/Lynne_Featherstone_MP>,
+     <http://www.youtube.com/watch?v=TI7q-nnBm8o>,
+     <http://www.youtube.com/watch?v=vA3xd1-z7D4>,
+     <http://www.youtube.com/watch?v=tUCahZCU9PQ>,
+     <http://www.youtube.com/watch?v=rvGx4BZsuJ0>,
+     <http://www.youtube.com/watch?v=_DIFTH6Bq8Q>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4074594.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4250464.stm>,
+     <http://www.liberalreview.com/blogs/guest/lynne_featherstone_mp_dead_cool_>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/6409999.stm> .

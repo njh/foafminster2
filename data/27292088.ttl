@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27292088.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Craig Whittaker";
+   dc:modified "2012-12-01T15:36:38Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27292088#id> .
+
+<http://dbpedialite.org/things/27292088#id> a owl:Thing;
+   rdfs:label "Craig Whittaker";
+   rdfs:comment """Craig Whittaker (born 30 August 1962) is a British Conservative Party politician. He has been the Member of Parliament (MP) for Calder Valley since he won the seat at the general election on 6 May 2010.
+Born in Radcliffe, Lancashire and educated at Belmont High School in New South Wales, Australia. He began his career in Australia with Pizza Hut as a restaurant manager from 1980-4, before transferring to the UK for a year with the same company. In 1985 he became a licencee with Liberty Taverns and with JW Lees in 1986. In 1988 he became Food Retail Director of Kezdem Ltd. In 1992 he joined Wilkinson Home and Garden Stores as a branch manager. In 1998 he became a retail general manager...""";
+   owl:sameAs <http://dbpedia.org/resource/Craig_Whittaker>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d0df08>,
+     <http://rdf.freebase.com/ns/m.0by1rs8>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Craig_Whittaker>;
+   foaf:page <http://craigwhittakermp.wordpress.com/about/>,
+     <http://www.theyworkforyou.com/mp/craig_whittaker/calder_valley>,
+     <http://www.publications.parliament.uk/pa/cm201011/cmhansrd/cmallfiles/mps/commons_hansard_5545_home.html>,
+     <http://www.guardian.co.uk/politics/person/11993/craig-whittaker>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Craig_Whittaker>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/62798.stm> .

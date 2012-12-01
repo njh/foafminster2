@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1959225.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Brian Binley";
+   dc:modified "2012-12-01T15:15:01Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1959225#id> .
+
+<http://dbpedialite.org/things/1959225#id> a owl:Thing;
+   rdfs:label "Brian Binley";
+   rdfs:comment "Brian Arthur Roland Binley (born 1 April 1942) is a British Conservative politician, and the Member of Parliament for Northampton South.";
+   owl:sameAs <http://dbpedia.org/resource/Brian_Binley>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000648603>,
+     <http://rdf.freebase.com/ns/m.0691j3>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Brian_Binley>;
+   foaf:page <http://www.brianbinley.com>,
+     <http://www.brianbinley.co.uk/jump>,
+     <http://www.conservatives.com/tile.do?def=people.person.page&personID=35895>,
+     <http://politics.guardian.co.uk/person/0,9290,-9314,00.html>,
+     <http://www.theyworkforyou.com/mp/brian_binley/northampton_south>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Brian_Binley&mpc=Northampton+South>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/434.stm> .

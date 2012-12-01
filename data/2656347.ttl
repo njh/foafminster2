@@ -1,0 +1,48 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/2656347.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Rory Stewart";
+   dc:modified "2012-12-01T14:29:06Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/2656347#id> .
+
+<http://dbpedialite.org/things/2656347#id> a owl:Thing;
+   rdfs:label "Rory Stewart";
+   rdfs:comment """Roderick 'Rory' James Nugent Stewart OBE FRSL MP (born 3 January 1973) is a British academic, author, and Conservative politician. Since May 2010, he has been the Member of Parliament for Penrith and the Border, in the county of Cumbria, North West England.
+Stewart was a senior coalition official in a province of occupied Iraq in 2003-2004. He is known for his book about this experience, The Prince of the Marshes (also published under the title Occupational Hazards) and for his 2002 walk, lasting 32 days, across Afghanistan, which served as the basis for another book, The Places in Between, as well as his later cultural development work in Afghanistan as the Executive Chairman of the...""";
+   owl:sameAs <http://dbpedia.org/resource/Rory_Stewart>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000007d646f>,
+     <http://rdf.freebase.com/ns/m.07vt3h>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Rory_Stewart>;
+   foaf:page <http://www.rorystewart.co.uk>,
+     <http://hansard.millbanksystems.com/people/mr-rory-stewart>,
+     <http://www.guardian.co.uk/politics/person/12748/rory-stewart>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Rory_Stewart>,
+     <http://www.theyworkforyou.com/mp/rory_stewart>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Rory-Stewart/Penrith-and-The-Border/951>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/83410.stm>,
+     <http://journalisted.com/rory-stewart>,
+     <http://www.rorystewartbooks.com/index.htm>,
+     <http://www.turquoisemountain.org>,
+     <http://www.ksg.harvard.edu/cchrp/aboutus/pastfellows.php#rstewart>,
+     <http://www.ksg.harvard.edu/cchrp/>,
+     <http://www.nybooks.com/articles/23562>,
+     <http://www.lrb.co.uk/v31/n13/stew01_.html>,
+     <http://www.lrb.co.uk/v27/n07/stew01_.html>,
+     <http://www.ksg.harvard.edu/news/opeds/2004/rory_stewart_enemy's_enemies_ft_091804.htm>,
+     <http://www.lrb.co.uk/v23/n17/stew01_.html>,
+     <http://www.prospect-magazine.co.uk/article_details.php?id=7111>,
+     <http://www.granta.com/Magazine/78>,
+     <http://www.prospect-magazine.co.uk/article_details.php?id=3488>,
+     <http://enjoyment.independent.co.uk/books/features/article1094898.ece>,
+     <http://heritage.scotsman.com/people.cfm?id=915492006>,
+     <http://www.time.com/time/magazine/article/0,9171,1612374,00.html>,
+     <http://www.nationalgeographic.com/adventure/photography/afghanistan/rory-stewart.html>,
+     <http://www.telegraph.co.uk/comment/6475289/Rory-Stewart-A-new-kind-of-Tory.html>,
+     <http://www.newyorker.com/reporting/2010/11/15/101115fa_fact_parker>,
+     <http://www.youtube.com/watch?v=NeJTBn73M6Y>,
+     <http://frontlineclub.com/events/2009/03/insight-with-rory-stewart-observations-on-the-war-on-terror.html> .

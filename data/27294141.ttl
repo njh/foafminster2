@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27294141.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mike Weatherley";
+   dc:modified "2012-12-01T15:32:23Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27294141#id> .
+
+<http://dbpedialite.org/things/27294141#id> a owl:Thing;
+   rdfs:label "Mike Weatherley";
+   rdfs:comment """Michael 'Mike' Richard Weatherley (born 2 July 1957) is a British Conservative Party politician who has been the Member of Parliament (MP) for Hove in East Sussex, since winning the seat in the 2010 general election.
+On Wednesday 14th November, Mike was attacked with rocks and tomatoes by a large group of pro-squatting protestors ahead of a debate on legislation criminalising squatting at the University of Sussex. Mike and his staff were eventually led to safety by Police. Mike has campaigned for squatting to be criminalised since his election to Parliament in 2010.""";
+   owl:sameAs <http://dbpedia.org/resource/Mike_Weatherley>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d01b50>,
+     <http://rdf.freebase.com/ns/m.0by06vj>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mike_Weatherley>;
+   foaf:page <http://www.mikeweatherleymp.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Weatherley_Michael.aspx> .

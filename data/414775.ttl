@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414775.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Malcolm Bruce";
+   dc:modified "2012-12-01T15:38:03Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414775#id> .
+
+<http://dbpedialite.org/things/414775#id> a owl:Thing;
+   rdfs:label "Malcolm Bruce";
+   rdfs:comment "Sir Malcolm Gray Bruce, PC (born 17 November 1944) is a Scottish Liberal Democrat politician. He is the Member of Parliament for Gordon. He has been the chairman of the International Development Select Committee since 2005.";
+   owl:sameAs <http://dbpedia.org/resource/Malcolm_Bruce>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c894>,
+     <http://rdf.freebase.com/ns/m.025l4n>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Malcolm_Bruce>;
+   foaf:page <http://www.malcolmbruce.org.uk/>,
+     <http://www.libdems.org.uk/people/malcolm-bruce>,
+     <http://www.scotlibdems.org.uk/people/mps/bruce>,
+     <http://www.parliament.uk/biographies/commons/malcolm-bruce/25668>,
+     <http://hansard.millbanksystems.com/people/mr-malcolm-bruce>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2343_home.html>,
+     <http://www.guardian.co.uk/politics/person/681/malcolm-bruce>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Malcolm_Bruce>,
+     <http://www.theyworkforyou.com/mp/malcolm_bruce>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Malcolm-Bruce/Gordon/1080>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25668.stm>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/708.stm> .

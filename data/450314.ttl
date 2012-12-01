@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/450314.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andrew Turner (politician)";
+   dc:modified "2012-12-01T13:54:29Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/450314#id> .
+
+<http://dbpedialite.org/things/450314#id> a owl:Thing;
+   rdfs:label "Andrew Turner (politician)";
+   rdfs:comment "Andrew John Turner (born 24 October 1953, Coventry) is a Conservative Party politician in the United Kingdom. He is currently the Member of Parliament (MP) for the Isle of Wight, a post he has held since the 2001 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Andrew_Turner_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024f4d2>,
+     <http://rdf.freebase.com/ns/m.029y6l>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andrew_Turner_(politician)>;
+   foaf:page <http://www.islandmp.org>,
+     <http://www.keepandrew.com/>,
+     <http://hansard.millbanksystems.com/people/mr-andrew-turner>,
+     <http://politics.guardian.co.uk/person/0,9290,-5261,00.html>,
+     <http://www.theyworkforyou.com/mp/andrew_turner/isle_of_wight>,
+     <http://publicwhip.org.uk/mp.php?firstname=Andrew&lastname=Turner&constituency=Isle+of+Wight>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/339.stm>,
+     <http://mpsallowances.parliament.uk/mpslordsandoffices/hocallowances/allowances-by-mp/andrew-turner/>,
+     <http://newsvote.bbc.co.uk/olmedia/1720000/audio/_1721667_tanzania13_turner.ram>,
+     <http://www.youtube.com/watch?v=wkZiErh-2Pc> .

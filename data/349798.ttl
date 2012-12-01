@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/349798.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Frank Dobson";
+   dc:modified "2012-12-01T15:13:39Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/349798#id> .
+
+<http://dbpedialite.org/things/349798#id> a owl:Thing;
+   rdfs:label "Frank Dobson";
+   rdfs:comment "Frank Gordon Dobson, (born 15 March 1940) is a British Labour Party politician who has been the Member of Parliament (MP) for Holborn and St. Pancras since 1979. He served in the Cabinet as Secretary of State for Health from 1997 to 1999, and was the official Labour Party candidate for Mayor of London in 2000, ultimately finishing third in the election, behind Conservative Steven Norris and winner Ken Livingstone.";
+   owl:sameAs <http://dbpedia.org/resource/Frank_Dobson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001f0f12>,
+     <http://rdf.freebase.com/ns/m.01z3sl>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Frank_Dobson>;
+   foaf:page <http://www.frankdobson.co.uk>,
+     <http://www.camdenlabour.org.uk>,
+     <http://www.parliament.uk/biographies/commons/frank-dobson/25657>,
+     <http://hansard.millbanksystems.com/people/mr-frank-dobson>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2981_home.html>,
+     <http://www.guardian.co.uk/politics/person/1413/frank-dobson>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Frank_Dobson>,
+     <http://www.theyworkforyou.com/mp/frank_dobson>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Frank-Dobson/Holborn-and-St-Pancras/140>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25657.stm> .

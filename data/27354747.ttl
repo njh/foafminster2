@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27354747.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Bill Esterson";
+   dc:modified "2012-12-01T14:14:41Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27354747#id> .
+
+<http://dbpedialite.org/things/27354747#id> a owl:Thing;
+   rdfs:label "Bill Esterson";
+   rdfs:comment """William Roffen "Bill" Esterson (born 27 October 1966) is a Labour MP for Sefton Central, first elected in 2010. Bill sits on the following Select Committees; Environment, Food and Rural Affairs; Education.
+Prior to being elected as Member of Parliament for Sefton Central, he was the Labour Councillor for River Ward in Medway, a unitary authority in Kent. A ward that he had represented since the creation of Medway Council. Bill was also previously the Councillor for Town ward on Rochester-upon-Medway City Council which was dissolved to form Medway Council.""";
+   owl:sameAs <http://dbpedia.org/resource/Bill_Esterson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d0aeab>,
+     <http://rdf.freebase.com/ns/m.0by1cpc>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Bill_Esterson>;
+   foaf:page <http://www.billesterson.org.uk/>,
+     <http://yourdemocracy.newstatesman.com/profile/bill-esterson> .

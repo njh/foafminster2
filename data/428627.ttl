@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428627.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Ivan Lewis";
+   dc:modified "2012-12-01T12:48:17Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428627#id> .
+
+<http://dbpedialite.org/things/428627#id> a owl:Thing;
+   rdfs:label "Ivan Lewis";
+   rdfs:comment "Ivan Lewis (born 4 March 1967) is a British Labour Party politician who has been the Member of Parliament (MP) for Bury South since 1997. Lewis served in a variety of junior ministerial positions, including as Minister of State at the Foreign and Commonwealth Office.";
+   owl:sameAs <http://dbpedia.org/resource/Ivan_Lewis>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023ad4c>,
+     <http://rdf.freebase.com/ns/m.027cbd>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ivan_Lewis>;
+   foaf:page <http://www.ivanlewis.org.uk/>,
+     <http://www.burysouthlabour.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/ivan-lewis/25469>,
+     <http://hansard.millbanksystems.com/people/mr-ivan-lewis>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1485_home.html>,
+     <http://www.guardian.co.uk/politics/person/3107/ivan-lewis>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Ivan_Lewis>,
+     <http://www.theyworkforyou.com/mp/ivan_lewis>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Ivan-Lewis/Bury-South/319>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25469.stm>,
+     <http://journalisted.com/ivan-lewis>,
+     <http://wikileaks.org/cable/2009/08/09LONDON1876.html#> .

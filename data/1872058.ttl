@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872058.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Grant Shapps";
+   dc:modified "2012-12-01T15:01:08Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872058#id> .
+
+<http://dbpedialite.org/things/1872058#id> a owl:Thing;
+   rdfs:label "Grant Shapps";
+   rdfs:comment """Grant Shapps (born 14 September 1968) is the Conservative Member of Parliament (MP) for Welwyn Hatfield in the United Kingdom. He first won the seat in the general election on 5 May 2005 and was returned to parliament in the May 2010 election with a 17,423 majority.
+On 9 June 2010, he was appointed as a Privy Counsellor. On 4 September 2012, he was appointed Conservative Party Co-Chairman, replacing Baroness Warsi; he was also appointed Minister without Portfolio, in the Cabinet Office, an unpaid post.""";
+   owl:sameAs <http://dbpedia.org/resource/Grant_Shapps>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000006155df>,
+     <http://rdf.freebase.com/ns/m.062pg_>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Grant_Shapps>;
+   foaf:page <http://www.shapps.com>,
+     <http://hansard.millbanksystems.com/people/mr-grant-shapps>,
+     <http://www.guardian.co.uk/politics/person/6173/grant-shapps>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Grant_Shapps>,
+     <http://www.theyworkforyou.com/mp/grant_shapps>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Grant-Shapps/Welwyn-Hatfield/541>,
+     <http://journalisted.com/grant-shapps> .

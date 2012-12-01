@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/413991.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - John Denham (politician)";
+   dc:modified "2012-12-01T15:26:42Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/413991#id> .
+
+<http://dbpedialite.org/things/413991#id> a owl:Thing;
+   rdfs:label "John Denham (politician)";
+   rdfs:comment "John Yorke Denham FRSA (born 15 July 1953) is a British Labour Party politician who has been the Member of Parliament (MP) for Southampton Itchen since 1992. He has previously served in the Cabinet, as Secretary of State for Innovation, Universities and Skills from 2007 to 2009, and then as the Secretary of State for Communities and Local Government from 2009 to 2010. He was the Shadow Business Secretary in Ed Miliband's Shadow Cabinet from 2010 to 2011, when he announced that he would be standing down as an MP at the next election, and retired from the front-bench in order to become Miliband's Parliamentary Private Secretary.";
+   owl:sameAs <http://dbpedia.org/resource/John_Denham_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022ba4b>,
+     <http://rdf.freebase.com/ns/m.025glc>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Denham_(politician)>;
+   foaf:page <http://www.johndenham.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/john-denham/25582>,
+     <http://hansard.millbanksystems.com/people/mr-john-denham>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2932_home.html>,
+     <http://www.guardian.co.uk/politics/person/1377/john-denham>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=John_Denham>,
+     <http://www.theyworkforyou.com/mp/john_denham>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/John-Denham/Southampton-Itchen/93>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25582.stm>,
+     <http://journalisted.com/john-denham> .

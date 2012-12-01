@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872846.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Philip Dunne (politician)";
+   dc:modified "2012-12-01T16:00:54Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872846#id> .
+
+<http://dbpedialite.org/things/1872846#id> a owl:Thing;
+   rdfs:label "Philip Dunne (politician)";
+   rdfs:comment """Philip Martin Dunne (born August 14, 1958) is a British Conservative Party politician and the Member of Parliament (MP) for the Ludlow constituency in Shropshire.
+Philip Dunne, son of Sir Thomas Dunne, the former Lord Lieutenant of Herefordshire (the son of Philip Russell Rendel Dunne), was born in Ludlow, Shropshire and educated at Abberley Hall, followed by Eton and Keble College, Oxford, where he was awarded a degree in Philosophy, Politics and Economics.
+He has been a farmer since 1987, at his family's farm just over the county border in Herefordshire, near Ludlow, and was elected as a councillor on the South Shropshire District Council in 2001, of which he became the Conservative...""";
+   owl:sameAs <http://dbpedia.org/resource/Philip_Dunne_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615d82>,
+     <http://rdf.freebase.com/ns/m.062rd2>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Philip_Dunne_(politician)>;
+   foaf:page <http://www.philipdunne.com>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35388.stm>,
+     <http://politics.guardian.co.uk/person/0,9290,-9285,00.html>,
+     <http://www.theyworkforyou.com/mp/philip_dunne/ludlow>,
+     <http://www.publications.parliament.uk/pa/cm200506/cmhansrd/cm050608/debtext/50608-27.htm#50608-27_spnew5>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Philip_Dunne&mpc=Ludlow> .

@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/420169.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Wayne David";
+   dc:modified "2012-12-01T15:53:58Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/420169#id> .
+
+<http://dbpedialite.org/things/420169#id> a owl:Thing;
+   rdfs:label "Wayne David";
+   rdfs:comment "Wayne David (born 1 July 1957) is a British Labour Party politician, who has been the Member of Parliament (MP) for Caerphilly since 2001. He was Parliamentary Under-Secretary of State at the Wales Office from 2008 to 2010. He was appointed on the 11th October 2010 by newly elected labour leader Ed Miliband as Shadow Minister for Europe";
+   owl:sameAs <http://dbpedia.org/resource/Wayne_David>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000232a0f>,
+     <http://rdf.freebase.com/ns/m.026bjh>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Wayne_David>;
+   foaf:page <http://www.waynedavid.labour.co.uk>,
+     <http://www.welshlabour.org.uk/candidates/wayne-david-caerphilly>,
+     <http://www.parliament.uk/biographies/commons/wayne-david/25696>,
+     <http://hansard.millbanksystems.com/people/mr-wayne-david>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_2854_home.html>,
+     <http://www.guardian.co.uk/politics/person/6331/wayne-david>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Wayne_David>,
+     <http://www.theyworkforyou.com/mp/wayne_david>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Wayne-David/Caerphilly/67>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25696.stm>,
+     <http://worldcat.org/identities/lccn-no2006-91199> .

@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434700.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Heath (politician)";
+   dc:modified "2012-12-01T15:33:36Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434700#id> .
+
+<http://dbpedialite.org/things/434700#id> a owl:Thing;
+   rdfs:label "David Heath (politician)";
+   rdfs:comment "David William St. John Heath CBE (born 16 March 1954) is a British Liberal Democrat politician. He is the Member of Parliament (MP) for Somerton and Frome and currently the Minister of State for Agriculture and Food.";
+   owl:sameAs <http://dbpedia.org/resource/David_Heath_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240afe>,
+     <http://rdf.freebase.com/ns/m.0282rz>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Heath_(politician)>;
+   foaf:page <http://www.davidheath.co.uk/>,
+     <http://www.libdems.org.uk/spokespeople_detail.aspx?name=David_Heath_CBE_MP&pPK=b5e2e2db-3555-455d-802d-d63f1da0cfa5>,
+     <http://www.parliament.uk/biographies/commons/david-heath/25588>,
+     <http://hansard.millbanksystems.com/people/mr-david-heath>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_911_home.html>,
+     <http://www.guardian.co.uk/politics/person/2337/david-heath>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=David_Heath>,
+     <http://www.theyworkforyou.com/mp/david_heath>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/David-Heath/Somerton-and-Frome/1097>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25588.stm> .

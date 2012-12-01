@@ -1,0 +1,27 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434987.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - David Winnick";
+   dc:modified "2012-12-01T13:01:41Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434987#id> .
+
+<http://dbpedialite.org/things/434987#id> a owl:Thing;
+   rdfs:label "David Winnick";
+   rdfs:comment """David Julian Winnick (born 26 June 1933) is a British Labour Party politician who has been the Member of Parliament (MP) for Walsall North since 1979.
+Winnick, who was born to a British Jewish family, was an advertising manager and a branch chairman of the Clerical and Administrative Workers Union. He was a councillor from 1959 on Willesden Borough Council, then the London Borough of Brent.
+Winnick was first elected as an MP in 1966, for Croydon South (now the area roughly covered by Croydon Central constituency), defeating incumbent Richard Thompson. He lost his seat to Thompson in 1970. After completing a diploma in social administration at the London School of Economics, he stood...""";
+   owl:sameAs <http://dbpedia.org/resource/David_Winnick>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000241138>,
+     <http://rdf.freebase.com/ns/m.02849s>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/David_Winnick>;
+   foaf:page <http://www.davidwinnick.webs.com/>,
+     <http://politics.guardian.co.uk/person/0,9290,-5621,00.html>,
+     <http://www.theyworkforyou.com/mp/david_winnick/walsall_north>,
+     <http://hansard.millbanksystems.com/people/mr-david-winnick>,
+     <http://publicwhip.org.uk/mp.php?mpn=David_Winnick&mpc=Walsall+North>,
+     <http://www.publicwhip.org.uk/division.php?date=2005-11-09&number=85> .

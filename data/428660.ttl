@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/428660.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Andy Love";
+   dc:modified "2012-12-01T14:21:45Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/428660#id> .
+
+<http://dbpedialite.org/things/428660#id> a owl:Thing;
+   rdfs:label "Andy Love";
+   rdfs:comment "Andrew McCulloch Love (born 21 March 1949) is a British Labour Co-operative politician who has been the Member of Parliament (MP) for Edmonton since 1997, winning in 2010 with 53.7% of the vote.";
+   owl:sameAs <http://dbpedia.org/resource/Andy_Love>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000023ae32>,
+     <http://rdf.freebase.com/ns/m.027ckl>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andy_Love>;
+   foaf:page <http://www.andylovemp.com>,
+     <http://politics.guardian.co.uk/person/0,9290,-3204,00.html>,
+     <http://www.theyworkforyou.com/mp/andrew_love/edmonton>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/233.stm>,
+     <http://hansard.millbanksystems.com/people/mr-andy-love> .

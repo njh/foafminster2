@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/30876369.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Gregory Campbell (politician)";
+   dc:modified "2012-12-01T15:13:24Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/30876369#id> .
+
+<http://dbpedialite.org/things/30876369#id> a owl:Thing;
+   rdfs:label "Gregory Campbell (politician)";
+   rdfs:comment "Gregory Lloyd Campbell (born 15 February 1953) is a Northern Irish unionist politician, and the Democratic Unionist Party Member of Parliament (MP) of the Parliament of the United Kingdom, representing the East Londonderry constituency of Northern Ireland.";
+   owl:sameAs <http://dbpedia.org/resource/Gregory_Campbell_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022e794>,
+     <http://rdf.freebase.com/ns/m.025txn>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gregory_Campbell_(politician)>;
+   foaf:page <http://politics.guardian.co.uk/person/0,9290,-819,00.html>,
+     <http://www.theyworkforyou.com/mp/gregory_campbell/east_londonderry>,
+     <http://www.niassembly.gov.uk/members/biogs/gcampbell.htm>,
+     <http://www.duplondonderry.co.uk/campbell.html>,
+     <http://www.publications.parliament.uk/pa/cm200102/cmhansrd/vo010626/debtext/10626-23.htm> .

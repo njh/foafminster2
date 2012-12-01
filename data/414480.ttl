@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414480.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Sir George Young, 6th Baronet";
+   dc:modified "2012-12-01T15:12:21Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414480#id> .
+
+<http://dbpedialite.org/things/414480#id> a owl:Thing;
+   rdfs:label "Sir George Young, 6th Baronet";
+   rdfs:comment "Sir George Samuel Knatchbull Young, 6th Baronet (born 16 July 1941) is a British Conservative Party politician who has been a Member of Parliament (MP) since 1974, having represented North West Hampshire since 1997 and Ealing Acton prior to that. Sir George served in the Cabinet from 1995 to 1997 as Secretary of State for Transport, and later as the Leader of the House of Commons and Lord Privy Seal from 2010 to 2012. On 19 October 2012, Sir George was re-appointed to the Cabinet as Chief Whip of the House of Commons following the resignation of Andrew Mitchell.";
+   owl:sameAs <http://dbpedia.org/resource/Sir_George_Young,_6th_Baronet>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c35f>,
+     <http://rdf.freebase.com/ns/m.025jv_>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sir_George_Young,_6th_Baronet>;
+   foaf:page <http://www.sir-george-young.org.uk/>,
+     <http://www.youtube.com/user/georgeskyoung>,
+     <http://www.parliament.uk/biographies/commons/george-young/25225>,
+     <http://hansard.millbanksystems.com/people/sir-george-young>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4706_home.html>,
+     <http://www.guardian.co.uk/politics/person/5721/george-young>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=George_Young>,
+     <http://www.theyworkforyou.com/mp/george_young>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/George-Young/North-West-Hampshire/233>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25225.stm>,
+     <http://journalisted.com/george-young>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/297.stm>,
+     <http://www.sourcewatch.org/index.php?title=Cycling_Group_APPG>,
+     <http://www.debretts.com/people/biographies/browse/y/4679/George+Samuel.aspx> .

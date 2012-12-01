@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434635.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Charles Hendry";
+   dc:modified "2012-12-01T13:21:08Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434635#id> .
+
+<http://dbpedialite.org/things/434635#id> a owl:Thing;
+   rdfs:label "Charles Hendry";
+   rdfs:comment "Charles Hendry (born 6 May 1959, Cuckfield, Sussex) is a British Conservative Party politician and the Member of Parliament (MP) for Wealden. In May 2010 he was appointed Minister of State for the Department of Energy and Climate Change and served until 2012.";
+   owl:sameAs <http://dbpedia.org/resource/Charles_Hendry>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240977>,
+     <http://rdf.freebase.com/ns/m.0282cr>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Charles_Hendry>;
+   foaf:page <http://www.leighrayment.com/commons.htm>,
+     <http://www.charleshendry.com>,
+     <http://www.wealden.uk.com>,
+     <http://hansard.millbanksystems.com/people/mr-charles-hendry>,
+     <http://www.guardian.co.uk/politics/person/6170/charles-hendry>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Charles_Hendry>,
+     <http://www.theyworkforyou.com/mp/charles_hendry>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Charles-Hendry/Wealden/345>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/617.stm>,
+     <http://news.bbc.co.uk/1/hi/england/southern_counties/5266174.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/3112496.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/2216311.stm>,
+     <http://www.youtube.com/watch?v=Yd1f9BMXKMU>,
+     <http://www.youtube.com/watch?v=A6NM-Bnkg-Q> .

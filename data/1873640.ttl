@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1873640.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Siân James (politician)";
+   dc:modified "2012-12-01T14:40:18Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1873640#id> .
+
+<http://dbpedialite.org/things/1873640#id> a owl:Thing;
+   rdfs:label "Siân James (politician)";
+   rdfs:comment "Siân Catherine James (born 24 June 1959) is a Welsh Labour Party politician, who has been the Member of Parliament (MP) for Swansea East since 2005.";
+   owl:sameAs <http://dbpedia.org/resource/Si%C3%A2n_James_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000616539>,
+     <http://rdf.freebase.com/ns/m.062t9t>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Siân_James_(politician)>;
+   foaf:page <http://www.sianjamesmp.co.uk>,
+     <http://www.welshlabour.org.uk/candidates/sian-james-swansea-east>,
+     <http://www.parliament.uk/biographies/commons/siân-james/35773>,
+     <http://hansard.millbanksystems.com/people/ms-sian-james>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4790_home.html>,
+     <http://www.guardian.co.uk/politics/person/8840/sian-james>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Sian_James>,
+     <http://www.theyworkforyou.com/mp/sian_james>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Sian-James/Swansea-East/231>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35773.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4633361.stm> .

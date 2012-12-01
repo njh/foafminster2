@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1948343.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jenny Willott";
+   dc:modified "2012-12-01T14:33:08Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1948343#id> .
+
+<http://dbpedialite.org/things/1948343#id> a owl:Thing;
+   rdfs:label "Jenny Willott";
+   rdfs:comment """Jennifer Nancy Willott (b. 29 May 1974, Wimbledon, London) is a British politician and the Liberal Democrat Member of Parliament for Cardiff Central since the 2005 general election and a junior whip since February 2012. She is the first woman and the first Liberal Democrat to represent her seat.
+Willott has a history of work with charitable organisations such as OXFAM and a women's organisation in North India. She supports the movement of trade justice and has interests in human rights. She was a councillor in the London Borough of Merton from 1998 to 2000.""";
+   owl:sameAs <http://dbpedia.org/resource/Jenny_Willott>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000641abd>,
+     <http://rdf.freebase.com/ns/m.0686py>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jenny_Willott>;
+   foaf:page <http://www.jennywillott.org.uk/>,
+     <http://www.libdems.org.uk/people/jenny-willott>,
+     <http://www.welshlibdems.org.uk/people_e_detail.asp?memberNo=169>,
+     <http://www.cardifflibdems.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/jenny-willott/35533>,
+     <http://hansard.millbanksystems.com/people/ms-jenny-willott>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4848_home.html>,
+     <http://www.guardian.co.uk/politics/person/6599/jenny-willott>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jennifer_Willott>,
+     <http://www.theyworkforyou.com/mp/jennifer_willott>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jenny-Willot/Cardiff-Central/1135>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35533.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4436148.stm> .

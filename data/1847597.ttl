@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1847597.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Natascha Engel";
+   dc:modified "2012-12-01T15:15:46Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1847597#id> .
+
+<http://dbpedialite.org/things/1847597#id> a owl:Thing;
+   rdfs:label "Natascha Engel";
+   rdfs:comment "Natascha Engel (born 9 April 1967) is a German-British Labour Party politician who has been the Member of Parliament (MP) for North East Derbyshire since 2005. She has extensive involvement in the trade union movement, and has close connections to Gordon Brown.";
+   owl:sameAs <http://dbpedia.org/resource/Natascha_Engel>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000605769>,
+     <http://rdf.freebase.com/ns/m.060pw9>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Natascha_Engel>;
+   foaf:page <http://www.nataschaengelmp.org.uk/>,
+     <http://biographies.parliament.uk/parliament/default.asp?id=35958>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/184.stm>,
+     <http://www.hotlinkfiles.com/files/1233520_zr129/econrep8.pdf>,
+     <http://politics.guardian.co.uk/person/0,9290,-8703,00.html>,
+     <http://www.theyworkforyou.com/mp/natascha_engel/north_east_derbyshire>,
+     <http://www.journalisted.com/natascha-engel> .

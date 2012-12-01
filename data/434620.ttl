@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434620.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - John Hayes (UK politician)";
+   dc:modified "2012-12-01T13:32:46Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434620#id> .
+
+<http://dbpedialite.org/things/434620#id> a owl:Thing;
+   rdfs:label "John Hayes (UK politician)";
+   rdfs:comment "John Henry Hayes, FRSA (born 23 June 1958) is a British Conservative Party politician. He is the Member of Parliament (MP) for South Holland and The Deepings, and a member of the socially conservative Cornerstone Group. On 13 May 2010 he was appointed as Minister of State for Further Education, Skills and Lifelong Learning jointly at the Department for Business, Innovation and Skills and the Department for Education. On 4 September 2012 he was appointed Minister of State for Energy at the Department for Energy and Climate Change.";
+   owl:sameAs <http://dbpedia.org/resource/John_Hayes_%28UK_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024091f>,
+     <http://rdf.freebase.com/ns/m.02828_>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Hayes_(UK_politician)>;
+   foaf:page <http://hansard.millbanksystems.com/people/mr-john-hayes>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=John_Hayes>,
+     <http://www.theyworkforyou.com/mp/john_hayes/south_holland_and_the_deepings>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/John-Hayes/South-Holland-and-The-Deepings/277>,
+     <http://web.archive.org/web/20090213182639/http://news.bbc.co.uk/1/shared/mpdb/html/525.stm>,
+     <http://www.guardian.co.uk/politics/2012/nov/23/lib-dems-tories-green-energy> .

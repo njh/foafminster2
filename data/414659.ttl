@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/414659.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Clive Betts";
+   dc:modified "2012-12-01T14:36:46Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/414659#id> .
+
+<http://dbpedialite.org/things/414659#id> a owl:Thing;
+   rdfs:label "Clive Betts";
+   rdfs:comment "Clive James Charles Betts (born 13 January 1950) is a British Labour Party politician, who was the Member of Parliament for Sheffield Attercliffe from 1992 to 2010, when he became Member of Parliament for Sheffield South East.";
+   owl:sameAs <http://dbpedia.org/resource/Clive_Betts>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022c6b4>,
+     <http://rdf.freebase.com/ns/m.025kpn>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Clive_Betts>;
+   foaf:page <http://www.clivebetts.com>,
+     <http://www.parliament.uk/biographies/commons/clive-betts/25722>,
+     <http://hansard.millbanksystems.com/people/mr-clive-betts>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3992_home.html>,
+     <http://www.guardian.co.uk/politics/person/405/clive-betts>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Clive_Betts>,
+     <http://www.theyworkforyou.com/mp/clive_betts>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Clive-Betts/Sheffield-South-East/45>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25722.stm>,
+     <http://journalisted.com/clive-betts> .

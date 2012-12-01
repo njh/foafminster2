@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1873576.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Alison Seabeck";
+   dc:modified "2012-12-01T14:37:07Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1873576#id> .
+
+<http://dbpedialite.org/things/1873576#id> a owl:Thing;
+   rdfs:label "Alison Seabeck";
+   rdfs:comment "Alison Jane Seabeck (née Ward) (born 20 January 1954) is an English Labour Party politician and shadow Minister in the Ministry of Defence. She was previously the shadow Housing Minister. She was the Member of Parliament (MP) for Plymouth Devonport from 2005 until 2010 when she won the new seat of Plymouth Moor View.";
+   owl:sameAs <http://dbpedia.org/resource/Alison_Seabeck>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000061646c>,
+     <http://rdf.freebase.com/ns/m.062t3d>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alison_Seabeck>;
+   foaf:page <http://www.alisonseabeck.org.uk/>,
+     <http://politics.guardian.co.uk/person/0,9290,-8793,00.html>,
+     <http://www.theyworkforyou.com/mp/alison_seabeck/plymouth,_devonport>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4110914.stm>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/457.stm>,
+     <http://news.bbc.co.uk/1/hi/england/devon/4378561.stm> .

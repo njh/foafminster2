@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1872895.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jessica Morden";
+   dc:modified "2012-12-01T16:10:15Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1872895#id> .
+
+<http://dbpedialite.org/things/1872895#id> a owl:Thing;
+   rdfs:label "Jessica Morden";
+   rdfs:comment "Jessica Elizabeth Morden (born 29 May 1968) is a British Labour Party politician, who has been the Member of Parliament (MP) for Newport East since 2005.";
+   owl:sameAs <http://dbpedia.org/resource/Jessica_Morden>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000615dfd>,
+     <http://rdf.freebase.com/ns/m.062rhy>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jessica_Morden>;
+   foaf:page <http://www.jessicamorden.com/>,
+     <http://www.labour.org.uk/maps/locinfo.phtml?ctid=2615>,
+     <http://www.parliament.uk/biographies/commons/jessica-morden/39384>,
+     <http://hansard.millbanksystems.com/people/ms-jessica-morden>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4824_home.html>,
+     <http://www.guardian.co.uk/politics/person/8781/jessica-morden>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jessica_Morden>,
+     <http://www.theyworkforyou.com/mp/jessica_morden>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jessica-Morden/Newport-East/439>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/39384.stm> .

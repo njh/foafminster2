@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/24421613.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Ian Lavery";
+   dc:modified "2012-12-01T14:27:16Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/24421613#id> .
+
+<http://dbpedialite.org/things/24421613#id> a owl:Thing;
+   rdfs:label "Ian Lavery";
+   rdfs:comment "Ian Lavery (born 6 January 1963) is a British Labour Party politician, who has been the Member of Parliament (MP) for Wansbeck since the 2010 general election. He was previously the President of the National Union of Mineworkers.";
+   owl:sameAs <http://dbpedia.org/resource/Ian_Lavery>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000f82d61a>,
+     <http://rdf.freebase.com/ns/m.07s5pjv>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ian_Lavery>;
+   foaf:page <http://www.timesonline.co.uk/tol/news/politics/article7022521.ece> .

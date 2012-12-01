@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434958.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Joan Walley";
+   dc:modified "2012-12-01T14:13:34Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434958#id> .
+
+<http://dbpedialite.org/things/434958#id> a owl:Thing;
+   rdfs:label "Joan Walley";
+   rdfs:comment "Joan Lorraine Walley (born 23 January 1949) is a British Labour Party politician, who has been the Member of Parliament (MP) for Stoke-on-Trent North since 1987.";
+   owl:sameAs <http://dbpedia.org/resource/Joan_Walley>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024107c>,
+     <http://rdf.freebase.com/ns/m.02843x>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Joan_Walley>;
+   foaf:page <http://www.joanwalleymp.org.uk>,
+     <http://hansard.millbanksystems.com/people/ms-joan-walley>,
+     <http://www.guardian.co.uk/politics/person/5367/joan-walley>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Joan_Walley>,
+     <http://www.theyworkforyou.com/mp/joan_walley/stoke-on-trent_north>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Joan-Walley/Stoke-on-Trent-North/494>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25330.stm> .

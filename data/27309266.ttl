@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27309266.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jake Berry";
+   dc:modified "2012-12-01T15:29:15Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27309266#id> .
+
+<http://dbpedialite.org/things/27309266#id> a owl:Thing;
+   rdfs:label "Jake Berry";
+   rdfs:comment "James Jacob Gilchrist (Jake) Berry (born 29 December 1978) is a British Conservative Party politician. He is the Member of Parliament (MP) for Rossendale and Darwen, having won the seat at the 2010 UK General Election, defeating the sitting Labour Party MP Janet Anderson by a majority of 4,493 votes.";
+   owl:sameAs <http://dbpedia.org/resource/Jake_Berry>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015d06602>,
+     <http://rdf.freebase.com/ns/m.0by0tj2>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jake_Berry>;
+   foaf:page <http://www.rdca.co.uk/> .

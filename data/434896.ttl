@@ -1,0 +1,35 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434896.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Angus Robertson";
+   dc:modified "2012-12-01T13:14:59Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434896#id> .
+
+<http://dbpedialite.org/things/434896#id> a owl:Thing;
+   rdfs:label "Angus Robertson";
+   rdfs:comment """Angus Struan Carolus Robertson (Scottish Gaelic: Aonghas Sruthan Teàrlach MacRaibeirt, born 28 September 1969) is the Scottish National Party (SNP) Member of Parliament (MP) for Moray and is the SNP's Parliamentary Group Leader and spokesperson for foreign affairs and defence.
+Robertson was the Election Co-ordinator for the Scottish National party's successful 2007 and 2011 Scottish Parliament election campaigns. On 3 June 2011, he was appointed the SNP's Campaign Director for the Scottish Independence referendum campaign.""";
+   owl:sameAs <http://dbpedia.org/resource/Angus_Robertson>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000240f35>,
+     <http://rdf.freebase.com/ns/m.0283tp>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Angus_Robertson>;
+   foaf:page <http://www.angusrobertson.org/>,
+     <https://twitter.com/MorayMP>,
+     <http://www.snp.org/>,
+     <http://www.parliament.uk/biographies/commons/angus-robertson/25347>,
+     <http://www.snp.org/people/angus-robertson>,
+     <http://westminster.snp.org/index.php?option=com_content&task=view&id=1851&Itemid=44>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25347.stm>,
+     <http://news.stv.tv/scotland/175697-your-mp-for-moray-angus-robertson/>,
+     <http://www.guardian.co.uk/politics/person/7052/angus-robertson>,
+     <http://www.guardian.co.uk/profile/angus-robertson>,
+     <http://ukpolitics.telegraph.co.uk/Moray/Angus+Robertson>,
+     <http://www.politicshome.com/uk/newsmaker/204/Angus_Robertson.html>,
+     <http://www.theyworkforyou.com/mp/angus_robertson/moray>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Angus_Robertson&mpc=Moray>,
+     <http://www.politics.co.uk/interviews/party-politics/scottish-national-party/interview-angus-robertson-$1302676.htm> .

@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27276873.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nick Smith (British politician)";
+   dc:modified "2012-12-01T15:11:19Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27276873#id> .
+
+<http://dbpedialite.org/things/27276873#id> a owl:Thing;
+   rdfs:label "Nick Smith (British politician)";
+   rdfs:comment "Nicholas Desmond John Smith (born 14 January 1960), known as Nick Smith, is a British Labour Party politician, who has been the Member of Parliament (MP) for Blaenau Gwent since the May 2010 election. From 1998 to 2005 he was a councillor in the London Borough of Camden.";
+   owl:sameAs <http://dbpedia.org/resource/Nick_Smith_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b80844>,
+     <http://rdf.freebase.com/ns/m.0bwj224>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nick_Smith_(British_politician)>;
+   foaf:page <http://www.nick-smith.net/>,
+     <http://twitter.com/nicksmith4bg>,
+     <http://www.welshlabour.org.uk/candidates/nick-smith-blaenau-gwent>,
+     <http://www.parliament.uk/biographies/commons/nick-smith/72304>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5532_home.html>,
+     <http://www.guardian.co.uk/politics/person/7383/mark-tami>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nick_Smith>,
+     <http://www.theyworkforyou.com/mp/nick_smith>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nick-Smith/Blaenau-Gwent/13443>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/72304.stm> .

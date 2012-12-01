@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/3665467.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Zac Goldsmith";
+   dc:modified "2012-12-01T15:21:48Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/3665467#id> .
+
+<http://dbpedialite.org/things/3665467#id> a owl:Thing;
+   rdfs:label "Zac Goldsmith";
+   rdfs:comment """Frank Zacharias Robin Goldsmith (born 20 January 1975) is a British Conservative Party politician, environmental journalist, and entrepreneur, who has been the Member of Parliament (MP) for Richmond Park since 2010.
+Goldsmith is the middle child of the late financier Sir James Goldsmith. From 1998 to 2007, he was editor of The Ecologist magazine. During this time, he became a London campaigner and commentator on environmental issues. Goldsmith became a Conservative Party parliamentary candidate in 2005. That same year, he was appointed deputy chairman of the Conservative Quality of Life Policy Group, co-authoring its report published in 2007. He was placed on the party's "A-List" of...""";
+   owl:sameAs <http://dbpedia.org/resource/Zac_Goldsmith>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000009c97e2>,
+     <http://rdf.freebase.com/ns/m.09t5_2>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Zac_Goldsmith>;
+   foaf:page <http://www.parliament.uk/biographies/commons/zac-goldsmith/62682>,
+     <http://hansard.millbanksystems.com/people/mr-zac-goldsmith>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5559_home.html>,
+     <http://www.guardian.co.uk/politics/person/12677/zac-goldsmith>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Zac_Goldsmith>,
+     <http://www.theyworkforyou.com/mp/zac_goldsmith>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Zac-Goldsmith/Richmond-Park/1031>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/62682.stm>,
+     <http://journalisted.com/zac-goldsmith>,
+     <http://www.catch21.co.uk/2010/11/new-mpinions-zac-goldsmith-mp> .

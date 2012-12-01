@@ -1,0 +1,48 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/13076.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Gordon Brown";
+   dc:modified "2012-12-01T16:04:54Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/13076#id> .
+
+<http://dbpedialite.org/things/13076#id> a owl:Thing;
+   rdfs:label "Gordon Brown";
+   rdfs:comment """James Gordon Brown (born 20 February 1951) is a British Labour Party politician who was the Prime Minister of the United Kingdom and Leader of the Labour Party from 2007 until 2010. He previously served as Chancellor of the Exchequer in the Labour Government from 1997 to 2007, becoming the longest-serving holder of that office in modern history. Brown has been a Member of Parliament (MP) since 1983, currently for Kirkcaldy and Cowdenbeath.
+Brown became Prime Minister on 27 June 2007, after the resignation of Tony Blair and three days after becoming Leader of the governing Labour Party. His tenure ended on 11 May 2010, when he resigned as Prime Minister and Leader of the Labour Party...""";
+   owl:sameAs <http://dbpedia.org/resource/Gordon_Brown>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000001b4e7>,
+     <http://rdf.freebase.com/ns/m.03f77>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gordon_Brown>;
+   foaf:page <http://wikidata.org/wiki/Q10648>,
+     <http://www.number10.gov.uk/past-prime-ministers/gordon-brown>,
+     <http://www.gordonandsarahbrown.com/>,
+     <http://hansard.millbanksystems.com/people/mr-gordon-brown>,
+     <http://www.guardian.co.uk/politics/person/644/gordon-brown>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Gordon_Brown>,
+     <http://www.theyworkforyou.com/mp/gordon_brown>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Gordon-Brown/Kirkcaldy-and-Cowdenbeath/98>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25779.stm>,
+     <http://journalisted.com/gordon-brown>,
+     <http://www.britannica.com/eb/article-9437783/Gordon-Brown>,
+     <http://news.bbc.co.uk/2/hi/uk_news/politics/4177281.stm>,
+     <http://www.guardian.co.uk/politics/gordon-brown>,
+     <http://topics.nytimes.com/top/reference/timestopics/people/b/gordon_brown/index.html>,
+     <http://www.ted.com/speakers/gordon_brown.html/>,
+     <http://www.c-spanvideo.org/gordonbrown>,
+     <http://www.charlierose.com/guest/view/1223>,
+     <http://worldcat.org/identities/lccn-n83-301868>,
+     <http://www.npg.org.uk/collections/search/person.php?LinkID=mp14411>,
+     <http://www.nationalarchives.gov.uk/nra/searches/subjectView.asp?ID=P51798>,
+     <http://www.epolitix.com/latestnews/article-detail/newsarticle/gordon-brown-leadership-acceptance-speech-in-full-1/>,
+     <http://www.epolitix.com/latestnews/article-detail/newsarticle/gordon-brown-leadership-acceptance-speech-in-full/>,
+     <http://www.un.org/ga/63/generaldebate/uk.shtml>,
+     <http://www.epolitix.com/latestnews/article-detail/newsarticle/speech-in-full-gordon-brown/> .
+
+<http://wikidata.org/wiki/Q10648> a foaf:Document;
+   rdfs:label "Gordon Brown";
+   rdfs:comment "A British Labour Party politician" .

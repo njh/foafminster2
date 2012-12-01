@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/322202.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Sarah Teather";
+   dc:modified "2012-12-01T15:31:10Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/322202#id> .
+
+<http://dbpedialite.org/things/322202#id> a owl:Thing;
+   rdfs:label "Sarah Teather";
+   rdfs:comment """Sarah Louise Teather (born 1 June 1974,Enfield, London) is a British Liberal Democrat politician, Member of Parliament for Brent Central, and Chair of the All-Party Parliamentary Group on Guantanamo Bay.
+She was first elected on 18 September 2003 in the Brent East by-election and re-elected with an increased majority on 5 May 2005 in the 2005 general election. After the seat was abolished due to boundary changes she was selected as the Liberal Democrat Candidate for the new constituency of Brent Central. Her main opponent was sitting Labour MP Dawn Butler, whose seat of Brent South was also abolished. After that election Teather became Minister of State in the Department for Education in...""";
+   owl:sameAs <http://dbpedia.org/resource/Sarah_Teather>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000001d5245>,
+     <http://rdf.freebase.com/ns/m.01vnl5>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sarah_Teather>;
+   foaf:page <http://www.sarahteather.libdems.org.uk/>,
+     <http://www.libdems.org.uk/shadow_cabinet_detail.aspx?name=Sarah_Teather&pPK=d9382479-7d4c-427a-b262-70e16a74cf7d>,
+     <http://www.brentlibdems.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/sarah-teather/25227>,
+     <http://hansard.millbanksystems.com/people/ms-sarah-teather>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4227_home.html>,
+     <http://www.guardian.co.uk/politics/person/6690/sarah-teather>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Sarah_Teather>,
+     <http://www.theyworkforyou.com/mp/sarah_teather>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Sarah-Teather/Brent-East/1126>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25227.stm>,
+     <http://journalisted.com/sarah-teather>,
+     <http://www.youtube.com/watch?v=6oteooktZQI>,
+     <http://www.guardian.co.uk/profile/sarah-teather?INTCMP=SRCH> .

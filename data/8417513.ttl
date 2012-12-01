@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/8417513.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mary Macleod";
+   dc:modified "2012-11-24T00:10:41Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/8417513#id> .
+
+<http://dbpedialite.org/things/8417513#id> a owl:Thing;
+   rdfs:label "Mary Macleod";
+   rdfs:comment """Mary Macleod is a British Conservative Party politician, who has been the Member of Parliament (MP) for Brentford and Isleworth since the 2010 general election.
+In September 2010, Macleod was appointed Parliamentary Private Secretary to Nick Herbert, the Minister of State for Policing and Criminal Justice.""";
+   owl:sameAs <http://dbpedia.org/resource/Mary_Macleod>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b9c708>,
+     <http://rdf.freebase.com/ns/m.0bwmks8>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mary_Macleod>;
+   foaf:page <http://www.marymacleod.com/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Macleod_Mary.aspx>,
+     <http://www.brentfordandisleworthconservatives.com/>,
+     <http://www.guardian.co.uk/politics/person/11980/mary-macleod>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Mary_Macleod>,
+     <http://www.theyworkforyou.com/mp/mary_macleod>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Mary-Macleod/Brentford-and-Isleworth/875>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/62722.stm> .

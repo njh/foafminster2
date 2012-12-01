@@ -1,0 +1,35 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/415632.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Martin McGuinness";
+   dc:modified "2012-12-01T15:44:51Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/415632#id> .
+
+<http://dbpedialite.org/things/415632#id> a owl:Thing;
+   rdfs:label "Martin McGuinness";
+   rdfs:comment """James Martin Pacelli McGuinness (Irish: Máirtín Mag Aonghusa; born 23 May 1950) is an Irish Sinn Féin politician and the deputy First Minister of Northern Ireland. McGuinness was the Sinn Féin candidate in the 2011 Irish presidential election. He was born in Derry, Northern Ireland.
+A former Provisional Irish Republican Army (IRA) leader, McGuinness is the MP for the Mid Ulster constituency. Like all Sinn Féin MPs, McGuinness practises abstentionism in relation to the Westminster parliament. It was announced on 11 June 2012 that McGuinness is to resign from the House of Commons whilst continuing as a member of the Northern Ireland Assembly for the same constituency.""";
+   owl:sameAs <http://dbpedia.org/resource/Martin_McGuinness>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022d7c4>,
+     <http://rdf.freebase.com/ns/m.025pz4>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Martin_McGuinness>;
+   foaf:page <http://wikidata.org/wiki/Q57689>,
+     <http://www.thepeoplespresident.ie>,
+     <http://www.sinnfein.ie/contents/14970>,
+     <http://www.parliament.uk/biographies/commons/martin-mcguinness/25478>,
+     <http://www.guardian.co.uk/politics/person/3828/martin-mcguinness>,
+     <http://www.theyworkforyou.com/mp/martin_mcguinness>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Martin-McGuinness/Mid-Ulster/375>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25478.stm>,
+     <http://journalisted.com/martin-mcguinness>,
+     <http://www.guardian.co.uk/politics/martin-mcguinness>,
+     <http://news.bbc.co.uk/onthisday/hi/dates/stories/may/30/newsid_2973000/2973759.stm>,
+     <http://www.newstatesman.com/human-rights/2010/02/ireland-ira-believe-due-doing> .
+
+<http://wikidata.org/wiki/Q57689> a foaf:Document;
+   rdfs:label "Martin McGuinness" .

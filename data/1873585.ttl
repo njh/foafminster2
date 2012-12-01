@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1873585.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Stephen Crabb";
+   dc:modified "2012-12-01T15:26:24Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1873585#id> .
+
+<http://dbpedialite.org/things/1873585#id> a owl:Thing;
+   rdfs:label "Stephen Crabb";
+   rdfs:comment "Stephen Crabb, MP (born 20 January 1973) is a British Conservative Party politician and the Member of Parliament for Preseli Pembrokeshire. He is the Parliamentary Under-Secretary of State at the Wales Office. He replaced David Jones, MP who became the Welsh Secretary. Crabb is to remain a government whip, undertaking part-time some of the duties he's carried out since 2010. The BBC described this dual role as unusual.";
+   owl:sameAs <http://dbpedia.org/resource/Stephen_Crabb>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000061649b>,
+     <http://rdf.freebase.com/ns/m.062t4w>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Stephen_Crabb>;
+   foaf:page <http://www.stephencrabb.com>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Crabb_Stephen.aspx>,
+     <http://www.ceidwadwyr.com/portal-en/our-mps/55-stephen-crabb-mp.html>,
+     <http://www.pembrokeshireconservatives.com>,
+     <http://www.parliament.uk/biographies/commons/stephen-crabb/31575>,
+     <http://hansard.millbanksystems.com/people/mr-stephen-crabb>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4763_home.html>,
+     <http://www.guardian.co.uk/politics/person/11009/stephen-crabb>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Stephen_Crabb>,
+     <http://www.theyworkforyou.com/mp/stephen_crabb>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Stephen-Crabb/Preseli-Pembrokeshire/359>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31575.stm>,
+     <http://news.bbc.co.uk/2/hi/uk_news/politics/4087526.stm> .

@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/20046964.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Lindsay Roy";
+   dc:modified "2012-12-01T15:21:20Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/20046964#id> .
+
+<http://dbpedialite.org/things/20046964#id> a owl:Thing;
+   rdfs:label "Lindsay Roy";
+   rdfs:comment "Lindsay Allan Roy, CBE, FRSA (born 19 January 1949) is a British Labour Party politician, who has been the Member of Parliament (MP) for Glenrothes since 2008, and is the former Rector of Inverkeithing High School and Kirkcaldy High School.";
+   owl:sameAs <http://dbpedia.org/resource/Lindsay_Roy>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009d61b42>,
+     <http://rdf.freebase.com/ns/m.04yd6v2>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lindsay_Roy>;
+   foaf:page <http://www.publicwhip.org.uk/mp.php?mpn=Lindsay_Roy&mpc=Glenrothes>,
+     <http://www.theyworkforyou.com/mp/lindsay_roy/glenrothes> .

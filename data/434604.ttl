@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434604.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Fabian Hamilton";
+   dc:modified "2012-12-01T13:44:49Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434604#id> .
+
+<http://dbpedialite.org/things/434604#id> a owl:Thing;
+   rdfs:label "Fabian Hamilton";
+   rdfs:comment "Fabian Uziell-Hamilton (born 12 April 1955) is a British Labour Party politician who has been the Member of Parliament (MP) for Leeds North East since 1997.";
+   owl:sameAs <http://dbpedia.org/resource/Fabian_Hamilton>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002408ae>,
+     <http://rdf.freebase.com/ns/m.02825g>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Fabian_Hamilton>;
+   foaf:page <http://www.leedsne.co.uk/>,
+     <http://politics.guardian.co.uk/person/0,9290,-2160,00.html>,
+     <http://www.theyworkforyou.com/mp/fabian_hamilton/leeds_north_east> .

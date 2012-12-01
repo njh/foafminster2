@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/723216.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Bob Blackman (politician)";
+   dc:modified "2012-12-01T14:07:28Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/723216#id> .
+
+<http://dbpedialite.org/things/723216#id> a owl:Thing;
+   rdfs:label "Bob Blackman (politician)";
+   rdfs:comment "Robert John Blackman (born 26 April 1956), better known as Bob Blackman, is a Conservative Party politician in the United Kingdom who has been the Member of Parliament (MP) for Harrow East since 2010. He was also a former member of the London Assembly until he was unseated by Navin Shah, the present GLA member for Brent & Harrow.";
+   owl:sameAs <http://dbpedia.org/resource/Bob_Blackman_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000002042f3d5>,
+     <http://rdf.freebase.com/ns/m.0j45xzp>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Bob_Blackman_(politician)>;
+   foaf:page <http://www.bobblackmanmp.com/>,
+     <http://bobblackmanmp.info/bob.html> .

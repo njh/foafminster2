@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27290591.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Pauline Latham";
+   dc:modified "2012-12-01T15:59:47Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27290591#id> .
+
+<http://dbpedialite.org/things/27290591#id> a owl:Thing;
+   rdfs:label "Pauline Latham";
+   rdfs:comment """Pauline Elizabeth Latham (born 4 February 1948) is a British Conservative Party politician, who was elected at the 2010 general election as the Member of Parliament (MP) for Mid Derbyshire, a new constituency created as a result of changes made by the Boundary Commission for England.
+Latham had been a Conservative member of Derbyshire County Council from 1987 to 1993, and a Derby City Councillor from 1992 to 1996 and from 1998 to 2010. She held the position of Mayor of Derby during 2007/08.
+She has a special interest in education issues, being a school governor for twelve years. She was a candidate for Broxtowe in 2001 and stood as a European candidate in 1999 and 2005 for the East Midlands.""";
+   owl:sameAs <http://dbpedia.org/resource/Pauline_Latham>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015ceff20>,
+     <http://rdf.freebase.com/ns/m.0bxy_t0>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pauline_Latham>;
+   foaf:page <http://www.theyworkforyou.com/mp/pauline_latham/mid_derbyshire> .

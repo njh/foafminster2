@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/413936.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Alan Beith";
+   dc:modified "2012-12-01T15:21:27Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/413936#id> .
+
+<http://dbpedialite.org/things/413936#id> a owl:Thing;
+   rdfs:label "Alan Beith";
+   rdfs:comment "Sir Alan James Beith (born 20 April 1943) is a British Liberal Democrat politician and Member of Parliament (MP) for Berwick-upon-Tweed.";
+   owl:sameAs <http://dbpedia.org/resource/Alan_Beith>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000022b933>,
+     <http://rdf.freebase.com/ns/m.025g9m>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alan_Beith>;
+   foaf:page <http://www.alanbeith.org.uk/>,
+     <http://www.libdems.org.uk/people/alan-beith>,
+     <http://www.parliament.uk/biographies/commons/alan-beith/25716>,
+     <http://hansard.millbanksystems.com/people/mr-alan-beith>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3936_home.html>,
+     <http://www.guardian.co.uk/politics/person/334/alan-beith>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Alan_Beith>,
+     <http://www.theyworkforyou.com/mp/alan_beith>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Alan-Beith/Berwick-upon-Tweed/1075>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25716.stm>,
+     <http://yourdemocracy.newstatesman.com/profile/alan-beith> .

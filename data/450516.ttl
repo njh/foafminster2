@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/450516.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Desmond Swayne";
+   dc:modified "2012-12-01T14:18:54Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/450516#id> .
+
+<http://dbpedialite.org/things/450516#id> a owl:Thing;
+   rdfs:label "Desmond Swayne";
+   rdfs:comment "Desmond Angus Swayne TD MP (born 20 August 1956), is a Conservative Party politician in the United Kingdom. He is Member of Parliament (MP) for the constituency of New Forest West in Hampshire, and was formerly also Parliamentary Private Secretary to the Prime Minister, David Cameron, having been his PPS during his time as Leader of the Opposition, 2005-10, prior to his appointment in September 2012 to the office of Lord Commissioner of HM Treasury.";
+   owl:sameAs <http://dbpedia.org/resource/Desmond_Swayne>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024f868>,
+     <http://rdf.freebase.com/ns/m.029z38>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Desmond_Swayne>;
+   foaf:page <http://www.desmondswaynemp.com>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Swayne_Desmond.aspx>,
+     <http://www.epolitix.com/EN/MPWebsites/Desmond+Swayne/>,
+     <http://politics.guardian.co.uk/person/0,9290,-5075,00.html>,
+     <http://www.theyworkforyou.com/mp/desmond_swayne/new_forest_west>,
+     <http://publicwhip.org.uk/mp.php?mpn=Desmond_Swayne&mpc=New+Forest+West>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/417.stm> .

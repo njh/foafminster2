@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1589837.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Nick Hurd";
+   dc:modified "2012-12-01T15:30:31Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1589837#id> .
+
+<http://dbpedialite.org/things/1589837#id> a owl:Thing;
+   rdfs:label "Nick Hurd";
+   rdfs:comment "Nicholas Richard Hurd (born 13 May 1962), known as Nick Hurd, is a United Kingdom Conservative Member of Parliament. He was elected Member for Ruislip-Northwood (now Ruislip Northwood and Pinner) at the May 2005 general election with 47.7% of the votes. Hurd is currently Parliamentary Under-Secretary of State for Charities, Social Enterprise and Volunteering at the Cabinet Office in the Conservative-Liberal Democrat Coalition Government.";
+   owl:sameAs <http://dbpedia.org/resource/Nick_Hurd>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000566916>,
+     <http://rdf.freebase.com/ns/m.05dv8q>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nick_Hurd>;
+   foaf:page <http://www.nickhurd.com>,
+     <http://conservativehome.blogs.com/platform/nick_hurd_mp/index.html>,
+     <http://www.cabinetoffice.gov.uk/content/nick-hurd-minister-civil-society>,
+     <http://www.parliament.uk/biographies/commons/nick-hurd/37707>,
+     <http://hansard.millbanksystems.com/people/mr-nick-hurd>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4800_home.html>,
+     <http://www.guardian.co.uk/politics/person/9347/nick-hurd>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Nick_Hurd>,
+     <http://www.theyworkforyou.com/mp/nick_hurd>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Nicholas-Hurd/1044>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/37707.stm>,
+     <http://www.publications.parliament.uk/pa/cm200506/cmhansrd/cm050615/debtext/50615-28.htm>,
+     <http://www.debretts.com/people/biographies/browse/h/24217/Nicholas%20Richard%20(Nick)+HURD.aspx> .

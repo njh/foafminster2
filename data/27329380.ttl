@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27329380.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Michael Ellis (British politician)";
+   dc:modified "2012-12-01T15:34:22Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27329380#id> .
+
+<http://dbpedialite.org/things/27329380#id> a owl:Thing;
+   rdfs:label "Michael Ellis (British politician)";
+   rdfs:comment "Michael Tyrone Ellis (b. 13 October 1967) is a British Conservative Party politician. Since 2010 he is the MP for the Northampton North constituency.";
+   owl:sameAs <http://dbpedia.org/resource/Michael_Ellis_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015cff94d>,
+     <http://rdf.freebase.com/ns/m.0bx_zbf>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_Ellis_(British_politician)>;
+   foaf:page <http://michaelellis.co.uk>,
+     <http://www.theyworkforyou.com/mp/michael_ellis/northampton_north> .

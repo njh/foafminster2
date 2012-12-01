@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1859042.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mark Williams (politician)";
+   dc:modified "2012-12-01T14:28:00Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1859042#id> .
+
+<http://dbpedialite.org/things/1859042#id> a owl:Thing;
+   rdfs:label "Mark Williams (politician)";
+   rdfs:comment """Mark Fraser Williams (born March 24, 1966) is a British Welsh Liberal Democrat politician and the Member of Parliament (MP) for the Ceredigion constituency, a seat he gained from Plaid Cymru in 2005. He sits on the Welsh Affairs Select Committee, and in 2006 he became a Shadow Minister for Wales under Menzies Campbell.
+Mark Williams is a graduate of the University of Wales, Aberystwyth and the University of Plymouth, and was Deputy Headteacher of a school in Llangorse near Brecon before becoming an MP.""";
+   owl:sameAs <http://dbpedia.org/resource/Mark_Williams_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000060d586>,
+     <http://rdf.freebase.com/ns/m.061pd6>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mark_Williams_(politician)>;
+   foaf:page <http://www.markwilliams4ceredigion.org.uk/>,
+     <http://www.libdems.org.uk/people/mark-williams>,
+     <http://www.welshlibdems.org.uk/e-whoweare_detail.php?memberNo=173>,
+     <http://www.parliament.uk/biographies/commons/mark-williams/31723>,
+     <http://hansard.millbanksystems.com/people/mr-mark-williams>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4845_home.html>,
+     <http://www.guardian.co.uk/politics/person/6606/mark-williams>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Mark_Williams>,
+     <http://www.theyworkforyou.com/mp/mark_williams>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Mark-Williams/Ceredigion/1129>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/31723.stm> .

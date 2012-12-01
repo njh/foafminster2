@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/419348.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Alan Campbell (politician)";
+   dc:modified "2012-12-01T15:17:15Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/419348#id> .
+
+<http://dbpedialite.org/things/419348#id> a owl:Thing;
+   rdfs:label "Alan Campbell (politician)";
+   rdfs:comment "Alan Campbell (born 8 July 1957) is a British Labour Party politician who has been the Member of Parliament (MP) for Tynemouth since 1997. He served as the Parliamentary Under-Secretary of State at the Home Office from 2008 until 2010, when the Conservatives and Liberal Democrats came to power. He is currently the Deputy Chief Whip of the Labour Party.";
+   owl:sameAs <http://dbpedia.org/resource/Alan_Campbell_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000231a7d>,
+     <http://rdf.freebase.com/ns/m.0266my>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alan_Campbell_(politician)>;
+   foaf:page <http://www.alancampbellmp.co.uk>,
+     <http://hansard.millbanksystems.com/people/mr-alan-campbell>,
+     <http://www.guardian.co.uk/politics/person/815/alan-campbell>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Alan_Campbell>,
+     <http://www.theyworkforyou.com/mp/alan_campbell/tynemouth>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Alan-Campbell/Tynemouth/55>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25786.stm>,
+     <http://yourdemocracy.newstatesman.com/profile/alan-campbell>,
+     <http://news.bbc.co.uk/1/hi/uk/147687.stm> .

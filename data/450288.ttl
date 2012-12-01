@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/450288.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jon Trickett";
+   dc:modified "2012-12-01T13:10:22Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/450288#id> .
+
+<http://dbpedialite.org/things/450288#id> a owl:Thing;
+   rdfs:label "Jon Trickett";
+   rdfs:comment "Jon Hedley Trickett (born 2 July 1950) is a British Labour Party politician, who has been the Member of Parliament (MP) for Hemsworth in West Yorkshire since a 1996 by-election. He served as the Parliamentary Private Secretary to Prime Minister Gordon Brown from 2008 to 2010, and was promoted to Ed Miliband's Shadow Cabinet in 2011 as Shadow Minister for the Cabinet Office.";
+   owl:sameAs <http://dbpedia.org/resource/Jon_Trickett>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000024f42c>,
+     <http://rdf.freebase.com/ns/m.029y1d>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jon_Trickett>;
+   foaf:page <http://www.jontrickett.org.uk>,
+     <http://www.parliament.uk/biographies/commons/jon-trickett/25290>,
+     <http://hansard.millbanksystems.com/people/mr-jon-trickett>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_4334_home.html>,
+     <http://www.guardian.co.uk/politics/person/5242/jon-trickett>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Jon_Trickett>,
+     <http://www.theyworkforyou.com/mp/jon_trickett>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Jon-Trickett/586>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25290.stm>,
+     <http://journalisted.com/jon-trickett> .

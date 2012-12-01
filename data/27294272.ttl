@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27294272.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Damian Collins";
+   dc:modified "2012-12-01T15:23:37Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27294272#id> .
+
+<http://dbpedialite.org/things/27294272#id> a owl:Thing;
+   rdfs:label "Damian Collins";
+   rdfs:comment """Damian Noel Thomas Collins (born 4 February 1974, Northampton) is a Conservative Party politician in the United Kingdom. He was elected as Member of Parliament (MP) for Folkestone and Hythe in the 2010 general election.
+On 10 September 2012, Collins was made PPS to Secretary of State for Northern Ireland, Theresa Villiers.""";
+   owl:sameAs <http://dbpedia.org/resource/Damian_Collins>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000005687b55>,
+     <http://rdf.freebase.com/ns/m.02qjzvp>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Damian_Collins>;
+   foaf:page <http://www.damiancollins.com>,
+     <http://www.shepwayconservatives.org.uk>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Collins_Damian.aspx>,
+     <http://www.parliament.uk/biographies/commons/damian-collins/35404>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5609_home.html>,
+     <http://www.guardian.co.uk/politics/person/9313/damian-collins>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Damian_Collins>,
+     <http://www.theyworkforyou.com/mp/damian_collins>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Damian-Collins/814>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35404.stm> .

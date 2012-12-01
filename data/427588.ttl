@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/427588.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Michael Moore (British politician)";
+   dc:modified "2012-12-01T13:04:59Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/427588#id> .
+
+<http://dbpedialite.org/things/427588#id> a owl:Thing;
+   rdfs:label "Michael Moore (British politician)";
+   rdfs:comment """Michael Kevin Moore (born 3 June 1965) is a British Liberal Democrat politician, currently the Secretary of State for Scotland in the UK coalition government, and the Member of Parliament (MP) for the constituency of Berwickshire, Roxburgh and Selkirk.
+Born in Northern Ireland, but largely raised in Scotland, he qualified as a chartered accountant and worked as a researcher to the prominent Liberal Democrat politician, David Steel. At the 1997 General Election, Moore succeeded Steel as the Liberal Democrat MP for the Scottish Borders constituency of Tweeddale, Ettrick and Lauderdale (Berwickshire, Roxburgh & Selkirk from 2005). He joined the Liberal Democrat Frontbench Team in 2005, and...""";
+   owl:sameAs <http://dbpedia.org/resource/Michael_Moore_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000239da8>,
+     <http://rdf.freebase.com/ns/m.0277f8>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_Moore_(British_politician)>;
+   foaf:page <http://www.michaelmoore.org.uk/>,
+     <http://www.libdems.org.uk/people/michael-moore>,
+     <http://www.scotlibdems.org.uk/people/mps/moore>,
+     <http://www.parliament.uk/biographies/commons/michael-moore/25455>,
+     <http://hansard.millbanksystems.com/people/mr-michael-moore>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_1966_home.html>,
+     <http://www.guardian.co.uk/politics/person/3705/michael-moore>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Michael_Moore>,
+     <http://www.theyworkforyou.com/mp/michael_moore>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Michael-Moore/Berwickshire-Roxburgh-and-Selkirk/1111>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25455.stm>,
+     <http://journalisted.com/michael-moore> .

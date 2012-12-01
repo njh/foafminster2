@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27267137.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Martin Vickers";
+   dc:modified "2012-12-01T15:21:50Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27267137#id> .
+
+<http://dbpedialite.org/things/27267137#id> a owl:Thing;
+   rdfs:label "Martin Vickers";
+   rdfs:comment "Martin John Vickers (born 13 September 1950) is a British Conservative Party politician. He was elected as the Member of Parliament (MP) for Cleethorpes at the 2010 general election.";
+   owl:sameAs <http://dbpedia.org/resource/Martin_Vickers>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b7ff4e>,
+     <http://rdf.freebase.com/ns/m.0bwh_vg>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Martin_Vickers>;
+   foaf:page <http://vickers4cleethorpes.net/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Vickers_Martin.aspx>,
+     <http://cleethorpes-conservatives.com/>,
+     <http://hansard.millbanksystems.com/people/mr-martin-vickers>,
+     <http://www.guardian.co.uk/politics/person/9180/martin-vickers>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Martin_Vickers>,
+     <http://www.theyworkforyou.com/mp/martin_vickers>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Martin-Vickers/Cleethorpes/931>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/40371.stm> .

@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/1930583.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Jim McGovern (British politician)";
+   dc:modified "2012-12-01T15:16:48Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/1930583#id> .
+
+<http://dbpedialite.org/things/1930583#id> a owl:Thing;
+   rdfs:label "Jim McGovern (British politician)";
+   rdfs:comment "James McGovern (born 17 November 1956) is a Scottish Labour Party politician, who has been the Member of Parliament (MP) for Dundee West since 2005.";
+   owl:sameAs <http://dbpedia.org/resource/Jim_McGovern_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000000637ba2>,
+     <http://rdf.freebase.com/ns/m.066zy2>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jim_McGovern_(British_politician)>;
+   foaf:page <http://www.jimmcgovern.co.uk>,
+     <http://www.scottishlabour.org.uk/mp/james_mcgovern/266/>,
+     <http://politics.guardian.co.uk/person/0,9290,-8717,00.html>,
+     <http://www.theyworkforyou.com/mp/james_mcgovern/dundee_west>,
+     <http://news.bbc.co.uk/1/shared/mpdb/html/689.stm>,
+     <http://news.bbc.co.uk/1/hi/scotland/tayside_and_central/7085390.stm>,
+     <http://news.bbc.co.uk/1/hi/scotland/tayside_and_central/6271321.stm>,
+     <http://news.bbc.co.uk/1/hi/scotland/4762118.stm>,
+     <http://news.bbc.co.uk/1/hi/uk_politics/4634859.stm> .

@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27281194.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Simon Hart";
+   dc:modified "2012-12-01T13:41:58Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27281194#id> .
+
+<http://dbpedialite.org/things/27281194#id> a owl:Thing;
+   rdfs:label "Simon Hart";
+   rdfs:comment """Simon Anthony Hart (born 15 August 1963) is a British Conservative Party politician, who was elected in the 2010 general election as the Member of Parliament (MP) for Carmarthen West and South Pembrokeshire, defeating the previous Labour MP Nick Ainger who had represented the constituency since its creation in 1997.
+Hart grew up in the Cotswolds, and attended Radley College before the Royal Agricultural College in Cirencester. He has been the current Chief Executive of the Countryside Alliance, one of Europe's largest rural affairs lobby groups, since 2003 but he will be stepping down after his election as MP. Simon previously worked as a Chartered Surveyor in Carmarthen and...""";
+   owl:sameAs <http://dbpedia.org/resource/Simon_Hart>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b8367e>,
+     <http://rdf.freebase.com/ns/m.0bwjfmz>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Simon_Hart>;
+   foaf:page <http://simon-hart.com>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Hart_Simon.aspx>,
+     <http://www.ceidwadwyr.com/portal-en/our-mps/201-simon-hart.html>,
+     <http://www.cwandspconservatives.com/>,
+     <http://www.parliament.uk/biographies/commons/simon-hart/53927>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5549_home.html>,
+     <http://www.guardian.co.uk/politics/person/12006/simon-hart>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Simon_Hart>,
+     <http://www.theyworkforyou.com/mp/simon_hart>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Simon-Hart/Carmarthen-West-and-South-Pembrokeshire/849>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/53927.stm>,
+     <http://www.countryside-alliance.org.uk/the-alliance/about-us/our-board/>,
+     <http://www.youtube.com/user/SimonHartMP> .

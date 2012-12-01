@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/19360784.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Rushanara Ali";
+   dc:modified "2012-12-01T15:56:21Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/19360784#id> .
+
+<http://dbpedialite.org/things/19360784#id> a owl:Thing;
+   rdfs:label "Rushanara Ali";
+   rdfs:comment "Rushanara Ali (Bengali: রুশনারা আলী; born 14 March 1975) is a British Labour Party politician and Associate Director of the Young Foundation, who has been the Member of Parliament (MP) for Bethnal Green and Bow since 2010. She is currently part of the shadow team for the Department for International Development along with Tony Cunningham and led by Ivan Lewis.";
+   owl:sameAs <http://dbpedia.org/resource/Rushanara_Ali>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f800000000942903c>,
+     <http://rdf.freebase.com/ns/m.04n541x>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Rushanara_Ali>;
+   foaf:page <http://www.rushanaraali.org>,
+     <https://twitter.com/rushanaraali>,
+     <http://www.towerhamlets.labour.co.uk>,
+     <http://www.parliament.uk/biographies/commons/rushanara-ali/58561>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5735_home.html>,
+     <http://www.guardian.co.uk/politics/person/11344/rushanara-ali>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Rushanara_Ali>,
+     <http://www.theyworkforyou.com/mp/rushanara_ali>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Rushanara-Ali/Bethnal-Green-and-Bow/1227>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/58561.stm>,
+     <http://yourdemocracy.newstatesman.com/profile/rushanara-ali> .

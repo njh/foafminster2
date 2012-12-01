@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/26951215.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Julian Huppert";
+   dc:modified "2012-12-01T15:36:32Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/26951215#id> .
+
+<http://dbpedialite.org/things/26951215#id> a owl:Thing;
+   rdfs:label "Julian Huppert";
+   rdfs:comment "Julian Leon Huppert (born 21 July 1978) is a Liberal Democrat politician in the United Kingdom and Member of Parliament for Cambridge since 2010. He succeeded the previously elected David Howarth, who stood down after one term.";
+   owl:sameAs <http://dbpedia.org/resource/Julian_Huppert>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015810c65>,
+     <http://rdf.freebase.com/ns/m.0bs2335>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Julian_Huppert>;
+   foaf:page <http://www.julianhuppert.org.uk>,
+     <http://www.libdems.org.uk/mps_detail.aspx?name=Julian_Huppert_MP&pPK=73602b91-137d-4ed5-8666-423cb9c50d92>,
+     <http://www.cambridgelibdems.org.uk/>,
+     <http://www.parliament.uk/biographies/commons/julian-huppert/35613>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5589_home.html>,
+     <http://www.guardian.co.uk/politics/person/9001/julian-huppert>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Julian_Huppert>,
+     <http://www.theyworkforyou.com/mp/julian_huppert>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Julian-Huppert/Cambridge/1294>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35613.stm> .

@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/434607.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Mike Hancock (British politician)";
+   dc:modified "2012-12-01T13:17:53Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/434607#id> .
+
+<http://dbpedialite.org/things/434607#id> a owl:Thing;
+   rdfs:label "Mike Hancock (British politician)";
+   rdfs:comment "Michael Thomas Hancock, CBE (born 9 April 1946), known as Mike Hancock, is a British politician. He is Liberal Democrat Member of Parliament (MP) for Portsmouth South and a City councillor for Fratton ward.";
+   owl:sameAs <http://dbpedia.org/resource/Mike_Hancock_%28British_politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002408c4>,
+     <http://rdf.freebase.com/ns/m.028264>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mike_Hancock_(British_politician)>;
+   foaf:page <http://www.mikehancock.co.uk/>,
+     <http://www.libdems.org.uk/people/mike-hancock>,
+     <http://www.parliament.uk/biographies/commons/mike-hancock/25670>,
+     <http://hansard.millbanksystems.com/people/mr-mike-hancock>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_3740_home.html>,
+     <http://www.guardian.co.uk/politics/person/2175/mike-hancock>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Mike_Hancock>,
+     <http://www.theyworkforyou.com/mp/mike_hancock>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Mike-Hancock/Portsmouth-South/1094>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25670.stm> .

@@ -1,0 +1,29 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/27266070.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Richard Fuller (politician)";
+   dc:modified "2012-12-01T15:55:31Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/27266070#id> .
+
+<http://dbpedialite.org/things/27266070#id> a owl:Thing;
+   rdfs:label "Richard Fuller (politician)";
+   rdfs:comment "Richard Fuller (born 30 May 1962) is a British Conservative Party politician. He was elected at the 2010 general election as the Member of Parliament (MP) for Bedford, where he was born.";
+   owl:sameAs <http://dbpedia.org/resource/Richard_Fuller_%28politician%29>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000015b82a34>,
+     <http://rdf.freebase.com/ns/m.0bwjbkn>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Richard_Fuller_(politician)>;
+   foaf:page <http://www.richardfuller.org.uk/>,
+     <http://www.conservatives.com/People/Members_of_Parliament/Fuller_Richard.aspx>,
+     <http://www.bedfordconservatives.com/>,
+     <http://www.parliament.uk/biographies/commons/richard-fuller/35241>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_5734_home.html>,
+     <http://www.guardian.co.uk/politics/person/9131/richard-fuller>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Richard_Fuller>,
+     <http://www.theyworkforyou.com/mp/richard_fuller>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Richard-Fuller/Bedford/824>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/35241.stm> .

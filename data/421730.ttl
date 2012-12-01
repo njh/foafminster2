@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedialite.org/things/421730.ttl> a foaf:Document;
+   dc:title "dbpedia lite thing - Eric Pickles";
+   dc:modified "2012-12-01T13:03:15Z"^^xsd:dateTime;
+   foaf:primaryTopic <http://dbpedialite.org/things/421730#id> .
+
+<http://dbpedialite.org/things/421730#id> a owl:Thing;
+   rdfs:label "Eric Pickles";
+   rdfs:comment """Eric Jack Pickles (born 20 April 1952) is a Conservative Party politician. Pickles was appointed Secretary of State for Communities and Local Government of the coalition government headed by Prime Minister David Cameron on 12 May 2010.
+He was the Chairman of the Conservative Party until being replaced by Baroness Warsi in May 2010 and has been Member of Parliament for Brentwood and Ongar in Essex since 1992. He was Co-Chairman of the Joint Committee Against Racism between 1982 and 1987.""";
+   owl:sameAs <http://dbpedia.org/resource/Eric_Pickles>,
+     <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002343b9>,
+     <http://rdf.freebase.com/ns/m.026jyt>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Eric_Pickles>;
+   foaf:page <http://www.ericpickles.com/>,
+     <http://www.parliament.uk/biographies/commons/eric-pickles/25404>,
+     <http://hansard.millbanksystems.com/people/mr-eric-pickles>,
+     <http://www.publications.parliament.uk/pa/cm201213/cmhansrd/cmallfiles/mps/commons_hansard_42_home.html>,
+     <http://www.guardian.co.uk/politics/person/4174/eric-pickles>,
+     <http://www.publicwhip.org.uk/mp.php?mpn=Eric_Pickles>,
+     <http://www.theyworkforyou.com/mp/eric_pickles>,
+     <http://www.parliamentaryrecord.com/content/profiles/mp/Eric-Pickles/Brentwood-and-Ongar/413>,
+     <http://news.bbc.co.uk/democracylive/hi/representatives/profiles/25404.stm>,
+     <http://journalisted.com/eric-pickles>,
+     <http://www.guardian.co.uk/profile/eric-pickles?INTCMP=SRCH>,
+     <http://www.1in12.com/publications/archive/thepicklespapers.html>,
+     <http://www.publicservice.co.uk/mp/eric-pickles>,
+     <http://www.youtube.com/watch?v=qJTxqh-s9so> .
